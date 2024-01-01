@@ -1,0 +1,100 @@
+magic
+tech scmos
+timestamp 1699082409
+<< metal1 >>
+rect -17 94 13 102
+rect -18 -12 -6 94
+rect 103 93 148 103
+rect 238 95 290 103
+rect 380 95 425 103
+rect 95 42 128 47
+rect 507 44 585 49
+rect 31 -2 38 10
+rect -18 -19 -5 -12
+rect -18 -34 -6 -19
+rect 32 -36 37 -2
+rect 70 -26 73 9
+rect 114 1 122 42
+rect 165 -4 171 11
+rect 122 -8 172 -4
+rect 203 -26 208 10
+rect 70 -31 216 -26
+rect 31 -40 38 -36
+rect 307 -39 314 12
+rect 394 6 407 7
+rect 396 -15 404 6
+rect 442 -15 451 13
+rect 396 -25 451 -15
+rect 69 -40 316 -39
+rect 30 -47 316 -40
+<< m2contact >>
+rect 222 43 230 48
+rect 367 44 372 49
+rect 0 0 19 6
+rect 135 1 154 7
+rect 112 -8 122 1
+rect 277 2 296 8
+rect 342 1 353 11
+rect 394 7 407 22
+rect 412 2 431 8
+rect 476 -7 490 11
+<< metal2 >>
+rect 255 118 272 124
+rect 255 112 405 118
+rect 255 49 272 112
+rect 222 48 263 49
+rect 230 43 263 48
+rect 372 43 390 49
+rect 0 -93 19 0
+rect 112 -73 122 -8
+rect 135 -14 154 1
+rect 276 2 277 8
+rect 296 2 297 8
+rect 276 -19 297 2
+rect 342 -73 353 1
+rect 376 -56 386 43
+rect 397 25 405 112
+rect 394 22 407 25
+rect 412 -40 431 2
+rect 476 -56 489 -7
+rect 376 -69 489 -56
+rect 112 -88 361 -73
+rect 0 -108 135 -93
+rect 154 -108 276 -93
+rect 296 -108 412 -93
+rect 434 -108 435 -93
+<< m3contact >>
+rect 135 -24 154 -14
+rect 276 -28 297 -19
+rect 412 -48 431 -40
+rect 135 -108 154 -93
+rect 276 -108 296 -93
+rect 412 -108 434 -93
+<< metal3 >>
+rect 135 -93 154 -24
+rect 276 -93 296 -28
+rect 431 -48 434 -40
+rect 412 -93 434 -48
+use nand  nand_3
+timestamp 1698951989
+transform 1 0 460 0 1 1
+box -48 1 68 103
+use nand  nand_2
+timestamp 1698951989
+transform 1 0 325 0 1 1
+box -48 1 68 103
+use nand  nand_0
+timestamp 1698951989
+transform 1 0 48 0 1 -1
+box -48 1 68 103
+use nand  nand_1
+timestamp 1698951989
+transform 1 0 183 0 1 0
+box -48 1 68 103
+<< labels >>
+rlabel metal1 -15 52 -13 55 3 vdd
+rlabel metal1 33 1 33 2 1 a
+rlabel metal1 72 2 72 3 1 b
+rlabel metal2 26 -105 31 -104 1 gnd
+rlabel metal1 572 45 577 46 1 out
+<< end >>

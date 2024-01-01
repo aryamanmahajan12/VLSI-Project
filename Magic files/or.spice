@@ -1,0 +1,48 @@
+* SPICE3 file created from or.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 out1 out vdd not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=1259 ps=174
+M1001 out1 out gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=2321 ps=384
+M1002 gnd d out Gnd nfet w=19 l=11
++  ad=0 pd=0 as=1102 ps=192
+M1003 out d a_47_46# w_n131_34# pfet w=29 l=16
++  ad=957 pd=124 as=783 ps=112
+M1004 out c gnd Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1005 a_47_46# c a_n2_46# w_n131_34# pfet w=29 l=16
++  ad=0 pd=0 as=957 ps=124
+M1006 out a gnd Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1007 a_n48_46# a vdd w_n131_34# pfet w=29 l=16
++  ad=870 pd=118 as=0 ps=0
+M1008 a_n2_46# b a_n48_46# w_n131_34# pfet w=29 l=16
++  ad=0 pd=0 as=0 ps=0
+M1009 gnd b out Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+C0 b out 0.84fF
+C1 d out 0.75fF
+C2 w_n131_34# a 0.50fF
+C3 a out 1.02fF
+C4 vdd w_n131_34# 0.19fF
+C5 w_n131_34# out 0.16fF
+C6 vdd out1 0.03fF
+C7 w_n131_34# c 0.50fF
+C8 out1 not_0/w_n15_38# 0.04fF
+C9 vdd not_0/w_n15_38# 0.09fF
+C10 not_0/w_n15_38# out 0.11fF
+C11 c out 0.83fF
+C12 w_n131_34# b 0.50fF
+C13 w_n131_34# d 0.50fF
+C14 d Gnd 2.85fF
+C15 c Gnd 3.52fF
+C16 b Gnd 3.52fF
+C17 a Gnd 3.61fF
+C18 w_n131_34# Gnd 14.92fF
+C19 gnd Gnd 4.56fF
+C20 out1 Gnd 0.25fF
+C21 vdd Gnd 4.56fF
+C22 out Gnd 4.95fF
+C23 not_0/w_n15_38# Gnd 1.29fF

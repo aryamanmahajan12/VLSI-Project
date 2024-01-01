@@ -1,0 +1,1227 @@
+* SPICE3 file created from fulladder.ext - technology: scmos
+
+.include TSMC_180nm.txt
+
+.option scale=0.09u
+
+
+.param SUPPLY = 1.8
+.param LAMBDA = 0.18u
+
+.param wn1 = {10*LAMBDA}
+.param wn2 = {10*LAMBDA}
+.param ln1 = {2*LAMBDA}
+.param ln2 = {2*LAMBDA}
+
+.param wp1 = wn1
+.param wp2 = wn1
+.param lp1 = {LAMBDA}
+.param lp2 = {LAMBDA}
+
+.global gnd
+
+Vdd vdd gnd 'SUPPLY'
+
+
+
+
+
+
+Vinb0 b0 gnd PULSE(0 1.8 0ns 100ps 100ps 20ns 60ns)
+
+Vinb1 b1 gnd PULSE(0 1.8 0ns 100ps 100ps 40ns 60ns)
+
+Vinb2 b2 gnd PULSE(0 1.8 20ns 100ps 100ps 20ns 60ns)
+
+Vinb3 b3 gnd PULSE(0 1.8 40ns 100ps 100ps 40ns 80ns)
+
+Vina0 a0 gnd PULSE(0 1.8 0ns 100ps 100ps 40ns 60ns)
+
+Vina1 a1 gnd PULSE(0 1.8 40ns 100ps 100ps 20ns 80ns)
+
+Vina2 a2 gnd PULSE(0 1.8 20ns 100ps 100ps 20ns 60ns)
+
+Vina3 a3 gnd PULSE(0 1.8 0ns 100ps 100ps 20ns 40ns)
+
+Vinm  m gnd DC 1.8
+
+
+
+
+
+
+
+
+
+* SPICE3 file created from fourbitadder.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 xor_0/out xor_0/nand_3/a vdd xor_0/nand_3/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=38736 ps=9256
+M1001 xor_0/out xor_0/nand_3/b xor_0/nand_3/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1002 vdd xor_0/nand_3/b xor_0/out xor_0/nand_3/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1003 xor_0/nand_3/a_n8_22# xor_0/nand_3/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=17384 ps=4800
+M1004 xor_0/nand_2/b b0 vdd xor_0/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1005 xor_0/nand_2/b m xor_0/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1006 vdd m xor_0/nand_2/b xor_0/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1007 xor_0/nand_0/a_n8_22# b0 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1008 xor_0/nand_3/a xor_0/nand_2/b vdd xor_0/nand_1/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1009 xor_0/nand_3/a m xor_0/nand_1/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1010 vdd m xor_0/nand_3/a xor_0/nand_1/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1011 xor_0/nand_1/a_n8_22# xor_0/nand_2/b gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1012 xor_0/nand_3/b b0 vdd xor_0/nand_2/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1013 xor_0/nand_3/b xor_0/nand_2/b xor_0/nand_2/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1014 vdd xor_0/nand_2/b xor_0/nand_3/b xor_0/nand_2/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1015 xor_0/nand_2/a_n8_22# b0 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1016 xor_1/out xor_1/nand_3/a vdd xor_1/nand_3/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1017 xor_1/out xor_1/nand_3/b xor_1/nand_3/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1018 vdd xor_1/nand_3/b xor_1/out xor_1/nand_3/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1019 xor_1/nand_3/a_n8_22# xor_1/nand_3/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1020 xor_1/nand_2/b b1 vdd xor_1/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1021 xor_1/nand_2/b m xor_1/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1022 vdd m xor_1/nand_2/b xor_1/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1023 xor_1/nand_0/a_n8_22# b1 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1024 xor_1/nand_3/a xor_1/nand_2/b vdd xor_1/nand_1/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1025 xor_1/nand_3/a m xor_1/nand_1/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1026 vdd m xor_1/nand_3/a xor_1/nand_1/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1027 xor_1/nand_1/a_n8_22# xor_1/nand_2/b gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1028 xor_1/nand_3/b b1 vdd xor_1/nand_2/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1029 xor_1/nand_3/b xor_1/nand_2/b xor_1/nand_2/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1030 vdd xor_1/nand_2/b xor_1/nand_3/b xor_1/nand_2/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1031 xor_1/nand_2/a_n8_22# b1 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1032 xor_2/out xor_2/nand_3/a vdd xor_2/nand_3/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1033 xor_2/out xor_2/nand_3/b xor_2/nand_3/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1034 vdd xor_2/nand_3/b xor_2/out xor_2/nand_3/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1035 xor_2/nand_3/a_n8_22# xor_2/nand_3/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1036 xor_2/nand_2/b b2 vdd xor_2/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1037 xor_2/nand_2/b m xor_2/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1038 vdd m xor_2/nand_2/b xor_2/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1039 xor_2/nand_0/a_n8_22# b2 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1040 xor_2/nand_3/a xor_2/nand_2/b vdd xor_2/nand_1/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1041 xor_2/nand_3/a m xor_2/nand_1/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1042 vdd m xor_2/nand_3/a xor_2/nand_1/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1043 xor_2/nand_1/a_n8_22# xor_2/nand_2/b gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1044 xor_2/nand_3/b b2 vdd xor_2/nand_2/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1045 xor_2/nand_3/b xor_2/nand_2/b xor_2/nand_2/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1046 vdd xor_2/nand_2/b xor_2/nand_3/b xor_2/nand_2/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1047 xor_2/nand_2/a_n8_22# b2 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1048 xor_3/out xor_3/nand_3/a vdd xor_3/nand_3/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1049 xor_3/out xor_3/nand_3/b xor_3/nand_3/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1050 vdd xor_3/nand_3/b xor_3/out xor_3/nand_3/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1051 xor_3/nand_3/a_n8_22# xor_3/nand_3/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1052 xor_3/nand_2/b b3 vdd xor_3/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1053 xor_3/nand_2/b m xor_3/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1054 vdd m xor_3/nand_2/b xor_3/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1055 xor_3/nand_0/a_n8_22# b3 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1056 xor_3/nand_3/a xor_3/nand_2/b vdd xor_3/nand_1/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1057 xor_3/nand_3/a m xor_3/nand_1/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1058 vdd m xor_3/nand_3/a xor_3/nand_1/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1059 xor_3/nand_1/a_n8_22# xor_3/nand_2/b gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1060 xor_3/nand_3/b b3 vdd xor_3/nand_2/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1061 xor_3/nand_3/b xor_3/nand_2/b xor_3/nand_2/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1062 vdd xor_3/nand_2/b xor_3/nand_3/b xor_3/nand_2/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1063 xor_3/nand_2/a_n8_22# b3 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1064 fulladder_0/xor_1/a fulladder_0/xor_0/nand_3/a vdd fulladder_0/xor_0/nand_3/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1065 fulladder_0/xor_1/a fulladder_0/xor_0/nand_3/b fulladder_0/xor_0/nand_3/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1066 vdd fulladder_0/xor_0/nand_3/b fulladder_0/xor_1/a fulladder_0/xor_0/nand_3/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1067 fulladder_0/xor_0/nand_3/a_n8_22# fulladder_0/xor_0/nand_3/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1068 fulladder_0/xor_0/nand_2/b a0 vdd fulladder_0/xor_0/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1069 fulladder_0/xor_0/nand_2/b xor_0/out fulladder_0/xor_0/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1070 vdd xor_0/out fulladder_0/xor_0/nand_2/b fulladder_0/xor_0/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1071 fulladder_0/xor_0/nand_0/a_n8_22# a0 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1072 fulladder_0/xor_0/nand_3/a fulladder_0/xor_0/nand_2/b vdd fulladder_0/xor_0/nand_1/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1073 fulladder_0/xor_0/nand_3/a xor_0/out fulladder_0/xor_0/nand_1/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1074 vdd xor_0/out fulladder_0/xor_0/nand_3/a fulladder_0/xor_0/nand_1/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1075 fulladder_0/xor_0/nand_1/a_n8_22# fulladder_0/xor_0/nand_2/b gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1076 fulladder_0/xor_0/nand_3/b a0 vdd fulladder_0/xor_0/nand_2/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1077 fulladder_0/xor_0/nand_3/b fulladder_0/xor_0/nand_2/b fulladder_0/xor_0/nand_2/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1078 vdd fulladder_0/xor_0/nand_2/b fulladder_0/xor_0/nand_3/b fulladder_0/xor_0/nand_2/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1079 fulladder_0/xor_0/nand_2/a_n8_22# a0 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1080 s0 fulladder_0/xor_1/nand_3/a vdd fulladder_0/xor_1/nand_3/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1081 s0 fulladder_0/xor_1/nand_3/b fulladder_0/xor_1/nand_3/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1082 vdd fulladder_0/xor_1/nand_3/b s0 fulladder_0/xor_1/nand_3/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1083 fulladder_0/xor_1/nand_3/a_n8_22# fulladder_0/xor_1/nand_3/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1084 fulladder_0/xor_1/nand_2/b fulladder_0/xor_1/a vdd fulladder_0/xor_1/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1085 fulladder_0/xor_1/nand_2/b m fulladder_0/xor_1/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1086 vdd m fulladder_0/xor_1/nand_2/b fulladder_0/xor_1/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1087 fulladder_0/xor_1/nand_0/a_n8_22# fulladder_0/xor_1/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1088 fulladder_0/xor_1/nand_3/a fulladder_0/xor_1/nand_2/b vdd fulladder_0/xor_1/nand_1/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1089 fulladder_0/xor_1/nand_3/a m fulladder_0/xor_1/nand_1/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1090 vdd m fulladder_0/xor_1/nand_3/a fulladder_0/xor_1/nand_1/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1091 fulladder_0/xor_1/nand_1/a_n8_22# fulladder_0/xor_1/nand_2/b gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1092 fulladder_0/xor_1/nand_3/b fulladder_0/xor_1/a vdd fulladder_0/xor_1/nand_2/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1093 fulladder_0/xor_1/nand_3/b fulladder_0/xor_1/nand_2/b fulladder_0/xor_1/nand_2/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1094 vdd fulladder_0/xor_1/nand_2/b fulladder_0/xor_1/nand_3/b fulladder_0/xor_1/nand_2/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1095 fulladder_0/xor_1/nand_2/a_n8_22# fulladder_0/xor_1/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1096 fulladder_1/c fulladder_0/tor_1/not_0/in vdd fulladder_0/tor_1/not_0/w_n15_38# CMOSP w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1097 fulladder_1/c fulladder_0/tor_1/not_0/in gnd Gnd CMOSN w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1098 gnd fulladder_0/tor_1/b fulladder_0/tor_1/not_0/in Gnd CMOSN w=12 l=9
++  ad=0 pd=0 as=288 ps=72
+M1099 fulladder_0/tor_1/not_0/in fulladder_0/tor_1/a gnd Gnd CMOSN w=12 l=9
++  ad=0 pd=0 as=0 ps=0
+M1100 fulladder_0/tor_1/a_n9_28# fulladder_0/tor_1/a vdd fulladder_0/tor_1/w_n46_20# CMOSP w=12 l=9
++  ad=288 pd=72 as=0 ps=0
+M1101 fulladder_0/tor_1/not_0/in fulladder_0/tor_1/b fulladder_0/tor_1/a_n9_28# fulladder_0/tor_1/w_n46_20# CMOSP w=12 l=9
++  ad=156 pd=50 as=0 ps=0
+M1102 fulladder_0/tor_1/b fulladder_0/and_0/not_0/in vdd fulladder_0/and_0/not_0/w_n15_38# CMOSP w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1103 fulladder_0/tor_1/b fulladder_0/and_0/not_0/in gnd Gnd CMOSN w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1104 fulladder_0/and_0/not_0/in a0 vdd fulladder_0/and_0/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1105 fulladder_0/and_0/not_0/in xor_0/out fulladder_0/and_0/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1106 vdd xor_0/out fulladder_0/and_0/not_0/in fulladder_0/and_0/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1107 fulladder_0/and_0/nand_0/a_n8_22# a0 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1108 fulladder_0/tor_1/a fulladder_0/and_1/not_0/in vdd fulladder_0/and_1/not_0/w_n15_38# CMOSP w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1109 fulladder_0/tor_1/a fulladder_0/and_1/not_0/in gnd Gnd CMOSN w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1110 fulladder_0/and_1/not_0/in fulladder_0/xor_1/a vdd fulladder_0/and_1/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1111 fulladder_0/and_1/not_0/in m fulladder_0/and_1/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1112 vdd m fulladder_0/and_1/not_0/in fulladder_0/and_1/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1113 fulladder_0/and_1/nand_0/a_n8_22# fulladder_0/xor_1/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1114 fulladder_1/xor_1/a fulladder_1/xor_0/nand_3/a vdd fulladder_1/xor_0/nand_3/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1115 fulladder_1/xor_1/a fulladder_1/xor_0/nand_3/b fulladder_1/xor_0/nand_3/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1116 vdd fulladder_1/xor_0/nand_3/b fulladder_1/xor_1/a fulladder_1/xor_0/nand_3/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1117 fulladder_1/xor_0/nand_3/a_n8_22# fulladder_1/xor_0/nand_3/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1118 fulladder_1/xor_0/nand_2/b a1 vdd fulladder_1/xor_0/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1119 fulladder_1/xor_0/nand_2/b xor_1/out fulladder_1/xor_0/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1120 vdd xor_1/out fulladder_1/xor_0/nand_2/b fulladder_1/xor_0/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1121 fulladder_1/xor_0/nand_0/a_n8_22# a1 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1122 fulladder_1/xor_0/nand_3/a fulladder_1/xor_0/nand_2/b vdd fulladder_1/xor_0/nand_1/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1123 fulladder_1/xor_0/nand_3/a xor_1/out fulladder_1/xor_0/nand_1/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1124 vdd xor_1/out fulladder_1/xor_0/nand_3/a fulladder_1/xor_0/nand_1/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1125 fulladder_1/xor_0/nand_1/a_n8_22# fulladder_1/xor_0/nand_2/b gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1126 fulladder_1/xor_0/nand_3/b a1 vdd fulladder_1/xor_0/nand_2/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1127 fulladder_1/xor_0/nand_3/b fulladder_1/xor_0/nand_2/b fulladder_1/xor_0/nand_2/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1128 vdd fulladder_1/xor_0/nand_2/b fulladder_1/xor_0/nand_3/b fulladder_1/xor_0/nand_2/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1129 fulladder_1/xor_0/nand_2/a_n8_22# a1 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1130 s1 fulladder_1/xor_1/nand_3/a vdd fulladder_1/xor_1/nand_3/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1131 s1 fulladder_1/xor_1/nand_3/b fulladder_1/xor_1/nand_3/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1132 vdd fulladder_1/xor_1/nand_3/b s1 fulladder_1/xor_1/nand_3/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1133 fulladder_1/xor_1/nand_3/a_n8_22# fulladder_1/xor_1/nand_3/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1134 fulladder_1/xor_1/nand_2/b fulladder_1/xor_1/a vdd fulladder_1/xor_1/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1135 fulladder_1/xor_1/nand_2/b fulladder_1/c fulladder_1/xor_1/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1136 vdd fulladder_1/c fulladder_1/xor_1/nand_2/b fulladder_1/xor_1/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1137 fulladder_1/xor_1/nand_0/a_n8_22# fulladder_1/xor_1/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1138 fulladder_1/xor_1/nand_3/a fulladder_1/xor_1/nand_2/b vdd fulladder_1/xor_1/nand_1/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1139 fulladder_1/xor_1/nand_3/a fulladder_1/c fulladder_1/xor_1/nand_1/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1140 vdd fulladder_1/c fulladder_1/xor_1/nand_3/a fulladder_1/xor_1/nand_1/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1141 fulladder_1/xor_1/nand_1/a_n8_22# fulladder_1/xor_1/nand_2/b gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1142 fulladder_1/xor_1/nand_3/b fulladder_1/xor_1/a vdd fulladder_1/xor_1/nand_2/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1143 fulladder_1/xor_1/nand_3/b fulladder_1/xor_1/nand_2/b fulladder_1/xor_1/nand_2/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1144 vdd fulladder_1/xor_1/nand_2/b fulladder_1/xor_1/nand_3/b fulladder_1/xor_1/nand_2/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1145 fulladder_1/xor_1/nand_2/a_n8_22# fulladder_1/xor_1/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1146 fulladder_2/c fulladder_1/tor_1/not_0/in vdd fulladder_1/tor_1/not_0/w_n15_38# CMOSP w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1147 fulladder_2/c fulladder_1/tor_1/not_0/in gnd Gnd CMOSN w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1148 gnd fulladder_1/tor_1/b fulladder_1/tor_1/not_0/in Gnd CMOSN w=12 l=9
++  ad=0 pd=0 as=288 ps=72
+M1149 fulladder_1/tor_1/not_0/in fulladder_1/tor_1/a gnd Gnd CMOSN w=12 l=9
++  ad=0 pd=0 as=0 ps=0
+M1150 fulladder_1/tor_1/a_n9_28# fulladder_1/tor_1/a vdd fulladder_1/tor_1/w_n46_20# CMOSP w=12 l=9
++  ad=288 pd=72 as=0 ps=0
+M1151 fulladder_1/tor_1/not_0/in fulladder_1/tor_1/b fulladder_1/tor_1/a_n9_28# fulladder_1/tor_1/w_n46_20# CMOSP w=12 l=9
++  ad=156 pd=50 as=0 ps=0
+M1152 fulladder_1/tor_1/b fulladder_1/and_0/not_0/in vdd fulladder_1/and_0/not_0/w_n15_38# CMOSP w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1153 fulladder_1/tor_1/b fulladder_1/and_0/not_0/in gnd Gnd CMOSN w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1154 fulladder_1/and_0/not_0/in a1 vdd fulladder_1/and_0/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1155 fulladder_1/and_0/not_0/in xor_1/out fulladder_1/and_0/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1156 vdd xor_1/out fulladder_1/and_0/not_0/in fulladder_1/and_0/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1157 fulladder_1/and_0/nand_0/a_n8_22# a1 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1158 fulladder_1/tor_1/a fulladder_1/and_1/not_0/in vdd fulladder_1/and_1/not_0/w_n15_38# CMOSP w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1159 fulladder_1/tor_1/a fulladder_1/and_1/not_0/in gnd Gnd CMOSN w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1160 fulladder_1/and_1/not_0/in fulladder_1/xor_1/a vdd fulladder_1/and_1/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1161 fulladder_1/and_1/not_0/in fulladder_1/c fulladder_1/and_1/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1162 vdd fulladder_1/c fulladder_1/and_1/not_0/in fulladder_1/and_1/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1163 fulladder_1/and_1/nand_0/a_n8_22# fulladder_1/xor_1/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1164 fulladder_2/xor_1/a fulladder_2/xor_0/nand_3/a vdd fulladder_2/xor_0/nand_3/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1165 fulladder_2/xor_1/a fulladder_2/xor_0/nand_3/b fulladder_2/xor_0/nand_3/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1166 vdd fulladder_2/xor_0/nand_3/b fulladder_2/xor_1/a fulladder_2/xor_0/nand_3/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1167 fulladder_2/xor_0/nand_3/a_n8_22# fulladder_2/xor_0/nand_3/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1168 fulladder_2/xor_0/nand_2/b a2 vdd fulladder_2/xor_0/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1169 fulladder_2/xor_0/nand_2/b xor_2/out fulladder_2/xor_0/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1170 vdd xor_2/out fulladder_2/xor_0/nand_2/b fulladder_2/xor_0/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1171 fulladder_2/xor_0/nand_0/a_n8_22# a2 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1172 fulladder_2/xor_0/nand_3/a fulladder_2/xor_0/nand_2/b vdd fulladder_2/xor_0/nand_1/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1173 fulladder_2/xor_0/nand_3/a xor_2/out fulladder_2/xor_0/nand_1/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1174 vdd xor_2/out fulladder_2/xor_0/nand_3/a fulladder_2/xor_0/nand_1/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1175 fulladder_2/xor_0/nand_1/a_n8_22# fulladder_2/xor_0/nand_2/b gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1176 fulladder_2/xor_0/nand_3/b a2 vdd fulladder_2/xor_0/nand_2/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1177 fulladder_2/xor_0/nand_3/b fulladder_2/xor_0/nand_2/b fulladder_2/xor_0/nand_2/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1178 vdd fulladder_2/xor_0/nand_2/b fulladder_2/xor_0/nand_3/b fulladder_2/xor_0/nand_2/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1179 fulladder_2/xor_0/nand_2/a_n8_22# a2 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1180 s2 fulladder_2/xor_1/nand_3/a vdd fulladder_2/xor_1/nand_3/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1181 s2 fulladder_2/xor_1/nand_3/b fulladder_2/xor_1/nand_3/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1182 vdd fulladder_2/xor_1/nand_3/b s2 fulladder_2/xor_1/nand_3/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1183 fulladder_2/xor_1/nand_3/a_n8_22# fulladder_2/xor_1/nand_3/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1184 fulladder_2/xor_1/nand_2/b fulladder_2/xor_1/a vdd fulladder_2/xor_1/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1185 fulladder_2/xor_1/nand_2/b fulladder_2/c fulladder_2/xor_1/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1186 vdd fulladder_2/c fulladder_2/xor_1/nand_2/b fulladder_2/xor_1/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1187 fulladder_2/xor_1/nand_0/a_n8_22# fulladder_2/xor_1/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1188 fulladder_2/xor_1/nand_3/a fulladder_2/xor_1/nand_2/b vdd fulladder_2/xor_1/nand_1/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1189 fulladder_2/xor_1/nand_3/a fulladder_2/c fulladder_2/xor_1/nand_1/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1190 vdd fulladder_2/c fulladder_2/xor_1/nand_3/a fulladder_2/xor_1/nand_1/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1191 fulladder_2/xor_1/nand_1/a_n8_22# fulladder_2/xor_1/nand_2/b gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1192 fulladder_2/xor_1/nand_3/b fulladder_2/xor_1/a vdd fulladder_2/xor_1/nand_2/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1193 fulladder_2/xor_1/nand_3/b fulladder_2/xor_1/nand_2/b fulladder_2/xor_1/nand_2/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1194 vdd fulladder_2/xor_1/nand_2/b fulladder_2/xor_1/nand_3/b fulladder_2/xor_1/nand_2/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1195 fulladder_2/xor_1/nand_2/a_n8_22# fulladder_2/xor_1/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1196 fulladder_3/c fulladder_2/tor_1/not_0/in vdd fulladder_2/tor_1/not_0/w_n15_38# CMOSP w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1197 fulladder_3/c fulladder_2/tor_1/not_0/in gnd Gnd CMOSN w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1198 gnd fulladder_2/tor_1/b fulladder_2/tor_1/not_0/in Gnd CMOSN w=12 l=9
++  ad=0 pd=0 as=288 ps=72
+M1199 fulladder_2/tor_1/not_0/in fulladder_2/tor_1/a gnd Gnd CMOSN w=12 l=9
++  ad=0 pd=0 as=0 ps=0
+M1200 fulladder_2/tor_1/a_n9_28# fulladder_2/tor_1/a vdd fulladder_2/tor_1/w_n46_20# CMOSP w=12 l=9
++  ad=288 pd=72 as=0 ps=0
+M1201 fulladder_2/tor_1/not_0/in fulladder_2/tor_1/b fulladder_2/tor_1/a_n9_28# fulladder_2/tor_1/w_n46_20# CMOSP w=12 l=9
++  ad=156 pd=50 as=0 ps=0
+M1202 fulladder_2/tor_1/b fulladder_2/and_0/not_0/in vdd fulladder_2/and_0/not_0/w_n15_38# CMOSP w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1203 fulladder_2/tor_1/b fulladder_2/and_0/not_0/in gnd Gnd CMOSN w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1204 fulladder_2/and_0/not_0/in a2 vdd fulladder_2/and_0/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1205 fulladder_2/and_0/not_0/in xor_2/out fulladder_2/and_0/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1206 vdd xor_2/out fulladder_2/and_0/not_0/in fulladder_2/and_0/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1207 fulladder_2/and_0/nand_0/a_n8_22# a2 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1208 fulladder_2/tor_1/a fulladder_2/and_1/not_0/in vdd fulladder_2/and_1/not_0/w_n15_38# CMOSP w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1209 fulladder_2/tor_1/a fulladder_2/and_1/not_0/in gnd Gnd CMOSN w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1210 fulladder_2/and_1/not_0/in fulladder_2/xor_1/a vdd fulladder_2/and_1/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1211 fulladder_2/and_1/not_0/in fulladder_2/c fulladder_2/and_1/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1212 vdd fulladder_2/c fulladder_2/and_1/not_0/in fulladder_2/and_1/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1213 fulladder_2/and_1/nand_0/a_n8_22# fulladder_2/xor_1/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1214 fulladder_3/xor_1/a fulladder_3/xor_0/nand_3/a vdd fulladder_3/xor_0/nand_3/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1215 fulladder_3/xor_1/a fulladder_3/xor_0/nand_3/b fulladder_3/xor_0/nand_3/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1216 vdd fulladder_3/xor_0/nand_3/b fulladder_3/xor_1/a fulladder_3/xor_0/nand_3/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1217 fulladder_3/xor_0/nand_3/a_n8_22# fulladder_3/xor_0/nand_3/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1218 fulladder_3/xor_0/nand_2/b a3 vdd fulladder_3/xor_0/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1219 fulladder_3/xor_0/nand_2/b xor_3/out fulladder_3/xor_0/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1220 vdd xor_3/out fulladder_3/xor_0/nand_2/b fulladder_3/xor_0/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1221 fulladder_3/xor_0/nand_0/a_n8_22# a3 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1222 fulladder_3/xor_0/nand_3/a fulladder_3/xor_0/nand_2/b vdd fulladder_3/xor_0/nand_1/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1223 fulladder_3/xor_0/nand_3/a xor_3/out fulladder_3/xor_0/nand_1/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1224 vdd xor_3/out fulladder_3/xor_0/nand_3/a fulladder_3/xor_0/nand_1/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1225 fulladder_3/xor_0/nand_1/a_n8_22# fulladder_3/xor_0/nand_2/b gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1226 fulladder_3/xor_0/nand_3/b a3 vdd fulladder_3/xor_0/nand_2/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1227 fulladder_3/xor_0/nand_3/b fulladder_3/xor_0/nand_2/b fulladder_3/xor_0/nand_2/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1228 vdd fulladder_3/xor_0/nand_2/b fulladder_3/xor_0/nand_3/b fulladder_3/xor_0/nand_2/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1229 fulladder_3/xor_0/nand_2/a_n8_22# a3 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1230 s3 fulladder_3/xor_1/nand_3/a vdd fulladder_3/xor_1/nand_3/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1231 s3 fulladder_3/xor_1/nand_3/b fulladder_3/xor_1/nand_3/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1232 vdd fulladder_3/xor_1/nand_3/b s3 fulladder_3/xor_1/nand_3/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1233 fulladder_3/xor_1/nand_3/a_n8_22# fulladder_3/xor_1/nand_3/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1234 fulladder_3/xor_1/nand_2/b fulladder_3/xor_1/a vdd fulladder_3/xor_1/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1235 fulladder_3/xor_1/nand_2/b fulladder_3/c fulladder_3/xor_1/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1236 vdd fulladder_3/c fulladder_3/xor_1/nand_2/b fulladder_3/xor_1/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1237 fulladder_3/xor_1/nand_0/a_n8_22# fulladder_3/xor_1/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1238 fulladder_3/xor_1/nand_3/a fulladder_3/xor_1/nand_2/b vdd fulladder_3/xor_1/nand_1/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1239 fulladder_3/xor_1/nand_3/a fulladder_3/c fulladder_3/xor_1/nand_1/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1240 vdd fulladder_3/c fulladder_3/xor_1/nand_3/a fulladder_3/xor_1/nand_1/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1241 fulladder_3/xor_1/nand_1/a_n8_22# fulladder_3/xor_1/nand_2/b gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1242 fulladder_3/xor_1/nand_3/b fulladder_3/xor_1/a vdd fulladder_3/xor_1/nand_2/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1243 fulladder_3/xor_1/nand_3/b fulladder_3/xor_1/nand_2/b fulladder_3/xor_1/nand_2/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1244 vdd fulladder_3/xor_1/nand_2/b fulladder_3/xor_1/nand_3/b fulladder_3/xor_1/nand_2/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1245 fulladder_3/xor_1/nand_2/a_n8_22# fulladder_3/xor_1/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1246 s4 fulladder_3/tor_1/not_0/in vdd fulladder_3/tor_1/not_0/w_n15_38# CMOSP w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1247 s4 fulladder_3/tor_1/not_0/in gnd Gnd CMOSN w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1248 gnd fulladder_3/tor_1/b fulladder_3/tor_1/not_0/in Gnd CMOSN w=12 l=9
++  ad=0 pd=0 as=288 ps=72
+M1249 fulladder_3/tor_1/not_0/in fulladder_3/tor_1/a gnd Gnd CMOSN w=12 l=9
++  ad=0 pd=0 as=0 ps=0
+M1250 fulladder_3/tor_1/a_n9_28# fulladder_3/tor_1/a vdd fulladder_3/tor_1/w_n46_20# CMOSP w=12 l=9
++  ad=288 pd=72 as=0 ps=0
+M1251 fulladder_3/tor_1/not_0/in fulladder_3/tor_1/b fulladder_3/tor_1/a_n9_28# fulladder_3/tor_1/w_n46_20# CMOSP w=12 l=9
++  ad=156 pd=50 as=0 ps=0
+M1252 fulladder_3/tor_1/b fulladder_3/and_0/not_0/in vdd fulladder_3/and_0/not_0/w_n15_38# CMOSP w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1253 fulladder_3/tor_1/b fulladder_3/and_0/not_0/in gnd Gnd CMOSN w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1254 fulladder_3/and_0/not_0/in a3 vdd fulladder_3/and_0/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1255 fulladder_3/and_0/not_0/in xor_3/out fulladder_3/and_0/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1256 vdd xor_3/out fulladder_3/and_0/not_0/in fulladder_3/and_0/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1257 fulladder_3/and_0/nand_0/a_n8_22# a3 gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1258 fulladder_3/tor_1/a fulladder_3/and_1/not_0/in vdd fulladder_3/and_1/not_0/w_n15_38# CMOSP w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1259 fulladder_3/tor_1/a fulladder_3/and_1/not_0/in gnd Gnd CMOSN w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1260 fulladder_3/and_1/not_0/in fulladder_3/xor_1/a vdd fulladder_3/and_1/nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1261 fulladder_3/and_1/not_0/in fulladder_3/c fulladder_3/and_1/nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1262 vdd fulladder_3/c fulladder_3/and_1/not_0/in fulladder_3/and_1/nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1263 fulladder_3/and_1/nand_0/a_n8_22# fulladder_3/xor_1/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+C0 fulladder_0/tor_1/w_n46_20# vdd 0.06fF
+C1 gnd fulladder_3/xor_0/nand_2/b 1.71fF
+C2 xor_2/nand_3/b xor_2/out 0.10fF
+C3 fulladder_2/and_1/not_0/in fulladder_2/and_1/nand_0/w_n44_54# 0.06fF
+C4 gnd xor_1/nand_2/b 1.71fF
+C5 gnd fulladder_1/c 1.46fF
+C6 fulladder_0/xor_1/nand_3/a m 0.10fF
+C7 xor_0/nand_3/a vdd 0.47fF
+C8 fulladder_3/xor_1/nand_2/w_n44_54# fulladder_3/xor_1/a 0.28fF
+C9 fulladder_1/tor_1/not_0/w_n15_38# fulladder_2/c 0.04fF
+C10 fulladder_0/tor_1/not_0/w_n15_38# fulladder_0/tor_1/not_0/in 0.11fF
+C11 xor_3/nand_1/w_n44_54# m 0.14fF
+C12 vdd fulladder_1/and_0/nand_0/w_n44_54# 0.13fF
+C13 fulladder_3/tor_1/b gnd 0.31fF
+C14 fulladder_2/xor_0/nand_2/w_n44_54# fulladder_2/xor_0/nand_2/b 0.14fF
+C15 fulladder_0/xor_0/nand_1/w_n44_54# fulladder_0/xor_0/nand_3/a 0.06fF
+C16 fulladder_1/xor_1/nand_2/b fulladder_1/xor_1/nand_2/w_n44_54# 0.14fF
+C17 fulladder_0/and_0/nand_0/w_n44_54# fulladder_0/and_0/not_0/in 0.06fF
+C18 fulladder_1/xor_0/nand_3/a fulladder_1/xor_0/nand_1/w_n44_54# 0.06fF
+C19 xor_0/nand_0/w_n44_54# b0 0.28fF
+C20 xor_3/nand_3/b gnd 0.39fF
+C21 a2 xor_2/out 0.38fF
+C22 fulladder_0/xor_1/nand_3/a fulladder_0/xor_1/nand_3/b 0.01fF
+C23 vdd fulladder_2/xor_1/nand_1/w_n44_54# 0.13fF
+C24 fulladder_2/xor_1/nand_3/b fulladder_2/xor_1/nand_2/b 0.10fF
+C25 fulladder_2/tor_1/b fulladder_2/tor_1/not_0/in 0.65fF
+C26 vdd fulladder_2/and_1/nand_0/w_n44_54# 0.13fF
+C27 gnd fulladder_2/xor_1/nand_3/b 0.39fF
+C28 gnd xor_0/nand_2/b 1.71fF
+C29 vdd fulladder_1/xor_1/nand_0/w_n44_54# 0.13fF
+C30 fulladder_2/xor_1/nand_3/a fulladder_2/xor_1/nand_3/b 0.01fF
+C31 xor_1/nand_3/w_n44_54# xor_1/out 0.06fF
+C32 xor_3/nand_3/b xor_3/nand_3/a 0.01fF
+C33 b3 gnd 0.39fF
+C34 fulladder_3/xor_1/nand_2/w_n44_54# fulladder_3/xor_1/nand_3/b 0.06fF
+C35 fulladder_2/and_0/nand_0/w_n44_54# a2 0.28fF
+C36 vdd xor_1/nand_2/w_n44_54# 0.13fF
+C37 fulladder_1/xor_1/nand_2/b fulladder_1/xor_1/a 0.21fF
+C38 fulladder_2/xor_1/a fulladder_2/xor_0/nand_3/b 0.10fF
+C39 fulladder_0/xor_0/nand_2/b a0 0.21fF
+C40 fulladder_3/tor_1/not_0/w_n15_38# s4 0.04fF
+C41 xor_1/nand_0/w_n44_54# vdd 0.13fF
+C42 fulladder_0/xor_0/nand_3/a fulladder_0/xor_0/nand_3/w_n44_54# 0.28fF
+C43 xor_1/out fulladder_1/and_0/nand_0/w_n44_54# 0.14fF
+C44 xor_1/nand_3/w_n44_54# xor_1/nand_3/b 0.14fF
+C45 xor_0/nand_2/w_n44_54# xor_0/nand_3/b 0.06fF
+C46 fulladder_3/tor_1/b fulladder_3/tor_1/w_n46_20# 0.20fF
+C47 xor_1/nand_1/w_n44_54# vdd 0.13fF
+C48 xor_0/nand_3/b xor_0/nand_2/b 0.10fF
+C49 fulladder_3/xor_1/nand_2/b gnd 1.71fF
+C50 fulladder_2/xor_0/nand_1/w_n44_54# fulladder_2/xor_0/nand_3/a 0.06fF
+C51 vdd fulladder_1/xor_0/nand_3/w_n44_54# 0.13fF
+C52 fulladder_0/and_1/not_0/w_n15_38# fulladder_0/tor_1/a 0.04fF
+C53 vdd fulladder_1/xor_1/nand_1/w_n44_54# 0.13fF
+C54 xor_2/nand_1/w_n44_54# vdd 0.13fF
+C55 vdd fulladder_2/xor_0/nand_3/a 0.47fF
+C56 fulladder_2/xor_0/nand_1/w_n44_54# fulladder_2/xor_0/nand_2/b 0.28fF
+C57 fulladder_1/xor_1/nand_2/b fulladder_1/xor_1/nand_0/w_n44_54# 0.06fF
+C58 fulladder_1/tor_1/b fulladder_1/tor_1/not_0/in 0.65fF
+C59 xor_0/nand_2/w_n44_54# b0 0.28fF
+C60 xor_0/nand_0/w_n44_54# vdd 0.13fF
+C61 b0 xor_0/nand_2/b 0.21fF
+C62 fulladder_3/xor_1/nand_3/b s3 0.10fF
+C63 fulladder_3/xor_0/nand_2/w_n44_54# a3 0.28fF
+C64 fulladder_0/xor_1/nand_3/a gnd 0.37fF
+C65 xor_2/nand_3/a vdd 0.47fF
+C66 gnd fulladder_3/c 1.46fF
+C67 fulladder_3/xor_0/nand_3/b fulladder_3/xor_0/nand_3/a 0.01fF
+C68 xor_2/nand_3/a xor_2/nand_3/w_n44_54# 0.28fF
+C69 fulladder_0/xor_1/nand_1/w_n44_54# vdd 0.13fF
+C70 fulladder_0/xor_1/nand_2/b m 0.27fF
+C71 gnd fulladder_3/xor_0/nand_3/a 0.37fF
+C72 gnd a3 0.86fF
+C73 fulladder_2/xor_1/nand_3/b fulladder_2/xor_1/nand_3/w_n44_54# 0.14fF
+C74 xor_0/nand_3/a xor_0/nand_1/w_n44_54# 0.06fF
+C75 fulladder_2/and_0/not_0/in xor_2/out 0.10fF
+C76 m fulladder_0/xor_1/nand_0/w_n44_54# 0.14fF
+C77 vdd fulladder_1/xor_0/nand_0/w_n44_54# 0.13fF
+C78 fulladder_0/xor_1/nand_2/b fulladder_0/xor_1/nand_3/b 0.10fF
+C79 vdd fulladder_1/xor_0/nand_1/w_n44_54# 0.13fF
+C80 m gnd 5.51fF
+C81 fulladder_1/xor_1/nand_2/b fulladder_1/xor_1/nand_1/w_n44_54# 0.28fF
+C82 fulladder_0/and_1/nand_0/w_n44_54# fulladder_0/xor_1/a 0.28fF
+C83 xor_3/nand_1/w_n44_54# xor_3/nand_3/a 0.06fF
+C84 vdd fulladder_0/and_1/not_0/w_n15_38# 0.09fF
+C85 vdd fulladder_2/xor_1/nand_2/w_n44_54# 0.13fF
+C86 vdd fulladder_1/c 0.56fF
+C87 xor_1/nand_3/b xor_1/nand_2/w_n44_54# 0.06fF
+C88 xor_3/out fulladder_3/xor_0/nand_2/b 0.27fF
+C89 a1 fulladder_1/and_0/nand_0/w_n44_54# 0.28fF
+C90 gnd fulladder_0/xor_1/nand_3/b 0.39fF
+C91 fulladder_2/and_1/nand_0/w_n44_54# fulladder_2/xor_1/a 0.28fF
+C92 vdd fulladder_1/and_1/nand_0/w_n44_54# 0.13fF
+C93 vdd fulladder_3/tor_1/b 0.55fF
+C94 fulladder_2/and_0/nand_0/w_n44_54# fulladder_2/and_0/not_0/in 0.06fF
+C95 fulladder_2/c fulladder_2/xor_1/nand_2/b 0.27fF
+C96 m xor_3/nand_3/a 0.10fF
+C97 vdd s4 0.03fF
+C98 vdd fulladder_0/and_1/nand_0/w_n44_54# 0.13fF
+C99 fulladder_2/xor_1/nand_3/w_n44_54# s2 0.06fF
+C100 fulladder_1/xor_1/a fulladder_1/xor_0/nand_3/b 0.10fF
+C101 fulladder_2/and_0/nand_0/w_n44_54# xor_2/out 0.14fF
+C102 xor_3/nand_3/b xor_3/out 0.10fF
+C103 b2 m 0.10fF
+C104 fulladder_3/tor_1/b fulladder_3/tor_1/a 0.38fF
+C105 vdd fulladder_2/xor_0/nand_3/w_n44_54# 0.13fF
+C106 xor_0/nand_3/b xor_0/nand_3/w_n44_54# 0.14fF
+C107 xor_2/nand_3/a xor_2/nand_3/b 0.01fF
+C108 fulladder_3/and_1/nand_0/w_n44_54# fulladder_3/and_1/not_0/in 0.06fF
+C109 gnd fulladder_2/c 1.46fF
+C110 fulladder_0/tor_1/w_n46_20# fulladder_0/tor_1/not_0/in 0.04fF
+C111 fulladder_2/xor_1/nand_3/a fulladder_2/c 0.10fF
+C112 xor_0/nand_2/w_n44_54# vdd 0.13fF
+C113 xor_0/out xor_0/nand_3/w_n44_54# 0.06fF
+C114 xor_1/nand_3/a m 0.10fF
+C115 fulladder_3/xor_0/nand_1/w_n44_54# fulladder_3/xor_0/nand_2/b 0.28fF
+C116 vdd fulladder_1/and_0/not_0/w_n15_38# 0.09fF
+C117 a2 fulladder_2/xor_0/nand_2/b 0.21fF
+C118 fulladder_1/xor_0/nand_0/w_n44_54# xor_1/out 0.14fF
+C119 fulladder_1/tor_1/a fulladder_1/tor_1/w_n46_20# 0.20fF
+C120 xor_1/out fulladder_1/xor_0/nand_1/w_n44_54# 0.14fF
+C121 m b0 0.16fF
+C122 fulladder_0/xor_1/nand_3/w_n44_54# vdd 0.13fF
+C123 fulladder_0/and_1/not_0/in fulladder_0/and_1/not_0/w_n15_38# 0.11fF
+C124 xor_2/nand_0/w_n44_54# m 0.14fF
+C125 fulladder_1/xor_1/nand_2/b fulladder_1/c 0.27fF
+C126 fulladder_3/tor_1/not_0/in fulladder_3/tor_1/b 0.65fF
+C127 fulladder_1/xor_0/nand_2/b xor_1/out 0.27fF
+C128 fulladder_0/xor_1/nand_2/b fulladder_0/xor_1/nand_0/w_n44_54# 0.06fF
+C129 fulladder_1/c fulladder_1/and_1/not_0/in 0.10fF
+C130 fulladder_3/xor_0/nand_3/b fulladder_3/xor_0/nand_2/w_n44_54# 0.06fF
+C131 vdd fulladder_1/tor_1/not_0/w_n15_38# 0.09fF
+C132 fulladder_1/and_1/nand_0/w_n44_54# fulladder_1/and_1/not_0/in 0.06fF
+C133 a0 fulladder_0/and_0/nand_0/w_n44_54# 0.28fF
+C134 fulladder_0/xor_1/nand_2/b gnd 1.71fF
+C135 vdd fulladder_1/tor_1/w_n46_20# 0.06fF
+C136 fulladder_2/tor_1/not_0/w_n15_38# fulladder_3/c 0.04fF
+C137 fulladder_0/and_1/not_0/in fulladder_0/and_1/nand_0/w_n44_54# 0.06fF
+C138 gnd fulladder_2/xor_1/nand_2/b 1.71fF
+C139 fulladder_3/and_0/nand_0/w_n44_54# vdd 0.13fF
+C140 fulladder_3/and_0/not_0/in fulladder_3/and_0/nand_0/w_n44_54# 0.06fF
+C141 fulladder_3/xor_0/nand_3/b gnd 0.39fF
+C142 fulladder_3/and_0/nand_0/w_n44_54# xor_3/out 0.14fF
+C143 vdd fulladder_3/xor_1/nand_3/w_n44_54# 0.13fF
+C144 fulladder_3/xor_0/nand_0/w_n44_54# fulladder_3/xor_0/nand_2/b 0.06fF
+C145 fulladder_2/c fulladder_2/xor_1/nand_0/w_n44_54# 0.14fF
+C146 fulladder_1/xor_1/nand_2/w_n44_54# fulladder_1/xor_1/a 0.28fF
+C147 xor_1/nand_2/b xor_1/nand_3/b 0.10fF
+C148 fulladder_2/xor_1/nand_3/a gnd 0.37fF
+C149 b1 xor_1/nand_2/w_n44_54# 0.28fF
+C150 fulladder_3/xor_0/nand_3/a fulladder_3/xor_0/nand_3/w_n44_54# 0.28fF
+C151 fulladder_0/xor_0/nand_0/w_n44_54# xor_0/out 0.14fF
+C152 fulladder_1/c fulladder_0/tor_1/not_0/w_n15_38# 0.04fF
+C153 fulladder_1/xor_0/nand_3/w_n44_54# fulladder_1/xor_0/nand_3/b 0.14fF
+C154 fulladder_0/xor_1/nand_3/a vdd 0.47fF
+C155 xor_1/nand_0/w_n44_54# b1 0.28fF
+C156 vdd fulladder_3/c 0.51fF
+C157 m fulladder_0/xor_1/a 1.40fF
+C158 xor_3/nand_1/w_n44_54# vdd 0.13fF
+C159 xor_2/nand_1/w_n44_54# xor_2/nand_2/b 0.28fF
+C160 vdd fulladder_3/xor_0/nand_3/a 0.47fF
+C161 xor_3/nand_2/b xor_3/nand_2/w_n44_54# 0.14fF
+C162 fulladder_3/xor_1/nand_2/b fulladder_3/xor_1/a 0.21fF
+C163 fulladder_1/xor_0/nand_3/a gnd 0.37fF
+C164 gnd xor_3/nand_3/a 0.37fF
+C165 fulladder_2/xor_1/nand_2/w_n44_54# fulladder_2/xor_1/a 0.28fF
+C166 vdd fulladder_1/xor_0/nand_2/w_n44_54# 0.13fF
+C167 a1 fulladder_1/xor_0/nand_0/w_n44_54# 0.28fF
+C168 fulladder_3/xor_0/nand_3/a xor_3/out 0.10fF
+C169 a3 xor_3/out 0.38fF
+C170 b2 gnd 0.39fF
+C171 gnd xor_0/nand_3/b 0.39fF
+C172 fulladder_2/xor_1/nand_2/b fulladder_2/xor_1/nand_0/w_n44_54# 0.06fF
+C173 a1 fulladder_1/xor_0/nand_2/b 0.21fF
+C174 vdd xor_0/nand_3/w_n44_54# 0.13fF
+C175 m vdd 1.44fF
+C176 fulladder_2/and_1/not_0/in fulladder_2/c 0.10fF
+C177 xor_0/out gnd 1.20fF
+C178 xor_1/nand_3/a gnd 0.37fF
+C179 fulladder_2/tor_1/a fulladder_2/tor_1/w_n46_20# 0.20fF
+C180 xor_3/nand_3/b xor_3/nand_2/w_n44_54# 0.06fF
+C181 fulladder_0/tor_1/b gnd 0.31fF
+C182 fulladder_3/c fulladder_3/xor_1/a 1.06fF
+C183 fulladder_2/xor_1/a fulladder_2/xor_0/nand_3/w_n44_54# 0.06fF
+C184 vdd fulladder_2/and_0/not_0/w_n15_38# 0.09fF
+C185 fulladder_2/tor_1/b fulladder_2/and_0/not_0/w_n15_38# 0.04fF
+C186 xor_3/nand_3/b xor_3/nand_3/w_n44_54# 0.14fF
+C187 b2 xor_2/nand_2/w_n44_54# 0.28fF
+C188 fulladder_3/xor_1/nand_1/w_n44_54# fulladder_3/xor_1/nand_2/b 0.28fF
+C189 fulladder_2/xor_0/nand_3/a xor_2/out 0.10fF
+C190 fulladder_1/xor_1/nand_3/a fulladder_1/xor_1/nand_1/w_n44_54# 0.06fF
+C191 b0 gnd 0.39fF
+C192 xor_0/nand_1/w_n44_54# xor_0/nand_2/b 0.28fF
+C193 fulladder_1/xor_0/nand_2/b fulladder_1/xor_0/nand_3/b 0.10fF
+C194 fulladder_3/xor_0/nand_1/w_n44_54# fulladder_3/xor_0/nand_3/a 0.06fF
+C195 fulladder_2/xor_0/nand_2/b xor_2/out 0.27fF
+C196 fulladder_1/tor_1/b fulladder_1/and_0/not_0/w_n15_38# 0.04fF
+C197 fulladder_2/xor_0/nand_3/b fulladder_2/xor_0/nand_3/a 0.01fF
+C198 fulladder_3/xor_1/nand_2/b fulladder_3/xor_1/nand_0/w_n44_54# 0.06fF
+C199 fulladder_3/xor_1/nand_3/b fulladder_3/xor_1/nand_3/w_n44_54# 0.14fF
+C200 fulladder_3/xor_1/nand_2/b fulladder_3/xor_1/nand_3/b 0.10fF
+C201 fulladder_1/xor_1/nand_0/w_n44_54# fulladder_1/xor_1/a 0.28fF
+C202 fulladder_2/xor_0/nand_3/b fulladder_2/xor_0/nand_2/b 0.10fF
+C203 vdd fulladder_3/and_0/not_0/w_n15_38# 0.09fF
+C204 vdd fulladder_2/c 0.50fF
+C205 xor_3/nand_2/w_n44_54# b3 0.28fF
+C206 fulladder_3/xor_1/nand_1/w_n44_54# fulladder_3/c 0.14fF
+C207 fulladder_2/xor_1/nand_3/a fulladder_2/xor_1/nand_3/w_n44_54# 0.28fF
+C208 fulladder_3/and_0/not_0/in fulladder_3/and_0/not_0/w_n15_38# 0.11fF
+C209 xor_0/out xor_0/nand_3/b 0.10fF
+C210 b1 xor_1/nand_2/b 0.21fF
+C211 m fulladder_0/and_1/not_0/in 0.10fF
+C212 fulladder_3/c fulladder_3/xor_1/nand_0/w_n44_54# 0.14fF
+C213 fulladder_1/and_0/not_0/in xor_1/out 0.10fF
+C214 fulladder_1/tor_1/b fulladder_1/tor_1/w_n46_20# 0.20fF
+C215 fulladder_0/xor_1/nand_2/b fulladder_0/xor_1/a 0.21fF
+C216 s1 fulladder_1/xor_1/nand_3/b 0.10fF
+C217 fulladder_0/xor_0/nand_0/w_n44_54# vdd 0.13fF
+C218 xor_2/nand_0/w_n44_54# b2 0.28fF
+C219 gnd fulladder_1/xor_1/nand_3/b 0.39fF
+C220 fulladder_1/xor_1/nand_3/w_n44_54# s1 0.06fF
+C221 vdd fulladder_2/xor_0/nand_0/w_n44_54# 0.13fF
+C222 fulladder_0/xor_1/nand_0/w_n44_54# fulladder_0/xor_1/a 0.28fF
+C223 a3 fulladder_3/xor_0/nand_0/w_n44_54# 0.28fF
+C224 fulladder_3/xor_0/nand_3/b fulladder_3/xor_0/nand_3/w_n44_54# 0.14fF
+C225 fulladder_2/tor_1/a fulladder_2/and_1/not_0/w_n15_38# 0.04fF
+C226 gnd fulladder_0/xor_1/a 1.54fF
+C227 fulladder_3/xor_1/nand_3/a fulladder_3/xor_1/nand_3/w_n44_54# 0.28fF
+C228 fulladder_1/xor_1/nand_3/a fulladder_1/c 0.10fF
+C229 fulladder_1/xor_0/nand_3/w_n44_54# fulladder_1/xor_1/a 0.06fF
+C230 vdd fulladder_3/xor_0/nand_2/w_n44_54# 0.13fF
+C231 xor_3/nand_2/b xor_3/nand_0/w_n44_54# 0.06fF
+C232 vdd fulladder_0/xor_1/nand_0/w_n44_54# 0.13fF
+C233 fulladder_0/tor_1/b fulladder_0/tor_1/a 0.38fF
+C234 vdd gnd 10.58fF
+C235 gnd fulladder_2/tor_1/b 0.31fF
+C236 gnd fulladder_0/xor_0/nand_3/b 0.39fF
+C237 fulladder_3/xor_1/nand_3/a fulladder_3/c 0.10fF
+C238 fulladder_2/xor_0/nand_3/b fulladder_2/xor_0/nand_3/w_n44_54# 0.14fF
+C239 gnd xor_3/out 1.20fF
+C240 fulladder_2/xor_1/nand_3/a vdd 0.47fF
+C241 m xor_0/nand_1/w_n44_54# 0.14fF
+C242 fulladder_2/tor_1/a vdd 0.03fF
+C243 fulladder_2/tor_1/a fulladder_2/tor_1/b 0.38fF
+C244 xor_2/nand_2/w_n44_54# vdd 0.13fF
+C245 a1 fulladder_1/xor_0/nand_2/w_n44_54# 0.28fF
+C246 fulladder_3/xor_0/nand_3/b fulladder_3/xor_1/a 0.10fF
+C247 fulladder_0/xor_0/nand_2/b fulladder_0/xor_0/nand_0/w_n44_54# 0.06fF
+C248 fulladder_3/and_1/not_0/w_n15_38# vdd 0.09fF
+C249 fulladder_1/xor_0/nand_3/a vdd 0.47fF
+C250 vdd xor_3/nand_3/a 0.47fF
+C251 vdd fulladder_2/tor_1/w_n46_20# 0.06fF
+C252 gnd fulladder_3/xor_1/a 1.54fF
+C253 fulladder_2/tor_1/b fulladder_2/tor_1/w_n46_20# 0.20fF
+C254 fulladder_0/and_0/not_0/w_n15_38# fulladder_0/tor_1/b 0.04fF
+C255 fulladder_1/c fulladder_1/xor_1/a 1.09fF
+C256 fulladder_3/and_1/not_0/w_n15_38# fulladder_3/tor_1/a 0.04fF
+C257 fulladder_3/tor_1/not_0/w_n15_38# vdd 0.09fF
+C258 b3 xor_3/nand_0/w_n44_54# 0.28fF
+C259 fulladder_1/and_1/nand_0/w_n44_54# fulladder_1/xor_1/a 0.28fF
+C260 fulladder_1/xor_0/nand_3/b fulladder_1/xor_0/nand_2/w_n44_54# 0.06fF
+C261 xor_0/out vdd 0.72fF
+C262 xor_1/nand_3/a vdd 0.47fF
+C263 vdd fulladder_2/xor_0/nand_2/w_n44_54# 0.13fF
+C264 fulladder_1/xor_1/nand_2/b gnd 1.71fF
+C265 fulladder_0/tor_1/b vdd 0.55fF
+C266 a2 fulladder_2/xor_0/nand_0/w_n44_54# 0.28fF
+C267 vdd fulladder_2/xor_1/nand_0/w_n44_54# 0.13fF
+C268 fulladder_2/c fulladder_2/xor_1/a 1.06fF
+C269 gnd xor_1/out 1.20fF
+C270 m xor_2/nand_2/b 0.27fF
+C271 fulladder_2/and_1/not_0/in fulladder_2/and_1/not_0/w_n15_38# 0.11fF
+C272 xor_2/nand_3/b gnd 0.39fF
+C273 xor_2/nand_0/w_n44_54# vdd 0.13fF
+C274 vdd fulladder_3/tor_1/w_n46_20# 0.06fF
+C275 fulladder_0/xor_0/nand_2/b gnd 1.71fF
+C276 fulladder_1/xor_1/nand_3/w_n44_54# fulladder_1/xor_1/nand_3/b 0.14fF
+C277 vdd fulladder_2/xor_1/nand_3/w_n44_54# 0.13fF
+C278 fulladder_1/c fulladder_1/xor_1/nand_0/w_n44_54# 0.14fF
+C279 fulladder_3/tor_1/a fulladder_3/tor_1/w_n46_20# 0.20fF
+C280 m b1 0.14fF
+C281 fulladder_1/tor_1/not_0/w_n15_38# fulladder_1/tor_1/not_0/in 0.11fF
+C282 fulladder_3/xor_1/nand_3/b gnd 0.39fF
+C283 vdd fulladder_0/tor_1/a 0.03fF
+C284 xor_2/nand_3/a xor_2/nand_1/w_n44_54# 0.06fF
+C285 fulladder_1/tor_1/w_n46_20# fulladder_1/tor_1/not_0/in 0.04fF
+C286 fulladder_3/tor_1/not_0/in fulladder_3/tor_1/not_0/w_n15_38# 0.11fF
+C287 gnd a2 0.86fF
+C288 xor_2/nand_3/b xor_2/nand_2/w_n44_54# 0.06fF
+C289 gnd xor_1/nand_3/b 0.47fF
+C290 fulladder_0/xor_0/nand_2/w_n44_54# vdd 0.13fF
+C291 fulladder_3/xor_1/nand_2/b fulladder_3/xor_1/nand_2/w_n44_54# 0.14fF
+C292 fulladder_1/xor_0/nand_3/a xor_1/out 0.10fF
+C293 fulladder_3/and_1/nand_0/w_n44_54# fulladder_3/c 0.14fF
+C294 fulladder_0/xor_0/nand_2/w_n44_54# fulladder_0/xor_0/nand_3/b 0.06fF
+C295 xor_1/nand_2/b xor_1/nand_2/w_n44_54# 0.14fF
+C296 fulladder_3/and_1/not_0/in fulladder_3/c 0.10fF
+C297 fulladder_2/xor_1/a fulladder_2/xor_1/nand_2/b 0.21fF
+C298 xor_1/nand_0/w_n44_54# xor_1/nand_2/b 0.06fF
+C299 vdd fulladder_2/and_1/not_0/w_n15_38# 0.09fF
+C300 fulladder_2/and_0/not_0/in fulladder_2/and_0/not_0/w_n15_38# 0.11fF
+C301 vdd fulladder_2/tor_1/not_0/w_n15_38# 0.09fF
+C302 xor_0/out fulladder_0/and_0/not_0/in 0.10fF
+C303 fulladder_3/tor_1/not_0/in fulladder_3/tor_1/w_n46_20# 0.04fF
+C304 fulladder_1/xor_1/nand_3/w_n44_54# vdd 0.13fF
+C305 xor_1/nand_1/w_n44_54# xor_1/nand_2/b 0.28fF
+C306 gnd fulladder_2/xor_1/a 1.54fF
+C307 gnd fulladder_1/tor_1/b 0.31fF
+C308 fulladder_0/xor_0/nand_2/b xor_0/out 0.27fF
+C309 fulladder_0/xor_1/a fulladder_0/xor_0/nand_3/b 0.10fF
+C310 vdd fulladder_1/tor_1/a 0.03fF
+C311 fulladder_1/c fulladder_1/xor_1/nand_1/w_n44_54# 0.14fF
+C312 m xor_3/nand_0/w_n44_54# 0.14fF
+C313 vdd fulladder_3/xor_0/nand_3/w_n44_54# 0.13fF
+C314 fulladder_3/xor_1/nand_3/a gnd 0.37fF
+C315 fulladder_0/and_0/not_0/w_n15_38# vdd 0.09fF
+C316 vdd fulladder_2/xor_0/nand_1/w_n44_54# 0.13fF
+C317 fulladder_3/xor_1/nand_3/w_n44_54# s3 0.06fF
+C318 gnd a1 0.86fF
+C319 xor_1/nand_3/a xor_1/nand_3/b 0.01fF
+C320 fulladder_2/xor_0/nand_2/w_n44_54# a2 0.28fF
+C321 fulladder_0/xor_1/nand_2/w_n44_54# fulladder_0/xor_1/nand_3/b 0.06fF
+C322 vdd fulladder_2/tor_1/b 0.55fF
+C323 xor_2/nand_3/w_n44_54# vdd 0.13fF
+C324 vdd xor_3/out 0.30fF
+C325 fulladder_3/and_0/not_0/in xor_3/out 0.10fF
+C326 fulladder_0/xor_0/nand_1/w_n44_54# xor_0/out 0.14fF
+C327 fulladder_2/xor_0/nand_3/w_n44_54# fulladder_2/xor_0/nand_3/a 0.28fF
+C328 vdd fulladder_3/tor_1/a 0.03fF
+C329 fulladder_0/xor_0/nand_2/b fulladder_0/xor_0/nand_2/w_n44_54# 0.14fF
+C330 xor_3/nand_3/w_n44_54# xor_3/nand_3/a 0.28fF
+C331 fulladder_1/xor_1/nand_2/b fulladder_1/xor_1/nand_3/b 0.10fF
+C332 fulladder_1/xor_0/nand_2/b fulladder_1/xor_0/nand_0/w_n44_54# 0.06fF
+C333 gnd fulladder_1/xor_0/nand_3/b 0.39fF
+C334 fulladder_3/xor_1/a fulladder_3/xor_0/nand_3/w_n44_54# 0.06fF
+C335 fulladder_1/xor_0/nand_2/b fulladder_1/xor_0/nand_1/w_n44_54# 0.28fF
+C336 fulladder_2/xor_0/nand_0/w_n44_54# xor_2/out 0.14fF
+C337 gnd xor_2/nand_2/b 1.71fF
+C338 fulladder_1/and_0/not_0/in fulladder_1/and_0/nand_0/w_n44_54# 0.06fF
+C339 xor_0/nand_3/a xor_0/nand_3/w_n44_54# 0.28fF
+C340 fulladder_2/xor_1/a fulladder_2/xor_1/nand_0/w_n44_54# 0.28fF
+C341 m xor_0/nand_3/a 0.10fF
+C342 xor_0/nand_0/w_n44_54# xor_0/nand_2/b 0.06fF
+C343 fulladder_0/xor_0/nand_3/a gnd 0.37fF
+C344 b1 gnd 0.39fF
+C345 vdd fulladder_3/xor_0/nand_1/w_n44_54# 0.13fF
+C346 fulladder_0/and_0/not_0/w_n15_38# fulladder_0/and_0/not_0/in 0.11fF
+C347 xor_2/nand_2/w_n44_54# xor_2/nand_2/b 0.14fF
+C348 fulladder_1/c fulladder_1/and_1/nand_0/w_n44_54# 0.14fF
+C349 xor_3/nand_3/b xor_3/nand_2/b 0.10fF
+C350 fulladder_1/xor_0/nand_3/a fulladder_1/xor_0/nand_3/b 0.01fF
+C351 fulladder_3/xor_0/nand_1/w_n44_54# xor_3/out 0.14fF
+C352 s0 fulladder_0/xor_1/nand_3/w_n44_54# 0.06fF
+C353 gnd xor_2/out 1.20fF
+C354 fulladder_3/tor_1/not_0/in fulladder_3/tor_1/a 0.08fF
+C355 b2 xor_2/nand_2/b 0.21fF
+C356 fulladder_0/xor_1/nand_2/b fulladder_0/xor_1/nand_2/w_n44_54# 0.14fF
+C357 vdd xor_1/out 0.75fF
+C358 fulladder_1/and_1/not_0/w_n15_38# fulladder_1/tor_1/a 0.04fF
+C359 fulladder_1/xor_1/nand_3/a gnd 0.37fF
+C360 fulladder_3/xor_1/nand_1/w_n44_54# vdd 0.13fF
+C361 gnd fulladder_2/xor_0/nand_3/b 0.39fF
+C362 xor_2/nand_3/b xor_2/nand_3/w_n44_54# 0.14fF
+C363 fulladder_0/xor_0/nand_2/b fulladder_0/xor_0/nand_3/b 0.10fF
+C364 fulladder_0/xor_0/nand_0/w_n44_54# a0 0.28fF
+C365 fulladder_2/xor_1/nand_2/w_n44_54# fulladder_2/xor_1/nand_3/b 0.06fF
+C366 vdd fulladder_3/xor_1/nand_0/w_n44_54# 0.13fF
+C367 xor_3/nand_2/b b3 0.21fF
+C368 fulladder_1/and_1/not_0/w_n15_38# vdd 0.09fF
+C369 vdd fulladder_3/xor_0/nand_0/w_n44_54# 0.13fF
+C370 fulladder_0/xor_0/nand_3/a xor_0/out 0.10fF
+C371 fulladder_2/c fulladder_2/xor_1/nand_1/w_n44_54# 0.14fF
+C372 fulladder_0/tor_1/b fulladder_0/tor_1/not_0/in 0.65fF
+C373 xor_2/nand_0/w_n44_54# xor_2/nand_2/b 0.06fF
+C374 xor_3/out fulladder_3/xor_0/nand_0/w_n44_54# 0.14fF
+C375 xor_1/nand_0/w_n44_54# m 0.14fF
+C376 fulladder_1/tor_1/a fulladder_1/tor_1/b 0.38fF
+C377 vdd fulladder_0/tor_1/not_0/w_n15_38# 0.09fF
+C378 fulladder_2/and_1/nand_0/w_n44_54# fulladder_2/c 0.14fF
+C379 fulladder_0/xor_0/nand_1/w_n44_54# vdd 0.13fF
+C380 xor_1/nand_1/w_n44_54# m 0.14fF
+C381 fulladder_0/xor_1/nand_1/w_n44_54# fulladder_0/xor_1/nand_3/a 0.06fF
+C382 fulladder_3/and_1/not_0/w_n15_38# fulladder_3/and_1/not_0/in 0.11fF
+C383 xor_2/nand_1/w_n44_54# m 0.14fF
+C384 vdd xor_0/nand_1/w_n44_54# 0.13fF
+C385 xor_0/nand_2/w_n44_54# xor_0/nand_2/b 0.14fF
+C386 fulladder_3/xor_1/nand_0/w_n44_54# fulladder_3/xor_1/a 0.28fF
+C387 a0 gnd 0.86fF
+C388 vdd fulladder_1/tor_1/b 0.55fF
+C389 fulladder_2/xor_0/nand_2/w_n44_54# fulladder_2/xor_0/nand_3/b 0.06fF
+C390 fulladder_0/tor_1/not_0/in fulladder_0/tor_1/a 0.08fF
+C391 xor_3/nand_2/w_n44_54# vdd 0.13fF
+C392 m xor_0/nand_0/w_n44_54# 0.14fF
+C393 xor_2/nand_3/a m 0.10fF
+C394 fulladder_3/xor_1/nand_3/a vdd 0.47fF
+C395 gnd fulladder_1/xor_1/a 1.54fF
+C396 vdd xor_3/nand_3/w_n44_54# 0.13fF
+C397 xor_0/out fulladder_0/and_0/nand_0/w_n44_54# 0.14fF
+C398 xor_0/nand_3/a gnd 0.37fF
+C399 fulladder_2/xor_1/nand_1/w_n44_54# fulladder_2/xor_1/nand_2/b 0.28fF
+C400 fulladder_0/xor_1/nand_1/w_n44_54# m 0.14fF
+C401 xor_3/nand_3/w_n44_54# xor_3/out 0.06fF
+C402 fulladder_0/xor_0/nand_3/w_n44_54# fulladder_0/xor_1/a 0.06fF
+C403 xor_3/nand_2/b xor_3/nand_1/w_n44_54# 0.28fF
+C404 fulladder_1/and_1/not_0/w_n15_38# fulladder_1/and_1/not_0/in 0.11fF
+C405 s0 fulladder_0/xor_1/nand_3/b 0.10fF
+C406 a3 fulladder_3/xor_0/nand_2/b 0.21fF
+C407 xor_1/nand_3/b xor_1/out 0.10fF
+C408 fulladder_1/xor_0/nand_2/b fulladder_1/xor_0/nand_2/w_n44_54# 0.14fF
+C409 fulladder_2/xor_1/nand_3/a fulladder_2/xor_1/nand_1/w_n44_54# 0.06fF
+C410 fulladder_0/xor_0/nand_3/w_n44_54# vdd 0.13fF
+C411 fulladder_2/xor_1/nand_3/b s2 0.10fF
+C412 xor_3/nand_2/b m 0.27fF
+C413 xor_1/nand_3/a xor_1/nand_3/w_n44_54# 0.28fF
+C414 fulladder_0/xor_0/nand_3/w_n44_54# fulladder_0/xor_0/nand_3/b 0.14fF
+C415 xor_0/out a0 0.38fF
+C416 m xor_1/nand_2/b 0.27fF
+C417 fulladder_2/tor_1/a fulladder_2/tor_1/not_0/in 0.08fF
+C418 fulladder_1/xor_1/nand_3/a fulladder_1/xor_1/nand_3/b 0.01fF
+C419 xor_0/nand_3/a xor_0/nand_3/b 0.01fF
+C420 fulladder_0/xor_0/nand_2/b fulladder_0/xor_0/nand_1/w_n44_54# 0.28fF
+C421 fulladder_0/tor_1/w_n46_20# fulladder_0/tor_1/b 0.20fF
+C422 fulladder_1/xor_1/nand_3/w_n44_54# fulladder_1/xor_1/nand_3/a 0.28fF
+C423 fulladder_0/xor_0/nand_3/a vdd 0.47fF
+C424 fulladder_0/xor_0/nand_3/a fulladder_0/xor_0/nand_3/b 0.01fF
+C425 m fulladder_0/and_1/nand_0/w_n44_54# 0.14fF
+C426 fulladder_2/tor_1/not_0/in fulladder_2/tor_1/w_n46_20# 0.04fF
+C427 fulladder_2/xor_0/nand_1/w_n44_54# xor_2/out 0.14fF
+C428 fulladder_1/xor_1/nand_2/w_n44_54# fulladder_1/xor_1/nand_3/b 0.06fF
+C429 fulladder_0/xor_1/nand_3/a fulladder_0/xor_1/nand_3/w_n44_54# 0.28fF
+C430 fulladder_2/xor_0/nand_2/b fulladder_2/xor_0/nand_0/w_n44_54# 0.06fF
+C431 fulladder_3/xor_1/nand_1/w_n44_54# fulladder_3/xor_1/nand_3/a 0.06fF
+C432 a1 xor_1/out 0.38fF
+C433 vdd xor_2/out 0.59fF
+C434 fulladder_0/xor_1/nand_2/w_n44_54# fulladder_0/xor_1/a 0.28fF
+C435 xor_2/nand_3/w_n44_54# xor_2/out 0.06fF
+C436 fulladder_1/and_0/not_0/in fulladder_1/and_0/not_0/w_n15_38# 0.11fF
+C437 fulladder_0/xor_0/nand_2/w_n44_54# a0 0.28fF
+C438 fulladder_0/tor_1/w_n46_20# fulladder_0/tor_1/a 0.20fF
+C439 m xor_0/nand_2/b 0.27fF
+C440 fulladder_1/xor_1/nand_3/a vdd 0.47fF
+C441 fulladder_3/xor_1/nand_3/a fulladder_3/xor_1/nand_3/b 0.01fF
+C442 fulladder_0/xor_1/nand_2/b fulladder_0/xor_1/nand_1/w_n44_54# 0.28fF
+C443 fulladder_3/and_1/nand_0/w_n44_54# vdd 0.13fF
+C444 m b3 0.16fF
+C445 gnd fulladder_2/xor_0/nand_3/a 0.37fF
+C446 fulladder_3/tor_1/b fulladder_3/and_0/not_0/w_n15_38# 0.04fF
+C447 vdd fulladder_0/and_0/nand_0/w_n44_54# 0.13fF
+C448 fulladder_0/xor_1/nand_2/w_n44_54# vdd 0.13fF
+C449 vdd xor_3/nand_0/w_n44_54# 0.13fF
+C450 fulladder_3/xor_1/nand_2/b fulladder_3/c 0.27fF
+C451 fulladder_1/tor_1/a fulladder_1/tor_1/not_0/in 0.08fF
+C452 fulladder_3/and_0/nand_0/w_n44_54# a3 0.28fF
+C453 gnd fulladder_2/xor_0/nand_2/b 1.71fF
+C454 vdd fulladder_1/xor_1/nand_2/w_n44_54# 0.13fF
+C455 xor_2/nand_3/a gnd 0.37fF
+C456 xor_2/nand_3/b xor_2/nand_2/b 0.10fF
+C457 vdd fulladder_2/and_0/nand_0/w_n44_54# 0.13fF
+C458 fulladder_1/xor_0/nand_3/a fulladder_1/xor_0/nand_3/w_n44_54# 0.28fF
+C459 fulladder_0/xor_1/nand_3/w_n44_54# fulladder_0/xor_1/nand_3/b 0.14fF
+C460 fulladder_3/xor_1/nand_2/w_n44_54# vdd 0.13fF
+C461 fulladder_3/xor_0/nand_2/w_n44_54# fulladder_3/xor_0/nand_2/b 0.14fF
+C462 fulladder_3/and_1/nand_0/w_n44_54# fulladder_3/xor_1/a 0.28fF
+C463 xor_1/nand_3/w_n44_54# vdd 0.13fF
+C464 xor_1/nand_3/a xor_1/nand_1/w_n44_54# 0.06fF
+C465 fulladder_3/xor_0/nand_3/b fulladder_3/xor_0/nand_2/b 0.10fF
+C466 fulladder_2/xor_1/nand_2/w_n44_54# fulladder_2/xor_1/nand_2/b 0.14fF
+C467 xor_3/nand_2/b gnd 1.71fF
+C468 fulladder_2/tor_1/not_0/w_n15_38# fulladder_2/tor_1/not_0/in 0.11fF
+C469 gnd fulladder_1/xor_0/nand_2/b 1.71fF
+C470 fulladder_3/and_1/not_0/in Gnd 0.82fF
+C471 fulladder_3/and_1/nand_0/w_n44_54# Gnd 3.07fF
+C472 fulladder_3/tor_1/a Gnd 0.60fF
+C473 fulladder_3/and_1/not_0/w_n15_38# Gnd 1.29fF
+C474 fulladder_3/and_0/not_0/in Gnd 0.82fF
+C475 fulladder_3/and_0/nand_0/w_n44_54# Gnd 3.07fF
+C476 fulladder_3/tor_1/b Gnd 1.06fF
+C477 fulladder_3/and_0/not_0/w_n15_38# Gnd 1.29fF
+C478 fulladder_3/tor_1/w_n46_20# Gnd 2.60fF
+C479 s4 Gnd 0.25fF
+C480 fulladder_3/tor_1/not_0/in Gnd 0.99fF
+C481 fulladder_3/tor_1/not_0/w_n15_38# Gnd 1.29fF
+C482 fulladder_3/xor_1/nand_3/b Gnd 1.23fF
+C483 fulladder_3/xor_1/nand_2/w_n44_54# Gnd 3.07fF
+C484 fulladder_3/xor_1/nand_3/a Gnd 2.00fF
+C485 fulladder_3/xor_1/nand_2/b Gnd 2.20fF
+C486 fulladder_3/xor_1/nand_1/w_n44_54# Gnd 3.07fF
+C487 fulladder_3/c Gnd 1.78fF
+C488 fulladder_3/xor_1/a Gnd 17.23fF
+C489 fulladder_3/xor_1/nand_0/w_n44_54# Gnd 3.07fF
+C490 s3 Gnd 0.59fF
+C491 fulladder_3/xor_1/nand_3/w_n44_54# Gnd 3.07fF
+C492 fulladder_3/xor_0/nand_3/b Gnd 1.23fF
+C493 fulladder_3/xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C494 fulladder_3/xor_0/nand_3/a Gnd 2.00fF
+C495 fulladder_3/xor_0/nand_2/b Gnd 2.20fF
+C496 fulladder_3/xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C497 xor_3/out Gnd 2.12fF
+C498 a3 Gnd 9.23fF
+C499 fulladder_3/xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C500 fulladder_3/xor_0/nand_3/w_n44_54# Gnd 3.07fF
+C501 fulladder_2/and_1/not_0/in Gnd 0.82fF
+C502 fulladder_2/and_1/nand_0/w_n44_54# Gnd 3.07fF
+C503 fulladder_2/tor_1/a Gnd 0.60fF
+C504 fulladder_2/and_1/not_0/w_n15_38# Gnd 1.29fF
+C505 fulladder_2/and_0/not_0/in Gnd 0.82fF
+C506 fulladder_2/and_0/nand_0/w_n44_54# Gnd 3.07fF
+C507 fulladder_2/tor_1/b Gnd 1.06fF
+C508 fulladder_2/and_0/not_0/w_n15_38# Gnd 1.29fF
+C509 fulladder_2/tor_1/w_n46_20# Gnd 2.60fF
+C510 fulladder_2/tor_1/not_0/in Gnd 0.99fF
+C511 fulladder_2/tor_1/not_0/w_n15_38# Gnd 1.29fF
+C512 fulladder_2/xor_1/nand_3/b Gnd 1.23fF
+C513 fulladder_2/xor_1/nand_2/w_n44_54# Gnd 3.07fF
+C514 fulladder_2/xor_1/nand_3/a Gnd 2.00fF
+C515 fulladder_2/xor_1/nand_2/b Gnd 2.20fF
+C516 fulladder_2/xor_1/nand_1/w_n44_54# Gnd 3.07fF
+C517 fulladder_2/c Gnd 1.73fF
+C518 fulladder_2/xor_1/a Gnd 17.23fF
+C519 fulladder_2/xor_1/nand_0/w_n44_54# Gnd 3.07fF
+C520 s2 Gnd 0.64fF
+C521 fulladder_2/xor_1/nand_3/w_n44_54# Gnd 3.07fF
+C522 fulladder_2/xor_0/nand_3/b Gnd 1.23fF
+C523 fulladder_2/xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C524 fulladder_2/xor_0/nand_3/a Gnd 2.00fF
+C525 fulladder_2/xor_0/nand_2/b Gnd 2.20fF
+C526 fulladder_2/xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C527 xor_2/out Gnd 1.99fF
+C528 a2 Gnd 9.25fF
+C529 fulladder_2/xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C530 fulladder_2/xor_0/nand_3/w_n44_54# Gnd 3.07fF
+C531 fulladder_1/and_1/not_0/in Gnd 0.82fF
+C532 fulladder_1/and_1/nand_0/w_n44_54# Gnd 3.07fF
+C533 fulladder_1/tor_1/a Gnd 0.60fF
+C534 fulladder_1/and_1/not_0/w_n15_38# Gnd 1.29fF
+C535 fulladder_1/and_0/not_0/in Gnd 0.82fF
+C536 fulladder_1/and_0/nand_0/w_n44_54# Gnd 3.07fF
+C537 fulladder_1/tor_1/b Gnd 1.06fF
+C538 fulladder_1/and_0/not_0/w_n15_38# Gnd 1.29fF
+C539 fulladder_1/tor_1/w_n46_20# Gnd 2.60fF
+C540 fulladder_1/tor_1/not_0/in Gnd 0.99fF
+C541 fulladder_1/tor_1/not_0/w_n15_38# Gnd 1.29fF
+C542 fulladder_1/xor_1/nand_3/b Gnd 1.23fF
+C543 fulladder_1/xor_1/nand_2/w_n44_54# Gnd 3.07fF
+C544 fulladder_1/xor_1/nand_3/a Gnd 2.00fF
+C545 fulladder_1/xor_1/nand_2/b Gnd 2.20fF
+C546 fulladder_1/xor_1/nand_1/w_n44_54# Gnd 3.07fF
+C547 fulladder_1/c Gnd 1.75fF
+C548 fulladder_1/xor_1/a Gnd 17.23fF
+C549 fulladder_1/xor_1/nand_0/w_n44_54# Gnd 3.07fF
+C550 s1 Gnd 0.63fF
+C551 fulladder_1/xor_1/nand_3/w_n44_54# Gnd 3.07fF
+C552 vdd Gnd 127.71fF
+C553 fulladder_1/xor_0/nand_3/b Gnd 1.23fF
+C554 fulladder_1/xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C555 fulladder_1/xor_0/nand_3/a Gnd 2.00fF
+C556 fulladder_1/xor_0/nand_2/b Gnd 2.20fF
+C557 fulladder_1/xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C558 xor_1/out Gnd 2.41fF
+C559 a1 Gnd 9.28fF
+C560 fulladder_1/xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C561 fulladder_1/xor_0/nand_3/w_n44_54# Gnd 3.07fF
+C562 fulladder_0/and_1/not_0/in Gnd 0.82fF
+C563 fulladder_0/and_1/nand_0/w_n44_54# Gnd 3.07fF
+C564 fulladder_0/tor_1/a Gnd 0.60fF
+C565 fulladder_0/and_1/not_0/w_n15_38# Gnd 1.29fF
+C566 fulladder_0/and_0/not_0/in Gnd 0.82fF
+C567 fulladder_0/and_0/nand_0/w_n44_54# Gnd 3.07fF
+C568 fulladder_0/tor_1/b Gnd 1.06fF
+C569 fulladder_0/and_0/not_0/w_n15_38# Gnd 1.29fF
+C570 fulladder_0/tor_1/w_n46_20# Gnd 2.60fF
+C571 fulladder_0/tor_1/not_0/in Gnd 0.99fF
+C572 fulladder_0/tor_1/not_0/w_n15_38# Gnd 1.29fF
+C573 fulladder_0/xor_1/nand_3/b Gnd 1.23fF
+C574 fulladder_0/xor_1/nand_2/w_n44_54# Gnd 3.07fF
+C575 fulladder_0/xor_1/nand_3/a Gnd 2.00fF
+C576 fulladder_0/xor_1/nand_2/b Gnd 2.20fF
+C577 fulladder_0/xor_1/nand_1/w_n44_54# Gnd 3.07fF
+C578 fulladder_0/xor_1/a Gnd 17.23fF
+C579 fulladder_0/xor_1/nand_0/w_n44_54# Gnd 3.07fF
+C580 s0 Gnd 0.66fF
+C581 fulladder_0/xor_1/nand_3/w_n44_54# Gnd 3.07fF
+C582 fulladder_0/xor_0/nand_3/b Gnd 1.23fF
+C583 fulladder_0/xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C584 fulladder_0/xor_0/nand_3/a Gnd 2.00fF
+C585 fulladder_0/xor_0/nand_2/b Gnd 2.20fF
+C586 fulladder_0/xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C587 xor_0/out Gnd 2.42fF
+C588 a0 Gnd 9.24fF
+C589 fulladder_0/xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C590 fulladder_0/xor_0/nand_3/w_n44_54# Gnd 3.07fF
+C591 xor_3/nand_3/b Gnd 1.23fF
+C592 xor_3/nand_2/w_n44_54# Gnd 3.07fF
+C593 xor_3/nand_3/a Gnd 2.00fF
+C594 xor_3/nand_2/b Gnd 2.20fF
+C595 xor_3/nand_1/w_n44_54# Gnd 3.07fF
+C596 b3 Gnd 1.29fF
+C597 xor_3/nand_0/w_n44_54# Gnd 3.07fF
+C598 xor_3/nand_3/w_n44_54# Gnd 3.07fF
+C599 xor_2/nand_3/b Gnd 1.23fF
+C600 xor_2/nand_2/w_n44_54# Gnd 3.07fF
+C601 xor_2/nand_3/a Gnd 2.00fF
+C602 xor_2/nand_2/b Gnd 2.20fF
+C603 xor_2/nand_1/w_n44_54# Gnd 3.07fF
+C604 b2 Gnd 1.29fF
+C605 xor_2/nand_0/w_n44_54# Gnd 3.07fF
+C606 xor_2/nand_3/w_n44_54# Gnd 3.07fF
+C607 xor_1/nand_3/b Gnd 1.23fF
+C608 xor_1/nand_2/w_n44_54# Gnd 3.07fF
+C609 xor_1/nand_3/a Gnd 2.00fF
+C610 xor_1/nand_2/b Gnd 2.20fF
+C611 xor_1/nand_1/w_n44_54# Gnd 3.07fF
+C612 b1 Gnd 1.29fF
+C613 xor_1/nand_0/w_n44_54# Gnd 3.07fF
+C614 xor_1/nand_3/w_n44_54# Gnd 3.07fF
+C615 xor_0/nand_3/b Gnd 1.23fF
+C616 xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C617 xor_0/nand_3/a Gnd 2.00fF
+C618 xor_0/nand_2/b Gnd 2.20fF
+C619 xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C620 gnd Gnd 21.30fF
+C621 m Gnd 4.15fF
+C622 b0 Gnd 1.26fF
+C623 xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C624 xor_0/nand_3/w_n44_54# Gnd 3.07fF
+
+
+
+.tran 1n 800n
+
+.control
+
+run
+set color0 = rgb:f/f/e
+set color1 = black
+
+plot v(a0) v(a1)+2 v(a2)+4 v(a3)+6 v(b0)+10 v(b1)+12 v(b2)+14 v(b3)+16 v(s0)+20 v(s1)+22 v(s2)+24 v(s3)+26 v(s4)+28
+
+.end
+.endc

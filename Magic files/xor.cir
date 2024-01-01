@@ -1,0 +1,126 @@
+* SPICE3 file created from xor.ext - technology: scmos
+
+
+.include TSMC_180nm.txt
+
+
+.param SUPPLY = 1.8
+.param LAMBDA = 0.18u
+
+.param wn1 = {10*LAMBDA}
+.param wn2 = {10*LAMBDA}
+.param ln1 = {2*LAMBDA}
+.param ln2 = {2*LAMBDA}
+
+.param wp1 = wn1
+.param wp2 = wn1
+.param lp1 = {LAMBDA}
+.param lp2 = {LAMBDA}
+
+.global gnd
+
+Vdd vdd gnd 'SUPPLY'
+
+
+
+Vina a gnd PULSE(0 1.8 0ns 100ps 100ps 30ns 50ns)
+
+Vinb b gnd PULSE(0 1.8 0ns 100ps 100ps 25ns 50ns)
+
+
+
+.option scale=0.09u
+
+M1000 out nand_3/a vdd nand_3/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=2652 ps=616
+M1001 out nand_3/b nand_3/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1002 vdd nand_3/b out nand_3/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1003 nand_3/a_n8_22# nand_3/a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=1012 ps=272
+M1004 nand_2/b a vdd nand_0/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1005 nand_2/b b nand_0/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1006 vdd b nand_2/b nand_0/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1007 nand_0/a_n8_22# a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1008 nand_3/a nand_2/b vdd nand_1/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1009 nand_3/a b nand_1/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1010 vdd b nand_3/a nand_1/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1011 nand_1/a_n8_22# nand_2/b gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1012 nand_3/b a vdd nand_2/w_n44_54# CMOSP w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1013 nand_3/b nand_2/b nand_2/a_n8_22# Gnd CMOSN w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1014 vdd nand_2/b nand_3/b nand_2/w_n44_54# CMOSP w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1015 nand_2/a_n8_22# a gnd Gnd CMOSN w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+C0 nand_3/a b 0.10fF
+C1 nand_3/b nand_2/b 0.10fF
+C2 a gnd 0.39fF
+C3 vdd nand_0/w_n44_54# 0.13fF
+C4 vdd nand_2/w_n44_54# 0.13fF
+C5 b gnd 0.17fF
+C6 nand_3/a nand_1/w_n44_54# 0.06fF
+C7 nand_2/b gnd 1.71fF
+C8 vdd nand_3/w_n44_54# 0.13fF
+C9 out nand_3/w_n44_54# 0.06fF
+C10 nand_3/b nand_2/w_n44_54# 0.06fF
+C11 out nand_3/b 0.10fF
+C12 a nand_2/b 0.21fF
+C13 vdd nand_3/a 0.47fF
+C14 nand_3/w_n44_54# nand_3/b 0.14fF
+C15 nand_3/a nand_3/w_n44_54# 0.28fF
+C16 b nand_2/b 0.27fF
+C17 vdd gnd 0.04fF
+C18 b nand_1/w_n44_54# 0.14fF
+C19 nand_3/a nand_3/b 0.01fF
+C20 nand_0/w_n44_54# a 0.28fF
+C21 a nand_2/w_n44_54# 0.28fF
+C22 nand_1/w_n44_54# nand_2/b 0.28fF
+C23 nand_0/w_n44_54# b 0.14fF
+C24 nand_3/b gnd 0.39fF
+C25 nand_0/w_n44_54# nand_2/b 0.06fF
+C26 nand_3/a gnd 0.37fF
+C27 nand_2/w_n44_54# nand_2/b 0.14fF
+C28 vdd nand_1/w_n44_54# 0.13fF
+C29 vdd Gnd 1.73fF
+C30 nand_3/b Gnd 1.23fF
+C31 nand_2/w_n44_54# Gnd 3.07fF
+C32 nand_3/a Gnd 2.00fF
+C33 nand_1/w_n44_54# Gnd 3.07fF
+C34 nand_2/b Gnd 2.20fF
+C35 b Gnd 0.62fF
+C36 a Gnd 1.25fF
+C37 nand_0/w_n44_54# Gnd 3.07fF
+C38 out Gnd 0.54fF
+C39 nand_3/w_n44_54# Gnd 3.07fF
+
+
+
+
+
+*replace text
+
+
+.tran 1n 800n
+
+.control
+
+run
+set color0 = rgb:f/f/e
+set color1 = black
+
+plot v(a) v(b)+2 v(out)+4
+quit
+
+.end
+.endc

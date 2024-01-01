@@ -1,0 +1,116 @@
+* SPICE3 file created from or.ext - technology: scmos
+
+.include TSMC_180nm.txt
+
+.option scale=0.09u
+
+
+.param SUPPLY = 1.8
+.param LAMBDA = 0.18u
+
+.param wn1 = {10*LAMBDA}
+.param wn2 = {10*LAMBDA}
+.param ln1 = {2*LAMBDA}
+.param ln2 = {2*LAMBDA}
+
+.param wp1 = wn1
+.param wp2 = wn1
+.param lp1 = {LAMBDA}
+.param lp2 = {LAMBDA}
+
+.global gnd
+
+Vdd vdd gnd 'SUPPLY'
+
+
+
+Vina a gnd PULSE(0 1.8 0ns 100ps 100ps 25ns 50ns)
+
+Vinb b gnd PULSE(0 1.8 0ns 100ps 100ps 30ns 60ns)
+
+Vinc c gnd PULSE(0 1.8 0ns 100ps 100ps 25ns 50ns)
+
+Vind d gnd PULSE(0 1.8 0ns 100ps 100ps 10ns 40ns)
+
+
+
+.option scale=0.09u
+
+
+M1000 out1 out vdd not_0/w_n15_38# CMOSP w=7 l=4
++  ad=70 pd=34 as=1259 ps=174
+M1001 out1 out gnd Gnd CMOSN w=6 l=4
++  ad=60 pd=32 as=2321 ps=384
+M1002 gnd d out Gnd CMOSN w=19 l=11
++  ad=0 pd=0 as=1102 ps=192
+M1003 out d a_47_46# w_n131_34# CMOSP w=29 l=16
++  ad=957 pd=124 as=783 ps=112
+M1004 out c gnd Gnd CMOSN w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1005 a_47_46# c a_n2_46# w_n131_34# CMOSP w=29 l=16
++  ad=0 pd=0 as=957 ps=124
+M1006 out a gnd Gnd CMOSN w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1007 a_n48_46# a vdd w_n131_34# CMOSP w=29 l=16
++  ad=870 pd=118 as=0 ps=0
+M1008 a_n2_46# b a_n48_46# w_n131_34# CMOSP w=29 l=16
++  ad=0 pd=0 as=0 ps=0
+M1009 gnd b out Gnd CMOSN w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+C0 w_n131_34# out 0.16fF
+C1 not_0/w_n15_38# vdd 0.09fF
+C2 b out 0.84fF
+C3 w_n131_34# c 0.50fF
+C4 w_n131_34# vdd 0.19fF
+C5 out d 0.75fF
+C6 w_n131_34# a 0.50fF
+C7 b w_n131_34# 0.50fF
+C8 c out 0.83fF
+C9 not_0/w_n15_38# out 0.11fF
+C10 not_0/w_n15_38# out1 0.04fF
+C11 w_n131_34# d 0.50fF
+C12 vdd out1 0.03fF
+C13 a out 1.02fF
+C14 d Gnd 2.81fF
+C15 c Gnd 3.52fF
+C16 b Gnd 3.52fF
+C17 a Gnd 3.61fF
+C18 w_n131_34# Gnd 14.92fF
+C19 gnd Gnd 4.56fF
+C20 out1 Gnd 0.25fF
+C21 vdd Gnd 4.56fF
+C22 out Gnd 4.95fF
+C23 not_0/w_n15_38# Gnd 1.29fF
+
+
+
+
+
+
+
+    .measure tran trise 
+    + TRIG v(d) VAL = 'SUPPLY/2' RISE =1
+    + TARG v(out1) VAL = 'SUPPLY/2' RISE =1 
+
+    .measure tran tfall 
+    + TRIG v(d) VAL = 'SUPPLY/2' FALL =1 
+    + TARG v(out1) VAL = 'SUPPLY/2' FALL=1
+
+    .measure tran tpd param = '(trise + tfall)/2' goal = 0
+            
+
+
+.tran 1n 800n
+
+.control
+
+run
+set color0 = rgb:f/f/e
+set color1 = black
+
+plot v(a) v(b)+2 v(c)+4 v(d)+6 v(out1)+8 
+quit
+
+
+.end
+.endc

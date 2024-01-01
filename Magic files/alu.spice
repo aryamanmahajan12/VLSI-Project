@@ -1,0 +1,2970 @@
+* SPICE3 file created from alu.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 fourbitadder_0/xor_0/out fourbitadder_0/xor_0/nand_3/a vdd fourbitadder_0/xor_0/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=96012 ps=21410
+M1001 fourbitadder_0/xor_0/out fourbitadder_0/xor_0/nand_3/b fourbitadder_0/xor_0/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1002 vdd fourbitadder_0/xor_0/nand_3/b fourbitadder_0/xor_0/out fourbitadder_0/xor_0/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1003 fourbitadder_0/xor_0/nand_3/a_n8_22# fourbitadder_0/xor_0/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=51846 ps=12696
+M1004 fourbitadder_0/xor_0/nand_2/b enable_1/y0 vdd fourbitadder_0/xor_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1005 fourbitadder_0/xor_0/nand_2/b d1 fourbitadder_0/xor_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1006 vdd d1 fourbitadder_0/xor_0/nand_2/b fourbitadder_0/xor_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1007 fourbitadder_0/xor_0/nand_0/a_n8_22# enable_1/y0 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1008 fourbitadder_0/xor_0/nand_3/a fourbitadder_0/xor_0/nand_2/b vdd fourbitadder_0/xor_0/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1009 fourbitadder_0/xor_0/nand_3/a d1 fourbitadder_0/xor_0/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1010 vdd d1 fourbitadder_0/xor_0/nand_3/a fourbitadder_0/xor_0/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1011 fourbitadder_0/xor_0/nand_1/a_n8_22# fourbitadder_0/xor_0/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1012 fourbitadder_0/xor_0/nand_3/b enable_1/y0 vdd fourbitadder_0/xor_0/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1013 fourbitadder_0/xor_0/nand_3/b fourbitadder_0/xor_0/nand_2/b fourbitadder_0/xor_0/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1014 vdd fourbitadder_0/xor_0/nand_2/b fourbitadder_0/xor_0/nand_3/b fourbitadder_0/xor_0/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1015 fourbitadder_0/xor_0/nand_2/a_n8_22# enable_1/y0 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1016 fourbitadder_0/xor_1/out fourbitadder_0/xor_1/nand_3/a vdd fourbitadder_0/xor_1/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1017 fourbitadder_0/xor_1/out fourbitadder_0/xor_1/nand_3/b fourbitadder_0/xor_1/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1018 vdd fourbitadder_0/xor_1/nand_3/b fourbitadder_0/xor_1/out fourbitadder_0/xor_1/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1019 fourbitadder_0/xor_1/nand_3/a_n8_22# fourbitadder_0/xor_1/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1020 fourbitadder_0/xor_1/nand_2/b enable_1/y1 vdd fourbitadder_0/xor_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1021 fourbitadder_0/xor_1/nand_2/b d1 fourbitadder_0/xor_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1022 vdd d1 fourbitadder_0/xor_1/nand_2/b fourbitadder_0/xor_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1023 fourbitadder_0/xor_1/nand_0/a_n8_22# enable_1/y1 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1024 fourbitadder_0/xor_1/nand_3/a fourbitadder_0/xor_1/nand_2/b vdd fourbitadder_0/xor_1/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1025 fourbitadder_0/xor_1/nand_3/a d1 fourbitadder_0/xor_1/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1026 vdd d1 fourbitadder_0/xor_1/nand_3/a fourbitadder_0/xor_1/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1027 fourbitadder_0/xor_1/nand_1/a_n8_22# fourbitadder_0/xor_1/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1028 fourbitadder_0/xor_1/nand_3/b enable_1/y1 vdd fourbitadder_0/xor_1/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1029 fourbitadder_0/xor_1/nand_3/b fourbitadder_0/xor_1/nand_2/b fourbitadder_0/xor_1/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1030 vdd fourbitadder_0/xor_1/nand_2/b fourbitadder_0/xor_1/nand_3/b fourbitadder_0/xor_1/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1031 fourbitadder_0/xor_1/nand_2/a_n8_22# enable_1/y1 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1032 fourbitadder_0/xor_2/out fourbitadder_0/xor_2/nand_3/a vdd fourbitadder_0/xor_2/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1033 fourbitadder_0/xor_2/out fourbitadder_0/xor_2/nand_3/b fourbitadder_0/xor_2/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1034 vdd fourbitadder_0/xor_2/nand_3/b fourbitadder_0/xor_2/out fourbitadder_0/xor_2/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1035 fourbitadder_0/xor_2/nand_3/a_n8_22# fourbitadder_0/xor_2/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1036 fourbitadder_0/xor_2/nand_2/b enable_1/y2 vdd fourbitadder_0/xor_2/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1037 fourbitadder_0/xor_2/nand_2/b d1 fourbitadder_0/xor_2/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1038 vdd d1 fourbitadder_0/xor_2/nand_2/b fourbitadder_0/xor_2/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1039 fourbitadder_0/xor_2/nand_0/a_n8_22# enable_1/y2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1040 fourbitadder_0/xor_2/nand_3/a fourbitadder_0/xor_2/nand_2/b vdd fourbitadder_0/xor_2/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1041 fourbitadder_0/xor_2/nand_3/a d1 fourbitadder_0/xor_2/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1042 vdd d1 fourbitadder_0/xor_2/nand_3/a fourbitadder_0/xor_2/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1043 fourbitadder_0/xor_2/nand_1/a_n8_22# fourbitadder_0/xor_2/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1044 fourbitadder_0/xor_2/nand_3/b enable_1/y2 vdd fourbitadder_0/xor_2/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1045 fourbitadder_0/xor_2/nand_3/b fourbitadder_0/xor_2/nand_2/b fourbitadder_0/xor_2/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1046 vdd fourbitadder_0/xor_2/nand_2/b fourbitadder_0/xor_2/nand_3/b fourbitadder_0/xor_2/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1047 fourbitadder_0/xor_2/nand_2/a_n8_22# enable_1/y2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1048 fourbitadder_0/xor_3/out fourbitadder_0/xor_3/nand_3/a vdd fourbitadder_0/xor_3/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1049 fourbitadder_0/xor_3/out fourbitadder_0/xor_3/nand_3/b fourbitadder_0/xor_3/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1050 vdd fourbitadder_0/xor_3/nand_3/b fourbitadder_0/xor_3/out fourbitadder_0/xor_3/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1051 fourbitadder_0/xor_3/nand_3/a_n8_22# fourbitadder_0/xor_3/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1052 fourbitadder_0/xor_3/nand_2/b enable_1/y3 vdd fourbitadder_0/xor_3/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1053 fourbitadder_0/xor_3/nand_2/b d1 fourbitadder_0/xor_3/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1054 vdd d1 fourbitadder_0/xor_3/nand_2/b fourbitadder_0/xor_3/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1055 fourbitadder_0/xor_3/nand_0/a_n8_22# enable_1/y3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1056 fourbitadder_0/xor_3/nand_3/a fourbitadder_0/xor_3/nand_2/b vdd fourbitadder_0/xor_3/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1057 fourbitadder_0/xor_3/nand_3/a d1 fourbitadder_0/xor_3/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1058 vdd d1 fourbitadder_0/xor_3/nand_3/a fourbitadder_0/xor_3/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1059 fourbitadder_0/xor_3/nand_1/a_n8_22# fourbitadder_0/xor_3/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1060 fourbitadder_0/xor_3/nand_3/b enable_1/y3 vdd fourbitadder_0/xor_3/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1061 fourbitadder_0/xor_3/nand_3/b fourbitadder_0/xor_3/nand_2/b fourbitadder_0/xor_3/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1062 vdd fourbitadder_0/xor_3/nand_2/b fourbitadder_0/xor_3/nand_3/b fourbitadder_0/xor_3/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1063 fourbitadder_0/xor_3/nand_2/a_n8_22# enable_1/y3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1064 fourbitadder_0/fulladder_0/xor_1/a fourbitadder_0/fulladder_0/xor_0/nand_3/a vdd fourbitadder_0/fulladder_0/xor_0/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1065 fourbitadder_0/fulladder_0/xor_1/a fourbitadder_0/fulladder_0/xor_0/nand_3/b fourbitadder_0/fulladder_0/xor_0/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1066 vdd fourbitadder_0/fulladder_0/xor_0/nand_3/b fourbitadder_0/fulladder_0/xor_1/a fourbitadder_0/fulladder_0/xor_0/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1067 fourbitadder_0/fulladder_0/xor_0/nand_3/a_n8_22# fourbitadder_0/fulladder_0/xor_0/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1068 fourbitadder_0/fulladder_0/xor_0/nand_2/b enable_1/x0 vdd fourbitadder_0/fulladder_0/xor_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1069 fourbitadder_0/fulladder_0/xor_0/nand_2/b fourbitadder_0/xor_0/out fourbitadder_0/fulladder_0/xor_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1070 vdd fourbitadder_0/xor_0/out fourbitadder_0/fulladder_0/xor_0/nand_2/b fourbitadder_0/fulladder_0/xor_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1071 fourbitadder_0/fulladder_0/xor_0/nand_0/a_n8_22# enable_1/x0 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1072 fourbitadder_0/fulladder_0/xor_0/nand_3/a fourbitadder_0/fulladder_0/xor_0/nand_2/b vdd fourbitadder_0/fulladder_0/xor_0/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1073 fourbitadder_0/fulladder_0/xor_0/nand_3/a fourbitadder_0/xor_0/out fourbitadder_0/fulladder_0/xor_0/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1074 vdd fourbitadder_0/xor_0/out fourbitadder_0/fulladder_0/xor_0/nand_3/a fourbitadder_0/fulladder_0/xor_0/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1075 fourbitadder_0/fulladder_0/xor_0/nand_1/a_n8_22# fourbitadder_0/fulladder_0/xor_0/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1076 fourbitadder_0/fulladder_0/xor_0/nand_3/b enable_1/x0 vdd fourbitadder_0/fulladder_0/xor_0/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1077 fourbitadder_0/fulladder_0/xor_0/nand_3/b fourbitadder_0/fulladder_0/xor_0/nand_2/b fourbitadder_0/fulladder_0/xor_0/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1078 vdd fourbitadder_0/fulladder_0/xor_0/nand_2/b fourbitadder_0/fulladder_0/xor_0/nand_3/b fourbitadder_0/fulladder_0/xor_0/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1079 fourbitadder_0/fulladder_0/xor_0/nand_2/a_n8_22# enable_1/x0 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1080 sum0 fourbitadder_0/fulladder_0/xor_1/nand_3/a vdd fourbitadder_0/fulladder_0/xor_1/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1081 sum0 fourbitadder_0/fulladder_0/xor_1/nand_3/b fourbitadder_0/fulladder_0/xor_1/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1082 vdd fourbitadder_0/fulladder_0/xor_1/nand_3/b sum0 fourbitadder_0/fulladder_0/xor_1/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1083 fourbitadder_0/fulladder_0/xor_1/nand_3/a_n8_22# fourbitadder_0/fulladder_0/xor_1/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1084 fourbitadder_0/fulladder_0/xor_1/nand_2/b fourbitadder_0/fulladder_0/xor_1/a vdd fourbitadder_0/fulladder_0/xor_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1085 fourbitadder_0/fulladder_0/xor_1/nand_2/b d1 fourbitadder_0/fulladder_0/xor_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1086 vdd d1 fourbitadder_0/fulladder_0/xor_1/nand_2/b fourbitadder_0/fulladder_0/xor_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1087 fourbitadder_0/fulladder_0/xor_1/nand_0/a_n8_22# fourbitadder_0/fulladder_0/xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1088 fourbitadder_0/fulladder_0/xor_1/nand_3/a fourbitadder_0/fulladder_0/xor_1/nand_2/b vdd fourbitadder_0/fulladder_0/xor_1/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1089 fourbitadder_0/fulladder_0/xor_1/nand_3/a d1 fourbitadder_0/fulladder_0/xor_1/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1090 vdd d1 fourbitadder_0/fulladder_0/xor_1/nand_3/a fourbitadder_0/fulladder_0/xor_1/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1091 fourbitadder_0/fulladder_0/xor_1/nand_1/a_n8_22# fourbitadder_0/fulladder_0/xor_1/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1092 fourbitadder_0/fulladder_0/xor_1/nand_3/b fourbitadder_0/fulladder_0/xor_1/a vdd fourbitadder_0/fulladder_0/xor_1/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1093 fourbitadder_0/fulladder_0/xor_1/nand_3/b fourbitadder_0/fulladder_0/xor_1/nand_2/b fourbitadder_0/fulladder_0/xor_1/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1094 vdd fourbitadder_0/fulladder_0/xor_1/nand_2/b fourbitadder_0/fulladder_0/xor_1/nand_3/b fourbitadder_0/fulladder_0/xor_1/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1095 fourbitadder_0/fulladder_0/xor_1/nand_2/a_n8_22# fourbitadder_0/fulladder_0/xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1096 fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_0/tor_1/not_0/in vdd fourbitadder_0/fulladder_0/tor_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1097 fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_0/tor_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1098 gnd fourbitadder_0/fulladder_0/tor_1/b fourbitadder_0/fulladder_0/tor_1/not_0/in Gnd nfet w=12 l=9
++  ad=0 pd=0 as=288 ps=72
+M1099 fourbitadder_0/fulladder_0/tor_1/not_0/in fourbitadder_0/fulladder_0/tor_1/a gnd Gnd nfet w=12 l=9
++  ad=0 pd=0 as=0 ps=0
+M1100 fourbitadder_0/fulladder_0/tor_1/a_n9_28# fourbitadder_0/fulladder_0/tor_1/a vdd fourbitadder_0/fulladder_0/tor_1/w_n46_20# pfet w=12 l=9
++  ad=288 pd=72 as=0 ps=0
+M1101 fourbitadder_0/fulladder_0/tor_1/not_0/in fourbitadder_0/fulladder_0/tor_1/b fourbitadder_0/fulladder_0/tor_1/a_n9_28# fourbitadder_0/fulladder_0/tor_1/w_n46_20# pfet w=12 l=9
++  ad=156 pd=50 as=0 ps=0
+M1102 fourbitadder_0/fulladder_0/tor_1/b fourbitadder_0/fulladder_0/and_0/not_0/in vdd fourbitadder_0/fulladder_0/and_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1103 fourbitadder_0/fulladder_0/tor_1/b fourbitadder_0/fulladder_0/and_0/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1104 fourbitadder_0/fulladder_0/and_0/not_0/in enable_1/x0 vdd fourbitadder_0/fulladder_0/and_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1105 fourbitadder_0/fulladder_0/and_0/not_0/in fourbitadder_0/xor_0/out fourbitadder_0/fulladder_0/and_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1106 vdd fourbitadder_0/xor_0/out fourbitadder_0/fulladder_0/and_0/not_0/in fourbitadder_0/fulladder_0/and_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1107 fourbitadder_0/fulladder_0/and_0/nand_0/a_n8_22# enable_1/x0 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1108 fourbitadder_0/fulladder_0/tor_1/a fourbitadder_0/fulladder_0/and_1/not_0/in vdd fourbitadder_0/fulladder_0/and_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1109 fourbitadder_0/fulladder_0/tor_1/a fourbitadder_0/fulladder_0/and_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1110 fourbitadder_0/fulladder_0/and_1/not_0/in fourbitadder_0/fulladder_0/xor_1/a vdd fourbitadder_0/fulladder_0/and_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1111 fourbitadder_0/fulladder_0/and_1/not_0/in d1 fourbitadder_0/fulladder_0/and_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1112 vdd d1 fourbitadder_0/fulladder_0/and_1/not_0/in fourbitadder_0/fulladder_0/and_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1113 fourbitadder_0/fulladder_0/and_1/nand_0/a_n8_22# fourbitadder_0/fulladder_0/xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1114 fourbitadder_0/fulladder_1/xor_1/a fourbitadder_0/fulladder_1/xor_0/nand_3/a vdd fourbitadder_0/fulladder_1/xor_0/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1115 fourbitadder_0/fulladder_1/xor_1/a fourbitadder_0/fulladder_1/xor_0/nand_3/b fourbitadder_0/fulladder_1/xor_0/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1116 vdd fourbitadder_0/fulladder_1/xor_0/nand_3/b fourbitadder_0/fulladder_1/xor_1/a fourbitadder_0/fulladder_1/xor_0/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1117 fourbitadder_0/fulladder_1/xor_0/nand_3/a_n8_22# fourbitadder_0/fulladder_1/xor_0/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1118 fourbitadder_0/fulladder_1/xor_0/nand_2/b enable_1/x1 vdd fourbitadder_0/fulladder_1/xor_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1119 fourbitadder_0/fulladder_1/xor_0/nand_2/b fourbitadder_0/xor_1/out fourbitadder_0/fulladder_1/xor_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1120 vdd fourbitadder_0/xor_1/out fourbitadder_0/fulladder_1/xor_0/nand_2/b fourbitadder_0/fulladder_1/xor_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1121 fourbitadder_0/fulladder_1/xor_0/nand_0/a_n8_22# enable_1/x1 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1122 fourbitadder_0/fulladder_1/xor_0/nand_3/a fourbitadder_0/fulladder_1/xor_0/nand_2/b vdd fourbitadder_0/fulladder_1/xor_0/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1123 fourbitadder_0/fulladder_1/xor_0/nand_3/a fourbitadder_0/xor_1/out fourbitadder_0/fulladder_1/xor_0/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1124 vdd fourbitadder_0/xor_1/out fourbitadder_0/fulladder_1/xor_0/nand_3/a fourbitadder_0/fulladder_1/xor_0/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1125 fourbitadder_0/fulladder_1/xor_0/nand_1/a_n8_22# fourbitadder_0/fulladder_1/xor_0/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1126 fourbitadder_0/fulladder_1/xor_0/nand_3/b enable_1/x1 vdd fourbitadder_0/fulladder_1/xor_0/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1127 fourbitadder_0/fulladder_1/xor_0/nand_3/b fourbitadder_0/fulladder_1/xor_0/nand_2/b fourbitadder_0/fulladder_1/xor_0/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1128 vdd fourbitadder_0/fulladder_1/xor_0/nand_2/b fourbitadder_0/fulladder_1/xor_0/nand_3/b fourbitadder_0/fulladder_1/xor_0/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1129 fourbitadder_0/fulladder_1/xor_0/nand_2/a_n8_22# enable_1/x1 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1130 sum1 fourbitadder_0/fulladder_1/xor_1/nand_3/a vdd fourbitadder_0/fulladder_1/xor_1/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1131 sum1 fourbitadder_0/fulladder_1/xor_1/nand_3/b fourbitadder_0/fulladder_1/xor_1/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1132 vdd fourbitadder_0/fulladder_1/xor_1/nand_3/b sum1 fourbitadder_0/fulladder_1/xor_1/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1133 fourbitadder_0/fulladder_1/xor_1/nand_3/a_n8_22# fourbitadder_0/fulladder_1/xor_1/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1134 fourbitadder_0/fulladder_1/xor_1/nand_2/b fourbitadder_0/fulladder_1/xor_1/a vdd fourbitadder_0/fulladder_1/xor_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1135 fourbitadder_0/fulladder_1/xor_1/nand_2/b fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_1/xor_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1136 vdd fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_1/xor_1/nand_2/b fourbitadder_0/fulladder_1/xor_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1137 fourbitadder_0/fulladder_1/xor_1/nand_0/a_n8_22# fourbitadder_0/fulladder_1/xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1138 fourbitadder_0/fulladder_1/xor_1/nand_3/a fourbitadder_0/fulladder_1/xor_1/nand_2/b vdd fourbitadder_0/fulladder_1/xor_1/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1139 fourbitadder_0/fulladder_1/xor_1/nand_3/a fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_1/xor_1/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1140 vdd fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_1/xor_1/nand_3/a fourbitadder_0/fulladder_1/xor_1/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1141 fourbitadder_0/fulladder_1/xor_1/nand_1/a_n8_22# fourbitadder_0/fulladder_1/xor_1/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1142 fourbitadder_0/fulladder_1/xor_1/nand_3/b fourbitadder_0/fulladder_1/xor_1/a vdd fourbitadder_0/fulladder_1/xor_1/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1143 fourbitadder_0/fulladder_1/xor_1/nand_3/b fourbitadder_0/fulladder_1/xor_1/nand_2/b fourbitadder_0/fulladder_1/xor_1/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1144 vdd fourbitadder_0/fulladder_1/xor_1/nand_2/b fourbitadder_0/fulladder_1/xor_1/nand_3/b fourbitadder_0/fulladder_1/xor_1/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1145 fourbitadder_0/fulladder_1/xor_1/nand_2/a_n8_22# fourbitadder_0/fulladder_1/xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1146 fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_1/tor_1/not_0/in vdd fourbitadder_0/fulladder_1/tor_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1147 fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_1/tor_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1148 gnd fourbitadder_0/fulladder_1/tor_1/b fourbitadder_0/fulladder_1/tor_1/not_0/in Gnd nfet w=12 l=9
++  ad=0 pd=0 as=288 ps=72
+M1149 fourbitadder_0/fulladder_1/tor_1/not_0/in fourbitadder_0/fulladder_1/tor_1/a gnd Gnd nfet w=12 l=9
++  ad=0 pd=0 as=0 ps=0
+M1150 fourbitadder_0/fulladder_1/tor_1/a_n9_28# fourbitadder_0/fulladder_1/tor_1/a vdd fourbitadder_0/fulladder_1/tor_1/w_n46_20# pfet w=12 l=9
++  ad=288 pd=72 as=0 ps=0
+M1151 fourbitadder_0/fulladder_1/tor_1/not_0/in fourbitadder_0/fulladder_1/tor_1/b fourbitadder_0/fulladder_1/tor_1/a_n9_28# fourbitadder_0/fulladder_1/tor_1/w_n46_20# pfet w=12 l=9
++  ad=156 pd=50 as=0 ps=0
+M1152 fourbitadder_0/fulladder_1/tor_1/b fourbitadder_0/fulladder_1/and_0/not_0/in vdd fourbitadder_0/fulladder_1/and_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1153 fourbitadder_0/fulladder_1/tor_1/b fourbitadder_0/fulladder_1/and_0/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1154 fourbitadder_0/fulladder_1/and_0/not_0/in enable_1/x1 vdd fourbitadder_0/fulladder_1/and_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1155 fourbitadder_0/fulladder_1/and_0/not_0/in fourbitadder_0/xor_1/out fourbitadder_0/fulladder_1/and_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1156 vdd fourbitadder_0/xor_1/out fourbitadder_0/fulladder_1/and_0/not_0/in fourbitadder_0/fulladder_1/and_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1157 fourbitadder_0/fulladder_1/and_0/nand_0/a_n8_22# enable_1/x1 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1158 fourbitadder_0/fulladder_1/tor_1/a fourbitadder_0/fulladder_1/and_1/not_0/in vdd fourbitadder_0/fulladder_1/and_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1159 fourbitadder_0/fulladder_1/tor_1/a fourbitadder_0/fulladder_1/and_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1160 fourbitadder_0/fulladder_1/and_1/not_0/in fourbitadder_0/fulladder_1/xor_1/a vdd fourbitadder_0/fulladder_1/and_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1161 fourbitadder_0/fulladder_1/and_1/not_0/in fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_1/and_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1162 vdd fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_1/and_1/not_0/in fourbitadder_0/fulladder_1/and_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1163 fourbitadder_0/fulladder_1/and_1/nand_0/a_n8_22# fourbitadder_0/fulladder_1/xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1164 fourbitadder_0/fulladder_2/xor_1/a fourbitadder_0/fulladder_2/xor_0/nand_3/a vdd fourbitadder_0/fulladder_2/xor_0/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1165 fourbitadder_0/fulladder_2/xor_1/a fourbitadder_0/fulladder_2/xor_0/nand_3/b fourbitadder_0/fulladder_2/xor_0/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1166 vdd fourbitadder_0/fulladder_2/xor_0/nand_3/b fourbitadder_0/fulladder_2/xor_1/a fourbitadder_0/fulladder_2/xor_0/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1167 fourbitadder_0/fulladder_2/xor_0/nand_3/a_n8_22# fourbitadder_0/fulladder_2/xor_0/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1168 fourbitadder_0/fulladder_2/xor_0/nand_2/b fourbitadder_0/a2 vdd fourbitadder_0/fulladder_2/xor_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1169 fourbitadder_0/fulladder_2/xor_0/nand_2/b fourbitadder_0/xor_2/out fourbitadder_0/fulladder_2/xor_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1170 vdd fourbitadder_0/xor_2/out fourbitadder_0/fulladder_2/xor_0/nand_2/b fourbitadder_0/fulladder_2/xor_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1171 fourbitadder_0/fulladder_2/xor_0/nand_0/a_n8_22# fourbitadder_0/a2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1172 fourbitadder_0/fulladder_2/xor_0/nand_3/a fourbitadder_0/fulladder_2/xor_0/nand_2/b vdd fourbitadder_0/fulladder_2/xor_0/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1173 fourbitadder_0/fulladder_2/xor_0/nand_3/a fourbitadder_0/xor_2/out fourbitadder_0/fulladder_2/xor_0/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1174 vdd fourbitadder_0/xor_2/out fourbitadder_0/fulladder_2/xor_0/nand_3/a fourbitadder_0/fulladder_2/xor_0/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1175 fourbitadder_0/fulladder_2/xor_0/nand_1/a_n8_22# fourbitadder_0/fulladder_2/xor_0/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1176 fourbitadder_0/fulladder_2/xor_0/nand_3/b fourbitadder_0/a2 vdd fourbitadder_0/fulladder_2/xor_0/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1177 fourbitadder_0/fulladder_2/xor_0/nand_3/b fourbitadder_0/fulladder_2/xor_0/nand_2/b fourbitadder_0/fulladder_2/xor_0/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1178 vdd fourbitadder_0/fulladder_2/xor_0/nand_2/b fourbitadder_0/fulladder_2/xor_0/nand_3/b fourbitadder_0/fulladder_2/xor_0/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1179 fourbitadder_0/fulladder_2/xor_0/nand_2/a_n8_22# fourbitadder_0/a2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1180 sum2 fourbitadder_0/fulladder_2/xor_1/nand_3/a vdd fourbitadder_0/fulladder_2/xor_1/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1181 sum2 fourbitadder_0/fulladder_2/xor_1/nand_3/b fourbitadder_0/fulladder_2/xor_1/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1182 vdd fourbitadder_0/fulladder_2/xor_1/nand_3/b sum2 fourbitadder_0/fulladder_2/xor_1/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1183 fourbitadder_0/fulladder_2/xor_1/nand_3/a_n8_22# fourbitadder_0/fulladder_2/xor_1/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1184 fourbitadder_0/fulladder_2/xor_1/nand_2/b fourbitadder_0/fulladder_2/xor_1/a vdd fourbitadder_0/fulladder_2/xor_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1185 fourbitadder_0/fulladder_2/xor_1/nand_2/b fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_2/xor_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1186 vdd fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_2/xor_1/nand_2/b fourbitadder_0/fulladder_2/xor_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1187 fourbitadder_0/fulladder_2/xor_1/nand_0/a_n8_22# fourbitadder_0/fulladder_2/xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1188 fourbitadder_0/fulladder_2/xor_1/nand_3/a fourbitadder_0/fulladder_2/xor_1/nand_2/b vdd fourbitadder_0/fulladder_2/xor_1/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1189 fourbitadder_0/fulladder_2/xor_1/nand_3/a fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_2/xor_1/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1190 vdd fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_2/xor_1/nand_3/a fourbitadder_0/fulladder_2/xor_1/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1191 fourbitadder_0/fulladder_2/xor_1/nand_1/a_n8_22# fourbitadder_0/fulladder_2/xor_1/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1192 fourbitadder_0/fulladder_2/xor_1/nand_3/b fourbitadder_0/fulladder_2/xor_1/a vdd fourbitadder_0/fulladder_2/xor_1/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1193 fourbitadder_0/fulladder_2/xor_1/nand_3/b fourbitadder_0/fulladder_2/xor_1/nand_2/b fourbitadder_0/fulladder_2/xor_1/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1194 vdd fourbitadder_0/fulladder_2/xor_1/nand_2/b fourbitadder_0/fulladder_2/xor_1/nand_3/b fourbitadder_0/fulladder_2/xor_1/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1195 fourbitadder_0/fulladder_2/xor_1/nand_2/a_n8_22# fourbitadder_0/fulladder_2/xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1196 fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_2/tor_1/not_0/in vdd fourbitadder_0/fulladder_2/tor_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1197 fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_2/tor_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1198 gnd fourbitadder_0/fulladder_2/tor_1/b fourbitadder_0/fulladder_2/tor_1/not_0/in Gnd nfet w=12 l=9
++  ad=0 pd=0 as=288 ps=72
+M1199 fourbitadder_0/fulladder_2/tor_1/not_0/in fourbitadder_0/fulladder_2/tor_1/a gnd Gnd nfet w=12 l=9
++  ad=0 pd=0 as=0 ps=0
+M1200 fourbitadder_0/fulladder_2/tor_1/a_n9_28# fourbitadder_0/fulladder_2/tor_1/a vdd fourbitadder_0/fulladder_2/tor_1/w_n46_20# pfet w=12 l=9
++  ad=288 pd=72 as=0 ps=0
+M1201 fourbitadder_0/fulladder_2/tor_1/not_0/in fourbitadder_0/fulladder_2/tor_1/b fourbitadder_0/fulladder_2/tor_1/a_n9_28# fourbitadder_0/fulladder_2/tor_1/w_n46_20# pfet w=12 l=9
++  ad=156 pd=50 as=0 ps=0
+M1202 fourbitadder_0/fulladder_2/tor_1/b fourbitadder_0/fulladder_2/and_0/not_0/in vdd fourbitadder_0/fulladder_2/and_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1203 fourbitadder_0/fulladder_2/tor_1/b fourbitadder_0/fulladder_2/and_0/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1204 fourbitadder_0/fulladder_2/and_0/not_0/in fourbitadder_0/a2 vdd fourbitadder_0/fulladder_2/and_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1205 fourbitadder_0/fulladder_2/and_0/not_0/in fourbitadder_0/xor_2/out fourbitadder_0/fulladder_2/and_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1206 vdd fourbitadder_0/xor_2/out fourbitadder_0/fulladder_2/and_0/not_0/in fourbitadder_0/fulladder_2/and_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1207 fourbitadder_0/fulladder_2/and_0/nand_0/a_n8_22# fourbitadder_0/a2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1208 fourbitadder_0/fulladder_2/tor_1/a fourbitadder_0/fulladder_2/and_1/not_0/in vdd fourbitadder_0/fulladder_2/and_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1209 fourbitadder_0/fulladder_2/tor_1/a fourbitadder_0/fulladder_2/and_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1210 fourbitadder_0/fulladder_2/and_1/not_0/in fourbitadder_0/fulladder_2/xor_1/a vdd fourbitadder_0/fulladder_2/and_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1211 fourbitadder_0/fulladder_2/and_1/not_0/in fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_2/and_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1212 vdd fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_2/and_1/not_0/in fourbitadder_0/fulladder_2/and_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1213 fourbitadder_0/fulladder_2/and_1/nand_0/a_n8_22# fourbitadder_0/fulladder_2/xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1214 fourbitadder_0/fulladder_3/xor_1/a fourbitadder_0/fulladder_3/xor_0/nand_3/a vdd fourbitadder_0/fulladder_3/xor_0/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1215 fourbitadder_0/fulladder_3/xor_1/a fourbitadder_0/fulladder_3/xor_0/nand_3/b fourbitadder_0/fulladder_3/xor_0/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1216 vdd fourbitadder_0/fulladder_3/xor_0/nand_3/b fourbitadder_0/fulladder_3/xor_1/a fourbitadder_0/fulladder_3/xor_0/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1217 fourbitadder_0/fulladder_3/xor_0/nand_3/a_n8_22# fourbitadder_0/fulladder_3/xor_0/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1218 fourbitadder_0/fulladder_3/xor_0/nand_2/b enable_1/x3 vdd fourbitadder_0/fulladder_3/xor_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1219 fourbitadder_0/fulladder_3/xor_0/nand_2/b fourbitadder_0/xor_3/out fourbitadder_0/fulladder_3/xor_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1220 vdd fourbitadder_0/xor_3/out fourbitadder_0/fulladder_3/xor_0/nand_2/b fourbitadder_0/fulladder_3/xor_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1221 fourbitadder_0/fulladder_3/xor_0/nand_0/a_n8_22# enable_1/x3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1222 fourbitadder_0/fulladder_3/xor_0/nand_3/a fourbitadder_0/fulladder_3/xor_0/nand_2/b vdd fourbitadder_0/fulladder_3/xor_0/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1223 fourbitadder_0/fulladder_3/xor_0/nand_3/a fourbitadder_0/xor_3/out fourbitadder_0/fulladder_3/xor_0/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1224 vdd fourbitadder_0/xor_3/out fourbitadder_0/fulladder_3/xor_0/nand_3/a fourbitadder_0/fulladder_3/xor_0/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1225 fourbitadder_0/fulladder_3/xor_0/nand_1/a_n8_22# fourbitadder_0/fulladder_3/xor_0/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1226 fourbitadder_0/fulladder_3/xor_0/nand_3/b enable_1/x3 vdd fourbitadder_0/fulladder_3/xor_0/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1227 fourbitadder_0/fulladder_3/xor_0/nand_3/b fourbitadder_0/fulladder_3/xor_0/nand_2/b fourbitadder_0/fulladder_3/xor_0/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1228 vdd fourbitadder_0/fulladder_3/xor_0/nand_2/b fourbitadder_0/fulladder_3/xor_0/nand_3/b fourbitadder_0/fulladder_3/xor_0/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1229 fourbitadder_0/fulladder_3/xor_0/nand_2/a_n8_22# enable_1/x3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1230 sum3 fourbitadder_0/fulladder_3/xor_1/nand_3/a vdd fourbitadder_0/fulladder_3/xor_1/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1231 sum3 fourbitadder_0/fulladder_3/xor_1/nand_3/b fourbitadder_0/fulladder_3/xor_1/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1232 vdd fourbitadder_0/fulladder_3/xor_1/nand_3/b sum3 fourbitadder_0/fulladder_3/xor_1/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1233 fourbitadder_0/fulladder_3/xor_1/nand_3/a_n8_22# fourbitadder_0/fulladder_3/xor_1/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1234 fourbitadder_0/fulladder_3/xor_1/nand_2/b fourbitadder_0/fulladder_3/xor_1/a vdd fourbitadder_0/fulladder_3/xor_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1235 fourbitadder_0/fulladder_3/xor_1/nand_2/b fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_3/xor_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1236 vdd fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_3/xor_1/nand_2/b fourbitadder_0/fulladder_3/xor_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1237 fourbitadder_0/fulladder_3/xor_1/nand_0/a_n8_22# fourbitadder_0/fulladder_3/xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1238 fourbitadder_0/fulladder_3/xor_1/nand_3/a fourbitadder_0/fulladder_3/xor_1/nand_2/b vdd fourbitadder_0/fulladder_3/xor_1/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1239 fourbitadder_0/fulladder_3/xor_1/nand_3/a fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_3/xor_1/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1240 vdd fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_3/xor_1/nand_3/a fourbitadder_0/fulladder_3/xor_1/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1241 fourbitadder_0/fulladder_3/xor_1/nand_1/a_n8_22# fourbitadder_0/fulladder_3/xor_1/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1242 fourbitadder_0/fulladder_3/xor_1/nand_3/b fourbitadder_0/fulladder_3/xor_1/a vdd fourbitadder_0/fulladder_3/xor_1/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1243 fourbitadder_0/fulladder_3/xor_1/nand_3/b fourbitadder_0/fulladder_3/xor_1/nand_2/b fourbitadder_0/fulladder_3/xor_1/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1244 vdd fourbitadder_0/fulladder_3/xor_1/nand_2/b fourbitadder_0/fulladder_3/xor_1/nand_3/b fourbitadder_0/fulladder_3/xor_1/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1245 fourbitadder_0/fulladder_3/xor_1/nand_2/a_n8_22# fourbitadder_0/fulladder_3/xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1246 sum4 fourbitadder_0/fulladder_3/tor_1/not_0/in vdd fourbitadder_0/fulladder_3/tor_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1247 sum4 fourbitadder_0/fulladder_3/tor_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1248 gnd fourbitadder_0/fulladder_3/tor_1/b fourbitadder_0/fulladder_3/tor_1/not_0/in Gnd nfet w=12 l=9
++  ad=0 pd=0 as=288 ps=72
+M1249 fourbitadder_0/fulladder_3/tor_1/not_0/in fourbitadder_0/fulladder_3/tor_1/a gnd Gnd nfet w=12 l=9
++  ad=0 pd=0 as=0 ps=0
+M1250 fourbitadder_0/fulladder_3/tor_1/a_n9_28# fourbitadder_0/fulladder_3/tor_1/a vdd fourbitadder_0/fulladder_3/tor_1/w_n46_20# pfet w=12 l=9
++  ad=288 pd=72 as=0 ps=0
+M1251 fourbitadder_0/fulladder_3/tor_1/not_0/in fourbitadder_0/fulladder_3/tor_1/b fourbitadder_0/fulladder_3/tor_1/a_n9_28# fourbitadder_0/fulladder_3/tor_1/w_n46_20# pfet w=12 l=9
++  ad=156 pd=50 as=0 ps=0
+M1252 fourbitadder_0/fulladder_3/tor_1/b fourbitadder_0/fulladder_3/and_0/not_0/in vdd fourbitadder_0/fulladder_3/and_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1253 fourbitadder_0/fulladder_3/tor_1/b fourbitadder_0/fulladder_3/and_0/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1254 fourbitadder_0/fulladder_3/and_0/not_0/in enable_1/x3 vdd fourbitadder_0/fulladder_3/and_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1255 fourbitadder_0/fulladder_3/and_0/not_0/in fourbitadder_0/xor_3/out fourbitadder_0/fulladder_3/and_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1256 vdd fourbitadder_0/xor_3/out fourbitadder_0/fulladder_3/and_0/not_0/in fourbitadder_0/fulladder_3/and_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1257 fourbitadder_0/fulladder_3/and_0/nand_0/a_n8_22# enable_1/x3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1258 fourbitadder_0/fulladder_3/tor_1/a fourbitadder_0/fulladder_3/and_1/not_0/in vdd fourbitadder_0/fulladder_3/and_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1259 fourbitadder_0/fulladder_3/tor_1/a fourbitadder_0/fulladder_3/and_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1260 fourbitadder_0/fulladder_3/and_1/not_0/in fourbitadder_0/fulladder_3/xor_1/a vdd fourbitadder_0/fulladder_3/and_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1261 fourbitadder_0/fulladder_3/and_1/not_0/in fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_3/and_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1262 vdd fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_3/and_1/not_0/in fourbitadder_0/fulladder_3/and_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1263 fourbitadder_0/fulladder_3/and_1/nand_0/a_n8_22# fourbitadder_0/fulladder_3/xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1264 and_2/a s0 vdd not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1265 and_2/a s0 gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1266 enable_0/y1 enable_0/and_5/not_0/in vdd enable_0/and_5/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1267 enable_0/y1 enable_0/and_5/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1268 enable_0/and_5/not_0/in d2 vdd enable_0/and_5/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1269 enable_0/and_5/not_0/in bb1 enable_0/and_5/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1270 vdd bb1 enable_0/and_5/not_0/in enable_0/and_5/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1271 enable_0/and_5/nand_0/a_n8_22# d2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1272 enable_0/y3 enable_0/and_7/not_0/in vdd enable_0/and_7/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1273 enable_0/y3 enable_0/and_7/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1274 enable_0/and_7/not_0/in d2 vdd enable_0/and_7/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1275 enable_0/and_7/not_0/in bb3 enable_0/and_7/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1276 vdd bb3 enable_0/and_7/not_0/in enable_0/and_7/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1277 enable_0/and_7/nand_0/a_n8_22# d2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1278 enable_0/y2 enable_0/and_6/not_0/in vdd enable_0/and_6/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1279 enable_0/y2 enable_0/and_6/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1280 enable_0/and_6/not_0/in d2 vdd enable_0/and_6/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1281 enable_0/and_6/not_0/in bb2 enable_0/and_6/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1282 vdd bb2 enable_0/and_6/not_0/in enable_0/and_6/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1283 enable_0/and_6/nand_0/a_n8_22# d2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1284 enable_0/x0 enable_0/and_0/not_0/in vdd enable_0/and_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1285 enable_0/x0 enable_0/and_0/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1286 enable_0/and_0/not_0/in d2 vdd enable_0/and_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1287 enable_0/and_0/not_0/in aa0 enable_0/and_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1288 vdd aa0 enable_0/and_0/not_0/in enable_0/and_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1289 enable_0/and_0/nand_0/a_n8_22# d2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1290 enable_0/x1 enable_0/and_1/not_0/in vdd enable_0/and_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1291 enable_0/x1 enable_0/and_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1292 enable_0/and_1/not_0/in d2 vdd enable_0/and_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1293 enable_0/and_1/not_0/in aa1 enable_0/and_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1294 vdd aa1 enable_0/and_1/not_0/in enable_0/and_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1295 enable_0/and_1/nand_0/a_n8_22# d2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1296 enable_0/x2 enable_0/and_2/not_0/in vdd enable_0/and_2/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1297 enable_0/x2 enable_0/and_2/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1298 enable_0/and_2/not_0/in d2 vdd enable_0/and_2/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1299 enable_0/and_2/not_0/in aa2 enable_0/and_2/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1300 vdd aa2 enable_0/and_2/not_0/in enable_0/and_2/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1301 enable_0/and_2/nand_0/a_n8_22# d2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1302 enable_0/x3 enable_0/and_3/not_0/in vdd enable_0/and_3/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1303 enable_0/x3 enable_0/and_3/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1304 enable_0/and_3/not_0/in d2 vdd enable_0/and_3/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1305 enable_0/and_3/not_0/in aa3 enable_0/and_3/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1306 vdd aa3 enable_0/and_3/not_0/in enable_0/and_3/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1307 enable_0/and_3/nand_0/a_n8_22# d2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1308 enable_0/y0 enable_0/and_4/not_0/in vdd enable_0/and_4/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1309 enable_0/y0 enable_0/and_4/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1310 enable_0/and_4/not_0/in d2 vdd enable_0/and_4/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1311 enable_0/and_4/not_0/in bb0 enable_0/and_4/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1312 vdd bb0 enable_0/and_4/not_0/in enable_0/and_4/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1313 enable_0/and_4/nand_0/a_n8_22# d2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1314 and_1/b s1 vdd not_1/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1315 and_1/b s1 gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1316 enable_1/y1 enable_1/and_5/not_0/in vdd enable_1/and_5/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1317 enable_1/y1 enable_1/and_5/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1318 enable_1/and_5/not_0/in tor_0/out vdd enable_1/and_5/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1319 enable_1/and_5/not_0/in bb1 enable_1/and_5/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1320 vdd bb1 enable_1/and_5/not_0/in enable_1/and_5/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1321 enable_1/and_5/nand_0/a_n8_22# tor_0/out gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1322 enable_1/y3 enable_1/and_7/not_0/in vdd enable_1/and_7/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1323 enable_1/y3 enable_1/and_7/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1324 enable_1/and_7/not_0/in tor_0/out vdd enable_1/and_7/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1325 enable_1/and_7/not_0/in bb3 enable_1/and_7/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1326 vdd bb3 enable_1/and_7/not_0/in enable_1/and_7/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1327 enable_1/and_7/nand_0/a_n8_22# tor_0/out gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1328 enable_1/y2 enable_1/and_6/not_0/in vdd enable_1/and_6/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1329 enable_1/y2 enable_1/and_6/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1330 enable_1/and_6/not_0/in tor_0/out vdd enable_1/and_6/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1331 enable_1/and_6/not_0/in bb2 enable_1/and_6/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1332 vdd bb2 enable_1/and_6/not_0/in enable_1/and_6/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1333 enable_1/and_6/nand_0/a_n8_22# tor_0/out gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1334 enable_1/x0 enable_1/and_0/not_0/in vdd enable_1/and_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1335 enable_1/x0 enable_1/and_0/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1336 enable_1/and_0/not_0/in tor_0/out vdd enable_1/and_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1337 enable_1/and_0/not_0/in aa0 enable_1/and_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1338 vdd aa0 enable_1/and_0/not_0/in enable_1/and_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1339 enable_1/and_0/nand_0/a_n8_22# tor_0/out gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1340 enable_1/x1 enable_1/and_1/not_0/in vdd enable_1/and_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1341 enable_1/x1 enable_1/and_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1342 enable_1/and_1/not_0/in tor_0/out vdd enable_1/and_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1343 enable_1/and_1/not_0/in aa1 enable_1/and_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1344 vdd aa1 enable_1/and_1/not_0/in enable_1/and_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1345 enable_1/and_1/nand_0/a_n8_22# tor_0/out gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1346 enable_1/x2 enable_1/and_2/not_0/in vdd enable_1/and_2/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1347 enable_1/x2 enable_1/and_2/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1348 enable_1/and_2/not_0/in tor_0/out vdd enable_1/and_2/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1349 enable_1/and_2/not_0/in aa2 enable_1/and_2/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1350 vdd aa2 enable_1/and_2/not_0/in enable_1/and_2/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1351 enable_1/and_2/nand_0/a_n8_22# tor_0/out gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1352 enable_1/x3 enable_1/and_3/not_0/in vdd enable_1/and_3/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1353 enable_1/x3 enable_1/and_3/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1354 enable_1/and_3/not_0/in tor_0/out vdd enable_1/and_3/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1355 enable_1/and_3/not_0/in aa3 enable_1/and_3/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1356 vdd aa3 enable_1/and_3/not_0/in enable_1/and_3/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1357 enable_1/and_3/nand_0/a_n8_22# tor_0/out gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1358 enable_1/y0 enable_1/and_4/not_0/in vdd enable_1/and_4/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1359 enable_1/y0 enable_1/and_4/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1360 enable_1/and_4/not_0/in tor_0/out vdd enable_1/and_4/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1361 enable_1/and_4/not_0/in bb0 enable_1/and_4/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1362 vdd bb0 enable_1/and_4/not_0/in enable_1/and_4/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1363 enable_1/and_4/nand_0/a_n8_22# tor_0/out gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1364 enable_2/y1 enable_2/and_5/not_0/in vdd enable_2/and_5/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1365 enable_2/y1 enable_2/and_5/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1366 enable_2/and_5/not_0/in d3 vdd enable_2/and_5/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1367 enable_2/and_5/not_0/in bb1 enable_2/and_5/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1368 vdd bb1 enable_2/and_5/not_0/in enable_2/and_5/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1369 enable_2/and_5/nand_0/a_n8_22# d3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1370 enable_2/y3 enable_2/and_7/not_0/in vdd enable_2/and_7/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1371 enable_2/y3 enable_2/and_7/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1372 enable_2/and_7/not_0/in d3 vdd enable_2/and_7/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1373 enable_2/and_7/not_0/in bb3 enable_2/and_7/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1374 vdd bb3 enable_2/and_7/not_0/in enable_2/and_7/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1375 enable_2/and_7/nand_0/a_n8_22# d3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1376 enable_2/y2 enable_2/and_6/not_0/in vdd enable_2/and_6/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1377 enable_2/y2 enable_2/and_6/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1378 enable_2/and_6/not_0/in d3 vdd enable_2/and_6/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1379 enable_2/and_6/not_0/in bb2 enable_2/and_6/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1380 vdd bb2 enable_2/and_6/not_0/in enable_2/and_6/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1381 enable_2/and_6/nand_0/a_n8_22# d3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1382 enable_2/x0 enable_2/and_0/not_0/in vdd enable_2/and_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1383 enable_2/x0 enable_2/and_0/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1384 enable_2/and_0/not_0/in d3 vdd enable_2/and_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1385 enable_2/and_0/not_0/in aa0 enable_2/and_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1386 vdd aa0 enable_2/and_0/not_0/in enable_2/and_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1387 enable_2/and_0/nand_0/a_n8_22# d3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1388 enable_2/x1 enable_2/and_1/not_0/in vdd enable_2/and_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1389 enable_2/x1 enable_2/and_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1390 enable_2/and_1/not_0/in d3 vdd enable_2/and_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1391 enable_2/and_1/not_0/in aa1 enable_2/and_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1392 vdd aa1 enable_2/and_1/not_0/in enable_2/and_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1393 enable_2/and_1/nand_0/a_n8_22# d3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1394 enable_2/x2 enable_2/and_2/not_0/in vdd enable_2/and_2/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1395 enable_2/x2 enable_2/and_2/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1396 enable_2/and_2/not_0/in d3 vdd enable_2/and_2/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1397 enable_2/and_2/not_0/in aa2 enable_2/and_2/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1398 vdd aa2 enable_2/and_2/not_0/in enable_2/and_2/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1399 enable_2/and_2/nand_0/a_n8_22# d3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1400 enable_2/x3 enable_2/and_3/not_0/in vdd enable_2/and_3/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1401 enable_2/x3 enable_2/and_3/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1402 enable_2/and_3/not_0/in d3 vdd enable_2/and_3/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1403 enable_2/and_3/not_0/in aa3 enable_2/and_3/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1404 vdd aa3 enable_2/and_3/not_0/in enable_2/and_3/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1405 enable_2/and_3/nand_0/a_n8_22# d3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1406 enable_2/y0 enable_2/and_4/not_0/in vdd enable_2/and_4/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1407 enable_2/y0 enable_2/and_4/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1408 enable_2/and_4/not_0/in d3 vdd enable_2/and_4/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1409 enable_2/and_4/not_0/in bb0 enable_2/and_4/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1410 vdd bb0 enable_2/and_4/not_0/in enable_2/and_4/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1411 enable_2/and_4/nand_0/a_n8_22# d3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1412 final0 newor_0/or_0/out vdd newor_0/or_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1413 final0 newor_0/or_0/out gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1414 gnd gnd newor_0/or_0/out Gnd nfet w=19 l=11
++  ad=0 pd=0 as=1102 ps=192
+M1415 newor_0/or_0/out gnd newor_0/or_0/a_47_46# newor_0/or_0/w_n131_34# pfet w=29 l=16
++  ad=957 pd=124 as=783 ps=112
+M1416 newor_0/or_0/out sum0 gnd Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1417 newor_0/or_0/a_47_46# sum0 newor_0/or_0/a_n2_46# newor_0/or_0/w_n131_34# pfet w=29 l=16
++  ad=0 pd=0 as=957 ps=124
+M1418 newor_0/or_0/out big gnd Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1419 newor_0/or_0/a_n48_46# big vdd newor_0/or_0/w_n131_34# pfet w=29 l=16
++  ad=870 pd=118 as=0 ps=0
+M1420 newor_0/or_0/a_n2_46# k0 newor_0/or_0/a_n48_46# newor_0/or_0/w_n131_34# pfet w=29 l=16
++  ad=0 pd=0 as=0 ps=0
+M1421 gnd k0 newor_0/or_0/out Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1422 tor_0/out tor_0/not_0/in vdd tor_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1423 tor_0/out tor_0/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1424 gnd d1 tor_0/not_0/in Gnd nfet w=12 l=9
++  ad=0 pd=0 as=288 ps=72
+M1425 tor_0/not_0/in tor_0/a gnd Gnd nfet w=12 l=9
++  ad=0 pd=0 as=0 ps=0
+M1426 tor_0/a_n9_28# tor_0/a vdd tor_0/w_n46_20# pfet w=12 l=9
++  ad=288 pd=72 as=0 ps=0
+M1427 tor_0/not_0/in d1 tor_0/a_n9_28# tor_0/w_n46_20# pfet w=12 l=9
++  ad=156 pd=50 as=0 ps=0
+M1428 final3 tor_1/not_0/in vdd tor_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1429 final3 tor_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1430 gnd k3 tor_1/not_0/in Gnd nfet w=12 l=9
++  ad=0 pd=0 as=288 ps=72
+M1431 tor_1/not_0/in sum3 gnd Gnd nfet w=12 l=9
++  ad=0 pd=0 as=0 ps=0
+M1432 tor_1/a_n9_28# sum3 vdd tor_1/w_n46_20# pfet w=12 l=9
++  ad=288 pd=72 as=0 ps=0
+M1433 tor_1/not_0/in k3 tor_1/a_n9_28# tor_1/w_n46_20# pfet w=12 l=9
++  ad=156 pd=50 as=0 ps=0
+M1434 final1 newor_1/or_0/out vdd newor_1/or_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1435 final1 newor_1/or_0/out gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1436 gnd gnd newor_1/or_0/out Gnd nfet w=19 l=11
++  ad=0 pd=0 as=1102 ps=192
+M1437 newor_1/or_0/out gnd newor_1/or_0/a_47_46# newor_1/or_0/w_n131_34# pfet w=29 l=16
++  ad=957 pd=124 as=783 ps=112
+M1438 newor_1/or_0/out sum1 gnd Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1439 newor_1/or_0/a_47_46# sum1 newor_1/or_0/a_n2_46# newor_1/or_0/w_n131_34# pfet w=29 l=16
++  ad=0 pd=0 as=957 ps=124
+M1440 newor_1/or_0/out equal gnd Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1441 newor_1/or_0/a_n48_46# equal vdd newor_1/or_0/w_n131_34# pfet w=29 l=16
++  ad=870 pd=118 as=0 ps=0
+M1442 newor_1/or_0/a_n2_46# k1 newor_1/or_0/a_n48_46# newor_1/or_0/w_n131_34# pfet w=29 l=16
++  ad=0 pd=0 as=0 ps=0
+M1443 gnd k1 newor_1/or_0/out Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1444 final2 newor_2/or_0/out vdd newor_2/or_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1445 final2 newor_2/or_0/out gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1446 gnd gnd newor_2/or_0/out Gnd nfet w=19 l=11
++  ad=0 pd=0 as=1102 ps=192
+M1447 newor_2/or_0/out gnd newor_2/or_0/a_47_46# newor_2/or_0/w_n131_34# pfet w=29 l=16
++  ad=957 pd=124 as=783 ps=112
+M1448 newor_2/or_0/out sum2 gnd Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1449 newor_2/or_0/a_47_46# sum2 newor_2/or_0/a_n2_46# newor_2/or_0/w_n131_34# pfet w=29 l=16
++  ad=0 pd=0 as=957 ps=124
+M1450 newor_2/or_0/out small gnd Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1451 newor_2/or_0/a_n48_46# small vdd newor_2/or_0/w_n131_34# pfet w=29 l=16
++  ad=870 pd=118 as=0 ps=0
+M1452 newor_2/or_0/a_n2_46# k2 newor_2/or_0/a_n48_46# newor_2/or_0/w_n131_34# pfet w=29 l=16
++  ad=0 pd=0 as=0 ps=0
+M1453 gnd k2 newor_2/or_0/out Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1454 k0 bitand_0/and_0/not_0/in vdd bitand_0/and_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1455 k0 bitand_0/and_0/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1456 bitand_0/and_0/not_0/in enable_2/x0 vdd bitand_0/and_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1457 bitand_0/and_0/not_0/in enable_2/y0 bitand_0/and_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1458 vdd enable_2/y0 bitand_0/and_0/not_0/in bitand_0/and_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1459 bitand_0/and_0/nand_0/a_n8_22# enable_2/x0 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1460 k1 bitand_0/and_1/not_0/in vdd bitand_0/and_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1461 k1 bitand_0/and_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1462 bitand_0/and_1/not_0/in enable_2/x1 vdd bitand_0/and_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1463 bitand_0/and_1/not_0/in enable_2/y1 bitand_0/and_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1464 vdd enable_2/y1 bitand_0/and_1/not_0/in bitand_0/and_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1465 bitand_0/and_1/nand_0/a_n8_22# enable_2/x1 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1466 k2 bitand_0/and_2/not_0/in vdd bitand_0/and_2/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1467 k2 bitand_0/and_2/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1468 bitand_0/and_2/not_0/in enable_2/x2 vdd bitand_0/and_2/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1469 bitand_0/and_2/not_0/in enable_2/y2 bitand_0/and_2/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1470 vdd enable_2/y2 bitand_0/and_2/not_0/in bitand_0/and_2/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1471 bitand_0/and_2/nand_0/a_n8_22# enable_2/x2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1472 k3 bitand_0/and_3/not_0/in vdd bitand_0/and_3/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1473 k3 bitand_0/and_3/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1474 bitand_0/and_3/not_0/in enable_2/x3 vdd bitand_0/and_3/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1475 bitand_0/and_3/not_0/in enable_2/y3 bitand_0/and_3/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1476 vdd enable_2/y3 bitand_0/and_3/not_0/in bitand_0/and_3/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1477 bitand_0/and_3/nand_0/a_n8_22# enable_2/x3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1478 big comparator_0/or_0/out vdd comparator_0/or_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1479 big comparator_0/or_0/out gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1480 gnd comparator_0/d3 comparator_0/or_0/out Gnd nfet w=19 l=11
++  ad=0 pd=0 as=1102 ps=192
+M1481 comparator_0/or_0/out comparator_0/d3 comparator_0/or_0/a_47_46# comparator_0/or_0/w_n131_34# pfet w=29 l=16
++  ad=957 pd=124 as=783 ps=112
+M1482 comparator_0/or_0/out comparator_0/d2 gnd Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1483 comparator_0/or_0/a_47_46# comparator_0/d2 comparator_0/or_0/a_n2_46# comparator_0/or_0/w_n131_34# pfet w=29 l=16
++  ad=0 pd=0 as=957 ps=124
+M1484 comparator_0/or_0/out comparator_0/or_0/a gnd Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1485 comparator_0/or_0/a_n48_46# comparator_0/or_0/a vdd comparator_0/or_0/w_n131_34# pfet w=29 l=16
++  ad=870 pd=118 as=0 ps=0
+M1486 comparator_0/or_0/a_n2_46# comparator_0/d1 comparator_0/or_0/a_n48_46# comparator_0/or_0/w_n131_34# pfet w=29 l=16
++  ad=0 pd=0 as=0 ps=0
+M1487 gnd comparator_0/d1 comparator_0/or_0/out Gnd nfet w=19 l=16
++  ad=0 pd=0 as=0 ps=0
+M1488 comparator_0/fand_0/a_n24_n100# comparator_0/xnor_1/out comparator_0/fand_0/a_n74_n100# Gnd nfet w=29 l=9
++  ad=1131 pd=136 as=1189 ps=140
+M1489 comparator_0/fand_0/out comparator_0/xnor_0/out vdd comparator_0/fand_0/w_n133_43# pfet w=28 l=9
++  ad=3108 pd=390 as=0 ps=0
+M1490 comparator_0/fand_0/out comparator_0/fand_0/in5 vdd comparator_0/fand_0/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1491 comparator_0/fand_0/a_70_n100# comparator_0/xnor_3/out comparator_0/fand_0/a_24_n100# Gnd nfet w=29 l=9
++  ad=957 pd=124 as=1073 ps=132
+M1492 vdd comparator_0/xnor_1/out comparator_0/fand_0/out comparator_0/fand_0/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1493 comparator_0/fand_0/a_n74_n100# comparator_0/xnor_0/out gnd Gnd nfet w=29 l=9
++  ad=0 pd=0 as=0 ps=0
+M1494 comparator_0/fand_0/out comparator_0/fand_0/in5 comparator_0/fand_0/a_70_n100# Gnd nfet w=29 l=9
++  ad=986 pd=126 as=0 ps=0
+M1495 eq1 comparator_0/fand_0/out vdd comparator_0/fand_0/w_194_44# pfet w=22 l=30
++  ad=902 pd=126 as=0 ps=0
+M1496 comparator_0/fand_0/a_24_n100# comparator_0/xnor_2/out comparator_0/fand_0/a_n24_n100# Gnd nfet w=29 l=9
++  ad=0 pd=0 as=0 ps=0
+M1497 eq1 comparator_0/fand_0/out gnd Gnd nfet w=31 l=30
++  ad=2573 pd=228 as=0 ps=0
+M1498 comparator_0/fand_0/out comparator_0/xnor_2/out vdd comparator_0/fand_0/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1499 vdd comparator_0/xnor_3/out comparator_0/fand_0/out comparator_0/fand_0/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1500 comparator_0/fand_1/a_n24_n100# comparator_0/not_1/out comparator_0/fand_1/a_n74_n100# Gnd nfet w=29 l=9
++  ad=1131 pd=136 as=1189 ps=140
+M1501 comparator_0/fand_1/out enable_0/x1 vdd comparator_0/fand_1/w_n133_43# pfet w=28 l=9
++  ad=3108 pd=390 as=0 ps=0
+M1502 comparator_0/fand_1/out vdd vdd comparator_0/fand_1/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1503 comparator_0/fand_1/a_70_n100# comparator_0/xnor_2/out comparator_0/fand_1/a_24_n100# Gnd nfet w=29 l=9
++  ad=957 pd=124 as=1073 ps=132
+M1504 vdd comparator_0/not_1/out comparator_0/fand_1/out comparator_0/fand_1/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1505 comparator_0/fand_1/a_n74_n100# enable_0/x1 gnd Gnd nfet w=29 l=9
++  ad=0 pd=0 as=0 ps=0
+M1506 comparator_0/fand_1/out vdd comparator_0/fand_1/a_70_n100# Gnd nfet w=29 l=9
++  ad=986 pd=126 as=0 ps=0
+M1507 comparator_0/d1 comparator_0/fand_1/out vdd comparator_0/fand_1/w_194_44# pfet w=22 l=30
++  ad=902 pd=126 as=0 ps=0
+M1508 comparator_0/fand_1/a_24_n100# comparator_0/xnor_3/out comparator_0/fand_1/a_n24_n100# Gnd nfet w=29 l=9
++  ad=0 pd=0 as=0 ps=0
+M1509 comparator_0/d1 comparator_0/fand_1/out gnd Gnd nfet w=31 l=30
++  ad=2573 pd=228 as=0 ps=0
+M1510 comparator_0/fand_1/out comparator_0/xnor_3/out vdd comparator_0/fand_1/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1511 vdd comparator_0/xnor_2/out comparator_0/fand_1/out comparator_0/fand_1/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1512 comparator_0/fand_2/a_n24_n100# comparator_0/not_2/out comparator_0/fand_2/a_n74_n100# Gnd nfet w=29 l=9
++  ad=1131 pd=136 as=1189 ps=140
+M1513 comparator_0/fand_2/out enable_0/x2 vdd comparator_0/fand_2/w_n133_43# pfet w=28 l=9
++  ad=3108 pd=390 as=0 ps=0
+M1514 comparator_0/fand_2/out vdd vdd comparator_0/fand_2/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1515 comparator_0/fand_2/a_70_n100# vdd comparator_0/fand_2/a_24_n100# Gnd nfet w=29 l=9
++  ad=957 pd=124 as=1073 ps=132
+M1516 vdd comparator_0/not_2/out comparator_0/fand_2/out comparator_0/fand_2/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1517 comparator_0/fand_2/a_n74_n100# enable_0/x2 gnd Gnd nfet w=29 l=9
++  ad=0 pd=0 as=0 ps=0
+M1518 comparator_0/fand_2/out vdd comparator_0/fand_2/a_70_n100# Gnd nfet w=29 l=9
++  ad=986 pd=126 as=0 ps=0
+M1519 comparator_0/d2 comparator_0/fand_2/out vdd comparator_0/fand_2/w_194_44# pfet w=22 l=30
++  ad=902 pd=126 as=0 ps=0
+M1520 comparator_0/fand_2/a_24_n100# comparator_0/xnor_3/out comparator_0/fand_2/a_n24_n100# Gnd nfet w=29 l=9
++  ad=0 pd=0 as=0 ps=0
+M1521 comparator_0/d2 comparator_0/fand_2/out gnd Gnd nfet w=31 l=30
++  ad=2573 pd=228 as=0 ps=0
+M1522 comparator_0/fand_2/out comparator_0/xnor_3/out vdd comparator_0/fand_2/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1523 vdd vdd comparator_0/fand_2/out comparator_0/fand_2/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1524 comparator_0/fand_3/a_n24_n100# comparator_0/not_0/out comparator_0/fand_3/a_n74_n100# Gnd nfet w=29 l=9
++  ad=1131 pd=136 as=1189 ps=140
+M1525 comparator_0/fand_3/out enable_0/x0 vdd comparator_0/fand_3/w_n133_43# pfet w=28 l=9
++  ad=3108 pd=390 as=0 ps=0
+M1526 comparator_0/fand_3/out comparator_0/xnor_1/out vdd comparator_0/fand_3/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1527 comparator_0/fand_3/a_70_n100# comparator_0/xnor_2/out comparator_0/fand_3/a_24_n100# Gnd nfet w=29 l=9
++  ad=957 pd=124 as=1073 ps=132
+M1528 vdd comparator_0/not_0/out comparator_0/fand_3/out comparator_0/fand_3/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1529 comparator_0/fand_3/a_n74_n100# enable_0/x0 gnd Gnd nfet w=29 l=9
++  ad=0 pd=0 as=0 ps=0
+M1530 comparator_0/fand_3/out comparator_0/xnor_1/out comparator_0/fand_3/a_70_n100# Gnd nfet w=29 l=9
++  ad=986 pd=126 as=0 ps=0
+M1531 comparator_0/or_0/a comparator_0/fand_3/out vdd comparator_0/fand_3/w_194_44# pfet w=22 l=30
++  ad=902 pd=126 as=0 ps=0
+M1532 comparator_0/fand_3/a_24_n100# comparator_0/xnor_3/out comparator_0/fand_3/a_n24_n100# Gnd nfet w=29 l=9
++  ad=0 pd=0 as=0 ps=0
+M1533 comparator_0/or_0/a comparator_0/fand_3/out gnd Gnd nfet w=31 l=30
++  ad=2573 pd=228 as=0 ps=0
+M1534 comparator_0/fand_3/out comparator_0/xnor_3/out vdd comparator_0/fand_3/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1535 vdd comparator_0/xnor_2/out comparator_0/fand_3/out comparator_0/fand_3/w_n133_43# pfet w=28 l=9
++  ad=0 pd=0 as=0 ps=0
+M1536 comparator_0/not_0/out enable_0/y0 vdd comparator_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1537 comparator_0/not_0/out enable_0/y0 gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1538 comparator_0/not_1/out enable_0/y1 vdd comparator_0/not_1/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1539 comparator_0/not_1/out enable_0/y1 gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1540 comparator_0/not_2/out enable_0/y2 vdd comparator_0/not_2/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1541 comparator_0/not_2/out enable_0/y2 gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1542 comparator_0/xnor_0/out comparator_0/xnor_0/not_0/in vdd comparator_0/xnor_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1543 comparator_0/xnor_0/out comparator_0/xnor_0/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1544 comparator_0/xnor_0/not_0/in comparator_0/xnor_0/xor_0/nand_3/a vdd comparator_0/xnor_0/xor_0/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1545 comparator_0/xnor_0/not_0/in comparator_0/xnor_0/xor_0/nand_3/b comparator_0/xnor_0/xor_0/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1546 vdd comparator_0/xnor_0/xor_0/nand_3/b comparator_0/xnor_0/not_0/in comparator_0/xnor_0/xor_0/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1547 comparator_0/xnor_0/xor_0/nand_3/a_n8_22# comparator_0/xnor_0/xor_0/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1548 comparator_0/xnor_0/xor_0/nand_2/b enable_0/x0 vdd comparator_0/xnor_0/xor_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1549 comparator_0/xnor_0/xor_0/nand_2/b enable_0/y0 comparator_0/xnor_0/xor_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1550 vdd enable_0/y0 comparator_0/xnor_0/xor_0/nand_2/b comparator_0/xnor_0/xor_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1551 comparator_0/xnor_0/xor_0/nand_0/a_n8_22# enable_0/x0 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1552 comparator_0/xnor_0/xor_0/nand_3/a comparator_0/xnor_0/xor_0/nand_2/b vdd comparator_0/xnor_0/xor_0/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1553 comparator_0/xnor_0/xor_0/nand_3/a enable_0/y0 comparator_0/xnor_0/xor_0/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1554 vdd enable_0/y0 comparator_0/xnor_0/xor_0/nand_3/a comparator_0/xnor_0/xor_0/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1555 comparator_0/xnor_0/xor_0/nand_1/a_n8_22# comparator_0/xnor_0/xor_0/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1556 comparator_0/xnor_0/xor_0/nand_3/b enable_0/x0 vdd comparator_0/xnor_0/xor_0/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1557 comparator_0/xnor_0/xor_0/nand_3/b comparator_0/xnor_0/xor_0/nand_2/b comparator_0/xnor_0/xor_0/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1558 vdd comparator_0/xnor_0/xor_0/nand_2/b comparator_0/xnor_0/xor_0/nand_3/b comparator_0/xnor_0/xor_0/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1559 comparator_0/xnor_0/xor_0/nand_2/a_n8_22# enable_0/x0 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1560 comparator_0/and_0/b enable_0/y3 vdd comparator_0/not_3/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1561 comparator_0/and_0/b enable_0/y3 gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1562 comparator_0/xnor_1/out comparator_0/xnor_1/not_0/in vdd comparator_0/xnor_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1563 comparator_0/xnor_1/out comparator_0/xnor_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1564 comparator_0/xnor_1/not_0/in comparator_0/xnor_1/xor_0/nand_3/a vdd comparator_0/xnor_1/xor_0/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1565 comparator_0/xnor_1/not_0/in comparator_0/xnor_1/xor_0/nand_3/b comparator_0/xnor_1/xor_0/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1566 vdd comparator_0/xnor_1/xor_0/nand_3/b comparator_0/xnor_1/not_0/in comparator_0/xnor_1/xor_0/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1567 comparator_0/xnor_1/xor_0/nand_3/a_n8_22# comparator_0/xnor_1/xor_0/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1568 comparator_0/xnor_1/xor_0/nand_2/b enable_0/x1 vdd comparator_0/xnor_1/xor_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1569 comparator_0/xnor_1/xor_0/nand_2/b enable_0/y1 comparator_0/xnor_1/xor_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1570 vdd enable_0/y1 comparator_0/xnor_1/xor_0/nand_2/b comparator_0/xnor_1/xor_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1571 comparator_0/xnor_1/xor_0/nand_0/a_n8_22# enable_0/x1 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1572 comparator_0/xnor_1/xor_0/nand_3/a comparator_0/xnor_1/xor_0/nand_2/b vdd comparator_0/xnor_1/xor_0/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1573 comparator_0/xnor_1/xor_0/nand_3/a enable_0/y1 comparator_0/xnor_1/xor_0/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1574 vdd enable_0/y1 comparator_0/xnor_1/xor_0/nand_3/a comparator_0/xnor_1/xor_0/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1575 comparator_0/xnor_1/xor_0/nand_1/a_n8_22# comparator_0/xnor_1/xor_0/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1576 comparator_0/xnor_1/xor_0/nand_3/b enable_0/x1 vdd comparator_0/xnor_1/xor_0/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1577 comparator_0/xnor_1/xor_0/nand_3/b comparator_0/xnor_1/xor_0/nand_2/b comparator_0/xnor_1/xor_0/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1578 vdd comparator_0/xnor_1/xor_0/nand_2/b comparator_0/xnor_1/xor_0/nand_3/b comparator_0/xnor_1/xor_0/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1579 comparator_0/xnor_1/xor_0/nand_2/a_n8_22# enable_0/x1 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1580 comparator_0/xnor_3/out comparator_0/xnor_3/not_0/in vdd comparator_0/xnor_3/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1581 comparator_0/xnor_3/out comparator_0/xnor_3/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1582 comparator_0/xnor_3/not_0/in comparator_0/xnor_3/xor_0/nand_3/a vdd comparator_0/xnor_3/xor_0/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1583 comparator_0/xnor_3/not_0/in comparator_0/xnor_3/xor_0/nand_3/b comparator_0/xnor_3/xor_0/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1584 vdd comparator_0/xnor_3/xor_0/nand_3/b comparator_0/xnor_3/not_0/in comparator_0/xnor_3/xor_0/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1585 comparator_0/xnor_3/xor_0/nand_3/a_n8_22# comparator_0/xnor_3/xor_0/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1586 comparator_0/xnor_3/xor_0/nand_2/b enable_0/x3 vdd comparator_0/xnor_3/xor_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1587 comparator_0/xnor_3/xor_0/nand_2/b enable_0/y3 comparator_0/xnor_3/xor_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1588 vdd enable_0/y3 comparator_0/xnor_3/xor_0/nand_2/b comparator_0/xnor_3/xor_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1589 comparator_0/xnor_3/xor_0/nand_0/a_n8_22# enable_0/x3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1590 comparator_0/xnor_3/xor_0/nand_3/a comparator_0/xnor_3/xor_0/nand_2/b vdd comparator_0/xnor_3/xor_0/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1591 comparator_0/xnor_3/xor_0/nand_3/a enable_0/y3 comparator_0/xnor_3/xor_0/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1592 vdd enable_0/y3 comparator_0/xnor_3/xor_0/nand_3/a comparator_0/xnor_3/xor_0/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1593 comparator_0/xnor_3/xor_0/nand_1/a_n8_22# comparator_0/xnor_3/xor_0/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1594 comparator_0/xnor_3/xor_0/nand_3/b enable_0/x3 vdd comparator_0/xnor_3/xor_0/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1595 comparator_0/xnor_3/xor_0/nand_3/b comparator_0/xnor_3/xor_0/nand_2/b comparator_0/xnor_3/xor_0/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1596 vdd comparator_0/xnor_3/xor_0/nand_2/b comparator_0/xnor_3/xor_0/nand_3/b comparator_0/xnor_3/xor_0/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1597 comparator_0/xnor_3/xor_0/nand_2/a_n8_22# enable_0/x3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1598 comparator_0/xnor_2/out comparator_0/xnor_2/not_0/in vdd comparator_0/xnor_2/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1599 comparator_0/xnor_2/out comparator_0/xnor_2/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1600 comparator_0/xnor_2/not_0/in comparator_0/xnor_2/xor_0/nand_3/a vdd comparator_0/xnor_2/xor_0/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1601 comparator_0/xnor_2/not_0/in comparator_0/xnor_2/xor_0/nand_3/b comparator_0/xnor_2/xor_0/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1602 vdd comparator_0/xnor_2/xor_0/nand_3/b comparator_0/xnor_2/not_0/in comparator_0/xnor_2/xor_0/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1603 comparator_0/xnor_2/xor_0/nand_3/a_n8_22# comparator_0/xnor_2/xor_0/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1604 comparator_0/xnor_2/xor_0/nand_2/b enable_0/x2 vdd comparator_0/xnor_2/xor_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1605 comparator_0/xnor_2/xor_0/nand_2/b enable_0/y2 comparator_0/xnor_2/xor_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1606 vdd enable_0/y2 comparator_0/xnor_2/xor_0/nand_2/b comparator_0/xnor_2/xor_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1607 comparator_0/xnor_2/xor_0/nand_0/a_n8_22# enable_0/x2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1608 comparator_0/xnor_2/xor_0/nand_3/a comparator_0/xnor_2/xor_0/nand_2/b vdd comparator_0/xnor_2/xor_0/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1609 comparator_0/xnor_2/xor_0/nand_3/a enable_0/y2 comparator_0/xnor_2/xor_0/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1610 vdd enable_0/y2 comparator_0/xnor_2/xor_0/nand_3/a comparator_0/xnor_2/xor_0/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1611 comparator_0/xnor_2/xor_0/nand_1/a_n8_22# comparator_0/xnor_2/xor_0/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1612 comparator_0/xnor_2/xor_0/nand_3/b enable_0/x2 vdd comparator_0/xnor_2/xor_0/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1613 comparator_0/xnor_2/xor_0/nand_3/b comparator_0/xnor_2/xor_0/nand_2/b comparator_0/xnor_2/xor_0/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1614 vdd comparator_0/xnor_2/xor_0/nand_2/b comparator_0/xnor_2/xor_0/nand_3/b comparator_0/xnor_2/xor_0/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1615 comparator_0/xnor_2/xor_0/nand_2/a_n8_22# enable_0/x2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1616 comparator_0/tor_0/out small vdd comparator_0/tor_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1617 comparator_0/tor_0/out small gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1618 gnd big small Gnd nfet w=12 l=9
++  ad=0 pd=0 as=288 ps=72
+M1619 small eq1 gnd Gnd nfet w=12 l=9
++  ad=0 pd=0 as=0 ps=0
+M1620 comparator_0/tor_0/a_n9_28# eq1 vdd comparator_0/tor_0/w_n46_20# pfet w=12 l=9
++  ad=288 pd=72 as=0 ps=0
+M1621 small big comparator_0/tor_0/a_n9_28# comparator_0/tor_0/w_n46_20# pfet w=12 l=9
++  ad=156 pd=50 as=0 ps=0
+M1622 comparator_0/d3 comparator_0/and_0/not_0/in vdd comparator_0/and_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1623 comparator_0/d3 comparator_0/and_0/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1624 comparator_0/and_0/not_0/in enable_0/x3 vdd comparator_0/and_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1625 comparator_0/and_0/not_0/in comparator_0/and_0/b comparator_0/and_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1626 vdd comparator_0/and_0/b comparator_0/and_0/not_0/in comparator_0/and_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1627 comparator_0/and_0/nand_0/a_n8_22# enable_0/x3 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1628 tor_0/a and_0/not_0/in vdd and_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1629 tor_0/a and_0/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1630 and_0/not_0/in and_2/a vdd and_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1631 and_0/not_0/in and_1/b and_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1632 vdd and_1/b and_0/not_0/in and_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1633 and_0/nand_0/a_n8_22# and_2/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1634 d1 and_1/not_0/in vdd and_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1635 d1 and_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1636 and_1/not_0/in s0 vdd and_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1637 and_1/not_0/in and_1/b and_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1638 vdd and_1/b and_1/not_0/in and_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1639 and_1/nand_0/a_n8_22# s0 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1640 d2 and_2/not_0/in vdd and_2/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1641 d2 and_2/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1642 and_2/not_0/in and_2/a vdd and_2/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1643 and_2/not_0/in s1 and_2/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1644 vdd s1 and_2/not_0/in and_2/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1645 and_2/nand_0/a_n8_22# and_2/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1646 d3 and_3/not_0/in vdd and_3/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1647 d3 and_3/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1648 and_3/not_0/in s0 vdd and_3/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1649 and_3/not_0/in s1 and_3/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1650 vdd s1 and_3/not_0/in and_3/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1651 and_3/nand_0/a_n8_22# s0 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1652 equal and_4/not_0/in vdd and_4/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1653 equal and_4/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1654 and_4/not_0/in d2 vdd and_4/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1655 and_4/not_0/in eq1 and_4/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1656 vdd eq1 and_4/not_0/in and_4/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1657 and_4/nand_0/a_n8_22# d2 gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+C0 tor_0/w_n46_20# tor_0/not_0/in 0.04fF
+C1 fourbitadder_0/fulladder_2/xor_1/nand_3/w_n44_54# fourbitadder_0/fulladder_2/xor_1/nand_3/b 0.14fF
+C2 fourbitadder_0/xor_2/nand_2/b gnd 1.71fF
+C3 d1 fourbitadder_0/xor_2/nand_0/w_n44_54# 0.14fF
+C4 d1 fourbitadder_0/fulladder_0/and_1/not_0/in 0.10fF
+C5 fourbitadder_0/fulladder_2/xor_1/nand_2/w_n44_54# fourbitadder_0/fulladder_2/xor_1/nand_3/b 0.06fF
+C6 fourbitadder_0/fulladder_1/xor_0/nand_2/w_n44_54# fourbitadder_0/fulladder_1/xor_0/nand_3/b 0.06fF
+C7 fourbitadder_0/fulladder_3/xor_0/nand_3/b gnd 0.39fF
+C8 fourbitadder_0/fulladder_1/tor_1/not_0/w_n15_38# vdd 0.09fF
+C9 vdd comparator_0/xnor_2/xor_0/nand_3/a 0.47fF
+C10 tor_1/not_0/in tor_1/not_0/w_n15_38# 0.11fF
+C11 fourbitadder_0/fulladder_2/xor_0/nand_3/w_n44_54# fourbitadder_0/fulladder_2/xor_0/nand_3/a 0.28fF
+C12 vdd enable_0/and_7/nand_0/w_n44_54# 0.13fF
+C13 d2 bb2 0.34fF
+C14 enable_2/and_4/nand_0/w_n44_54# enable_2/and_4/not_0/in 0.06fF
+C15 enable_2/and_0/nand_0/w_n44_54# enable_2/and_0/not_0/in 0.06fF
+C16 and_4/not_0/in and_4/nand_0/w_n44_54# 0.06fF
+C17 vdd fourbitadder_0/fulladder_3/tor_1/w_n46_20# 0.06fF
+C18 s1 and_3/nand_0/w_n44_54# 0.14fF
+C19 vdd enable_2/and_5/nand_0/w_n44_54# 0.13fF
+C20 aa1 aa2 0.38fF
+C21 bb2 bb0 2.55fF
+C22 aa0 aa3 0.19fF
+C23 enable_0/and_6/not_0/w_n15_38# enable_0/y2 0.04fF
+C24 newor_2/or_0/out newor_2/or_0/w_n131_34# 0.16fF
+C25 fourbitadder_0/xor_2/nand_3/b gnd 0.39fF
+C26 tor_0/out enable_1/and_1/nand_0/w_n44_54# 0.28fF
+C27 fourbitadder_0/fulladder_2/xor_0/nand_1/w_n44_54# fourbitadder_0/xor_2/out 0.14fF
+C28 comparator_0/not_2/out comparator_0/not_2/w_n15_38# 0.04fF
+C29 fourbitadder_0/fulladder_2/tor_1/w_n46_20# fourbitadder_0/fulladder_2/tor_1/a 0.20fF
+C30 fourbitadder_0/fulladder_2/xor_0/nand_2/b gnd 1.71fF
+C31 fourbitadder_0/fulladder_1/xor_1/nand_2/b fourbitadder_0/fulladder_1/xor_1/a 0.21fF
+C32 vdd enable_1/and_3/nand_0/w_n44_54# 0.13fF
+C33 enable_1/and_2/not_0/w_n15_38# enable_1/and_2/not_0/in 0.11fF
+C34 d2 bb0 0.14fF
+C35 tor_1/not_0/in tor_1/w_n46_20# 0.04fF
+C36 comparator_0/or_0/a comparator_0/xnor_3/out 0.97fF
+C37 fourbitadder_0/fulladder_2/tor_1/b gnd 0.31fF
+C38 newor_1/or_0/out newor_1/or_0/w_n131_34# 0.16fF
+C39 vdd gnd 18.38fF
+C40 enable_0/y0 comparator_0/xnor_0/xor_0/nand_3/a 0.10fF
+C41 sum0 gnd 0.26fF
+C42 enable_1/x0 fourbitadder_0/fulladder_0/and_0/nand_0/w_n44_54# 0.28fF
+C43 aa0 d3 0.23fF
+C44 comparator_0/and_0/not_0/w_n15_38# comparator_0/and_0/not_0/in 0.11fF
+C45 vdd tor_1/not_0/w_n15_38# 0.09fF
+C46 vdd comparator_0/fand_3/w_n133_43# 0.15fF
+C47 fourbitadder_0/fulladder_3/xor_0/nand_2/b fourbitadder_0/fulladder_3/xor_0/nand_2/w_n44_54# 0.14fF
+C48 fourbitadder_0/xor_3/nand_1/w_n44_54# fourbitadder_0/xor_3/nand_3/a 0.06fF
+C49 comparator_0/xnor_3/xor_0/nand_0/w_n44_54# enable_0/x3 0.28fF
+C50 vdd comparator_0/xnor_1/xor_0/nand_2/w_n44_54# 0.13fF
+C51 d1 s1 0.17fF
+C52 fourbitadder_0/fulladder_3/and_0/not_0/w_n15_38# fourbitadder_0/fulladder_3/and_0/not_0/in 0.11fF
+C53 fourbitadder_0/xor_1/nand_2/w_n44_54# fourbitadder_0/xor_1/nand_3/b 0.06fF
+C54 vdd comparator_0/xnor_0/xor_0/nand_1/w_n44_54# 0.13fF
+C55 enable_0/and_4/not_0/w_n15_38# enable_0/y0 0.04fF
+C56 enable_1/y3 enable_1/and_7/not_0/w_n15_38# 0.04fF
+C57 enable_0/y1 enable_0/x2 0.17fF
+C58 k1 gnd 0.50fF
+C59 comparator_0/xnor_2/not_0/in comparator_0/xnor_2/xor_0/nand_3/w_n44_54# 0.06fF
+C60 comparator_0/xnor_3/not_0/w_n15_38# comparator_0/xnor_3/not_0/in 0.11fF
+C61 enable_1/and_5/not_0/in enable_1/and_5/nand_0/w_n44_54# 0.06fF
+C62 enable_0/and_7/nand_0/w_n44_54# d2 0.28fF
+C63 comparator_0/xnor_1/out enable_0/x2 0.10fF
+C64 fourbitadder_0/fulladder_0/tor_1/b fourbitadder_0/fulladder_0/and_0/not_0/w_n15_38# 0.04fF
+C65 eq1 gnd 0.37fF
+C66 bitand_0/and_3/not_0/w_n15_38# k3 0.04fF
+C67 vdd tor_1/w_n46_20# 0.06fF
+C68 enable_1/and_1/nand_0/w_n44_54# aa1 0.14fF
+C69 fourbitadder_0/xor_0/nand_2/w_n44_54# vdd 0.13fF
+C70 vdd comparator_0/xnor_3/xor_0/nand_3/a 0.47fF
+C71 vdd fourbitadder_0/fulladder_3/tor_1/not_0/w_n15_38# 0.09fF
+C72 fourbitadder_0/xor_3/nand_2/b enable_1/y3 0.21fF
+C73 comparator_0/fand_1/w_n133_43# comparator_0/xnor_2/out 0.22fF
+C74 vdd fourbitadder_0/fulladder_3/xor_0/nand_0/w_n44_54# 0.13fF
+C75 bb2 gnd 1.05fF
+C76 enable_0/and_5/not_0/in bb1 0.10fF
+C77 vdd fourbitadder_0/fulladder_1/and_0/nand_0/w_n44_54# 0.13fF
+C78 vdd enable_2/y2 0.08fF
+C79 comparator_0/xnor_2/xor_0/nand_1/w_n44_54# comparator_0/xnor_2/xor_0/nand_2/b 0.28fF
+C80 fourbitadder_0/fulladder_0/xor_1/nand_2/w_n44_54# vdd 0.13fF
+C81 comparator_0/fand_1/out comparator_0/xnor_3/out 0.41fF
+C82 fourbitadder_0/xor_3/out fourbitadder_0/fulladder_3/and_0/not_0/in 0.10fF
+C83 d2 gnd 2.12fF
+C84 bb3 aa3 1.37fF
+C85 bb0 gnd 0.95fF
+C86 big small 1.12fF
+C87 vdd enable_2/and_1/nand_0/w_n44_54# 0.13fF
+C88 fourbitadder_0/xor_1/nand_3/a fourbitadder_0/xor_1/nand_3/b 0.01fF
+C89 sum2 fourbitadder_0/fulladder_2/xor_1/nand_3/b 0.10fF
+C90 fourbitadder_0/fulladder_3/xor_0/nand_2/b fourbitadder_0/fulladder_3/xor_0/nand_3/b 0.10fF
+C91 enable_0/x0 enable_0/y0 0.43fF
+C92 bb1 bb2 1.24fF
+C93 vdd newor_1/or_0/not_0/w_n15_38# 0.09fF
+C94 aa1 enable_1/and_1/not_0/in 0.10fF
+C95 enable_1/x0 vdd 2.16fF
+C96 comparator_0/fand_3/out comparator_0/xnor_1/out 0.41fF
+C97 newor_2/or_0/w_n131_34# small 0.50fF
+C98 vdd fourbitadder_0/fulladder_2/xor_1/nand_0/w_n44_54# 0.13fF
+C99 fourbitadder_0/xor_0/nand_3/a vdd 0.47fF
+C100 bb3 d3 0.31fF
+C101 enable_0/y1 enable_0/x3 0.24fF
+C102 d1 fourbitadder_0/fulladder_0/xor_1/a 1.40fF
+C103 d2 bb1 0.15fF
+C104 enable_1/and_6/nand_0/w_n44_54# enable_1/and_6/not_0/in 0.06fF
+C105 enable_0/and_2/nand_0/w_n44_54# aa2 0.14fF
+C106 comparator_0/xnor_1/out enable_0/x3 0.20fF
+C107 comparator_0/xnor_2/xor_0/nand_3/a gnd 0.37fF
+C108 d1 fourbitadder_0/xor_1/nand_3/a 0.10fF
+C109 bb1 bb0 1.77fF
+C110 comparator_0/xnor_2/out enable_0/y2 0.21fF
+C111 fourbitadder_0/fulladder_2/and_1/nand_0/w_n44_54# fourbitadder_0/fulladder_2/c 0.14fF
+C112 vdd fourbitadder_0/fulladder_1/tor_1/w_n46_20# 0.06fF
+C113 gnd s0 0.59fF
+C114 d1 enable_1/x2 0.54fF
+C115 vdd comparator_0/xnor_1/xor_0/nand_3/a 0.47fF
+C116 fourbitadder_0/fulladder_0/tor_1/not_0/in fourbitadder_0/fulladder_0/tor_1/a 0.08fF
+C117 fourbitadder_0/fulladder_0/xor_1/nand_3/a vdd 0.47fF
+C118 vdd and_4/not_0/w_n15_38# 0.09fF
+C119 enable_0/and_4/not_0/w_n15_38# enable_0/and_4/not_0/in 0.11fF
+C120 fourbitadder_0/fulladder_2/xor_1/nand_3/a fourbitadder_0/fulladder_2/xor_1/nand_3/b 0.01fF
+C121 fourbitadder_0/fulladder_1/and_1/nand_0/w_n44_54# fourbitadder_0/fulladder_1/c 0.14fF
+C122 fourbitadder_0/xor_2/nand_3/w_n44_54# fourbitadder_0/xor_2/nand_3/a 0.28fF
+C123 fourbitadder_0/xor_1/nand_2/b fourbitadder_0/xor_1/nand_3/b 0.10fF
+C124 vdd enable_0/and_5/not_0/w_n15_38# 0.09fF
+C125 enable_2/x0 enable_2/y0 0.21fF
+C126 enable_0/and_5/not_0/in enable_0/and_5/not_0/w_n15_38# 0.11fF
+C127 vdd enable_2/y1 0.09fF
+C128 fourbitadder_0/fulladder_2/tor_1/w_n46_20# fourbitadder_0/fulladder_2/tor_1/not_0/in 0.04fF
+C129 and_0/not_0/in and_0/not_0/w_n15_38# 0.11fF
+C130 comparator_0/not_1/out comparator_0/not_1/w_n15_38# 0.04fF
+C131 bb1 enable_2/and_5/nand_0/w_n44_54# 0.14fF
+C132 enable_0/and_2/not_0/in aa2 0.10fF
+C133 d1 fourbitadder_0/xor_1/nand_2/b 0.27fF
+C134 enable_2/and_0/not_0/w_n15_38# enable_2/and_0/not_0/in 0.11fF
+C135 comparator_0/and_0/nand_0/w_n44_54# comparator_0/and_0/b 0.14fF
+C136 vdd bitand_0/and_2/nand_0/w_n44_54# 0.13fF
+C137 fourbitadder_0/fulladder_3/xor_1/nand_0/w_n44_54# fourbitadder_0/fulladder_3/xor_1/nand_2/b 0.06fF
+C138 enable_1/and_3/nand_0/w_n44_54# enable_1/and_3/not_0/in 0.06fF
+C139 vdd comparator_0/not_1/out 0.83fF
+C140 fourbitadder_0/fulladder_0/xor_1/nand_1/w_n44_54# vdd 0.13fF
+C141 vdd small 0.10fF
+C142 aa0 enable_2/and_0/not_0/in 0.10fF
+C143 enable_0/and_6/not_0/w_n15_38# vdd 0.09fF
+C144 d3 enable_2/and_2/nand_0/w_n44_54# 0.28fF
+C145 fourbitadder_0/fulladder_3/and_1/not_0/w_n15_38# fourbitadder_0/fulladder_3/and_1/not_0/in 0.11fF
+C146 comparator_0/xnor_3/xor_0/nand_3/a gnd 0.37fF
+C147 bb1 gnd 1.34fF
+C148 bitand_0/and_0/not_0/w_n15_38# k0 0.04fF
+C149 fourbitadder_0/fulladder_1/and_0/nand_0/w_n44_54# fourbitadder_0/fulladder_1/and_0/not_0/in 0.06fF
+C150 enable_2/y2 gnd 0.25fF
+C151 and_0/nand_0/w_n44_54# and_0/not_0/in 0.06fF
+C152 comparator_0/fand_0/w_n133_43# comparator_0/fand_0/out 0.19fF
+C153 fourbitadder_0/fulladder_0/xor_1/nand_0/w_n44_54# fourbitadder_0/fulladder_0/xor_1/a 0.28fF
+C154 fourbitadder_0/xor_1/out vdd 0.75fF
+C155 vdd enable_0/x1 0.71fF
+C156 newor_2/or_0/out gnd 0.77fF
+C157 vdd enable_1/and_0/not_0/w_n15_38# 0.09fF
+C158 comparator_0/d2 comparator_0/xnor_3/out 1.50fF
+C159 comparator_0/fand_1/w_n133_43# comparator_0/fand_1/out 0.19fF
+C160 vdd enable_1/and_5/nand_0/w_n44_54# 0.13fF
+C161 fourbitadder_0/fulladder_2/and_1/nand_0/w_n44_54# fourbitadder_0/fulladder_2/xor_1/a 0.28fF
+C162 and_0/not_0/in and_1/b 0.10fF
+C163 small eq1 0.08fF
+C164 comparator_0/xnor_3/xor_0/nand_1/w_n44_54# comparator_0/xnor_3/xor_0/nand_2/b 0.28fF
+C165 vdd enable_2/y0 0.12fF
+C166 fourbitadder_0/fulladder_3/tor_1/not_0/in fourbitadder_0/fulladder_3/tor_1/a 0.08fF
+C167 fourbitadder_0/fulladder_0/xor_0/nand_2/b fourbitadder_0/fulladder_0/xor_0/nand_3/b 0.10fF
+C168 fourbitadder_0/xor_0/out fourbitadder_0/fulladder_0/xor_0/nand_3/a 0.10fF
+C169 vdd fourbitadder_0/fulladder_2/and_1/not_0/w_n15_38# 0.09fF
+C170 comparator_0/or_0/w_n131_34# comparator_0/or_0/out 0.16fF
+C171 d1 fourbitadder_0/xor_2/nand_2/b 0.27fF
+C172 comparator_0/xnor_2/not_0/in comparator_0/xnor_2/xor_0/nand_3/b 0.10fF
+C173 vdd comparator_0/not_0/w_n15_38# 0.09fF
+C174 vdd tor_0/not_0/w_n15_38# 0.09fF
+C175 vdd and_3/nand_0/w_n44_54# 0.13fF
+C176 enable_0/and_7/not_0/w_n15_38# enable_0/y3 0.04fF
+C177 fourbitadder_0/fulladder_1/xor_0/nand_1/w_n44_54# vdd 0.13fF
+C178 fourbitadder_0/fulladder_3/xor_1/nand_1/w_n44_54# fourbitadder_0/fulladder_3/xor_1/nand_3/a 0.06fF
+C179 fourbitadder_0/fulladder_1/and_1/nand_0/w_n44_54# fourbitadder_0/fulladder_1/xor_1/a 0.28fF
+C180 enable_1/x0 gnd 1.36fF
+C181 enable_1/y1 enable_1/x3 0.26fF
+C182 fourbitadder_0/xor_0/nand_3/a gnd 0.37fF
+C183 fourbitadder_0/a2 fourbitadder_0/fulladder_2/and_0/nand_0/w_n44_54# 0.28fF
+C184 enable_2/and_6/nand_0/w_n44_54# enable_2/and_6/not_0/in 0.06fF
+C185 enable_2/and_7/not_0/in enable_2/and_7/not_0/w_n15_38# 0.11fF
+C186 sum3 k3 2.10fF
+C187 comparator_0/fand_0/w_n133_43# comparator_0/xnor_2/out 0.22fF
+C188 vdd comparator_0/tor_0/out 0.03fF
+C189 newor_1/or_0/w_n131_34# equal 0.50fF
+C190 enable_1/and_7/not_0/w_n15_38# enable_1/and_7/not_0/in 0.11fF
+C191 sum3 fourbitadder_0/fulladder_3/xor_1/nand_3/b 0.10fF
+C192 comparator_0/xnor_1/xor_0/nand_3/a gnd 0.37fF
+C193 vdd comparator_0/fand_0/out 0.41fF
+C194 bb3 enable_2/and_7/not_0/in 0.10fF
+C195 fourbitadder_0/fulladder_0/xor_1/nand_3/a gnd 0.37fF
+C196 sum1 vdd 1.28fF
+C197 fourbitadder_0/fulladder_3/xor_0/nand_2/b gnd 1.71fF
+C198 enable_2/and_4/not_0/w_n15_38# enable_2/y0 0.04fF
+C199 d1 vdd 2.10fF
+C200 fourbitadder_0/xor_0/out fourbitadder_0/fulladder_0/xor_0/nand_1/w_n44_54# 0.14fF
+C201 comparator_0/xnor_1/out enable_0/y1 0.20fF
+C202 comparator_0/fand_2/out comparator_0/xnor_3/out 0.41fF
+C203 vdd enable_0/and_2/not_0/w_n15_38# 0.09fF
+C204 vdd and_1/not_0/w_n15_38# 0.09fF
+C205 comparator_0/xnor_0/xor_0/nand_3/w_n44_54# comparator_0/xnor_0/not_0/in 0.06fF
+C206 fourbitadder_0/fulladder_2/xor_0/nand_3/a fourbitadder_0/fulladder_2/xor_0/nand_3/b 0.01fF
+C207 fourbitadder_0/fulladder_3/xor_1/a fourbitadder_0/fulladder_3/xor_1/nand_2/w_n44_54# 0.28fF
+C208 comparator_0/not_0/out enable_0/x0 0.13fF
+C209 fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_3/xor_1/nand_3/a 0.10fF
+C210 comparator_0/xnor_0/xor_0/nand_3/w_n44_54# comparator_0/xnor_0/xor_0/nand_3/b 0.14fF
+C211 fourbitadder_0/xor_2/nand_2/w_n44_54# enable_1/y2 0.28fF
+C212 tor_0/out tor_0/a 0.09fF
+C213 enable_1/and_7/nand_0/w_n44_54# tor_0/out 0.28fF
+C214 enable_2/y1 gnd 0.34fF
+C215 vdd newor_0/or_0/not_0/w_n15_38# 0.09fF
+C216 fourbitadder_0/fulladder_0/xor_1/nand_3/w_n44_54# fourbitadder_0/fulladder_0/xor_1/nand_3/b 0.14fF
+C217 fourbitadder_0/xor_3/nand_3/w_n44_54# vdd 0.13fF
+C218 newor_0/or_0/w_n131_34# newor_0/or_0/out 0.16fF
+C219 comparator_0/xnor_3/out comparator_0/d3 1.17fF
+C220 comparator_0/xnor_0/xor_0/nand_2/w_n44_54# comparator_0/xnor_0/xor_0/nand_3/b 0.06fF
+C221 fourbitadder_0/xor_0/nand_2/b gnd 1.71fF
+C222 comparator_0/xnor_2/not_0/w_n15_38# comparator_0/xnor_2/not_0/in 0.11fF
+C223 comparator_0/or_0/w_n131_34# comparator_0/or_0/a 0.50fF
+C224 vdd comparator_0/xnor_2/out 0.75fF
+C225 vdd k0 0.11fF
+C226 vdd enable_2/and_3/not_0/w_n15_38# 0.09fF
+C227 fourbitadder_0/fulladder_3/xor_0/nand_2/b fourbitadder_0/fulladder_3/xor_0/nand_0/w_n44_54# 0.06fF
+C228 fourbitadder_0/fulladder_1/xor_0/nand_3/w_n44_54# vdd 0.13fF
+C229 comparator_0/not_1/out gnd 0.71fF
+C230 small gnd 0.88fF
+C231 enable_1/y1 enable_1/and_5/not_0/w_n15_38# 0.04fF
+C232 fourbitadder_0/fulladder_0/tor_1/not_0/w_n15_38# fourbitadder_0/fulladder_0/tor_1/not_0/in 0.11fF
+C233 tor_0/out aa1 0.34fF
+C234 vdd aa3 0.13fF
+C235 vdd comparator_0/tor_0/not_0/w_n15_38# 0.09fF
+C236 vdd fourbitadder_0/fulladder_3/xor_1/nand_1/w_n44_54# 0.13fF
+C237 comparator_0/fand_2/w_n133_43# comparator_0/not_2/out 0.22fF
+C238 fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_1/xor_1/nand_0/w_n44_54# 0.14fF
+C239 fourbitadder_0/fulladder_1/xor_0/nand_2/b fourbitadder_0/fulladder_1/xor_0/nand_3/b 0.10fF
+C240 fourbitadder_0/xor_0/nand_3/b fourbitadder_0/xor_0/out 0.10fF
+C241 enable_0/y2 comparator_0/xnor_2/xor_0/nand_1/w_n44_54# 0.14fF
+C242 vdd fourbitadder_0/fulladder_2/and_0/nand_0/w_n44_54# 0.13fF
+C243 fourbitadder_0/fulladder_2/tor_1/not_0/w_n15_38# fourbitadder_0/fulladder_2/tor_1/not_0/in 0.11fF
+C244 fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_2/xor_1/nand_1/w_n44_54# 0.14fF
+C245 fourbitadder_0/xor_0/nand_2/b fourbitadder_0/xor_0/nand_2/w_n44_54# 0.14fF
+C246 vdd enable_1/and_6/nand_0/w_n44_54# 0.13fF
+C247 fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_1/and_1/not_0/in 0.10fF
+C248 fourbitadder_0/xor_1/out fourbitadder_0/fulladder_1/and_0/not_0/in 0.10fF
+C249 vdd fourbitadder_0/fulladder_1/xor_1/nand_2/w_n44_54# 0.13fF
+C250 k0 k1 0.08fF
+C251 and_3/nand_0/w_n44_54# s0 0.28fF
+C252 fourbitadder_0/xor_1/out gnd 1.20fF
+C253 enable_0/x1 gnd 3.92fF
+C254 fourbitadder_0/fulladder_1/xor_0/nand_0/w_n44_54# enable_1/x1 0.28fF
+C255 fourbitadder_0/fulladder_0/tor_1/b fourbitadder_0/fulladder_0/tor_1/a 0.38fF
+C256 enable_2/and_1/nand_0/w_n44_54# enable_2/and_1/not_0/in 0.06fF
+C257 vdd enable_0/and_5/nand_0/w_n44_54# 0.13fF
+C258 enable_2/y0 gnd 0.09fF
+C259 bitand_0/and_1/not_0/w_n15_38# bitand_0/and_1/not_0/in 0.11fF
+C260 vdd enable_0/and_7/not_0/w_n15_38# 0.09fF
+C261 vdd d3 0.03fF
+C262 enable_0/x2 comparator_0/xnor_2/xor_0/nand_2/b 0.21fF
+C263 enable_0/x1 comparator_0/xnor_1/xor_0/nand_2/w_n44_54# 0.28fF
+C264 comparator_0/xnor_1/xor_0/nand_1/w_n44_54# comparator_0/xnor_1/xor_0/nand_2/b 0.28fF
+C265 enable_0/and_5/not_0/in enable_0/and_5/nand_0/w_n44_54# 0.06fF
+C266 fourbitadder_0/fulladder_0/xor_1/nand_0/w_n44_54# vdd 0.13fF
+C267 enable_2/y2 bitand_0/and_2/nand_0/w_n44_54# 0.14fF
+C268 vdd enable_0/and_6/nand_0/w_n44_54# 0.13fF
+C269 and_1/b and_1/nand_0/w_n44_54# 0.14fF
+C270 fourbitadder_0/fulladder_1/c vdd 0.56fF
+C271 comparator_0/xnor_0/xor_0/nand_0/w_n44_54# enable_0/x0 0.28fF
+C272 fourbitadder_0/fulladder_1/xor_1/nand_3/w_n44_54# vdd 0.13fF
+C273 bb2 aa3 0.60fF
+C274 aa0 aa2 0.36fF
+C275 enable_2/and_7/nand_0/w_n44_54# d3 0.28fF
+C276 vdd fourbitadder_0/fulladder_3/c 0.51fF
+C277 newor_2/or_0/out small 1.25fF
+C278 fourbitadder_0/xor_1/nand_3/b gnd 0.47fF
+C279 d1 s0 0.11fF
+C280 enable_1/and_0/nand_0/w_n44_54# tor_0/out 0.28fF
+C281 comparator_0/xnor_0/xor_0/nand_2/b comparator_0/xnor_0/xor_0/nand_2/w_n44_54# 0.14fF
+C282 fourbitadder_0/fulladder_3/tor_1/w_n46_20# fourbitadder_0/fulladder_3/tor_1/not_0/in 0.04fF
+C283 fourbitadder_0/fulladder_2/tor_1/b fourbitadder_0/fulladder_2/tor_1/w_n46_20# 0.20fF
+C284 comparator_0/d1 comparator_0/xnor_1/out 0.44fF
+C285 vdd comparator_0/not_2/out 0.34fF
+C286 vdd enable_1/and_2/nand_0/w_n44_54# 0.13fF
+C287 d2 aa3 0.23fF
+C288 enable_1/and_6/nand_0/w_n44_54# bb2 0.14fF
+C289 fourbitadder_0/xor_0/nand_0/w_n44_54# vdd 0.13fF
+C290 bb1 enable_1/and_5/nand_0/w_n44_54# 0.14fF
+C291 fourbitadder_0/xor_2/out fourbitadder_0/a2 0.38fF
+C292 vdd fourbitadder_0/fulladder_2/tor_1/w_n46_20# 0.06fF
+C293 aa3 bb0 0.58fF
+C294 tor_0/w_n46_20# tor_0/a 0.20fF
+C295 fourbitadder_0/xor_3/out fourbitadder_0/fulladder_3/xor_0/nand_1/w_n44_54# 0.14fF
+C296 fourbitadder_0/xor_1/out fourbitadder_0/fulladder_1/and_0/nand_0/w_n44_54# 0.14fF
+C297 comparator_0/xnor_0/xor_0/nand_3/a comparator_0/xnor_0/xor_0/nand_3/b 0.01fF
+C298 sum1 gnd 6.18fF
+C299 vdd enable_0/y0 0.46fF
+C300 vdd comparator_0/xnor_0/not_0/w_n15_38# 0.09fF
+C301 enable_1/and_4/not_0/w_n15_38# enable_1/and_4/not_0/in 0.11fF
+C302 bb2 d3 0.91fF
+C303 d1 gnd 6.07fF
+C304 enable_0/and_5/nand_0/w_n44_54# d2 0.28fF
+C305 fourbitadder_0/xor_3/nand_2/b fourbitadder_0/xor_3/nand_2/w_n44_54# 0.14fF
+C306 enable_1/and_6/not_0/w_n15_38# enable_1/y2 0.04fF
+C307 fourbitadder_0/fulladder_2/xor_1/nand_2/b fourbitadder_0/fulladder_2/xor_1/nand_2/w_n44_54# 0.14fF
+C308 enable_2/x1 bitand_0/and_1/nand_0/w_n44_54# 0.28fF
+C309 enable_0/and_6/nand_0/w_n44_54# bb2 0.14fF
+C310 fourbitadder_0/fulladder_1/xor_0/nand_0/w_n44_54# fourbitadder_0/fulladder_1/xor_0/nand_2/b 0.06fF
+C311 enable_2/y2 bitand_0/and_2/not_0/in 0.14fF
+C312 and_1/b and_1/not_0/in 0.10fF
+C313 fourbitadder_0/fulladder_1/xor_1/nand_0/w_n44_54# fourbitadder_0/fulladder_1/xor_1/a 0.28fF
+C314 bb0 d3 0.62fF
+C315 enable_0/and_6/nand_0/w_n44_54# d2 0.28fF
+C316 fourbitadder_0/fulladder_3/xor_1/nand_2/b fourbitadder_0/fulladder_3/xor_1/nand_3/b 0.10fF
+C317 comparator_0/xnor_2/xor_0/nand_0/w_n44_54# comparator_0/xnor_2/xor_0/nand_2/b 0.06fF
+C318 fourbitadder_0/fulladder_0/xor_1/nand_1/w_n44_54# fourbitadder_0/fulladder_0/xor_1/nand_3/a 0.06fF
+C319 fourbitadder_0/fulladder_3/xor_0/nand_3/b fourbitadder_0/fulladder_3/xor_1/a 0.10fF
+C320 enable_1/x0 enable_1/and_0/not_0/w_n15_38# 0.04fF
+C321 fourbitadder_0/fulladder_0/and_1/nand_0/w_n44_54# fourbitadder_0/fulladder_0/and_1/not_0/in 0.06fF
+C322 fourbitadder_0/xor_3/nand_2/w_n44_54# fourbitadder_0/xor_3/nand_3/b 0.06fF
+C323 and_3/not_0/in and_3/not_0/w_n15_38# 0.11fF
+C324 enable_0/x3 comparator_0/and_0/b 0.13fF
+C325 fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_2/xor_1/nand_2/b 0.27fF
+C326 fourbitadder_0/fulladder_1/xor_1/nand_2/b fourbitadder_0/fulladder_1/xor_1/nand_3/b 0.10fF
+C327 comparator_0/xnor_2/out gnd 2.38fF
+C328 enable_1/and_3/nand_0/w_n44_54# aa3 0.14fF
+C329 vdd enable_0/and_4/nand_0/w_n44_54# 0.13fF
+C330 fourbitadder_0/fulladder_0/xor_0/nand_0/w_n44_54# fourbitadder_0/xor_0/out 0.14fF
+C331 k0 gnd 0.21fF
+C332 fourbitadder_0/fulladder_3/tor_1/not_0/w_n15_38# fourbitadder_0/fulladder_3/tor_1/not_0/in 0.11fF
+C333 vdd comparator_0/fand_1/w_194_44# 0.12fF
+C334 enable_1/and_7/not_0/in bb3 0.10fF
+C335 fourbitadder_0/fulladder_0/and_0/not_0/w_n15_38# fourbitadder_0/fulladder_0/and_0/not_0/in 0.11fF
+C336 fourbitadder_0/fulladder_0/xor_0/nand_2/w_n44_54# vdd 0.13fF
+C337 fourbitadder_0/xor_2/nand_3/b fourbitadder_0/xor_2/out 0.10fF
+C338 bb3 aa2 1.52fF
+C339 fourbitadder_0/fulladder_2/xor_0/nand_2/b fourbitadder_0/xor_2/out 0.27fF
+C340 fourbitadder_0/fulladder_0/xor_1/nand_2/b fourbitadder_0/fulladder_0/xor_1/a 0.21fF
+C341 fourbitadder_0/fulladder_2/and_1/not_0/w_n15_38# fourbitadder_0/fulladder_2/and_1/not_0/in 0.11fF
+C342 comparator_0/fand_3/w_n133_43# comparator_0/xnor_2/out 0.22fF
+C343 aa3 gnd 1.10fF
+C344 vdd comparator_0/fand_1/out 0.86fF
+C345 fourbitadder_0/fulladder_2/xor_1/nand_1/w_n44_54# fourbitadder_0/fulladder_2/xor_1/nand_3/a 0.06fF
+C346 enable_2/and_5/nand_0/w_n44_54# d3 0.28fF
+C347 vdd fourbitadder_0/xor_2/out 0.59fF
+C348 comparator_0/fand_0/w_n133_43# comparator_0/fand_0/in5 0.22fF
+C349 vdd and_1/nand_0/w_n44_54# 0.13fF
+C350 enable_0/y3 comparator_0/xnor_3/xor_0/nand_1/w_n44_54# 0.14fF
+C351 comparator_0/xnor_3/out comparator_0/fand_3/out 0.41fF
+C352 enable_1/y3 vdd 0.09fF
+C353 fourbitadder_0/fulladder_3/tor_1/b fourbitadder_0/fulladder_3/tor_1/a 0.38fF
+C354 fourbitadder_0/xor_3/nand_3/a fourbitadder_0/xor_3/nand_3/b 0.01fF
+C355 d1 enable_1/x0 1.30fF
+C356 d3 gnd 1.74fF
+C357 enable_0/and_1/not_0/w_n15_38# enable_0/and_1/not_0/in 0.11fF
+C358 d1 fourbitadder_0/xor_0/nand_3/a 0.10fF
+C359 bb1 aa3 0.49fF
+C360 enable_0/x3 comparator_0/xnor_3/xor_0/nand_2/b 0.21fF
+C361 aa3 enable_1/and_3/not_0/in 0.10fF
+C362 vdd fourbitadder_0/fulladder_1/xor_1/nand_3/a 0.47fF
+C363 big comparator_0/d2 0.64fF
+C364 fourbitadder_0/fulladder_1/c gnd 1.46fF
+C365 enable_0/x0 enable_0/x2 0.36fF
+C366 fourbitadder_0/fulladder_2/xor_0/nand_2/w_n44_54# fourbitadder_0/fulladder_2/xor_0/nand_3/b 0.06fF
+C367 fourbitadder_0/fulladder_0/tor_1/b fourbitadder_0/fulladder_0/tor_1/not_0/in 0.65fF
+C368 fourbitadder_0/fulladder_0/xor_0/nand_3/a vdd 0.47fF
+C369 comparator_0/or_0/w_n131_34# comparator_0/d2 0.50fF
+C370 d2 enable_0/and_4/nand_0/w_n44_54# 0.28fF
+C371 fourbitadder_0/fulladder_3/c gnd 1.46fF
+C372 comparator_0/not_1/out enable_0/x1 0.09fF
+C373 enable_2/x3 bitand_0/and_3/nand_0/w_n44_54# 0.28fF
+C374 enable_0/and_4/nand_0/w_n44_54# bb0 0.14fF
+C375 fourbitadder_0/fulladder_3/xor_0/nand_3/w_n44_54# fourbitadder_0/fulladder_3/xor_0/nand_3/a 0.28fF
+C376 comparator_0/not_2/out gnd 1.59fF
+C377 d1 fourbitadder_0/fulladder_0/xor_1/nand_3/a 0.10fF
+C378 fourbitadder_0/xor_3/nand_2/b fourbitadder_0/xor_3/nand_1/w_n44_54# 0.28fF
+C379 vdd comparator_0/xnor_1/not_0/w_n15_38# 0.09fF
+C380 enable_2/x0 bitand_0/and_0/nand_0/w_n44_54# 0.28fF
+C381 vdd comparator_0/xnor_2/xor_0/nand_1/w_n44_54# 0.13fF
+C382 bitand_0/and_2/nand_0/w_n44_54# bitand_0/and_2/not_0/in 0.06fF
+C383 enable_2/and_7/nand_0/w_n44_54# enable_2/and_7/not_0/in 0.06fF
+C384 enable_0/and_5/nand_0/w_n44_54# bb1 0.14fF
+C385 enable_0/and_6/not_0/in bb2 0.10fF
+C386 bb1 d3 0.66fF
+C387 vdd comparator_0/fand_0/in5 0.16fF
+C388 aa2 enable_2/and_2/nand_0/w_n44_54# 0.14fF
+C389 enable_2/and_6/not_0/w_n15_38# enable_2/and_6/not_0/in 0.11fF
+C390 fourbitadder_0/fulladder_2/xor_1/nand_2/b fourbitadder_0/fulladder_2/xor_1/a 0.21fF
+C391 comparator_0/xnor_1/xor_0/nand_0/w_n44_54# enable_0/y1 0.14fF
+C392 comparator_0/or_0/a gnd 0.78fF
+C393 enable_0/y0 gnd 0.38fF
+C394 enable_1/and_0/nand_0/w_n44_54# enable_1/and_0/not_0/in 0.06fF
+C395 enable_1/x1 enable_1/y0 0.61fF
+C396 vdd fourbitadder_0/fulladder_3/tor_1/b 0.55fF
+C397 fourbitadder_0/fulladder_0/xor_0/nand_3/w_n44_54# fourbitadder_0/fulladder_0/xor_0/nand_3/a 0.28fF
+C398 comparator_0/xnor_2/xor_0/nand_3/w_n44_54# comparator_0/xnor_2/xor_0/nand_3/b 0.14fF
+C399 newor_2/or_0/not_0/w_n15_38# final2 0.04fF
+C400 d1 fourbitadder_0/xor_0/nand_2/b 0.27fF
+C401 fourbitadder_0/fulladder_2/tor_1/not_0/w_n15_38# vdd 0.09fF
+C402 enable_0/x0 comparator_0/xnor_0/xor_0/nand_2/b 0.21fF
+C403 enable_0/y0 comparator_0/xnor_0/xor_0/nand_1/w_n44_54# 0.14fF
+C404 fourbitadder_0/fulladder_1/xor_0/nand_1/w_n44_54# fourbitadder_0/xor_1/out 0.14fF
+C405 fourbitadder_0/fulladder_0/xor_0/nand_1/w_n44_54# vdd 0.13fF
+C406 enable_0/and_4/not_0/in bb0 0.10fF
+C407 d3 enable_2/and_1/nand_0/w_n44_54# 0.28fF
+C408 fourbitadder_0/xor_3/nand_3/b fourbitadder_0/xor_3/out 0.10fF
+C409 fourbitadder_0/xor_1/nand_3/b fourbitadder_0/xor_1/out 0.10fF
+C410 comparator_0/xnor_3/xor_0/nand_0/w_n44_54# comparator_0/xnor_3/xor_0/nand_2/b 0.06fF
+C411 fourbitadder_0/fulladder_0/and_1/nand_0/w_n44_54# fourbitadder_0/fulladder_0/xor_1/a 0.28fF
+C412 d1 fourbitadder_0/fulladder_0/xor_1/nand_1/w_n44_54# 0.14fF
+C413 enable_2/and_2/not_0/w_n15_38# enable_2/and_2/not_0/in 0.11fF
+C414 fourbitadder_0/xor_2/nand_0/w_n44_54# enable_1/y2 0.28fF
+C415 enable_0/x0 enable_0/x3 0.19fF
+C416 vdd fourbitadder_0/fulladder_2/xor_0/nand_3/w_n44_54# 0.13fF
+C417 fourbitadder_0/fulladder_1/tor_1/b fourbitadder_0/fulladder_1/and_0/not_0/w_n15_38# 0.04fF
+C418 and_1/nand_0/w_n44_54# s0 0.28fF
+C419 vdd comparator_0/not_0/out 0.22fF
+C420 vdd bitand_0/and_0/nand_0/w_n44_54# 0.13fF
+C421 aa2 enable_2/and_2/not_0/in 0.10fF
+C422 fourbitadder_0/fulladder_0/and_0/not_0/w_n15_38# vdd 0.09fF
+C423 big comparator_0/d3 0.81fF
+C424 enable_2/and_5/not_0/in enable_2/and_5/nand_0/w_n44_54# 0.06fF
+C425 vdd comparator_0/xnor_3/xor_0/nand_1/w_n44_54# 0.13fF
+C426 comparator_0/or_0/w_n131_34# comparator_0/d3 0.50fF
+C427 vdd fourbitadder_0/fulladder_2/xor_1/nand_3/w_n44_54# 0.13fF
+C428 tor_0/a and_2/a 0.08fF
+C429 vdd enable_2/x3 0.10fF
+C430 fourbitadder_0/fulladder_1/xor_1/a gnd 1.54fF
+C431 fourbitadder_0/fulladder_3/xor_1/a gnd 1.54fF
+C432 vdd comparator_0/d2 2.03fF
+C433 vdd fourbitadder_0/fulladder_2/xor_1/nand_2/w_n44_54# 0.13fF
+C434 vdd enable_1/and_4/not_0/w_n15_38# 0.09fF
+C435 fourbitadder_0/xor_2/out gnd 1.20fF
+C436 comparator_0/fand_2/w_n133_43# comparator_0/fand_2/out 0.19fF
+C437 vdd newor_1/or_0/w_n131_34# 0.19fF
+C438 enable_0/y2 enable_0/x2 0.04fF
+C439 vdd comparator_0/and_0/nand_0/w_n44_54# 0.13fF
+C440 enable_1/y3 gnd 0.65fF
+C441 comparator_0/xnor_2/xor_0/nand_1/w_n44_54# comparator_0/xnor_2/xor_0/nand_3/a 0.06fF
+C442 comparator_0/tor_0/not_0/w_n15_38# small 0.11fF
+C443 enable_2/and_1/not_0/w_n15_38# enable_2/x1 0.04fF
+C444 fourbitadder_0/xor_1/nand_3/w_n44_54# fourbitadder_0/xor_1/nand_3/a 0.28fF
+C445 enable_1/x3 fourbitadder_0/fulladder_3/xor_0/nand_2/w_n44_54# 0.28fF
+C446 fourbitadder_0/xor_3/out fourbitadder_0/fulladder_3/xor_0/nand_3/a 0.10fF
+C447 vdd fourbitadder_0/fulladder_2/c 0.50fF
+C448 fourbitadder_0/fulladder_1/xor_1/nand_3/a gnd 0.37fF
+C449 comparator_0/xnor_3/out enable_0/y1 0.37fF
+C450 sum2 newor_2/or_0/w_n131_34# 0.50fF
+C451 newor_1/or_0/w_n131_34# k1 0.50fF
+C452 vdd final1 0.03fF
+C453 fourbitadder_0/fulladder_0/xor_0/nand_3/a gnd 0.37fF
+C454 comparator_0/and_0/b comparator_0/and_0/not_0/in 0.10fF
+C455 sum0 fourbitadder_0/fulladder_0/xor_1/nand_3/b 0.10fF
+C456 comparator_0/xnor_3/out comparator_0/xnor_1/out 0.52fF
+C457 enable_1/and_5/not_0/in enable_1/and_5/not_0/w_n15_38# 0.11fF
+C458 fourbitadder_0/fulladder_3/tor_1/w_n46_20# fourbitadder_0/fulladder_3/tor_1/b 0.20fF
+C459 vdd comparator_0/fand_2/w_194_44# 0.12fF
+C460 vdd enable_0/and_1/not_0/w_n15_38# 0.09fF
+C461 vdd fourbitadder_0/fulladder_3/and_0/nand_0/w_n44_54# 0.13fF
+C462 bb1 enable_2/and_5/not_0/in 0.10fF
+C463 fourbitadder_0/xor_2/nand_3/w_n44_54# fourbitadder_0/xor_2/nand_3/b 0.14fF
+C464 fourbitadder_0/fulladder_1/tor_1/not_0/in fourbitadder_0/fulladder_1/tor_1/a 0.08fF
+C465 vdd comparator_0/fand_2/out 1.68fF
+C466 fourbitadder_0/xor_0/nand_0/w_n44_54# fourbitadder_0/xor_0/nand_2/b 0.06fF
+C467 d1 and_1/not_0/w_n15_38# 0.04fF
+C468 vdd comparator_0/xnor_1/xor_0/nand_1/w_n44_54# 0.13fF
+C469 enable_0/and_2/nand_0/w_n44_54# enable_0/and_2/not_0/in 0.06fF
+C470 vdd comparator_0/xnor_0/xor_0/nand_0/w_n44_54# 0.13fF
+C471 enable_1/x0 fourbitadder_0/fulladder_0/xor_0/nand_2/w_n44_54# 0.28fF
+C472 fourbitadder_0/xor_2/nand_3/w_n44_54# vdd 0.13fF
+C473 fourbitadder_0/fulladder_3/tor_1/b gnd 0.31fF
+C474 comparator_0/xnor_2/xor_0/nand_0/w_n44_54# enable_0/y2 0.14fF
+C475 enable_0/x3 enable_0/y2 0.24fF
+C476 comparator_0/xnor_3/xor_0/nand_3/w_n44_54# comparator_0/xnor_3/xor_0/nand_3/b 0.14fF
+C477 vdd comparator_0/d3 0.03fF
+C478 vdd enable_2/and_2/not_0/w_n15_38# 0.09fF
+C479 fourbitadder_0/fulladder_1/xor_0/nand_0/w_n44_54# vdd 0.13fF
+C480 fourbitadder_0/fulladder_0/and_1/not_0/w_n15_38# fourbitadder_0/fulladder_0/tor_1/a 0.04fF
+C481 comparator_0/fand_0/out comparator_0/xnor_2/out 0.41fF
+C482 fourbitadder_0/xor_3/nand_0/w_n44_54# fourbitadder_0/xor_3/nand_2/b 0.06fF
+C483 eq1 and_4/not_0/in 0.10fF
+C484 comparator_0/tor_0/not_0/w_n15_38# comparator_0/tor_0/out 0.04fF
+C485 tor_0/out aa0 0.25fF
+C486 vdd aa2 0.15fF
+C487 fourbitadder_0/fulladder_0/xor_0/nand_2/b fourbitadder_0/xor_0/out 0.27fF
+C488 equal k3 0.12fF
+C489 k2 k3 0.19fF
+C490 d1 aa3 0.18fF
+C491 not_0/w_n15_38# and_2/a 0.04fF
+C492 sum2 vdd 1.44fF
+C493 comparator_0/not_0/out gnd 0.49fF
+C494 enable_0/y1 comparator_0/xnor_1/xor_0/nand_2/b 0.27fF
+C495 fourbitadder_0/fulladder_2/xor_0/nand_1/w_n44_54# fourbitadder_0/fulladder_2/xor_0/nand_3/a 0.06fF
+C496 enable_0/y0 enable_0/x1 0.19fF
+C497 fourbitadder_0/fulladder_0/and_1/nand_0/w_n44_54# vdd 0.13fF
+C498 fourbitadder_0/xor_0/nand_3/w_n44_54# fourbitadder_0/xor_0/out 0.06fF
+C499 enable_0/and_0/not_0/w_n15_38# enable_0/x0 0.04fF
+C500 fourbitadder_0/fulladder_2/and_0/nand_0/w_n44_54# fourbitadder_0/fulladder_2/and_0/not_0/in 0.06fF
+C501 enable_2/x3 gnd 0.21fF
+C502 comparator_0/fand_3/w_n133_43# comparator_0/not_0/out 0.22fF
+C503 fourbitadder_0/fulladder_1/tor_1/not_0/w_n15_38# fourbitadder_0/fulladder_2/c 0.04fF
+C504 vdd comparator_0/and_0/not_0/w_n15_38# 0.09fF
+C505 vdd enable_1/x3 0.66fF
+C506 comparator_0/d2 gnd 0.71fF
+C507 fourbitadder_0/fulladder_0/xor_0/nand_0/w_n44_54# vdd 0.13fF
+C508 fourbitadder_0/xor_1/nand_1/w_n44_54# fourbitadder_0/xor_1/nand_3/a 0.06fF
+C509 enable_1/x2 enable_1/y0 0.38fF
+C510 enable_2/and_3/nand_0/w_n44_54# enable_2/and_3/not_0/in 0.06fF
+C511 fourbitadder_0/fulladder_1/xor_0/nand_3/b gnd 0.39fF
+C512 d1 fourbitadder_0/fulladder_0/xor_1/nand_0/w_n44_54# 0.14fF
+C513 bb2 aa2 0.61fF
+C514 aa0 aa1 0.23fF
+C515 comparator_0/d1 comparator_0/xnor_3/out 1.07fF
+C516 comparator_0/not_0/w_n15_38# enable_0/y0 0.11fF
+C517 bitand_0/and_3/not_0/w_n15_38# bitand_0/and_3/not_0/in 0.11fF
+C518 newor_1/or_0/w_n131_34# gnd 0.50fF
+C519 fourbitadder_0/fulladder_0/xor_1/nand_2/b gnd 1.71fF
+C520 sum1 fourbitadder_0/fulladder_1/xor_1/nand_3/w_n44_54# 0.06fF
+C521 comparator_0/fand_2/w_n133_43# enable_0/x2 0.22fF
+C522 fourbitadder_0/xor_0/nand_3/b gnd 0.39fF
+C523 enable_0/y3 enable_0/x3 0.11fF
+C524 newor_0/or_0/out big 1.25fF
+C525 vdd enable_1/and_1/nand_0/w_n44_54# 0.13fF
+C526 d2 aa2 0.50fF
+C527 enable_1/and_1/not_0/w_n15_38# enable_1/and_1/not_0/in 0.11fF
+C528 comparator_0/not_1/out comparator_0/fand_1/out 0.41fF
+C529 vdd fourbitadder_0/fulladder_2/xor_1/nand_3/a 0.47fF
+C530 comparator_0/xnor_3/xor_0/nand_1/w_n44_54# comparator_0/xnor_3/xor_0/nand_3/a 0.06fF
+C531 aa2 bb0 0.61fF
+C532 fourbitadder_0/fulladder_2/c gnd 1.46fF
+C533 comparator_0/xnor_1/not_0/in comparator_0/xnor_1/not_0/w_n15_38# 0.11fF
+C534 fourbitadder_0/fulladder_1/xor_1/nand_2/b fourbitadder_0/fulladder_1/xor_1/nand_1/w_n44_54# 0.28fF
+C535 fourbitadder_0/xor_0/nand_0/w_n44_54# d1 0.14fF
+C536 sum3 fourbitadder_0/fulladder_3/xor_1/nand_3/w_n44_54# 0.06fF
+C537 fourbitadder_0/fulladder_0/xor_1/nand_3/b gnd 0.39fF
+C538 tor_0/out enable_1/and_4/nand_0/w_n44_54# 0.28fF
+C539 vdd bitand_0/and_3/not_0/w_n15_38# 0.09fF
+C540 enable_2/y2 enable_2/x3 0.12fF
+C541 fourbitadder_0/xor_1/nand_3/w_n44_54# vdd 0.13fF
+C542 bb3 tor_0/out 1.70fF
+C543 enable_0/and_6/not_0/w_n15_38# enable_0/and_6/not_0/in 0.11fF
+C544 fourbitadder_0/xor_2/nand_1/w_n44_54# fourbitadder_0/xor_2/nand_3/a 0.06fF
+C545 fourbitadder_0/xor_1/nand_1/w_n44_54# fourbitadder_0/xor_1/nand_2/b 0.28fF
+C546 fourbitadder_0/xor_0/nand_2/w_n44_54# fourbitadder_0/xor_0/nand_3/b 0.06fF
+C547 aa3 d3 0.48fF
+C548 enable_1/and_7/nand_0/w_n44_54# bb3 0.14fF
+C549 bitand_0/and_2/not_0/w_n15_38# k2 0.04fF
+C550 vdd enable_0/x2 0.70fF
+C551 fourbitadder_0/fulladder_0/xor_1/nand_2/b fourbitadder_0/fulladder_0/xor_1/nand_2/w_n44_54# 0.14fF
+C552 enable_1/and_0/nand_0/w_n44_54# aa0 0.14fF
+C553 fourbitadder_0/fulladder_3/xor_0/nand_3/w_n44_54# fourbitadder_0/fulladder_3/xor_0/nand_3/b 0.14fF
+C554 comparator_0/xnor_2/xor_0/nand_2/b comparator_0/xnor_2/xor_0/nand_3/b 0.10fF
+C555 vdd sum4 0.06fF
+C556 enable_1/x1 fourbitadder_0/fulladder_1/xor_0/nand_2/w_n44_54# 0.28fF
+C557 s1 tor_0/a 0.14fF
+C558 enable_0/x2 comparator_0/xnor_2/xor_0/nand_2/w_n44_54# 0.28fF
+C559 vdd enable_1/and_5/not_0/w_n15_38# 0.09fF
+C560 fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_3/xor_1/nand_1/w_n44_54# 0.14fF
+C561 vdd fourbitadder_0/fulladder_3/xor_1/nand_0/w_n44_54# 0.13fF
+C562 comparator_0/d3 gnd 0.40fF
+C563 vdd enable_0/and_3/nand_0/w_n44_54# 0.13fF
+C564 enable_0/and_0/nand_0/w_n44_54# aa0 0.14fF
+C565 comparator_0/xnor_3/xor_0/nand_0/w_n44_54# enable_0/y3 0.14fF
+C566 fourbitadder_0/xor_2/nand_2/b enable_1/y2 0.21fF
+C567 fourbitadder_0/fulladder_0/xor_1/nand_2/w_n44_54# fourbitadder_0/fulladder_0/xor_1/nand_3/b 0.06fF
+C568 fourbitadder_0/xor_3/nand_2/w_n44_54# vdd 0.13fF
+C569 comparator_0/or_0/a comparator_0/xnor_2/out 0.55fF
+C570 bb3 aa1 1.21fF
+C571 newor_1/or_0/out equal 1.25fF
+C572 enable_0/y1 enable_0/y2 8.80fF
+C573 comparator_0/or_0/a comparator_0/or_0/out 1.79fF
+C574 aa2 gnd 1.01fF
+C575 vdd fourbitadder_0/fulladder_3/xor_0/nand_3/w_n44_54# 0.13fF
+C576 fourbitadder_0/xor_0/nand_3/a fourbitadder_0/xor_0/nand_3/b 0.01fF
+C577 vdd fourbitadder_0/fulladder_1/and_0/not_0/w_n15_38# 0.09fF
+C578 vdd comparator_0/fand_3/w_194_44# 0.12fF
+C579 sum2 gnd 6.33fF
+C580 comparator_0/or_0/not_0/w_n15_38# big 0.04fF
+C581 vdd bitand_0/and_1/nand_0/w_n44_54# 0.13fF
+C582 fourbitadder_0/fulladder_0/tor_1/w_n46_20# fourbitadder_0/fulladder_0/tor_1/a 0.20fF
+C583 fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_2/xor_1/nand_0/w_n44_54# 0.14fF
+C584 fourbitadder_0/fulladder_2/xor_0/nand_2/b fourbitadder_0/fulladder_2/xor_0/nand_3/b 0.10fF
+C585 aa0 enable_1/and_0/not_0/in 0.10fF
+C586 fourbitadder_0/fulladder_2/xor_1/a gnd 1.54fF
+C587 fourbitadder_0/fulladder_0/xor_0/nand_3/b fourbitadder_0/fulladder_0/xor_1/a 0.10fF
+C588 fourbitadder_0/fulladder_3/xor_1/nand_3/w_n44_54# fourbitadder_0/fulladder_3/xor_1/nand_3/b 0.14fF
+C589 final1 newor_1/or_0/not_0/w_n15_38# 0.04fF
+C590 sum0 newor_0/or_0/out 0.95fF
+C591 vdd enable_2/and_4/nand_0/w_n44_54# 0.13fF
+C592 bitand_0/and_0/not_0/w_n15_38# bitand_0/and_0/not_0/in 0.11fF
+C593 fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_2/and_1/not_0/in 0.10fF
+C594 fourbitadder_0/xor_2/out fourbitadder_0/fulladder_2/and_0/not_0/in 0.10fF
+C595 vdd enable_1/y2 0.11fF
+C596 d1 enable_1/y3 0.60fF
+C597 enable_1/x3 gnd 1.56fF
+C598 enable_2/y1 enable_2/x3 0.08fF
+C599 enable_0/and_1/nand_0/w_n44_54# aa1 0.14fF
+C600 fourbitadder_0/fulladder_2/xor_0/nand_0/w_n44_54# fourbitadder_0/a2 0.28fF
+C601 fourbitadder_0/fulladder_1/tor_1/b fourbitadder_0/fulladder_1/tor_1/a 0.38fF
+C602 vdd comparator_0/xnor_2/xor_0/nand_0/w_n44_54# 0.13fF
+C603 vdd enable_0/x3 0.72fF
+C604 bb1 aa2 0.50fF
+C605 fourbitadder_0/fulladder_0/tor_1/a vdd 0.03fF
+C606 fourbitadder_0/fulladder_3/xor_1/nand_2/w_n44_54# fourbitadder_0/fulladder_3/xor_1/nand_3/b 0.06fF
+C607 fourbitadder_0/fulladder_1/xor_0/nand_2/b fourbitadder_0/fulladder_1/xor_0/nand_2/w_n44_54# 0.14fF
+C608 enable_2/y1 bitand_0/and_1/not_0/in 0.15fF
+C609 fourbitadder_0/fulladder_0/xor_1/nand_3/a fourbitadder_0/fulladder_0/xor_1/nand_3/b 0.01fF
+C610 fourbitadder_0/xor_3/nand_3/a vdd 0.47fF
+C611 d2 enable_0/and_3/nand_0/w_n44_54# 0.28fF
+C612 vdd enable_1/y0 0.10fF
+C613 fourbitadder_0/xor_1/nand_1/w_n44_54# vdd 0.13fF
+C614 enable_0/and_3/not_0/w_n15_38# enable_0/and_3/not_0/in 0.11fF
+C615 enable_0/and_3/not_0/w_n15_38# enable_0/x3 0.04fF
+C616 fourbitadder_0/fulladder_3/xor_0/nand_1/w_n44_54# fourbitadder_0/fulladder_3/xor_0/nand_3/a 0.06fF
+C617 s1 and_3/not_0/in 0.10fF
+C618 tor_0/a and_0/not_0/w_n15_38# 0.04fF
+C619 comparator_0/fand_1/out comparator_0/xnor_2/out 0.41fF
+C620 comparator_0/fand_0/w_n133_43# comparator_0/xnor_0/out 0.22fF
+C621 fourbitadder_0/fulladder_1/xor_0/nand_3/w_n44_54# fourbitadder_0/fulladder_1/xor_1/a 0.06fF
+C622 vdd newor_2/or_0/not_0/w_n15_38# 0.09fF
+C623 fourbitadder_0/fulladder_2/xor_1/nand_3/a gnd 0.37fF
+C624 fourbitadder_0/xor_0/nand_2/b fourbitadder_0/xor_0/nand_3/b 0.10fF
+C625 big comparator_0/tor_0/w_n46_20# 0.20fF
+C626 enable_1/y1 fourbitadder_0/xor_1/nand_0/w_n44_54# 0.28fF
+C627 enable_0/y1 enable_0/y3 0.13fF
+C628 comparator_0/xnor_1/xor_0/nand_1/w_n44_54# comparator_0/xnor_1/xor_0/nand_3/a 0.06fF
+C629 vdd comparator_0/fand_0/w_194_44# 0.12fF
+C630 sum2 newor_2/or_0/out 0.95fF
+C631 comparator_0/xnor_0/xor_0/nand_3/b gnd 0.39fF
+C632 fourbitadder_0/fulladder_0/xor_1/nand_2/b fourbitadder_0/fulladder_0/xor_1/nand_1/w_n44_54# 0.28fF
+C633 comparator_0/fand_0/in5 comparator_0/fand_0/out 0.41fF
+C634 enable_1/x3 fourbitadder_0/fulladder_3/xor_0/nand_0/w_n44_54# 0.28fF
+C635 and_4/not_0/w_n15_38# and_4/not_0/in 0.11fF
+C636 enable_2/y0 bitand_0/and_0/nand_0/w_n44_54# 0.14fF
+C637 fourbitadder_0/fulladder_1/xor_1/a fourbitadder_0/fulladder_1/xor_1/nand_2/w_n44_54# 0.28fF
+C638 comparator_0/xnor_0/xor_0/nand_3/w_n44_54# comparator_0/xnor_0/xor_0/nand_3/a 0.28fF
+C639 vdd fourbitadder_0/fulladder_3/and_0/not_0/w_n15_38# 0.09fF
+C640 fourbitadder_0/xor_2/out fourbitadder_0/fulladder_2/and_0/nand_0/w_n44_54# 0.14fF
+C641 and_1/not_0/w_n15_38# and_1/not_0/in 0.11fF
+C642 enable_0/and_1/not_0/in aa1 0.10fF
+C643 big enable_0/y1 0.45fF
+C644 bb0 enable_2/and_4/nand_0/w_n44_54# 0.14fF
+C645 enable_2/x3 enable_2/y0 0.07fF
+C646 comparator_0/not_0/out comparator_0/not_0/w_n15_38# 0.04fF
+C647 aa0 enable_2/and_0/nand_0/w_n44_54# 0.14fF
+C648 fourbitadder_0/fulladder_3/tor_1/b fourbitadder_0/fulladder_3/tor_1/not_0/in 0.65fF
+C649 fourbitadder_0/fulladder_1/xor_0/nand_3/a vdd 0.47fF
+C650 enable_1/and_2/nand_0/w_n44_54# enable_1/and_2/not_0/in 0.06fF
+C651 sum3 tor_1/not_0/in 0.08fF
+C652 fourbitadder_0/xor_3/nand_1/w_n44_54# vdd 0.13fF
+C653 enable_0/x2 gnd 1.48fF
+C654 fourbitadder_0/fulladder_2/xor_0/nand_0/w_n44_54# fourbitadder_0/fulladder_2/xor_0/nand_2/b 0.06fF
+C655 tor_0/a and_1/b 0.09fF
+C656 comparator_0/fand_0/w_194_44# eq1 0.12fF
+C657 bb2 enable_2/and_6/not_0/in 0.10fF
+C658 vdd comparator_0/xnor_3/xor_0/nand_0/w_n44_54# 0.13fF
+C659 fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_1/xor_1/a 1.09fF
+C660 fourbitadder_0/fulladder_2/xor_1/nand_0/w_n44_54# fourbitadder_0/fulladder_2/xor_1/a 0.28fF
+C661 vdd comparator_0/or_0/not_0/w_n15_38# 0.09fF
+C662 comparator_0/xnor_3/xor_0/nand_2/b comparator_0/xnor_3/xor_0/nand_3/b 0.10fF
+C663 vdd comparator_0/xnor_0/out 0.30fF
+C664 fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_3/xor_1/a 1.06fF
+C665 enable_0/x3 comparator_0/xnor_3/xor_0/nand_2/w_n44_54# 0.28fF
+C666 vdd fourbitadder_0/fulladder_2/xor_0/nand_0/w_n44_54# 0.13fF
+C667 fourbitadder_0/fulladder_0/xor_0/nand_0/w_n44_54# enable_1/x0 0.28fF
+C668 k3 big 0.50fF
+C669 enable_0/and_6/nand_0/w_n44_54# enable_0/and_6/not_0/in 0.06fF
+C670 fourbitadder_0/xor_3/out vdd 0.30fF
+C671 fourbitadder_0/fulladder_3/xor_1/nand_2/b fourbitadder_0/fulladder_3/xor_1/nand_2/w_n44_54# 0.14fF
+C672 enable_2/and_4/not_0/w_n15_38# enable_2/and_4/not_0/in 0.11fF
+C673 vdd enable_2/and_5/not_0/w_n15_38# 0.09fF
+C674 comparator_0/fand_0/w_n133_43# comparator_0/xnor_1/out 0.22fF
+C675 vdd enable_2/x2 0.17fF
+C676 fourbitadder_0/xor_3/nand_2/b fourbitadder_0/xor_3/nand_3/b 0.10fF
+C677 tor_0/not_0/w_n15_38# tor_0/not_0/in 0.11fF
+C678 fourbitadder_0/fulladder_3/xor_1/nand_3/a fourbitadder_0/fulladder_3/xor_1/nand_3/b 0.01fF
+C679 fourbitadder_0/fulladder_2/xor_1/nand_2/b fourbitadder_0/fulladder_2/xor_1/nand_3/b 0.10fF
+C680 enable_0/and_1/not_0/w_n15_38# enable_0/x1 0.04fF
+C681 vdd sum3 0.15fF
+C682 and_2/not_0/w_n15_38# and_2/not_0/in 0.11fF
+C683 bb0 enable_2/and_4/not_0/in 0.10fF
+C684 fourbitadder_0/fulladder_1/and_0/not_0/w_n15_38# fourbitadder_0/fulladder_1/and_0/not_0/in 0.11fF
+C685 vdd enable_1/and_3/not_0/w_n15_38# 0.09fF
+C686 fourbitadder_0/fulladder_3/xor_0/nand_2/b enable_1/x3 0.21fF
+C687 fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_1/xor_1/nand_3/a 0.10fF
+C688 fourbitadder_0/fulladder_3/tor_1/not_0/w_n15_38# sum4 0.04fF
+C689 fourbitadder_0/fulladder_1/xor_1/nand_3/w_n44_54# fourbitadder_0/fulladder_1/xor_1/nand_3/a 0.28fF
+C690 comparator_0/xnor_1/xor_0/nand_0/w_n44_54# comparator_0/xnor_1/xor_0/nand_2/b 0.06fF
+C691 comparator_0/xnor_0/xor_0/nand_2/b gnd 1.71fF
+C692 newor_0/or_0/out gnd 0.77fF
+C693 sum1 newor_1/or_0/w_n131_34# 0.50fF
+C694 vdd comparator_0/tor_0/w_n46_20# 0.06fF
+C695 d1 fourbitadder_0/fulladder_0/xor_1/nand_2/b 0.27fF
+C696 enable_1/y2 gnd 0.65fF
+C697 fourbitadder_0/fulladder_2/xor_0/nand_3/b gnd 0.39fF
+C698 enable_0/x3 gnd 1.37fF
+C699 enable_0/x0 comparator_0/xnor_0/xor_0/nand_2/w_n44_54# 0.28fF
+C700 comparator_0/xnor_0/xor_0/nand_1/w_n44_54# comparator_0/xnor_0/xor_0/nand_2/b 0.28fF
+C701 comparator_0/not_1/w_n15_38# enable_0/y1 0.11fF
+C702 comparator_0/fand_3/w_n133_43# comparator_0/fand_3/out 0.19fF
+C703 fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_3/and_1/not_0/in 0.10fF
+C704 fourbitadder_0/fulladder_1/xor_0/nand_0/w_n44_54# fourbitadder_0/xor_1/out 0.14fF
+C705 fourbitadder_0/fulladder_0/tor_1/w_n46_20# fourbitadder_0/fulladder_0/tor_1/not_0/in 0.04fF
+C706 fourbitadder_0/xor_0/nand_3/w_n44_54# vdd 0.13fF
+C707 tor_1/not_0/in k3 0.59fF
+C708 d1 tor_0/not_0/in 0.53fF
+C709 fourbitadder_0/xor_3/nand_3/a gnd 0.37fF
+C710 enable_1/y0 gnd 0.62fF
+C711 enable_2/and_3/not_0/w_n15_38# enable_2/x3 0.04fF
+C712 vdd tor_0/out 0.22fF
+C713 vdd enable_0/y1 0.18fF
+C714 comparator_0/d2 comparator_0/xnor_2/out 0.92fF
+C715 vdd enable_0/and_0/not_0/w_n15_38# 0.09fF
+C716 comparator_0/fand_1/w_194_44# comparator_0/fand_1/out 0.68fF
+C717 vdd comparator_0/xnor_1/out 0.76fF
+C718 fourbitadder_0/fulladder_1/tor_1/b fourbitadder_0/fulladder_1/tor_1/not_0/in 0.65fF
+C719 comparator_0/tor_0/w_n46_20# eq1 0.20fF
+C720 comparator_0/or_0/out comparator_0/d2 1.00fF
+C721 fourbitadder_0/fulladder_1/xor_1/nand_3/b gnd 0.39fF
+C722 fourbitadder_0/fulladder_1/xor_0/nand_3/w_n44_54# fourbitadder_0/fulladder_1/xor_0/nand_3/b 0.14fF
+C723 comparator_0/or_0/w_n131_34# comparator_0/d1 0.50fF
+C724 fourbitadder_0/fulladder_2/tor_1/not_0/w_n15_38# fourbitadder_0/fulladder_3/c 0.04fF
+C725 vdd tor_0/a 0.13fF
+C726 vdd enable_1/and_7/nand_0/w_n44_54# 0.13fF
+C727 fourbitadder_0/fulladder_0/xor_0/nand_3/w_n44_54# fourbitadder_0/fulladder_0/xor_0/nand_3/b 0.14fF
+C728 vdd k3 0.34fF
+C729 fourbitadder_0/xor_0/nand_2/w_n44_54# enable_1/y0 0.28fF
+C730 enable_0/and_4/nand_0/w_n44_54# enable_0/and_4/not_0/in 0.06fF
+C731 vdd enable_2/and_1/not_0/w_n15_38# 0.09fF
+C732 fourbitadder_0/fulladder_1/xor_0/nand_3/a gnd 0.37fF
+C733 fourbitadder_0/fulladder_0/tor_1/not_0/w_n15_38# vdd 0.09fF
+C734 vdd comparator_0/xnor_2/xor_0/nand_3/w_n44_54# 0.13fF
+C735 bb2 tor_0/out 0.42fF
+C736 vdd fourbitadder_0/fulladder_3/and_1/nand_0/w_n44_54# 0.13fF
+C737 equal k2 0.11fF
+C738 vdd aa1 0.09fF
+C739 k1 k3 0.26fF
+C740 comparator_0/xnor_0/out gnd 0.80fF
+C741 newor_2/or_0/out newor_2/or_0/not_0/w_n15_38# 0.11fF
+C742 fourbitadder_0/fulladder_0/xor_1/nand_0/w_n44_54# fourbitadder_0/fulladder_0/xor_1/nand_2/b 0.06fF
+C743 d1 aa2 0.24fF
+C744 enable_0/and_7/not_0/in bb3 0.10fF
+C745 enable_1/y1 fourbitadder_0/xor_1/nand_2/w_n44_54# 0.28fF
+C746 tor_0/out bb0 0.53fF
+C747 vdd and_3/not_0/w_n15_38# 0.09fF
+C748 comparator_0/xnor_1/xor_0/nand_2/b comparator_0/xnor_1/xor_0/nand_3/b 0.10fF
+C749 fourbitadder_0/xor_3/out gnd 1.20fF
+C750 fourbitadder_0/xor_1/nand_3/w_n44_54# fourbitadder_0/xor_1/out 0.06fF
+C751 enable_2/x2 gnd 0.23fF
+C752 enable_1/and_6/not_0/w_n15_38# enable_1/and_6/not_0/in 0.11fF
+C753 fourbitadder_0/fulladder_2/tor_1/b fourbitadder_0/fulladder_2/and_0/not_0/w_n15_38# 0.04fF
+C754 vdd fourbitadder_0/fulladder_2/and_0/not_0/w_n15_38# 0.09fF
+C755 vdd final3 0.03fF
+C756 fourbitadder_0/xor_3/nand_0/w_n44_54# vdd 0.13fF
+C757 vdd and_4/nand_0/w_n44_54# 0.13fF
+C758 d1 fourbitadder_0/fulladder_0/and_1/nand_0/w_n44_54# 0.14fF
+C759 and_1/not_0/in and_1/nand_0/w_n44_54# 0.06fF
+C760 d1 enable_1/x3 0.38fF
+C761 comparator_0/or_0/out comparator_0/d3 0.75fF
+C762 bb2 aa1 0.51fF
+C763 fourbitadder_0/fulladder_0/xor_0/nand_2/b gnd 1.71fF
+C764 enable_2/y1 bitand_0/and_1/nand_0/w_n44_54# 0.14fF
+C765 newor_0/or_0/w_n131_34# big 0.50fF
+C766 enable_0/x1 enable_0/x2 0.12fF
+C767 vdd tor_0/w_n46_20# 0.06fF
+C768 vdd enable_1/and_0/nand_0/w_n44_54# 0.13fF
+C769 d2 aa1 0.23fF
+C770 fourbitadder_0/xor_1/nand_3/w_n44_54# fourbitadder_0/xor_1/nand_3/b 0.14fF
+C771 fourbitadder_0/xor_3/out fourbitadder_0/fulladder_3/xor_0/nand_0/w_n44_54# 0.14fF
+C772 vdd fourbitadder_0/fulladder_1/tor_1/a 0.03fF
+C773 vdd enable_2/and_6/nand_0/w_n44_54# 0.13fF
+C774 aa1 bb0 0.50fF
+C775 aa2 aa3 0.25fF
+C776 vdd comparator_0/xnor_3/xor_0/nand_3/w_n44_54# 0.13fF
+C777 eq1 and_4/nand_0/w_n44_54# 0.14fF
+C778 comparator_0/fand_1/w_n133_43# comparator_0/xnor_3/out 0.22fF
+C779 sum3 tor_1/w_n46_20# 0.20fF
+C780 enable_1/y1 enable_1/x2 0.32fF
+C781 enable_0/y2 comparator_0/xnor_2/xor_0/nand_2/b 0.27fF
+C782 tor_0/out enable_1/and_3/nand_0/w_n44_54# 0.28fF
+C783 fourbitadder_0/fulladder_0/xor_0/nand_3/b gnd 0.39fF
+C784 tor_0/a s0 0.05fF
+C785 vdd bitand_0/and_2/not_0/w_n15_38# 0.09fF
+C786 vdd enable_0/and_0/nand_0/w_n44_54# 0.13fF
+C787 enable_2/y2 enable_2/x2 0.23fF
+C788 enable_1/and_3/not_0/w_n15_38# enable_1/and_3/not_0/in 0.11fF
+C789 fourbitadder_0/fulladder_1/xor_0/nand_2/w_n44_54# vdd 0.13fF
+C790 enable_0/y1 gnd 0.61fF
+C791 comparator_0/not_2/out comparator_0/fand_2/out 0.41fF
+C792 fourbitadder_0/fulladder_1/xor_0/nand_2/b enable_1/x1 0.21fF
+C793 tor_0/out gnd 1.71fF
+C794 fourbitadder_0/xor_2/nand_2/b fourbitadder_0/xor_2/nand_2/w_n44_54# 0.14fF
+C795 comparator_0/xnor_1/out gnd 2.10fF
+C796 vdd not_0/w_n15_38# 0.09fF
+C797 fourbitadder_0/xor_0/nand_2/b enable_1/y0 0.21fF
+C798 d2 and_4/nand_0/w_n44_54# 0.28fF
+C799 comparator_0/xnor_2/xor_0/nand_3/w_n44_54# comparator_0/xnor_2/xor_0/nand_3/a 0.28fF
+C800 aa2 d3 0.49fF
+C801 comparator_0/fand_3/w_n133_43# comparator_0/xnor_1/out 0.22fF
+C802 fourbitadder_0/fulladder_0/xor_0/nand_1/w_n44_54# fourbitadder_0/fulladder_0/xor_0/nand_3/a 0.06fF
+C803 tor_0/a gnd 0.07fF
+C804 fourbitadder_0/fulladder_2/tor_1/not_0/in fourbitadder_0/fulladder_2/tor_1/a 0.08fF
+C805 fourbitadder_0/fulladder_1/xor_1/a fourbitadder_0/fulladder_1/xor_0/nand_3/b 0.10fF
+C806 comparator_0/xnor_0/xor_0/nand_0/w_n44_54# enable_0/y0 0.14fF
+C807 fourbitadder_0/xor_2/nand_2/w_n44_54# fourbitadder_0/xor_2/nand_3/b 0.06fF
+C808 bb2 enable_2/and_6/nand_0/w_n44_54# 0.14fF
+C809 comparator_0/xnor_3/out comparator_0/xnor_3/not_0/w_n15_38# 0.04fF
+C810 k3 gnd 0.20fF
+C811 vdd fourbitadder_0/fulladder_2/xor_0/nand_3/a 0.47fF
+C812 enable_0/and_2/not_0/w_n15_38# enable_0/x2 0.04fF
+C813 enable_1/y1 fourbitadder_0/xor_1/nand_2/b 0.21fF
+C814 vdd enable_0/and_2/nand_0/w_n44_54# 0.13fF
+C815 fourbitadder_0/fulladder_3/xor_1/nand_3/b gnd 0.39fF
+C816 bb1 tor_0/out 0.35fF
+C817 enable_0/x1 enable_0/x3 0.20fF
+C818 s1 and_2/not_0/in 0.10fF
+C819 enable_1/and_2/nand_0/w_n44_54# aa2 0.14fF
+C820 comparator_0/xnor_1/xor_0/nand_3/w_n44_54# comparator_0/xnor_1/xor_0/nand_3/b 0.14fF
+C821 fourbitadder_0/xor_2/nand_2/w_n44_54# vdd 0.13fF
+C822 bb3 aa0 1.31fF
+C823 comparator_0/xnor_3/out enable_0/y2 0.32fF
+C824 fourbitadder_0/xor_3/out fourbitadder_0/fulladder_3/xor_0/nand_2/b 0.27fF
+C825 fourbitadder_0/fulladder_0/xor_0/nand_2/b enable_1/x0 0.21fF
+C826 and_0/nand_0/w_n44_54# and_2/a 0.28fF
+C827 enable_1/and_2/not_0/w_n15_38# enable_1/x2 0.04fF
+C828 aa1 gnd 0.97fF
+C829 enable_0/and_0/nand_0/w_n44_54# d2 0.28fF
+C830 newor_1/or_0/out k1 0.84fF
+C831 comparator_0/not_2/w_n15_38# enable_0/y2 0.11fF
+C832 vdd fourbitadder_0/fulladder_3/xor_0/nand_1/w_n44_54# 0.13fF
+C833 fourbitadder_0/fulladder_1/and_1/not_0/w_n15_38# fourbitadder_0/fulladder_1/tor_1/a 0.04fF
+C834 and_2/nand_0/w_n44_54# and_2/a 0.28fF
+C835 fourbitadder_0/fulladder_1/xor_1/nand_1/w_n44_54# vdd 0.13fF
+C836 and_1/b and_2/a 0.31fF
+C837 vdd newor_0/or_0/w_n131_34# 0.19fF
+C838 tor_1/w_n46_20# k3 0.20fF
+C839 fourbitadder_0/fulladder_0/tor_1/b fourbitadder_0/fulladder_0/tor_1/w_n46_20# 0.20fF
+C840 sum0 newor_0/or_0/w_n131_34# 0.50fF
+C841 vdd enable_2/and_3/nand_0/w_n44_54# 0.13fF
+C842 enable_2/and_5/not_0/w_n15_38# enable_2/y1 0.04fF
+C843 fourbitadder_0/xor_2/nand_3/a fourbitadder_0/xor_2/nand_3/b 0.01fF
+C844 fourbitadder_0/xor_0/nand_3/w_n44_54# fourbitadder_0/xor_0/nand_3/a 0.28fF
+C845 enable_2/y1 enable_2/x2 0.08fF
+C846 enable_0/and_0/not_0/w_n15_38# enable_0/and_0/not_0/in 0.11fF
+C847 aa2 enable_1/and_2/not_0/in 0.10fF
+C848 bb1 aa1 0.41fF
+C849 fourbitadder_0/fulladder_1/xor_0/nand_3/a fourbitadder_0/xor_1/out 0.10fF
+C850 fourbitadder_0/fulladder_0/tor_1/b vdd 0.55fF
+C851 final3 tor_1/not_0/w_n15_38# 0.04fF
+C852 d1 enable_1/y2 0.39fF
+C853 vdd enable_2/and_0/nand_0/w_n44_54# 0.13fF
+C854 d2 enable_0/and_2/nand_0/w_n44_54# 0.28fF
+C855 fourbitadder_0/xor_2/nand_3/a vdd 0.47fF
+C856 fourbitadder_0/xor_2/nand_3/w_n44_54# fourbitadder_0/xor_2/out 0.06fF
+C857 comparator_0/xnor_2/xor_0/nand_2/w_n44_54# comparator_0/xnor_2/xor_0/nand_3/b 0.06fF
+C858 enable_2/x2 bitand_0/and_2/nand_0/w_n44_54# 0.28fF
+C859 enable_0/and_3/nand_0/w_n44_54# aa3 0.14fF
+C860 enable_2/y3 enable_2/and_7/not_0/w_n15_38# 0.04fF
+C861 newor_0/or_0/not_0/w_n15_38# newor_0/or_0/out 0.11fF
+C862 enable_0/y1 comparator_0/xnor_1/xor_0/nand_3/a 0.10fF
+C863 d1 fourbitadder_0/xor_3/nand_3/a 0.10fF
+C864 fourbitadder_0/xor_2/nand_2/b fourbitadder_0/xor_2/nand_1/w_n44_54# 0.28fF
+C865 comparator_0/d1 gnd 1.32fF
+C866 not_0/w_n15_38# s0 0.11fF
+C867 d1 enable_1/y0 0.41fF
+C868 d1 fourbitadder_0/xor_1/nand_1/w_n44_54# 0.14fF
+C869 fourbitadder_0/fulladder_2/and_1/nand_0/w_n44_54# vdd 0.13fF
+C870 comparator_0/xnor_3/out enable_0/y3 0.28fF
+C871 fourbitadder_0/fulladder_3/xor_1/nand_2/b gnd 1.71fF
+C872 comparator_0/xnor_0/not_0/w_n15_38# comparator_0/xnor_0/not_0/in 0.11fF
+C873 sum1 fourbitadder_0/fulladder_1/xor_1/nand_3/b 0.10fF
+C874 fourbitadder_0/fulladder_1/xor_0/nand_1/w_n44_54# fourbitadder_0/fulladder_1/xor_0/nand_3/a 0.06fF
+C875 aa1 enable_2/and_1/nand_0/w_n44_54# 0.14fF
+C876 newor_0/or_0/out k0 0.84fF
+C877 comparator_0/fand_0/w_194_44# comparator_0/fand_0/out 0.68fF
+C878 enable_0/and_5/not_0/w_n15_38# enable_0/y1 0.04fF
+C879 enable_0/y3 comparator_0/xnor_3/xor_0/nand_2/b 0.27fF
+C880 comparator_0/xnor_2/out comparator_0/fand_3/out 0.41fF
+C881 fourbitadder_0/fulladder_1/xor_1/nand_0/w_n44_54# fourbitadder_0/fulladder_1/xor_1/nand_2/b 0.06fF
+C882 vdd comparator_0/xnor_1/xor_0/nand_0/w_n44_54# 0.13fF
+C883 enable_1/y1 vdd 0.13fF
+C884 fourbitadder_0/xor_3/nand_3/w_n44_54# fourbitadder_0/xor_3/nand_3/a 0.28fF
+C885 fourbitadder_0/fulladder_2/xor_1/nand_2/b fourbitadder_0/fulladder_2/xor_1/nand_1/w_n44_54# 0.28fF
+C886 fourbitadder_0/fulladder_2/xor_1/nand_3/b gnd 0.39fF
+C887 vdd comparator_0/xnor_0/xor_0/nand_3/w_n44_54# 0.13fF
+C888 fourbitadder_0/xor_1/nand_0/w_n44_54# fourbitadder_0/xor_1/nand_2/b 0.06fF
+C889 comparator_0/not_2/out enable_0/x2 0.16fF
+C890 small comparator_0/tor_0/w_n46_20# 0.04fF
+C891 fourbitadder_0/fulladder_2/xor_0/nand_1/w_n44_54# fourbitadder_0/fulladder_2/xor_0/nand_2/b 0.28fF
+C892 enable_2/x2 enable_2/y0 0.07fF
+C893 comparator_0/xnor_2/out enable_0/x3 0.26fF
+C894 fourbitadder_0/fulladder_3/xor_1/nand_0/w_n44_54# fourbitadder_0/fulladder_3/c 0.14fF
+C895 fourbitadder_0/fulladder_0/and_1/not_0/w_n15_38# fourbitadder_0/fulladder_0/and_1/not_0/in 0.11fF
+C896 vdd comparator_0/xnor_0/xor_0/nand_2/w_n44_54# 0.13fF
+C897 fourbitadder_0/xor_2/nand_1/w_n44_54# vdd 0.13fF
+C898 comparator_0/xnor_3/xor_0/nand_3/w_n44_54# comparator_0/xnor_3/xor_0/nand_3/a 0.28fF
+C899 enable_2/y0 bitand_0/and_0/not_0/in 0.19fF
+C900 enable_0/and_3/not_0/in aa3 0.10fF
+C901 vdd fourbitadder_0/fulladder_2/xor_0/nand_1/w_n44_54# 0.13fF
+C902 enable_0/y0 enable_0/x2 0.20fF
+C903 newor_1/or_0/out gnd 0.77fF
+C904 enable_2/and_1/not_0/w_n15_38# enable_2/and_1/not_0/in 0.11fF
+C905 d1 fourbitadder_0/xor_3/nand_1/w_n44_54# 0.14fF
+C906 and_2/nand_0/w_n44_54# and_2/not_0/in 0.06fF
+C907 vdd and_2/not_0/w_n15_38# 0.09fF
+C908 enable_1/and_4/nand_0/w_n44_54# enable_1/and_4/not_0/in 0.06fF
+C909 vdd enable_1/and_6/not_0/w_n15_38# 0.09fF
+C910 fourbitadder_0/fulladder_2/xor_0/nand_3/a gnd 0.37fF
+C911 comparator_0/not_3/w_n15_38# comparator_0/and_0/b 0.04fF
+C912 vdd and_2/a 0.03fF
+C913 k2 big 0.48fF
+C914 vdd comparator_0/xnor_2/not_0/w_n15_38# 0.09fF
+C915 comparator_0/fand_0/w_n133_43# comparator_0/xnor_3/out 0.22fF
+C916 d3 enable_2/and_4/nand_0/w_n44_54# 0.28fF
+C917 aa1 enable_2/and_1/not_0/in 0.10fF
+C918 fourbitadder_0/a2 fourbitadder_0/fulladder_2/xor_0/nand_2/w_n44_54# 0.28fF
+C919 vdd enable_1/and_7/not_0/w_n15_38# 0.09fF
+C920 comparator_0/xnor_2/xor_0/nand_2/b comparator_0/xnor_2/xor_0/nand_2/w_n44_54# 0.14fF
+C921 comparator_0/fand_2/w_n133_43# comparator_0/xnor_3/out 0.22fF
+C922 vdd comparator_0/and_0/b 0.64fF
+C923 vdd enable_2/x1 0.21fF
+C924 enable_0/x1 enable_0/y1 0.11fF
+C925 fourbitadder_0/fulladder_1/xor_1/nand_2/w_n44_54# fourbitadder_0/fulladder_1/xor_1/nand_3/b 0.06fF
+C926 enable_1/and_5/nand_0/w_n44_54# tor_0/out 0.28fF
+C927 k3 small 0.20fF
+C928 comparator_0/xnor_2/xor_0/nand_3/a comparator_0/xnor_2/xor_0/nand_3/b 0.01fF
+C929 newor_2/or_0/w_n131_34# k2 0.50fF
+C930 vdd enable_1/and_2/not_0/w_n15_38# 0.09fF
+C931 newor_0/or_0/w_n131_34# gnd 0.50fF
+C932 fourbitadder_0/fulladder_1/xor_0/nand_3/w_n44_54# fourbitadder_0/fulladder_1/xor_0/nand_3/a 0.28fF
+C933 comparator_0/or_0/a comparator_0/fand_3/w_194_44# 0.12fF
+C934 comparator_0/d2 comparator_0/fand_2/w_194_44# 0.12fF
+C935 fourbitadder_0/xor_0/out fourbitadder_0/fulladder_0/and_0/not_0/in 0.10fF
+C936 fourbitadder_0/fulladder_0/xor_1/nand_2/b fourbitadder_0/fulladder_0/xor_1/nand_3/b 0.10fF
+C937 enable_0/y0 comparator_0/xnor_0/xor_0/nand_2/b 0.27fF
+C938 fourbitadder_0/xor_3/nand_3/w_n44_54# fourbitadder_0/xor_3/out 0.06fF
+C939 tor_0/out tor_0/not_0/w_n15_38# 0.04fF
+C940 enable_0/and_0/nand_0/w_n44_54# enable_0/and_0/not_0/in 0.06fF
+C941 fourbitadder_0/fulladder_1/tor_1/w_n46_20# fourbitadder_0/fulladder_1/tor_1/a 0.20fF
+C942 enable_2/and_0/not_0/w_n15_38# enable_2/x0 0.04fF
+C943 d2 and_2/not_0/w_n15_38# 0.04fF
+C944 comparator_0/or_0/not_0/w_n15_38# comparator_0/or_0/out 0.11fF
+C945 fourbitadder_0/fulladder_1/xor_1/nand_3/w_n44_54# fourbitadder_0/fulladder_1/xor_1/nand_3/b 0.14fF
+C946 fourbitadder_0/fulladder_0/tor_1/b gnd 0.31fF
+C947 fourbitadder_0/xor_0/nand_0/w_n44_54# enable_1/y0 0.28fF
+C948 enable_1/x1 enable_1/and_1/not_0/w_n15_38# 0.04fF
+C949 enable_0/y0 enable_0/x3 0.28fF
+C950 comparator_0/xnor_2/xor_0/nand_3/b gnd 0.39fF
+C951 vdd final0 0.03fF
+C952 fourbitadder_0/xor_2/nand_3/a gnd 0.37fF
+C953 fourbitadder_0/fulladder_3/and_1/not_0/w_n15_38# fourbitadder_0/fulladder_3/tor_1/a 0.04fF
+C954 fourbitadder_0/xor_1/nand_0/w_n44_54# vdd 0.13fF
+C955 vdd comparator_0/xnor_3/out 2.23fF
+C956 fourbitadder_0/fulladder_3/xor_1/nand_0/w_n44_54# fourbitadder_0/fulladder_3/xor_1/a 0.28fF
+C957 fourbitadder_0/fulladder_2/tor_1/b fourbitadder_0/fulladder_2/tor_1/a 0.38fF
+C958 fourbitadder_0/fulladder_1/tor_1/not_0/w_n15_38# fourbitadder_0/fulladder_1/tor_1/not_0/in 0.11fF
+C959 comparator_0/d2 comparator_0/d3 0.66fF
+C960 vdd comparator_0/xnor_0/xor_0/nand_3/a 0.47fF
+C961 vdd fourbitadder_0/fulladder_2/tor_1/a 0.03fF
+C962 fourbitadder_0/fulladder_2/xor_0/nand_2/b fourbitadder_0/fulladder_2/xor_0/nand_2/w_n44_54# 0.14fF
+C963 comparator_0/xnor_3/xor_0/nand_2/w_n44_54# comparator_0/xnor_3/xor_0/nand_3/b 0.06fF
+C964 vdd comparator_0/not_2/w_n15_38# 0.09fF
+C965 newor_1/or_0/out newor_1/or_0/not_0/w_n15_38# 0.11fF
+C966 comparator_0/fand_0/out comparator_0/xnor_1/out 0.41fF
+C967 d1 tor_0/out 0.11fF
+C968 fourbitadder_0/fulladder_2/xor_0/nand_3/w_n44_54# fourbitadder_0/fulladder_2/xor_1/a 0.06fF
+C969 enable_0/and_1/nand_0/w_n44_54# enable_0/and_1/not_0/in 0.06fF
+C970 vdd fourbitadder_0/fulladder_2/xor_0/nand_2/w_n44_54# 0.13fF
+C971 fourbitadder_0/xor_0/out fourbitadder_0/fulladder_0/and_0/nand_0/w_n44_54# 0.14fF
+C972 vdd enable_2/and_6/not_0/w_n15_38# 0.09fF
+C973 fourbitadder_0/fulladder_3/xor_0/nand_3/a fourbitadder_0/fulladder_3/xor_0/nand_3/b 0.01fF
+C974 fourbitadder_0/fulladder_3/xor_0/nand_3/w_n44_54# fourbitadder_0/fulladder_3/xor_1/a 0.06fF
+C975 vdd enable_0/and_4/not_0/w_n15_38# 0.09fF
+C976 sum2 fourbitadder_0/fulladder_2/xor_1/nand_3/w_n44_54# 0.06fF
+C977 enable_1/y3 fourbitadder_0/xor_3/nand_2/w_n44_54# 0.28fF
+C978 comparator_0/fand_2/w_194_44# comparator_0/fand_2/out 0.68fF
+C979 vdd equal 0.03fF
+C980 enable_1/y1 gnd 0.63fF
+C981 d1 tor_0/a 0.20fF
+C982 s1 and_2/nand_0/w_n44_54# 0.14fF
+C983 vdd k2 0.29fF
+C984 and_2/a s0 0.24fF
+C985 enable_1/x1 vdd 0.69fF
+C986 vdd final2 0.03fF
+C987 enable_0/and_7/not_0/in enable_0/and_7/nand_0/w_n44_54# 0.06fF
+C988 fourbitadder_0/fulladder_2/xor_1/a fourbitadder_0/fulladder_2/xor_1/nand_2/w_n44_54# 0.28fF
+C989 vdd enable_2/and_0/not_0/w_n15_38# 0.09fF
+C990 enable_2/y3 bitand_0/and_3/nand_0/w_n44_54# 0.14fF
+C991 fourbitadder_0/fulladder_0/xor_1/nand_3/w_n44_54# vdd 0.13fF
+C992 fourbitadder_0/xor_2/nand_0/w_n44_54# fourbitadder_0/xor_2/nand_2/b 0.06fF
+C993 vdd fourbitadder_0/fulladder_3/and_1/not_0/w_n15_38# 0.09fF
+C994 fourbitadder_0/fulladder_0/xor_1/nand_3/w_n44_54# sum0 0.06fF
+C995 fourbitadder_0/xor_0/nand_1/w_n44_54# vdd 0.13fF
+C996 comparator_0/xnor_2/out enable_0/y1 0.24fF
+C997 vdd aa0 0.11fF
+C998 vdd fourbitadder_0/fulladder_3/xor_0/nand_3/a 0.47fF
+C999 comparator_0/xnor_2/out comparator_0/xnor_1/out 0.43fF
+C1000 k1 k2 0.25fF
+C1001 comparator_0/xnor_3/xor_0/nand_3/b gnd 0.39fF
+C1002 fourbitadder_0/fulladder_1/xor_1/nand_2/b gnd 1.71fF
+C1003 d1 aa1 0.11fF
+C1004 and_2/a gnd 0.42fF
+C1005 fourbitadder_0/fulladder_3/xor_0/nand_1/w_n44_54# fourbitadder_0/fulladder_3/xor_0/nand_2/b 0.28fF
+C1006 tor_0/out aa3 0.30fF
+C1007 comparator_0/xnor_0/not_0/w_n15_38# comparator_0/xnor_0/out 0.04fF
+C1008 fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_2/xor_1/a 1.06fF
+C1009 comparator_0/xnor_2/xor_0/nand_2/b gnd 1.71fF
+C1010 fourbitadder_0/fulladder_2/xor_1/nand_3/w_n44_54# fourbitadder_0/fulladder_2/xor_1/nand_3/a 0.28fF
+C1011 enable_0/y3 enable_0/y2 0.11fF
+C1012 and_3/not_0/in and_3/nand_0/w_n44_54# 0.06fF
+C1013 enable_2/x1 gnd 0.11fF
+C1014 enable_1/and_6/nand_0/w_n44_54# tor_0/out 0.28fF
+C1015 comparator_0/and_0/b gnd 0.54fF
+C1016 vdd enable_0/x0 0.65fF
+C1017 fourbitadder_0/xor_1/nand_2/b fourbitadder_0/xor_1/nand_2/w_n44_54# 0.14fF
+C1018 comparator_0/xnor_3/xor_0/nand_2/b comparator_0/xnor_3/xor_0/nand_2/w_n44_54# 0.14fF
+C1019 vdd fourbitadder_0/fulladder_2/xor_1/nand_1/w_n44_54# 0.13fF
+C1020 k0 k3 0.10fF
+C1021 fourbitadder_0/fulladder_3/xor_1/nand_3/w_n44_54# fourbitadder_0/fulladder_3/xor_1/nand_3/a 0.28fF
+C1022 fourbitadder_0/xor_2/nand_0/w_n44_54# vdd 0.13fF
+C1023 enable_2/y3 bitand_0/and_3/not_0/in 0.15fF
+C1024 big enable_0/y2 0.39fF
+C1025 enable_2/and_2/nand_0/w_n44_54# enable_2/and_2/not_0/in 0.06fF
+C1026 fourbitadder_0/xor_0/out vdd 0.72fF
+C1027 comparator_0/xnor_3/xor_0/nand_3/a comparator_0/xnor_3/xor_0/nand_3/b 0.01fF
+C1028 bitand_0/and_2/not_0/w_n15_38# bitand_0/and_2/not_0/in 0.11fF
+C1029 enable_1/x3 fourbitadder_0/fulladder_3/and_0/nand_0/w_n44_54# 0.28fF
+C1030 fourbitadder_0/xor_3/nand_2/b gnd 1.71fF
+C1031 d1 fourbitadder_0/xor_3/nand_0/w_n44_54# 0.14fF
+C1032 bb2 aa0 0.54fF
+C1033 fourbitadder_0/fulladder_2/and_0/not_0/w_n15_38# fourbitadder_0/fulladder_2/and_0/not_0/in 0.11fF
+C1034 comparator_0/xnor_3/not_0/in comparator_0/xnor_3/xor_0/nand_3/w_n44_54# 0.06fF
+C1035 fourbitadder_0/fulladder_2/and_1/nand_0/w_n44_54# fourbitadder_0/fulladder_2/and_1/not_0/in 0.06fF
+C1036 fourbitadder_0/fulladder_2/c fourbitadder_0/fulladder_2/xor_1/nand_3/a 0.10fF
+C1037 d2 aa0 0.27fF
+C1038 enable_1/and_0/not_0/w_n15_38# enable_1/and_0/not_0/in 0.11fF
+C1039 d1 tor_0/w_n46_20# 0.20fF
+C1040 vdd fourbitadder_0/fulladder_1/tor_1/b 0.55fF
+C1041 fourbitadder_0/fulladder_1/xor_1/nand_3/a fourbitadder_0/fulladder_1/xor_1/nand_3/b 0.01fF
+C1042 aa1 aa3 0.18fF
+C1043 aa0 bb0 0.53fF
+C1044 fourbitadder_0/xor_3/nand_3/b gnd 0.39fF
+C1045 vdd enable_2/y3 0.14fF
+C1046 vdd enable_2/and_7/not_0/w_n15_38# 0.09fF
+C1047 tor_0/out enable_1/and_2/nand_0/w_n44_54# 0.28fF
+C1048 comparator_0/xnor_3/out gnd 3.61fF
+C1049 vdd bitand_0/and_1/not_0/w_n15_38# 0.09fF
+C1050 vdd enable_1/and_4/nand_0/w_n44_54# 0.13fF
+C1051 fourbitadder_0/fulladder_1/and_1/nand_0/w_n44_54# fourbitadder_0/fulladder_1/and_1/not_0/in 0.06fF
+C1052 comparator_0/xnor_1/xor_0/nand_3/b gnd 0.39fF
+C1053 comparator_0/d3 comparator_0/and_0/not_0/w_n15_38# 0.04fF
+C1054 vdd comparator_0/fand_1/w_n133_43# 0.37fF
+C1055 comparator_0/xnor_0/xor_0/nand_3/a gnd 0.37fF
+C1056 fourbitadder_0/fulladder_2/xor_0/nand_0/w_n44_54# fourbitadder_0/xor_2/out 0.14fF
+C1057 fourbitadder_0/fulladder_1/tor_1/w_n46_20# fourbitadder_0/fulladder_1/tor_1/not_0/in 0.04fF
+C1058 comparator_0/xnor_3/xor_0/nand_2/b gnd 1.71fF
+C1059 comparator_0/fand_3/w_n133_43# comparator_0/xnor_3/out 0.22fF
+C1060 not_1/w_n15_38# s1 0.11fF
+C1061 comparator_0/or_0/a comparator_0/xnor_1/out 0.51fF
+C1062 comparator_0/xnor_1/xor_0/nand_2/w_n44_54# comparator_0/xnor_1/xor_0/nand_3/b 0.06fF
+C1063 bb3 enable_2/and_7/nand_0/w_n44_54# 0.14fF
+C1064 fourbitadder_0/fulladder_0/tor_1/not_0/w_n15_38# fourbitadder_0/fulladder_1/c 0.04fF
+C1065 aa1 d3 0.43fF
+C1066 fourbitadder_0/a2 enable_1/x2 0.27fF
+C1067 comparator_0/not_0/out comparator_0/fand_3/out 0.41fF
+C1068 bitand_0/and_1/not_0/w_n15_38# k1 0.04fF
+C1069 fourbitadder_0/fulladder_0/xor_0/nand_2/b fourbitadder_0/fulladder_0/xor_0/nand_2/w_n44_54# 0.14fF
+C1070 and_0/nand_0/w_n44_54# and_1/b 0.14fF
+C1071 comparator_0/xnor_0/xor_0/nand_1/w_n44_54# comparator_0/xnor_0/xor_0/nand_3/a 0.06fF
+C1072 enable_2/and_5/not_0/in enable_2/and_5/not_0/w_n15_38# 0.11fF
+C1073 fourbitadder_0/fulladder_2/tor_1/b fourbitadder_0/fulladder_2/tor_1/not_0/in 0.65fF
+C1074 fourbitadder_0/fulladder_1/and_1/nand_0/w_n44_54# vdd 0.13fF
+C1075 comparator_0/d1 comparator_0/xnor_2/out 0.62fF
+C1076 fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_3/and_1/nand_0/w_n44_54# 0.14fF
+C1077 fourbitadder_0/fulladder_2/xor_0/nand_3/w_n44_54# fourbitadder_0/fulladder_2/xor_0/nand_3/b 0.14fF
+C1078 big enable_0/y3 0.31fF
+C1079 d3 and_3/not_0/w_n15_38# 0.04fF
+C1080 k2 gnd 0.51fF
+C1081 sum1 newor_1/or_0/out 1.00fF
+C1082 comparator_0/or_0/out comparator_0/d1 0.84fF
+C1083 bitand_0/and_1/nand_0/w_n44_54# bitand_0/and_1/not_0/in 0.06fF
+C1084 enable_1/x1 gnd 3.29fF
+C1085 vdd enable_0/and_1/nand_0/w_n44_54# 0.13fF
+C1086 fourbitadder_0/fulladder_3/and_0/not_0/w_n15_38# fourbitadder_0/fulladder_3/tor_1/b 0.04fF
+C1087 fourbitadder_0/fulladder_0/and_0/nand_0/w_n44_54# fourbitadder_0/fulladder_0/and_0/not_0/in 0.06fF
+C1088 vdd comparator_0/xnor_3/not_0/w_n15_38# 0.09fF
+C1089 vdd fourbitadder_0/fulladder_3/xor_1/nand_3/w_n44_54# 0.13fF
+C1090 fourbitadder_0/fulladder_0/xor_0/nand_2/w_n44_54# fourbitadder_0/fulladder_0/xor_0/nand_3/b 0.06fF
+C1091 fourbitadder_0/xor_1/nand_2/w_n44_54# vdd 0.13fF
+C1092 bb3 bb2 3.20fF
+C1093 aa0 gnd 0.69fF
+C1094 vdd comparator_0/xnor_1/xor_0/nand_3/w_n44_54# 0.13fF
+C1095 fourbitadder_0/fulladder_3/xor_1/nand_1/w_n44_54# fourbitadder_0/fulladder_3/xor_1/nand_2/b 0.28fF
+C1096 fourbitadder_0/fulladder_3/xor_0/nand_3/a gnd 0.37fF
+C1097 enable_1/and_4/nand_0/w_n44_54# bb0 0.14fF
+C1098 vdd enable_0/y2 0.17fF
+C1099 vdd fourbitadder_0/fulladder_3/xor_1/nand_2/w_n44_54# 0.13fF
+C1100 fourbitadder_0/fulladder_0/and_1/not_0/w_n15_38# vdd 0.09fF
+C1101 bb3 bb0 4.22fF
+C1102 enable_0/x3 comparator_0/and_0/nand_0/w_n44_54# 0.28fF
+C1103 enable_2/and_6/not_0/w_n15_38# enable_2/y2 0.04fF
+C1104 enable_1/and_4/not_0/w_n15_38# enable_1/y0 0.04fF
+C1105 bb2 enable_1/and_6/not_0/in 0.10fF
+C1106 comparator_0/xnor_1/xor_0/nand_2/b gnd 1.71fF
+C1107 vdd enable_2/and_2/nand_0/w_n44_54# 0.13fF
+C1108 enable_2/and_6/nand_0/w_n44_54# d3 0.28fF
+C1109 comparator_0/xnor_1/xor_0/nand_0/w_n44_54# enable_0/x1 0.28fF
+C1110 enable_0/x0 gnd 1.02fF
+C1111 enable_2/y1 enable_2/x1 0.28fF
+C1112 enable_1/x1 fourbitadder_0/fulladder_1/and_0/nand_0/w_n44_54# 0.28fF
+C1113 bb1 aa0 0.43fF
+C1114 vdd and_0/not_0/w_n15_38# 0.09fF
+C1115 newor_2/or_0/out k2 0.84fF
+C1116 comparator_0/xnor_1/xor_0/nand_2/b comparator_0/xnor_1/xor_0/nand_2/w_n44_54# 0.14fF
+C1117 fourbitadder_0/xor_0/out gnd 1.20fF
+C1118 comparator_0/fand_3/w_n133_43# enable_0/x0 0.22fF
+C1119 fourbitadder_0/fulladder_3/c fourbitadder_0/fulladder_3/xor_1/nand_2/b 0.27fF
+C1120 d2 enable_0/and_1/nand_0/w_n44_54# 0.28fF
+C1121 fourbitadder_0/fulladder_0/xor_0/nand_3/a fourbitadder_0/fulladder_0/xor_0/nand_3/b 0.01fF
+C1122 fourbitadder_0/xor_1/nand_3/a vdd 0.47fF
+C1123 vdd enable_1/x2 1.30fF
+C1124 comparator_0/xnor_0/xor_0/nand_0/w_n44_54# comparator_0/xnor_0/xor_0/nand_2/b 0.06fF
+C1125 enable_0/and_2/not_0/w_n15_38# enable_0/and_2/not_0/in 0.11fF
+C1126 comparator_0/xnor_1/xor_0/nand_3/a comparator_0/xnor_1/xor_0/nand_3/b 0.01fF
+C1127 enable_0/and_7/nand_0/w_n44_54# bb3 0.14fF
+C1128 fourbitadder_0/fulladder_1/xor_0/nand_2/b gnd 1.71fF
+C1129 bb0 enable_1/and_4/not_0/in 0.10fF
+C1130 d1 fourbitadder_0/xor_2/nand_3/a 0.10fF
+C1131 comparator_0/xnor_1/not_0/in comparator_0/xnor_1/xor_0/nand_3/b 0.10fF
+C1132 fourbitadder_0/fulladder_3/xor_0/nand_2/w_n44_54# fourbitadder_0/fulladder_3/xor_0/nand_3/b 0.06fF
+C1133 comparator_0/not_3/w_n15_38# enable_0/y3 0.11fF
+C1134 fourbitadder_0/fulladder_1/tor_1/b gnd 0.31fF
+C1135 s1 s0 0.34fF
+C1136 comparator_0/or_0/a comparator_0/d1 0.61fF
+C1137 comparator_0/xnor_0/not_0/in comparator_0/xnor_0/xor_0/nand_3/b 0.10fF
+C1138 fourbitadder_0/fulladder_1/xor_0/nand_3/a fourbitadder_0/fulladder_1/xor_0/nand_3/b 0.01fF
+C1139 newor_0/or_0/w_n131_34# k0 0.50fF
+C1140 fourbitadder_0/fulladder_3/xor_1/a fourbitadder_0/fulladder_3/and_1/nand_0/w_n44_54# 0.28fF
+C1141 enable_2/y3 gnd 0.27fF
+C1142 vdd and_0/nand_0/w_n44_54# 0.13fF
+C1143 comparator_0/xnor_1/out comparator_0/xnor_1/not_0/w_n15_38# 0.04fF
+C1144 fourbitadder_0/fulladder_0/xor_0/nand_2/b fourbitadder_0/fulladder_0/xor_0/nand_1/w_n44_54# 0.28fF
+C1145 fourbitadder_0/fulladder_0/xor_0/nand_3/w_n44_54# fourbitadder_0/fulladder_0/xor_1/a 0.06fF
+C1146 vdd bitand_0/and_0/not_0/w_n15_38# 0.09fF
+C1147 vdd enable_0/y3 0.15fF
+C1148 fourbitadder_0/fulladder_3/and_0/nand_0/w_n44_54# fourbitadder_0/fulladder_3/and_0/not_0/in 0.06fF
+C1149 vdd and_2/nand_0/w_n44_54# 0.13fF
+C1150 bitand_0/and_3/nand_0/w_n44_54# bitand_0/and_3/not_0/in 0.06fF
+C1151 bb3 gnd 1.01fF
+C1152 enable_0/and_0/not_0/in aa0 0.10fF
+C1153 not_1/w_n15_38# and_1/b 0.04fF
+C1154 fourbitadder_0/xor_0/nand_1/w_n44_54# fourbitadder_0/xor_0/nand_3/a 0.06fF
+C1155 vdd and_1/b 0.03fF
+C1156 enable_2/x1 enable_2/y0 0.09fF
+C1157 equal and_4/not_0/w_n15_38# 0.04fF
+C1158 bitand_0/and_0/nand_0/w_n44_54# bitand_0/and_0/not_0/in 0.06fF
+C1159 aa3 enable_2/and_3/nand_0/w_n44_54# 0.14fF
+C1160 s1 gnd 1.08fF
+C1161 enable_1/y1 d1 0.42fF
+C1162 vdd fourbitadder_0/fulladder_3/xor_0/nand_2/w_n44_54# 0.13fF
+C1163 vdd big 2.09fF
+C1164 enable_1/and_1/nand_0/w_n44_54# enable_1/and_1/not_0/in 0.06fF
+C1165 fourbitadder_0/fulladder_2/xor_0/nand_2/b fourbitadder_0/a2 0.21fF
+C1166 fourbitadder_0/fulladder_0/xor_1/nand_3/w_n44_54# fourbitadder_0/fulladder_0/xor_1/nand_3/a 0.28fF
+C1167 vdd comparator_0/or_0/w_n131_34# 0.19fF
+C1168 comparator_0/xnor_3/not_0/in comparator_0/xnor_3/xor_0/nand_3/b 0.10fF
+C1169 vdd fourbitadder_0/fulladder_3/xor_1/nand_3/a 0.47fF
+C1170 enable_0/y2 comparator_0/xnor_2/xor_0/nand_3/a 0.10fF
+C1171 d1 fourbitadder_0/xor_2/nand_1/w_n44_54# 0.14fF
+C1172 vdd bitand_0/and_3/nand_0/w_n44_54# 0.13fF
+C1173 comparator_0/d1 comparator_0/fand_1/w_194_44# 0.12fF
+C1174 vdd newor_2/or_0/w_n131_34# 0.19fF
+C1175 fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_1/xor_1/nand_1/w_n44_54# 0.14fF
+C1176 fourbitadder_0/fulladder_0/and_0/nand_0/w_n44_54# vdd 0.13fF
+C1177 fourbitadder_0/fulladder_2/xor_1/a fourbitadder_0/fulladder_2/xor_0/nand_3/b 0.10fF
+C1178 fourbitadder_0/xor_3/nand_0/w_n44_54# enable_1/y3 0.28fF
+C1179 bb1 bb3 3.88fF
+C1180 k1 big 0.46fF
+C1181 d3 enable_2/and_3/nand_0/w_n44_54# 0.28fF
+C1182 enable_1/x3 enable_1/y2 0.12fF
+C1183 fourbitadder_0/fulladder_3/and_1/nand_0/w_n44_54# fourbitadder_0/fulladder_3/and_1/not_0/in 0.06fF
+C1184 d1 and_2/a 0.10fF
+C1185 enable_2/and_3/not_0/w_n15_38# enable_2/and_3/not_0/in 0.11fF
+C1186 fourbitadder_0/xor_0/out enable_1/x0 0.38fF
+C1187 vdd enable_2/x0 0.22fF
+C1188 vdd comparator_0/fand_0/w_n133_43# 0.15fF
+C1189 fourbitadder_0/xor_2/nand_2/b fourbitadder_0/xor_2/nand_3/b 0.10fF
+C1190 fourbitadder_0/xor_3/out fourbitadder_0/fulladder_3/and_0/nand_0/w_n44_54# 0.14fF
+C1191 fourbitadder_0/fulladder_3/xor_1/a fourbitadder_0/fulladder_3/xor_1/nand_2/b 0.21fF
+C1192 fourbitadder_0/fulladder_2/xor_1/nand_2/b gnd 1.71fF
+C1193 equal small 0.10fF
+C1194 enable_0/y2 gnd 0.50fF
+C1195 aa3 enable_2/and_3/not_0/in 0.10fF
+C1196 vdd fourbitadder_0/fulladder_3/tor_1/a 0.03fF
+C1197 fourbitadder_0/xor_0/nand_1/w_n44_54# fourbitadder_0/xor_0/nand_2/b 0.28fF
+C1198 enable_2/and_0/nand_0/w_n44_54# d3 0.28fF
+C1199 vdd comparator_0/fand_2/w_n133_43# 0.58fF
+C1200 k2 small 0.66fF
+C1201 enable_1/x3 enable_1/y0 0.32fF
+C1202 vdd enable_1/and_1/not_0/w_n15_38# 0.09fF
+C1203 comparator_0/xnor_0/xor_0/nand_2/b comparator_0/xnor_0/xor_0/nand_3/b 0.10fF
+C1204 fourbitadder_0/fulladder_2/and_1/not_0/w_n15_38# fourbitadder_0/fulladder_2/tor_1/a 0.04fF
+C1205 fourbitadder_0/fulladder_1/xor_1/nand_0/w_n44_54# vdd 0.13fF
+C1206 fourbitadder_0/xor_0/nand_3/w_n44_54# fourbitadder_0/xor_0/nand_3/b 0.14fF
+C1207 d1 fourbitadder_0/xor_3/nand_2/b 0.27fF
+C1208 fourbitadder_0/fulladder_1/tor_1/b fourbitadder_0/fulladder_1/tor_1/w_n46_20# 0.20fF
+C1209 fourbitadder_0/xor_1/out enable_1/x1 0.38fF
+C1210 fourbitadder_0/fulladder_0/tor_1/w_n46_20# vdd 0.06fF
+C1211 comparator_0/xnor_2/out comparator_0/xnor_2/not_0/w_n15_38# 0.04fF
+C1212 fourbitadder_0/fulladder_0/xor_1/a gnd 1.54fF
+C1213 vdd comparator_0/not_3/w_n15_38# 0.09fF
+C1214 vdd comparator_0/not_1/w_n15_38# 0.09fF
+C1215 fourbitadder_0/xor_1/nand_3/a gnd 0.37fF
+C1216 enable_1/x2 gnd 3.87fF
+C1217 enable_2/and_2/not_0/w_n15_38# enable_2/x2 0.04fF
+C1218 comparator_0/fand_0/out comparator_0/xnor_3/out 0.41fF
+C1219 vdd fourbitadder_0/fulladder_2/tor_1/b 0.55fF
+C1220 fourbitadder_0/fulladder_2/xor_0/nand_3/a fourbitadder_0/xor_2/out 0.10fF
+C1221 vdd not_1/w_n15_38# 0.09fF
+C1222 d1 fourbitadder_0/xor_1/nand_0/w_n44_54# 0.14fF
+C1223 and_1/b s0 0.29fF
+C1224 fourbitadder_0/fulladder_1/xor_1/nand_2/b fourbitadder_0/fulladder_1/xor_1/nand_2/w_n44_54# 0.14fF
+C1225 sum0 vdd 0.10fF
+C1226 tor_0/not_0/in tor_0/a 0.08fF
+C1227 enable_1/and_5/not_0/in bb1 0.10fF
+C1228 vdd comparator_0/xnor_2/xor_0/nand_2/w_n44_54# 0.13fF
+C1229 comparator_0/xnor_2/xor_0/nand_0/w_n44_54# enable_0/x2 0.28fF
+C1230 enable_0/x3 enable_0/x2 0.13fF
+C1231 vdd enable_2/and_7/nand_0/w_n44_54# 0.13fF
+C1232 vdd enable_0/and_3/not_0/w_n15_38# 0.09fF
+C1233 enable_0/y3 gnd 0.57fF
+C1234 fourbitadder_0/xor_3/nand_3/w_n44_54# fourbitadder_0/xor_3/nand_3/b 0.14fF
+C1235 newor_0/or_0/not_0/w_n15_38# final0 0.04fF
+C1236 enable_0/and_7/not_0/in enable_0/and_7/not_0/w_n15_38# 0.11fF
+C1237 enable_0/x1 comparator_0/xnor_1/xor_0/nand_2/b 0.21fF
+C1238 enable_0/y1 comparator_0/xnor_1/xor_0/nand_1/w_n44_54# 0.14fF
+C1239 fourbitadder_0/xor_3/out enable_1/x3 0.38fF
+C1240 enable_0/x0 enable_0/x1 0.29fF
+C1241 comparator_0/and_0/nand_0/w_n44_54# comparator_0/and_0/not_0/in 0.06fF
+C1242 vdd k1 0.27fF
+C1243 and_1/b gnd 1.13fF
+C1244 enable_0/and_3/nand_0/w_n44_54# enable_0/and_3/not_0/in 0.06fF
+C1245 fourbitadder_0/fulladder_1/c fourbitadder_0/fulladder_1/xor_1/nand_2/b 0.27fF
+C1246 vdd eq1 0.41fF
+C1247 big gnd 0.74fF
+C1248 fourbitadder_0/fulladder_2/xor_1/nand_0/w_n44_54# fourbitadder_0/fulladder_2/xor_1/nand_2/b 0.06fF
+C1249 fourbitadder_0/fulladder_0/xor_1/a fourbitadder_0/fulladder_0/xor_1/nand_2/w_n44_54# 0.28fF
+C1250 fourbitadder_0/fulladder_0/xor_0/nand_3/w_n44_54# vdd 0.13fF
+C1251 fourbitadder_0/xor_1/nand_2/b gnd 1.71fF
+C1252 d1 enable_1/x1 0.39fF
+C1253 comparator_0/xnor_3/out comparator_0/xnor_2/out 1.30fF
+C1254 comparator_0/fand_3/w_194_44# comparator_0/fand_3/out 0.68fF
+C1255 fourbitadder_0/fulladder_3/xor_1/nand_3/a gnd 0.37fF
+C1256 fourbitadder_0/fulladder_1/xor_0/nand_2/b fourbitadder_0/xor_1/out 0.27fF
+C1257 enable_1/x3 enable_1/and_3/not_0/w_n15_38# 0.04fF
+C1258 comparator_0/xnor_1/xor_0/nand_3/w_n44_54# comparator_0/xnor_1/xor_0/nand_3/a 0.28fF
+C1259 comparator_0/fand_1/w_n133_43# comparator_0/not_1/out 0.22fF
+C1260 fourbitadder_0/fulladder_1/and_1/not_0/w_n15_38# fourbitadder_0/fulladder_1/and_1/not_0/in 0.11fF
+C1261 fourbitadder_0/a2 gnd 0.86fF
+C1262 d1 fourbitadder_0/xor_0/nand_1/w_n44_54# 0.14fF
+C1263 vdd enable_2/and_4/not_0/w_n15_38# 0.09fF
+C1264 fourbitadder_0/fulladder_3/tor_1/w_n46_20# fourbitadder_0/fulladder_3/tor_1/a 0.20fF
+C1265 enable_0/y3 comparator_0/xnor_3/xor_0/nand_3/a 0.10fF
+C1266 comparator_0/xnor_1/not_0/in comparator_0/xnor_1/xor_0/nand_3/w_n44_54# 0.06fF
+C1267 fourbitadder_0/fulladder_1/xor_1/nand_1/w_n44_54# fourbitadder_0/fulladder_1/xor_1/nand_3/a 0.06fF
+C1268 fourbitadder_0/fulladder_0/xor_0/nand_0/w_n44_54# fourbitadder_0/fulladder_0/xor_0/nand_2/b 0.06fF
+C1269 d1 aa0 0.15fF
+C1270 newor_2/or_0/w_n131_34# gnd 0.50fF
+C1271 tor_0/out aa2 0.34fF
+C1272 vdd d2 0.75fF
+C1273 enable_2/x0 gnd 0.17fF
+C1274 comparator_0/fand_1/w_n133_43# enable_0/x1 0.22fF
+C1275 enable_1/and_7/nand_0/w_n44_54# enable_1/and_7/not_0/in 0.06fF
+C1276 fourbitadder_0/fulladder_1/xor_0/nand_1/w_n44_54# fourbitadder_0/fulladder_1/xor_0/nand_2/b 0.28fF
+C1277 vdd fourbitadder_0/fulladder_1/and_1/not_0/w_n15_38# 0.09fF
+C1278 vdd comparator_0/xnor_3/xor_0/nand_2/w_n44_54# 0.13fF
+C1279 k0 k2 0.09fF
+C1280 and_4/not_0/in Gnd 0.82fF
+C1281 and_4/nand_0/w_n44_54# Gnd 3.07fF
+C1282 and_4/not_0/w_n15_38# Gnd 1.29fF
+C1283 and_3/not_0/in Gnd 0.82fF
+C1284 s0 Gnd 12.00fF
+C1285 and_3/nand_0/w_n44_54# Gnd 3.07fF
+C1286 and_3/not_0/w_n15_38# Gnd 1.29fF
+C1287 and_2/not_0/in Gnd 0.82fF
+C1288 s1 Gnd 18.30fF
+C1289 and_2/nand_0/w_n44_54# Gnd 3.07fF
+C1290 and_2/not_0/w_n15_38# Gnd 1.29fF
+C1291 and_1/not_0/in Gnd 0.82fF
+C1292 and_1/nand_0/w_n44_54# Gnd 3.07fF
+C1293 and_1/not_0/w_n15_38# Gnd 1.29fF
+C1294 and_0/not_0/in Gnd 0.82fF
+C1295 and_1/b Gnd 0.88fF
+C1296 and_2/a Gnd 1.95fF
+C1297 and_0/nand_0/w_n44_54# Gnd 3.07fF
+C1298 and_0/not_0/w_n15_38# Gnd 1.29fF
+C1299 comparator_0/and_0/not_0/in Gnd 0.82fF
+C1300 comparator_0/and_0/b Gnd 4.60fF
+C1301 comparator_0/and_0/nand_0/w_n44_54# Gnd 3.07fF
+C1302 comparator_0/and_0/not_0/w_n15_38# Gnd 1.29fF
+C1303 comparator_0/tor_0/w_n46_20# Gnd 2.60fF
+C1304 comparator_0/tor_0/out Gnd 0.20fF
+C1305 small Gnd 5.63fF
+C1306 comparator_0/tor_0/not_0/w_n15_38# Gnd 1.29fF
+C1307 comparator_0/xnor_2/xor_0/nand_3/b Gnd 1.23fF
+C1308 comparator_0/xnor_2/xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C1309 comparator_0/xnor_2/xor_0/nand_3/a Gnd 2.00fF
+C1310 comparator_0/xnor_2/xor_0/nand_2/b Gnd 2.20fF
+C1311 comparator_0/xnor_2/xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C1312 enable_0/x2 Gnd 1.85fF
+C1313 comparator_0/xnor_2/xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C1314 comparator_0/xnor_2/not_0/in Gnd 1.59fF
+C1315 comparator_0/xnor_2/xor_0/nand_3/w_n44_54# Gnd 3.07fF
+C1316 comparator_0/xnor_2/not_0/w_n15_38# Gnd 1.29fF
+C1317 comparator_0/xnor_3/xor_0/nand_3/b Gnd 1.23fF
+C1318 comparator_0/xnor_3/xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C1319 comparator_0/xnor_3/xor_0/nand_3/a Gnd 2.00fF
+C1320 comparator_0/xnor_3/xor_0/nand_2/b Gnd 2.20fF
+C1321 comparator_0/xnor_3/xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C1322 enable_0/y3 Gnd 1.85fF
+C1323 enable_0/x3 Gnd 3.01fF
+C1324 comparator_0/xnor_3/xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C1325 comparator_0/xnor_3/not_0/in Gnd 1.59fF
+C1326 comparator_0/xnor_3/xor_0/nand_3/w_n44_54# Gnd 3.07fF
+C1327 comparator_0/xnor_3/not_0/w_n15_38# Gnd 1.29fF
+C1328 comparator_0/xnor_1/xor_0/nand_3/b Gnd 1.23fF
+C1329 comparator_0/xnor_1/xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C1330 comparator_0/xnor_1/xor_0/nand_3/a Gnd 2.00fF
+C1331 comparator_0/xnor_1/xor_0/nand_2/b Gnd 2.20fF
+C1332 comparator_0/xnor_1/xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C1333 comparator_0/xnor_1/xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C1334 comparator_0/xnor_1/not_0/in Gnd 1.59fF
+C1335 comparator_0/xnor_1/xor_0/nand_3/w_n44_54# Gnd 3.07fF
+C1336 comparator_0/xnor_1/out Gnd 3.78fF
+C1337 comparator_0/xnor_1/not_0/w_n15_38# Gnd 1.29fF
+C1338 comparator_0/not_3/w_n15_38# Gnd 1.29fF
+C1339 comparator_0/xnor_0/xor_0/nand_3/b Gnd 1.23fF
+C1340 comparator_0/xnor_0/xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C1341 comparator_0/xnor_0/xor_0/nand_3/a Gnd 2.00fF
+C1342 comparator_0/xnor_0/xor_0/nand_2/b Gnd 2.20fF
+C1343 comparator_0/xnor_0/xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C1344 enable_0/y0 Gnd 21.35fF
+C1345 enable_0/x0 Gnd 0.66fF
+C1346 comparator_0/xnor_0/xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C1347 comparator_0/xnor_0/not_0/in Gnd 1.59fF
+C1348 comparator_0/xnor_0/xor_0/nand_3/w_n44_54# Gnd 3.07fF
+C1349 comparator_0/xnor_0/out Gnd 1.05fF
+C1350 comparator_0/xnor_0/not_0/w_n15_38# Gnd 1.29fF
+C1351 comparator_0/not_2/w_n15_38# Gnd 1.29fF
+C1352 comparator_0/not_1/w_n15_38# Gnd 1.29fF
+C1353 comparator_0/not_0/w_n15_38# Gnd 1.29fF
+C1354 comparator_0/fand_3/out Gnd 7.84fF
+C1355 comparator_0/xnor_2/out Gnd 5.20fF
+C1356 comparator_0/not_0/out Gnd 7.45fF
+C1357 comparator_0/fand_3/w_194_44# Gnd 5.23fF
+C1358 comparator_0/fand_3/w_n133_43# Gnd 12.77fF
+C1359 comparator_0/fand_2/out Gnd 7.84fF
+C1360 comparator_0/not_2/out Gnd 5.82fF
+C1361 comparator_0/fand_2/w_194_44# Gnd 5.23fF
+C1362 comparator_0/fand_2/w_n133_43# Gnd 12.77fF
+C1363 comparator_0/fand_1/out Gnd 7.84fF
+C1364 comparator_0/not_1/out Gnd 6.21fF
+C1365 comparator_0/fand_1/w_194_44# Gnd 5.23fF
+C1366 comparator_0/fand_1/w_n133_43# Gnd 12.77fF
+C1367 comparator_0/fand_0/out Gnd 7.84fF
+C1368 comparator_0/fand_0/in5 Gnd 1.77fF
+C1369 comparator_0/fand_0/w_194_44# Gnd 5.23fF
+C1370 comparator_0/fand_0/w_n133_43# Gnd 12.77fF
+C1371 comparator_0/d2 Gnd 6.32fF
+C1372 comparator_0/d1 Gnd 50.52fF
+C1373 comparator_0/or_0/w_n131_34# Gnd 14.92fF
+C1374 big Gnd 5.90fF
+C1375 comparator_0/or_0/out Gnd 4.95fF
+C1376 comparator_0/or_0/not_0/w_n15_38# Gnd 1.29fF
+C1377 bitand_0/and_3/not_0/in Gnd 0.82fF
+C1378 bitand_0/and_3/nand_0/w_n44_54# Gnd 3.07fF
+C1379 bitand_0/and_3/not_0/w_n15_38# Gnd 1.29fF
+C1380 bitand_0/and_2/not_0/in Gnd 0.82fF
+C1381 bitand_0/and_2/nand_0/w_n44_54# Gnd 3.07fF
+C1382 bitand_0/and_2/not_0/w_n15_38# Gnd 1.29fF
+C1383 bitand_0/and_1/not_0/in Gnd 0.82fF
+C1384 bitand_0/and_1/nand_0/w_n44_54# Gnd 3.07fF
+C1385 bitand_0/and_1/not_0/w_n15_38# Gnd 1.29fF
+C1386 bitand_0/and_0/not_0/in Gnd 0.82fF
+C1387 bitand_0/and_0/nand_0/w_n44_54# Gnd 3.07fF
+C1388 bitand_0/and_0/not_0/w_n15_38# Gnd 1.29fF
+C1389 newor_2/or_0/w_n131_34# Gnd 14.92fF
+C1390 final2 Gnd 0.27fF
+C1391 newor_2/or_0/out Gnd 4.95fF
+C1392 newor_2/or_0/not_0/w_n15_38# Gnd 1.29fF
+C1393 equal Gnd 4.15fF
+C1394 newor_1/or_0/w_n131_34# Gnd 14.92fF
+C1395 final1 Gnd 0.29fF
+C1396 newor_1/or_0/out Gnd 4.95fF
+C1397 newor_1/or_0/not_0/w_n15_38# Gnd 1.29fF
+C1398 tor_1/w_n46_20# Gnd 2.60fF
+C1399 final3 Gnd 0.17fF
+C1400 tor_1/not_0/in Gnd 0.99fF
+C1401 tor_1/not_0/w_n15_38# Gnd 1.29fF
+C1402 tor_0/w_n46_20# Gnd 2.60fF
+C1403 tor_0/not_0/in Gnd 0.99fF
+C1404 tor_0/not_0/w_n15_38# Gnd 1.29fF
+C1405 newor_0/or_0/w_n131_34# Gnd 14.92fF
+C1406 final0 Gnd 0.30fF
+C1407 newor_0/or_0/out Gnd 4.95fF
+C1408 newor_0/or_0/not_0/w_n15_38# Gnd 1.29fF
+C1409 enable_2/and_4/not_0/in Gnd 0.82fF
+C1410 enable_2/and_4/nand_0/w_n44_54# Gnd 3.07fF
+C1411 enable_2/and_4/not_0/w_n15_38# Gnd 1.29fF
+C1412 enable_2/and_3/not_0/in Gnd 0.82fF
+C1413 enable_2/and_3/nand_0/w_n44_54# Gnd 3.07fF
+C1414 enable_2/x3 Gnd 1.46fF
+C1415 enable_2/and_3/not_0/w_n15_38# Gnd 1.29fF
+C1416 enable_2/and_2/not_0/in Gnd 0.82fF
+C1417 enable_2/and_2/nand_0/w_n44_54# Gnd 3.07fF
+C1418 enable_2/x2 Gnd 1.55fF
+C1419 enable_2/and_2/not_0/w_n15_38# Gnd 1.29fF
+C1420 enable_2/and_1/not_0/in Gnd 0.82fF
+C1421 enable_2/and_1/nand_0/w_n44_54# Gnd 3.07fF
+C1422 enable_2/x1 Gnd 1.31fF
+C1423 enable_2/and_1/not_0/w_n15_38# Gnd 1.29fF
+C1424 enable_2/and_0/not_0/in Gnd 0.82fF
+C1425 d3 Gnd 5.26fF
+C1426 enable_2/and_0/nand_0/w_n44_54# Gnd 3.07fF
+C1427 enable_2/x0 Gnd 1.27fF
+C1428 enable_2/and_0/not_0/w_n15_38# Gnd 1.29fF
+C1429 enable_2/and_6/not_0/in Gnd 0.82fF
+C1430 enable_2/and_6/nand_0/w_n44_54# Gnd 3.07fF
+C1431 enable_2/y2 Gnd 0.86fF
+C1432 enable_2/and_6/not_0/w_n15_38# Gnd 1.29fF
+C1433 enable_2/and_7/not_0/in Gnd 0.82fF
+C1434 enable_2/and_7/nand_0/w_n44_54# Gnd 3.07fF
+C1435 enable_2/y3 Gnd 1.06fF
+C1436 enable_2/and_7/not_0/w_n15_38# Gnd 1.29fF
+C1437 enable_2/and_5/not_0/in Gnd 0.82fF
+C1438 enable_2/and_5/nand_0/w_n44_54# Gnd 3.07fF
+C1439 enable_2/y1 Gnd 1.03fF
+C1440 enable_2/and_5/not_0/w_n15_38# Gnd 1.29fF
+C1441 enable_1/and_4/not_0/in Gnd 0.82fF
+C1442 bb0 Gnd 242.68fF
+C1443 enable_1/and_4/nand_0/w_n44_54# Gnd 3.07fF
+C1444 enable_1/y0 Gnd 65.63fF
+C1445 enable_1/and_4/not_0/w_n15_38# Gnd 1.29fF
+C1446 enable_1/and_3/not_0/in Gnd 0.82fF
+C1447 aa3 Gnd 57.90fF
+C1448 enable_1/and_3/nand_0/w_n44_54# Gnd 3.07fF
+C1449 enable_1/and_3/not_0/w_n15_38# Gnd 1.29fF
+C1450 enable_1/and_2/not_0/in Gnd 0.82fF
+C1451 aa2 Gnd 1.37fF
+C1452 enable_1/and_2/nand_0/w_n44_54# Gnd 3.07fF
+C1453 enable_1/x2 Gnd 54.13fF
+C1454 enable_1/and_2/not_0/w_n15_38# Gnd 1.29fF
+C1455 enable_1/and_1/not_0/in Gnd 0.82fF
+C1456 aa1 Gnd 1.43fF
+C1457 enable_1/and_1/nand_0/w_n44_54# Gnd 3.07fF
+C1458 enable_1/and_1/not_0/w_n15_38# Gnd 1.29fF
+C1459 enable_1/and_0/not_0/in Gnd 0.82fF
+C1460 tor_0/out Gnd 5.26fF
+C1461 enable_1/and_0/nand_0/w_n44_54# Gnd 3.07fF
+C1462 enable_1/and_0/not_0/w_n15_38# Gnd 1.29fF
+C1463 enable_1/and_6/not_0/in Gnd 0.82fF
+C1464 bb2 Gnd 2.08fF
+C1465 enable_1/and_6/nand_0/w_n44_54# Gnd 3.07fF
+C1466 enable_1/y2 Gnd 16.76fF
+C1467 enable_1/and_6/not_0/w_n15_38# Gnd 1.29fF
+C1468 enable_1/and_7/not_0/in Gnd 0.82fF
+C1469 enable_1/and_7/nand_0/w_n44_54# Gnd 3.07fF
+C1470 enable_1/and_7/not_0/w_n15_38# Gnd 1.29fF
+C1471 enable_1/and_5/not_0/in Gnd 0.82fF
+C1472 bb1 Gnd 225.50fF
+C1473 enable_1/and_5/nand_0/w_n44_54# Gnd 3.07fF
+C1474 enable_1/and_5/not_0/w_n15_38# Gnd 1.29fF
+C1475 not_1/w_n15_38# Gnd 1.29fF
+C1476 enable_0/and_4/not_0/in Gnd 0.82fF
+C1477 enable_0/and_4/nand_0/w_n44_54# Gnd 3.07fF
+C1478 enable_0/and_4/not_0/w_n15_38# Gnd 1.29fF
+C1479 enable_0/and_3/not_0/in Gnd 0.82fF
+C1480 enable_0/and_3/nand_0/w_n44_54# Gnd 3.07fF
+C1481 enable_0/and_3/not_0/w_n15_38# Gnd 1.29fF
+C1482 enable_0/and_2/not_0/in Gnd 0.82fF
+C1483 enable_0/and_2/nand_0/w_n44_54# Gnd 3.07fF
+C1484 enable_0/and_2/not_0/w_n15_38# Gnd 1.29fF
+C1485 enable_0/and_1/not_0/in Gnd 0.82fF
+C1486 enable_0/and_1/nand_0/w_n44_54# Gnd 3.07fF
+C1487 enable_0/and_1/not_0/w_n15_38# Gnd 1.29fF
+C1488 enable_0/and_0/not_0/in Gnd 0.82fF
+C1489 d2 Gnd 7.15fF
+C1490 enable_0/and_0/nand_0/w_n44_54# Gnd 3.07fF
+C1491 enable_0/and_0/not_0/w_n15_38# Gnd 1.29fF
+C1492 enable_0/and_6/not_0/in Gnd 0.82fF
+C1493 enable_0/and_6/nand_0/w_n44_54# Gnd 3.07fF
+C1494 enable_0/and_6/not_0/w_n15_38# Gnd 1.29fF
+C1495 enable_0/and_7/not_0/in Gnd 0.82fF
+C1496 enable_0/and_7/nand_0/w_n44_54# Gnd 3.07fF
+C1497 enable_0/and_7/not_0/w_n15_38# Gnd 1.29fF
+C1498 enable_0/and_5/not_0/in Gnd 0.82fF
+C1499 enable_0/and_5/nand_0/w_n44_54# Gnd 3.07fF
+C1500 enable_0/and_5/not_0/w_n15_38# Gnd 1.29fF
+C1501 not_0/w_n15_38# Gnd 1.29fF
+C1502 fourbitadder_0/fulladder_3/and_1/not_0/in Gnd 0.82fF
+C1503 fourbitadder_0/fulladder_3/and_1/nand_0/w_n44_54# Gnd 3.07fF
+C1504 fourbitadder_0/fulladder_3/tor_1/a Gnd 0.60fF
+C1505 fourbitadder_0/fulladder_3/and_1/not_0/w_n15_38# Gnd 1.29fF
+C1506 fourbitadder_0/fulladder_3/and_0/not_0/in Gnd 0.82fF
+C1507 fourbitadder_0/fulladder_3/and_0/nand_0/w_n44_54# Gnd 3.07fF
+C1508 fourbitadder_0/fulladder_3/tor_1/b Gnd 1.06fF
+C1509 fourbitadder_0/fulladder_3/and_0/not_0/w_n15_38# Gnd 1.29fF
+C1510 fourbitadder_0/fulladder_3/tor_1/w_n46_20# Gnd 2.60fF
+C1511 sum4 Gnd 0.26fF
+C1512 fourbitadder_0/fulladder_3/tor_1/not_0/in Gnd 0.99fF
+C1513 fourbitadder_0/fulladder_3/tor_1/not_0/w_n15_38# Gnd 1.29fF
+C1514 fourbitadder_0/fulladder_3/xor_1/nand_3/b Gnd 1.23fF
+C1515 fourbitadder_0/fulladder_3/xor_1/nand_2/w_n44_54# Gnd 3.07fF
+C1516 fourbitadder_0/fulladder_3/xor_1/nand_3/a Gnd 2.00fF
+C1517 fourbitadder_0/fulladder_3/xor_1/nand_2/b Gnd 2.20fF
+C1518 fourbitadder_0/fulladder_3/xor_1/nand_1/w_n44_54# Gnd 3.07fF
+C1519 fourbitadder_0/fulladder_3/c Gnd 1.78fF
+C1520 fourbitadder_0/fulladder_3/xor_1/a Gnd 17.23fF
+C1521 fourbitadder_0/fulladder_3/xor_1/nand_0/w_n44_54# Gnd 3.07fF
+C1522 sum3 Gnd 1.63fF
+C1523 fourbitadder_0/fulladder_3/xor_1/nand_3/w_n44_54# Gnd 3.07fF
+C1524 fourbitadder_0/fulladder_3/xor_0/nand_3/b Gnd 1.23fF
+C1525 fourbitadder_0/fulladder_3/xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C1526 fourbitadder_0/fulladder_3/xor_0/nand_3/a Gnd 2.00fF
+C1527 fourbitadder_0/fulladder_3/xor_0/nand_2/b Gnd 2.20fF
+C1528 fourbitadder_0/fulladder_3/xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C1529 fourbitadder_0/xor_3/out Gnd 2.12fF
+C1530 enable_1/x3 Gnd 10.37fF
+C1531 fourbitadder_0/fulladder_3/xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C1532 fourbitadder_0/fulladder_3/xor_0/nand_3/w_n44_54# Gnd 3.07fF
+C1533 fourbitadder_0/fulladder_2/and_1/not_0/in Gnd 0.82fF
+C1534 fourbitadder_0/fulladder_2/and_1/nand_0/w_n44_54# Gnd 3.07fF
+C1535 fourbitadder_0/fulladder_2/tor_1/a Gnd 0.60fF
+C1536 fourbitadder_0/fulladder_2/and_1/not_0/w_n15_38# Gnd 1.29fF
+C1537 fourbitadder_0/fulladder_2/and_0/not_0/in Gnd 0.82fF
+C1538 fourbitadder_0/fulladder_2/and_0/nand_0/w_n44_54# Gnd 3.07fF
+C1539 fourbitadder_0/fulladder_2/tor_1/b Gnd 1.06fF
+C1540 fourbitadder_0/fulladder_2/and_0/not_0/w_n15_38# Gnd 1.29fF
+C1541 fourbitadder_0/fulladder_2/tor_1/w_n46_20# Gnd 2.60fF
+C1542 fourbitadder_0/fulladder_2/tor_1/not_0/in Gnd 0.99fF
+C1543 fourbitadder_0/fulladder_2/tor_1/not_0/w_n15_38# Gnd 1.29fF
+C1544 fourbitadder_0/fulladder_2/xor_1/nand_3/b Gnd 1.23fF
+C1545 fourbitadder_0/fulladder_2/xor_1/nand_2/w_n44_54# Gnd 3.07fF
+C1546 fourbitadder_0/fulladder_2/xor_1/nand_3/a Gnd 2.00fF
+C1547 fourbitadder_0/fulladder_2/xor_1/nand_2/b Gnd 2.20fF
+C1548 fourbitadder_0/fulladder_2/xor_1/nand_1/w_n44_54# Gnd 3.07fF
+C1549 fourbitadder_0/fulladder_2/c Gnd 1.73fF
+C1550 fourbitadder_0/fulladder_2/xor_1/a Gnd 17.23fF
+C1551 fourbitadder_0/fulladder_2/xor_1/nand_0/w_n44_54# Gnd 3.07fF
+C1552 fourbitadder_0/fulladder_2/xor_1/nand_3/w_n44_54# Gnd 3.07fF
+C1553 fourbitadder_0/fulladder_2/xor_0/nand_3/b Gnd 1.23fF
+C1554 fourbitadder_0/fulladder_2/xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C1555 fourbitadder_0/fulladder_2/xor_0/nand_3/a Gnd 2.00fF
+C1556 fourbitadder_0/fulladder_2/xor_0/nand_2/b Gnd 2.20fF
+C1557 fourbitadder_0/fulladder_2/xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C1558 fourbitadder_0/xor_2/out Gnd 1.99fF
+C1559 fourbitadder_0/a2 Gnd 9.25fF
+C1560 fourbitadder_0/fulladder_2/xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C1561 fourbitadder_0/fulladder_2/xor_0/nand_3/w_n44_54# Gnd 3.07fF
+C1562 fourbitadder_0/fulladder_1/and_1/not_0/in Gnd 0.82fF
+C1563 fourbitadder_0/fulladder_1/and_1/nand_0/w_n44_54# Gnd 3.07fF
+C1564 fourbitadder_0/fulladder_1/tor_1/a Gnd 0.60fF
+C1565 fourbitadder_0/fulladder_1/and_1/not_0/w_n15_38# Gnd 1.29fF
+C1566 fourbitadder_0/fulladder_1/and_0/not_0/in Gnd 0.82fF
+C1567 fourbitadder_0/fulladder_1/and_0/nand_0/w_n44_54# Gnd 3.07fF
+C1568 fourbitadder_0/fulladder_1/tor_1/b Gnd 1.06fF
+C1569 fourbitadder_0/fulladder_1/and_0/not_0/w_n15_38# Gnd 1.29fF
+C1570 fourbitadder_0/fulladder_1/tor_1/w_n46_20# Gnd 2.60fF
+C1571 fourbitadder_0/fulladder_1/tor_1/not_0/in Gnd 0.99fF
+C1572 fourbitadder_0/fulladder_1/tor_1/not_0/w_n15_38# Gnd 1.29fF
+C1573 fourbitadder_0/fulladder_1/xor_1/nand_3/b Gnd 1.23fF
+C1574 fourbitadder_0/fulladder_1/xor_1/nand_2/w_n44_54# Gnd 3.07fF
+C1575 fourbitadder_0/fulladder_1/xor_1/nand_3/a Gnd 2.00fF
+C1576 fourbitadder_0/fulladder_1/xor_1/nand_2/b Gnd 2.20fF
+C1577 fourbitadder_0/fulladder_1/xor_1/nand_1/w_n44_54# Gnd 3.07fF
+C1578 fourbitadder_0/fulladder_1/c Gnd 1.75fF
+C1579 fourbitadder_0/fulladder_1/xor_1/a Gnd 17.23fF
+C1580 fourbitadder_0/fulladder_1/xor_1/nand_0/w_n44_54# Gnd 3.07fF
+C1581 fourbitadder_0/fulladder_1/xor_1/nand_3/w_n44_54# Gnd 3.07fF
+C1582 fourbitadder_0/fulladder_1/xor_0/nand_3/b Gnd 1.23fF
+C1583 fourbitadder_0/fulladder_1/xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C1584 fourbitadder_0/fulladder_1/xor_0/nand_3/a Gnd 2.00fF
+C1585 fourbitadder_0/fulladder_1/xor_0/nand_2/b Gnd 2.20fF
+C1586 fourbitadder_0/fulladder_1/xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C1587 fourbitadder_0/xor_1/out Gnd 2.41fF
+C1588 enable_1/x1 Gnd 72.17fF
+C1589 fourbitadder_0/fulladder_1/xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C1590 fourbitadder_0/fulladder_1/xor_0/nand_3/w_n44_54# Gnd 3.07fF
+C1591 fourbitadder_0/fulladder_0/and_1/not_0/in Gnd 0.82fF
+C1592 fourbitadder_0/fulladder_0/and_1/nand_0/w_n44_54# Gnd 3.07fF
+C1593 fourbitadder_0/fulladder_0/tor_1/a Gnd 0.60fF
+C1594 fourbitadder_0/fulladder_0/and_1/not_0/w_n15_38# Gnd 1.29fF
+C1595 fourbitadder_0/fulladder_0/and_0/not_0/in Gnd 0.82fF
+C1596 fourbitadder_0/fulladder_0/and_0/nand_0/w_n44_54# Gnd 3.07fF
+C1597 fourbitadder_0/fulladder_0/tor_1/b Gnd 1.06fF
+C1598 fourbitadder_0/fulladder_0/and_0/not_0/w_n15_38# Gnd 1.29fF
+C1599 fourbitadder_0/fulladder_0/tor_1/w_n46_20# Gnd 2.60fF
+C1600 fourbitadder_0/fulladder_0/tor_1/not_0/in Gnd 0.99fF
+C1601 fourbitadder_0/fulladder_0/tor_1/not_0/w_n15_38# Gnd 1.29fF
+C1602 fourbitadder_0/fulladder_0/xor_1/nand_3/b Gnd 1.23fF
+C1603 fourbitadder_0/fulladder_0/xor_1/nand_2/w_n44_54# Gnd 3.07fF
+C1604 fourbitadder_0/fulladder_0/xor_1/nand_3/a Gnd 2.00fF
+C1605 fourbitadder_0/fulladder_0/xor_1/nand_2/b Gnd 2.20fF
+C1606 fourbitadder_0/fulladder_0/xor_1/nand_1/w_n44_54# Gnd 3.07fF
+C1607 fourbitadder_0/fulladder_0/xor_1/a Gnd 17.23fF
+C1608 fourbitadder_0/fulladder_0/xor_1/nand_0/w_n44_54# Gnd 3.07fF
+C1609 fourbitadder_0/fulladder_0/xor_1/nand_3/w_n44_54# Gnd 3.07fF
+C1610 fourbitadder_0/fulladder_0/xor_0/nand_3/b Gnd 1.23fF
+C1611 fourbitadder_0/fulladder_0/xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C1612 fourbitadder_0/fulladder_0/xor_0/nand_3/a Gnd 2.00fF
+C1613 fourbitadder_0/fulladder_0/xor_0/nand_2/b Gnd 2.20fF
+C1614 fourbitadder_0/fulladder_0/xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C1615 fourbitadder_0/xor_0/out Gnd 2.42fF
+C1616 enable_1/x0 Gnd 101.84fF
+C1617 fourbitadder_0/fulladder_0/xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C1618 fourbitadder_0/fulladder_0/xor_0/nand_3/w_n44_54# Gnd 3.07fF
+C1619 fourbitadder_0/xor_3/nand_3/b Gnd 1.23fF
+C1620 fourbitadder_0/xor_3/nand_2/w_n44_54# Gnd 3.07fF
+C1621 fourbitadder_0/xor_3/nand_3/a Gnd 2.00fF
+C1622 fourbitadder_0/xor_3/nand_2/b Gnd 2.20fF
+C1623 fourbitadder_0/xor_3/nand_1/w_n44_54# Gnd 3.07fF
+C1624 enable_1/y3 Gnd 1.67fF
+C1625 fourbitadder_0/xor_3/nand_0/w_n44_54# Gnd 3.07fF
+C1626 fourbitadder_0/xor_3/nand_3/w_n44_54# Gnd 3.07fF
+C1627 fourbitadder_0/xor_2/nand_3/b Gnd 1.23fF
+C1628 fourbitadder_0/xor_2/nand_2/w_n44_54# Gnd 3.07fF
+C1629 fourbitadder_0/xor_2/nand_3/a Gnd 2.00fF
+C1630 fourbitadder_0/xor_2/nand_2/b Gnd 2.20fF
+C1631 fourbitadder_0/xor_2/nand_1/w_n44_54# Gnd 3.07fF
+C1632 fourbitadder_0/xor_2/nand_0/w_n44_54# Gnd 3.07fF
+C1633 fourbitadder_0/xor_2/nand_3/w_n44_54# Gnd 3.07fF
+C1634 fourbitadder_0/xor_1/nand_3/b Gnd 1.23fF
+C1635 fourbitadder_0/xor_1/nand_2/w_n44_54# Gnd 3.07fF
+C1636 fourbitadder_0/xor_1/nand_3/a Gnd 2.00fF
+C1637 fourbitadder_0/xor_1/nand_2/b Gnd 2.20fF
+C1638 fourbitadder_0/xor_1/nand_1/w_n44_54# Gnd 3.07fF
+C1639 enable_1/y1 Gnd 40.37fF
+C1640 fourbitadder_0/xor_1/nand_0/w_n44_54# Gnd 3.07fF
+C1641 fourbitadder_0/xor_1/nand_3/w_n44_54# Gnd 3.07fF
+C1642 fourbitadder_0/xor_0/nand_3/b Gnd 1.23fF
+C1643 fourbitadder_0/xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C1644 fourbitadder_0/xor_0/nand_3/a Gnd 2.00fF
+C1645 fourbitadder_0/xor_0/nand_2/b Gnd 2.20fF
+C1646 fourbitadder_0/xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C1647 d1 Gnd 5.31fF
+C1648 fourbitadder_0/xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C1649 fourbitadder_0/xor_0/nand_3/w_n44_54# Gnd 3.07fF

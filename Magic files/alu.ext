@@ -1,0 +1,805 @@
+timestamp 1700938216
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t11b
+scale 1000 1 9
+resistclasses 6700 7500 929000 929000 1 7700 7700 80 80 80 70 70 40
+use enable enable_1 1 0 -5274 0 1 473
+use fourbitadder fourbitadder_0 1 0 -10308 0 1 1605
+use enable enable_0 1 0 952 0 1 426
+use not not_0 1 0 -104 0 1 -16
+use not not_1 1 0 -103 0 1 -119
+use and and_0 1 0 15 0 1 83
+use and and_1 1 0 416 0 1 85
+use and and_2 1 0 790 0 1 82
+use and and_3 1 0 1162 0 1 73
+use tor tor_0 1 0 355 0 1 -410
+use comparator comparator_0 1 0 1105 0 1 3195
+use bitand bitand_0 1 0 7901 0 1 1553
+use enable enable_2 1 0 7813 0 1 765
+use newor newor_0 1 0 12329 0 1 2140
+use and and_4 1 0 1386 0 1 4491
+use newor newor_1 1 0 12252 0 1 3831
+use newor newor_2 1 0 12099 0 1 5311
+use tor tor_1 1 0 12150 0 1 6740
+node "big" 0 119.149 2819 935 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 28 22 0 0 0 0 0 0 0 0
+node "m1_945_91#" 6 661.181 945 91 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 672 448 0 0 0 0 0 0 0 0 0 0
+node "m1_571_91#" 6 646.531 571 91 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 651 440 0 0 0 0 0 0 0 0 0 0
+node "gnd" 3 947.88 170 90 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1440 492 0 0 0 0 0 0 0 0 0 0
+node "m1_n65_n26#" 12 2255.1 -65 -26 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 352 146 352 146 8115 2062 0 0 0 0 0 0
+node "s1" 10 17368.1 -162 -96 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24642 3070 8377 1140 0 0 0 0 0 0 0 0
+node "m1_n68_n95#" 14 10807.1 -68 -95 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 766 264 5722 1890 0 0 0 0 0 0 0 0
+node "s0" 18 10561.6 -163 7 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10462 2894 4969 780 0 0 0 0 0 0 0 0
+node "m1_n69_8#" 11 7267.49 -69 8 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6799 1786 3095 582 0 0 0 0 0 0 0 0
+node "d3" 105 76996.2 1356 125 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 24 36080 13770 0 0 0 0 0 0 0 0
+node "d2" 3 2254.24 984 134 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 24 1519 448 0 0 0 0 0 0 0 0
+node "d1" 63 50297.6 361 -399 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 107 58 21439 7548 61840 5458 0 0 0 0 0 0
+node "m1_209_135#" 11 1165.77 209 135 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 230 84 215 78 3679 1362 0 0 0 0 0 0
+node "m1_n181_n60#" 11 9584.1 -181 -60 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1478 496 5583 1524 0 0 0 0 0 0 0 0
+node "m1_940_195#" 3 987.762 940 195 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1617 476 0 0 0 0 0 0 0 0 0 0
+node "m1_1343_92#" 4 1574.65 1343 92 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2574 760 0 0 0 0 0 0 0 0 0 0
+node "m1_8563_1538#" 26 26551 8563 1538 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 792 288 16814 4518 0 0 0 0 0 0 0 0
+node "m1_8488_1555#" 23 3417.56 8488 1555 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 78 161 78 17843 4460 0 0 0 0 0 0
+node "m1_8435_1553#" 11 10976.5 8435 1553 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 155 66 6556 1892 0 0 0 0 0 0 0 0
+node "m1_8228_1552#" 28 3031.97 8228 1552 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 210 84 166 76 14722 4464 0 0 0 0 0 0
+node "m1_8182_1557#" 11 11013.3 8182 1557 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 155 66 6524 1900 0 0 0 0 0 0 0 0
+node "m1_7991_1553#" 33 2962.16 7991 1553 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 439 126 303 118 12316 4456 0 0 0 0 0 0
+node "m1_7937_1556#" 11 10898.9 7937 1556 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 139 66 6408 1882 0 0 0 0 0 0 0 0
+node "m1_7708_1559#" 41 2379.99 7708 1559 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 66 121 64 9493 4374 0 0 0 0 0 0
+node "m1_7657_1555#" 11 11044.3 7657 1555 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 107 58 6557 1908 0 0 0 0 0 0 0 0
+node "m1_8570_1644#" 18 15068.1 8570 1644 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30888 5300 0 0 0 0 0 0 0 0 0 0
+node "k0" 72 6216.14 7837 1585 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 68 138 68 31604 10610 0 0 0 0 0 0
+node "final0" 0 24.354 12796 2310 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0 0 0 0 0
+node "m1_1112_426#" 0 24.354 1112 426 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0 0 0 0 0
+node "m1_3071_457#" 62 7710.54 3071 457 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35 24 35 24 45730 11924 0 0 0 0 0 0
+node "m1_1494_461#" 69 24376.5 1494 461 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 22 7032 3510 31456 7302 0 0 0 0 0 0
+node "m1_983_458#" 50 31614.1 983 458 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 14090 5644 573 374 0 0 0 0 0 0
+node "m1_165_196#" 2 1391.77 165 196 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2750 522 0 0 0 0 0 0 0 0 0 0
+node "vdd" 3 985.758 -69 50 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1617 474 0 0 0 0 0 0 0 0 0 0
+node "m1_n3307_398#" 25 31432.6 -3307 398 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 69646 9324 30 22 0 0 0 0 0 0 0 0
+node "m1_n3198_459#" 126 30725.1 -3198 459 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 66 46 22441 4618 12139 8038 0 0 0 0 0 0
+node "bb3" 12 333390 -3294 471 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 310 154 183093 4522 2651819 34512 0 0 0 0 0 0
+node "bb2" 34 239383 -3562 411 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 633512 29584 7569 852 70897 3994 0 0 0 0 0 0
+node "bb1" 40 224475 -3834 -769 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 596166 31786 2816 458 25894 2580 0 0 0 0 0 0
+node "bb0" 31 241652 -4146 -1186 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96418 5800 569260 16092 321178 15932 0 0 0 0 0 0
+node "aa3" 97 56877.2 -4606 225 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 93569 15340 1523 368 72490 12888 0 0 0 0 0 0
+node "aa2" 108 47258.3 -4864 475 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 58859 14152 1158 374 99593 13838 0 0 0 0 0 0
+node "aa1" 174 36565.1 -5129 473 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40579 13624 650 336 53185 14548 0 0 0 0 0 0
+node "m1_n5371_472#" 0 24.354 -5371 472 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0 0 0 0 0
+node "aa0" 176 35284.5 -5386 472 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33749 13476 487 252 66479 14790 0 0 0 0 0 0
+node "m1_2512_598#" 11 4057.36 2512 598 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6684 1942 0 0 0 0 0 0 0 0 0 0
+node "m1_4730_1417#" 39 81403 4730 1417 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16519 1890 41171 6846 287074 13514 0 0 0 0 0 0
+node "m1_2807_458#" 70 25130.3 2807 458 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41941 8012 217 102 19402 6116 0 0 0 0 0 0
+node "m1_2112_3062#" 50 27501.6 2112 3062 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32849 6010 421 136 78071 10374 0 0 0 0 0 0
+node "m1_1749_460#" 51 33030 1749 460 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15421 2644 18759 3472 31338 6842 0 0 0 0 0 0
+node "m1_1113_3166#" 66 7617.26 1113 3166 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5850 1974 144 84 17930 6808 0 0 0 0 0 0
+node "m1_n3824_1574#" 25 7208.64 -3824 1574 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11058 3708 0 0 0 0 0 0 0 0 0 0
+node "m1_n5936_1418#" 50 15312 -5936 1418 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22153 7316 450 190 0 0 0 0 0 0 0 0
+node "m1_n3824_1719#" 0 27.6216 -3824 1719 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0
+node "m1_n5919_1725#" 0 27.6216 -5919 1725 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0
+node "m1_n8060_1174#" 30 38804.7 -8060 1174 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84758 10982 450 190 0 0 0 0 0 0 0 0
+node "m1_n10377_988#" 31 64197.2 -10377 988 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152405 14996 450 190 0 0 0 0 0 0 0 0
+node "m1_n10378_1689#" 0 27.6216 -10378 1689 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0
+node "m1_n8055_1711#" 0 27.6216 -8055 1711 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0 0 0 0 0 0 0
+node "m1_n6598_1314#" 12 53875.4 -6598 1314 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17135 1000 92277 6044 26009 2092 0 0 0 0 0 0
+node "m1_n10798_1876#" 58 92426.9 -10798 1876 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22472 1500 70602 14156 0 0 0 0 0 0 0 0
+node "m1_n4476_507#" 35 15707.9 -4476 507 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 608 270 6438 2602 7554 2132 0 0 0 0 0 0
+node "m1_n8893_1289#" 55 62764.5 -8893 1289 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8760 898 38939 9628 28944 2966 0 0 0 0 0 0
+node "m1_n10356_2291#" 0 47.1186 -10356 2291 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 54 30 0 0 0 0 0 0 0 0 0 0
+node "sum4" 0 27.9375 -2190 2557 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 0 0 0 0 0 0 0 0 0 0
+node "m1_n3203_565#" 134 47360 -3203 565 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19059 6068 18720 5528 19987 7968 0 0 0 0 0 0
+node "sum0" 1 794163 -9788 2789 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 119 64 2713295 72132 0 0 0 0 0 0 0 0
+node "m1_785_552#" 53 19823.7 785 552 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33185 8396 193 124 2163 996 0 0 0 0 0 0
+node "sum1" 1 2.15184e+06 -7479 2781 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 119 64 10850268 92490 0 0 0 0 0 0 0 0
+node "k1" 64 57822.8 8122 1586 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72633 8632 10531 4796 0 0 0 0 0 0 0 0
+node "final1" 0 24.354 12719 4001 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0 0 0 0 0
+node "m1_4065_4026#" 0 24.354 4065 4026 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0 0 0 0 0
+node "eq1" 0 43.2192 3013 4023 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 28 0 0 0 0 0 0 0 0 0 0
+node "m1_1351_4498#" 11 2814 1351 4498 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 625 156 525 116 13055 2590 0 0 0 0 0 0
+node "m1_1431_4509#" 18 27360.1 1431 4509 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 234 102 23626 4518 0 0 0 0 0 0 0 0
+node "m1_1402_4513#" 91 56143.3 1402 4513 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72 34 22655 10146 0 0 0 0 0 0 0 0
+node "equal" 105 57103.5 1580 4543 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 106003 23570 0 0 0 0 0 0 0 0 0 0
+node "m1_1244_4165#" 2 4769.92 1244 4165 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11382 1172 0 0 0 0 0 0 0 0 0 0
+node "sum2" 1 1.54852e+06 -5346 2796 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 105 62 6411637 107778 0 0 0 0 0 0 0 0
+node "k2" 83 87461 8368 1587 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2862 678 55564 14914 0 0 0 0 0 0 0 0
+node "small" 51 20215.7 12150 5419 m123c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 210 58 274 90 144972 19232 0 0 0 0 0 0
+node "final2" 0 24.354 12566 5481 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0 0 0 0 0
+node "m1_4669_3180#" 87 141396 4669 3180 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38982 9488 1217 318 1046642 45368 0 0 0 0 0 0
+node "sum3" 103 243101 -3242 2804 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7057 1260 284053 37558 0 0 0 0 0 0 0 0
+node "final3" 0 24.354 12308 6771 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 18 0 0 0 0 0 0 0 0 0 0
+node "k3" 64 102069 8621 1583 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3665 1178 96090 16474 0 0 0 0 0 0 0 0
+node "m1_4612_3388#" 53 164238 4612 3388 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 414523 33224 0 0 0 0 0 0 0 0 0 0
+cap "d3" "bb3" 246.78
+cap "m1_n181_n60#" "d1" 136.042
+cap "m1_n6598_1314#" "m1_n8060_1174#" 320.711
+cap "equal" "small" 95.823
+cap "aa0" "m1_n3307_398#" 155.828
+cap "d1" "m1_n3824_1574#" 268.596
+cap "m1_n3203_565#" "m1_1402_4513#" 215.365
+cap "m1_n65_n26#" "s1" 160.607
+cap "aa0" "bb3" 1312.25
+cap "m1_n68_n95#" "m1_209_135#" 93.7872
+cap "m1_983_458#" "m1_n3203_565#" 128.82
+cap "m1_1749_460#" "m1_n3203_565#" 167.195
+cap "m1_n10377_988#" "m1_n6598_1314#" 384.598
+cap "k3" "small" 198.655
+cap "m1_1494_461#" "m1_n3203_565#" 156.708
+cap "m1_4669_3180#" "m1_4612_3388#" 2957.54
+cap "s1" "d1" 169.015
+cap "k1" "m1_4612_3388#" 119.272
+cap "m1_1343_92#" "aa1" 103.324
+cap "m1_1494_461#" "m1_983_458#" 249.264
+cap "sum2" "m1_4612_3388#" 1249.19
+cap "m1_209_135#" "gnd" 67.5216
+cap "bb3" "bb1" 3883.55
+cap "d1" "m1_209_135#" 188.892
+cap "k3" "m1_4612_3388#" 143.627
+cap "aa2" "m1_1343_92#" 96.2766
+cap "s0" "s1" 336.186
+cap "m1_1351_4498#" "m1_1402_4513#" 146.221
+cap "m1_n68_n95#" "m1_n65_n26#" 135.734
+cap "m1_8570_1644#" "m1_8563_1538#" 218.493
+cap "k2" "equal" 108.293
+cap "m1_8182_1557#" "m1_7708_1559#" 73.737
+cap "m1_n3307_398#" "bb3" 1696.48
+cap "s0" "m1_209_135#" 53.6544
+cap "m1_8228_1552#" "m1_8182_1557#" 228.29
+cap "m1_1343_92#" "aa3" 132.646
+cap "k2" "m1_4669_3180#" 185.706
+cap "k1" "k2" 247.235
+cap "d3" "m1_1343_92#" 131.45
+cap "m1_1112_426#" "aa1" 51.5475
+cap "m1_1113_3166#" "m1_785_552#" 110.484
+cap "k3" "k2" 194.176
+cap "bb0" "aa1" 500.224
+cap "m1_7937_1556#" "m1_7708_1559#" 92.8638
+cap "m1_3071_457#" "m1_4730_1417#" 180.452
+cap "s0" "m1_n68_n95#" 292.649
+cap "d1" "aa1" 114.761
+cap "m1_n3203_565#" "m1_n3824_1574#" 60.588
+cap "s0" "m1_n65_n26#" 134.409
+cap "m1_940_195#" "d2" 155.805
+cap "aa0" "m1_1343_92#" 81.729
+cap "m1_n181_n60#" "m1_n3307_398#" 192.938
+cap "m1_n4476_507#" "m1_n5936_1418#" 119.871
+cap "aa2" "bb0" 606.301
+cap "aa2" "aa1" 383.486
+cap "aa2" "d1" 237.503
+cap "bb0" "bb2" 2546.39
+cap "m1_1402_4513#" "m1_1244_4165#" 345.557
+cap "bb2" "aa1" 514.544
+cap "m1_2112_3062#" "m1_4730_1417#" 268.337
+cap "m1_4669_3180#" "m1_4730_1417#" 414.914
+cap "s0" "d1" 110.484
+cap "m1_8182_1557#" "m1_7991_1553#" 83.916
+cap "m1_7657_1555#" "m1_7708_1559#" 207.317
+cap "bb0" "aa3" 584.739
+cap "m1_2512_598#" "m1_3071_457#" 60.3612
+cap "k1" "m1_4730_1417#" 459.022
+cap "aa3" "aa1" 178.006
+cap "d1" "m1_n3198_459#" 511.456
+cap "d2" "aa1" 114.453
+cap "d1" "aa3" 177.682
+cap "m1_209_135#" "m1_n69_8#" 81.3888
+cap "aa2" "bb2" 614.952
+cap "d3" "bb0" 267.138
+cap "k2" "small" 658.8
+cap "k0" "k1" 83.916
+cap "d3" "aa1" 155.506
+cap "k3" "m1_4730_1417#" 502.772
+cap "m1_8488_1555#" "m1_8570_1644#" 110.824
+cap "aa2" "aa3" 251.424
+cap "k3" "sum3" 1886.22
+cap "aa2" "d2" 265.406
+cap "k0" "k3" 104.274
+cap "m1_2807_458#" "m1_4730_1417#" 244.048
+cap "aa3" "bb2" 603.482
+cap "m1_2512_598#" "m1_2112_3062#" 39.9006
+cap "m1_571_91#" "d1" 60.3612
+cap "m1_7937_1556#" "m1_7991_1553#" 284.11
+cap "d3" "aa2" 180.461
+cap "m1_8570_1644#" "k3" 167.384
+cap "k2" "m1_4612_3388#" 131.45
+cap "d3" "bb2" 338.391
+cap "m1_n3307_398#" "m1_209_135#" 88.3224
+cap "m1_n68_n95#" "m1_n69_8#" 311.011
+cap "aa0" "bb0" 525.091
+cap "d2" "aa3" 190.015
+cap "aa0" "aa1" 227.788
+cap "aa0" "d1" 146.221
+cap "m1_n65_n26#" "m1_n69_8#" 146.837
+cap "d3" "aa3" 230.371
+cap "sum1" "m1_4669_3180#" 5926.04
+cap "m1_8435_1553#" "m1_7708_1559#" 73.737
+cap "m1_8228_1552#" "m1_8435_1553#" 124.632
+cap "aa2" "aa0" 364.363
+cap "m1_2512_598#" "m1_2807_458#" 60.3612
+cap "m1_n3203_565#" "m1_785_552#" 143.627
+cap "aa0" "bb2" 535.102
+cap "d1" "m1_n69_8#" 96.1632
+cap "bb0" "bb1" 1766.3
+cap "bb1" "aa1" 407.138
+cap "aa1" "m1_n3203_565#" 89.0028
+cap "m1_983_458#" "m1_785_552#" 250.101
+cap "m1_1749_460#" "m1_785_552#" 110.484
+cap "aa0" "aa3" 193.007
+cap "d1" "m1_n3203_565#" 506.147
+cap "m1_1113_3166#" "m1_n3203_565#" 104.274
+cap "aa0" "d2" 131.45
+cap "m1_n4476_507#" "m1_n8060_1174#" 258.813
+cap "m1_n65_n26#" "m1_n3307_398#" 103.324
+cap "m1_1494_461#" "m1_785_552#" 110.484
+cap "d3" "aa0" 143.028
+cap "s0" "m1_n69_8#" 242.849
+cap "m1_4730_1417#" "m1_4612_3388#" 346.777
+cap "aa2" "bb1" 500.062
+cap "aa2" "m1_n3203_565#" 147.193
+cap "m1_983_458#" "m1_1113_3166#" 198.369
+cap "bb2" "bb1" 1238.1
+cap "m1_n3307_398#" "aa1" 131.965
+cap "m1_n181_n60#" "m1_209_135#" 103.658
+cap "d1" "m1_n3307_398#" 110.824
+cap "m1_n3198_459#" "m1_n3203_565#" 161.276
+cap "aa3" "bb1" 487.912
+cap "aa3" "m1_n3203_565#" 132.646
+cap "bb0" "bb3" 4219.43
+cap "m1_n3198_459#" "m1_1402_4513#" 64.1736
+cap "bb3" "aa1" 1209.2
+cap "m1_n10377_988#" "m1_n4476_507#" 316.706
+cap "aa2" "m1_n3307_398#" 195.599
+cap "k1" "m1_4669_3180#" 172.757
+cap "sum2" "m1_4669_3180#" 6059.04
+cap "d3" "bb1" 246.78
+cap "k3" "equal" 119.871
+cap "m1_8435_1553#" "m1_7991_1553#" 83.916
+cap "k3" "m1_4669_3180#" 198.655
+cap "aa2" "bb3" 1524.82
+cap "m1_n3307_398#" "aa3" 155.828
+cap "k2" "m1_4730_1417#" 480.897
+cap "bb3" "bb2" 3202.13
+cap "m1_2807_458#" "m1_2112_3062#" 8671.23
+cap "m1_n10377_988#" "m1_n8893_1289#" 605.248
+cap "k1" "k3" 262.409
+cap "m1_n181_n60#" "m1_n65_n26#" 125.248
+cap "k0" "k2" 94.095
+cap "sum1" "m1_4612_3388#" 1091.63
+cap "s1" "m1_209_135#" 143.791
+cap "aa0" "bb1" 426.676
+cap "bb3" "aa3" 1373.48
+cap "aa0" "m1_n3203_565#" 110.824
+subcap "d1" -49841.8
+cap "tor_0/b" "tor_0/a" 8.588
+cap "tor_0/b" "tor_0/a_n9_n23#" 123.714
+subcap "m1_n65_n26#" -1969.65
+subcap "m1_n68_n95#" -10597.2
+subcap "m1_n69_8#" -6496.82
+subcap "vdd" -765.299
+subcap "gnd" -980.734
+subcap "m1_571_91#" -773.523
+subcap "m1_945_91#" -735.101
+cap "s0" "and_3/nand_0/gnd" 238.653
+cap "and_3/gnd" "s1" 304.246
+subcap "m1_1343_92#" -1613.82
+cap "and_0/b" "and_0/gnd" 412.273
+cap "and_0/a" "and_0/gnd" 214.897
+subcap "gnd" -719.602
+subcap "m1_209_135#" -916.011
+subcap "m1_165_196#" -1535.82
+cap "and_0/gnd" "and_0/not_0/gnd" 178.698
+subcap "m1_209_135#" -1020.53
+cap "and_1/a" "and_1/gnd" 214.897
+cap "and_1/gnd" "and_1/b" 579.764
+subcap "m1_571_91#" -453.155
+cap "and_1/not_0/gnd" "and_1/gnd" 20.619
+cap "and_1/gnd" "and_1/out" -12.96
+cap "and_2/nand_0/gnd" "and_2/a" 49.6656
+cap "and_2/gnd" "and_2/b" 521.716
+cap "and_2/gnd" "and_2/a" 3.951
+subcap "m1_945_91#" -452.884
+subcap "d2" -1386.11
+subcap "m1_940_195#" -1124.86
+cap "and_2/gnd" "and_2/not_0/gnd" 153.17
+cap "and_3/b" "and_3/gnd" 89.349
+subcap "d3" -76771.1
+subcap "m1_1343_92#" -1441.74
+subcap "m1_165_196#" -1074.14
+cap "and_1/vdd" "d1" -12.96
+subcap "m1_940_195#" -702.691
+cap "aa0" "enable_0/e" 134.811
+cap "enable_0/e" "aa1" 114.453
+cap "enable_0/e" "aa2" 236.601
+cap "enable_0/e" "m1_1343_92#" 131.45
+cap "enable_0/e" "aa3" 53.676
+cap "enable_0/e" "aa3" -14.202
+cap "enable_0/e" "bb0" 190.323
+cap "enable_0/e" "bb0" -45.981
+cap "enable_0/e" "bb1" 152.685
+cap "enable_0/e" "bb1" -5.265
+cap "enable_0/e" "bb2" 338.391
+subcap "aa0" -35322.7
+subcap "aa0" -35026.9
+cap "enable_1/e" "enable_1/a0" 94.095
+cap "enable_1/a0" "enable_1/and_0/gnd" 102.174
+subcap "aa1" -36118.4
+cap "enable_1/e" "enable_1/a1" 206.064
+cap "enable_1/and_1/gnd" "enable_1/a1" 180.938
+subcap "aa2" -46909.7
+cap "enable_1/e" "enable_1/a2" 144.99
+cap "enable_1/a2" "enable_1/and_2/gnd" 137.976
+cap "enable_1/a3" "enable_1/e" 143.028
+cap "enable_1/a3" "enable_1/and_3/gnd" 182.998
+cap "enable_1/e" "enable_1/b0" 525.119
+cap "enable_1/and_4/gnd" "enable_1/b0" 216.453
+cap "enable_1/and_5/gnd" "enable_1/b1" 216.74
+cap "enable_1/b1" "enable_1/e" 351.441
+subcap "bb2" -238190
+cap "enable_1/b2" "enable_1/e" 420.912
+cap "enable_1/b2" "enable_1/and_6/gnd" 231.061
+subcap "m1_n3307_398#" -31166.3
+subcap "bb3" -332939
+cap "enable_1/and_7/gnd" "enable_1/b3" 113.387
+subcap "m1_n3198_459#" -30040.7
+subcap "bb3" -331577
+cap "enable_1/and_7/gnd" "enable_1/b3" 119.63
+cap "enable_0/and_0/gnd" "enable_0/a0" 130.816
+subcap "m1_983_458#" -31221.5
+cap "enable_0/and_1/gnd" "enable_0/a1" 95.8758
+subcap "m1_1112_426#" -62.8797
+cap "enable_0/a1" "enable_0/and_1/gnd" 20.619
+cap "enable_0/and_2/gnd" "enable_0/a2" 174.928
+subcap "m1_1494_461#" -24033
+cap "enable_0/and_3/nand_0/gnd" "enable_0/a3" 48.0816
+cap "enable_0/and_3/gnd" "enable_0/a3" 112.218
+subcap "m1_1749_460#" -32849.7
+cap "enable_0/b0" "enable_0/and_4/gnd" 151.673
+cap "enable_0/and_4/gnd" "enable_0/b0" -17.9736
+cap "enable_0/and_5/gnd" "enable_0/b1" 110.646
+cap "enable_0/and_5/gnd" "enable_0/b1" 24.414
+cap "enable_0/and_6/gnd" "enable_0/b2" 274.024
+subcap "m1_2807_458#" -24964.8
+subcap "m1_2807_458#" -25145.3
+cap "enable_0/and_7/gnd" "enable_0/b3" 202.42
+subcap "m1_3071_457#" -7489.16
+cap "enable_1/vdd" "enable_1/x0" 166.185
+cap "enable_1/m1_245_94#" "enable_1/x1" 141.829
+cap "enable_1/x2" "enable_1/m1_499_96#" 167.983
+subcap "m1_n4476_507#" -14818.4
+cap "enable_1/x3" "enable_1/m1_754_95#" 143.028
+cap "enable_1/m1_1241_95#" "enable_1/y0" 50.1552
+cap "enable_1/m1_1241_95#" "enable_1/y0" 22.3128
+cap "enable_1/m1_1544_97#" "enable_1/y1" 96.714
+cap "enable_1/m1_1811_97#" "enable_1/y2" 85.1355
+subcap "m1_n3203_565#" -46609
+cap "m1_983_458#" "enable_0/vdd" 166.185
+cap "enable_0/m1_245_94#" "m1_1113_3166#" 103.324
+cap "m1_1494_461#" "enable_0/m1_499_96#" 96.1632
+cap "enable_0/m1_754_95#" "m1_1749_460#" 96.1632
+cap "enable_0/m1_1241_95#" "m1_785_552#" 96.1632
+cap "enable_0/m1_1544_97#" "m1_2112_3062#" 60.588
+cap "enable_0/m1_1811_97#" "m1_2807_458#" 53.541
+cap "enable_2/a0" "enable_2/and_0/a" 110.43
+cap "enable_2/and_0/gnd" "enable_2/a0" 81.324
+cap "enable_2/e" "enable_2/a0" -25.623
+cap "enable_2/a0" "enable_2/and_0/gnd" -17.3988
+cap "enable_2/e" "enable_2/a1" 277.317
+cap "enable_2/a1" "enable_2/and_1/gnd" 258.553
+cap "enable_2/e" "enable_2/a2" 307.854
+cap "enable_2/a2" "enable_2/and_2/gnd" 293.78
+cap "enable_2/e" "enable_2/a3" 247.235
+cap "enable_2/a3" "enable_2/and_3/gnd" 312.388
+cap "enable_2/e" "enable_2/b0" 351.441
+cap "enable_2/and_4/gnd" "enable_2/b0" 288.632
+cap "enable_2/and_5/gnd" "enable_2/b1" 681.841
+cap "enable_2/e" "enable_2/b1" 409.334
+cap "enable_2/b2" "enable_2/e" 571.433
+cap "enable_2/b2" "enable_2/and_6/gnd" 238.653
+cap "enable_2/b3" "enable_2/e" 63.558
+cap "enable_2/b3" "enable_2/and_7/gnd" 248.497
+cap "enable_2/b3" "enable_2/and_7/gnd" 17.2536
+cap "enable_2/vdd" "enable_2/x0" 192.339
+cap "enable_2/x1" "enable_2/m1_245_94#" 180.161
+cap "enable_2/m1_499_96#" "enable_2/x2" 143.028
+cap "enable_2/m1_754_95#" "enable_2/x3" 50.1552
+cap "enable_2/m1_754_95#" "enable_2/x3" 22.3128
+cap "enable_2/m1_1241_95#" "enable_2/y0" 88.776
+cap "enable_2/y1" "enable_2/m1_1544_97#" 60.588
+cap "enable_2/m1_1811_97#" "enable_2/y2" 46.7208
+subcap "big" -90.0498
+cap "m1_4730_1417#" "comparator_0/m1_1655_n2097#" 654.39
+cap "m1_4730_1417#" "comparator_0/d2" 202.584
+cap "m1_4730_1417#" "comparator_0/d2" 125.24
+cap "m1_4730_1417#" "comparator_0/m1_1655_n2097#" 900.105
+cap "m1_4730_1417#" "comparator_0/d3" 458.674
+subcap "m1_4730_1417#" -80463.3
+cap "comparator_0/s1" "m1_4730_1417#" 154.606
+cap "fourbitadder_0/m" "m1_n10377_988#" 257.904
+cap "m1_n8893_1289#" "fourbitadder_0/m" 168.253
+cap "fourbitadder_0/m" "m1_n8893_1289#" 221.875
+cap "m1_n8060_1174#" "fourbitadder_0/m" 275.173
+cap "fourbitadder_0/m" "m1_n6598_1314#" 219.364
+cap "m1_n6598_1314#" "fourbitadder_0/m" 324.599
+cap "fourbitadder_0/m" "m1_n5936_1418#" 285.395
+cap "m1_n4476_507#" "fourbitadder_0/m" 379.107
+subcap "m1_n3824_1574#" -7006.22
+cap "m1_n3824_1574#" "fourbitadder_0/m" 170.829
+subcap "m1_7708_1559#" -2128.95
+subcap "m1_7657_1555#" -10490.3
+cap "bitand_0/and_0/nand_0/out" "bitand_0/b0" 41.238
+cap "bitand_0/and_0/gnd" "bitand_0/b0" 89.0028
+cap "bitand_0/and_0/gnd" "bitand_0/a0" 167.384
+subcap "m1_7708_1559#" -2148.56
+cap "bitand_0/and_0/nand_0/out" "bitand_0/b0" 41.238
+subcap "k0" -6117.87
+subcap "m1_7991_1553#" -2501.32
+subcap "m1_7937_1556#" -10292.5
+cap "bitand_0/and_1/gnd" "bitand_0/b1" 254.53
+cap "bitand_0/and_1/nand_0/out" "bitand_0/b1" 49.4856
+cap "bitand_0/and_1/gnd" "bitand_0/a1" 107.993
+cap "m1_7991_1553#" "bitand_0/and_1/not_0/gnd" 82.476
+subcap "m1_8182_1557#" -10284.6
+subcap "k1" -57737.4
+cap "bitand_0/a2" "bitand_0/and_2/nand_0/gnd" 226.775
+subcap "m1_8228_1552#" -2624.8
+cap "bitand_0/b2" "bitand_0/and_2/gnd" 253.093
+cap "bitand_0/b2" "bitand_0/and_2/nand_0/out" 35.3469
+subcap "k2" -87411
+subcap "m1_8488_1555#" -2824.57
+subcap "m1_8435_1553#" -10343.2
+cap "bitand_0/and_3/gnd" "bitand_0/a3" 214.897
+cap "bitand_0/b3" "bitand_0/and_3/gnd" 268.013
+cap "bitand_0/b3" "bitand_0/and_3/nand_0/out" 49.4856
+subcap "m1_8563_1538#" -25439
+subcap "k3" -101914
+subcap "k3" -101957
+cap "fourbitadder_0/gnd" "m1_n10798_1876#" 205.281
+cap "m1_n10798_1876#" "fourbitadder_0/gnd" 296.25
+cap "fourbitadder_0/xor_0/gnd" "fourbitadder_0/b0" 224.077
+cap "fourbitadder_0/m2_322_n6#" "m1_n8893_1289#" 149.377
+cap "fourbitadder_0/m2_322_n6#" "m1_n8893_1289#" 213.538
+cap "fourbitadder_0/xor_1/a" "fourbitadder_0/xor_1/gnd" 238.653
+cap "fourbitadder_0/m2_2645_17#" "m1_n6598_1314#" 377.654
+cap "m1_n6598_1314#" "fourbitadder_0/m2_2645_17#" 601.661
+cap "fourbitadder_0/xor_2/gnd" "m1_n5936_1418#" 253.228
+cap "m1_n4476_507#" "fourbitadder_0/m2_4781_18#" 409.334
+cap "fourbitadder_0/xor_3/a" "fourbitadder_0/xor_3/gnd" 253.228
+subcap "k0" -6069.79
+cap "bitand_0/vdd" "bitand_0/s0" 81.3888
+subcap "k1" -56970.5
+cap "bitand_0/m1_171_95#" "bitand_0/s1" 119.272
+subcap "k2" -86621
+cap "bitand_0/s2" "bitand_0/m1_416_95#" 131.45
+subcap "m1_8570_1644#" -14807.1
+subcap "k3" -102109
+subcap "k3" -101240
+cap "m1_n8893_1289#" "fourbitadder_0/m1_402_198#" 101.606
+cap "fourbitadder_0/m1_402_198#" "m1_n8893_1289#" 194.011
+cap "m1_n6598_1314#" "fourbitadder_0/m1_2725_220#" 335.072
+cap "fourbitadder_0/m1_2725_220#" "m1_n6598_1314#" 506.331
+cap "m1_n4476_507#" "fourbitadder_0/m1_4861_238#" 247.235
+cap "m1_n8893_1289#" "fourbitadder_0/m2_322_n6#" 1001.38
+cap "m1_n6598_1314#" "fourbitadder_0/m2_2645_17#" 1637.09
+cap "fourbitadder_0/m2_2645_17#" "m1_n6598_1314#" 260.172
+cap "fourbitadder_0/m" "m1_n10798_1876#" 238.68
+cap "m1_n10798_1876#" "fourbitadder_0/m" 1063.67
+cap "m1_n10798_1876#" "fourbitadder_0/vdd" 1288.78
+cap "fourbitadder_0/fulladder_0/m1_2194_n88#" "m1_n10798_1876#" 673.74
+cap "m1_n8893_1289#" "fourbitadder_0/m2_322_n6#" 249.156
+cap "sum0" "newor_0/or_0/gnd" 301.94
+cap "k0" "newor_0/or_0/b" 4.706
+cap "k0" "newor_0/or_0/gnd" 192.197
+cap "sum0" "newor_0/or_0/c" 3.874
+cap "newor_0/or_0/gnd" "sum0" -45.36
+cap "m1_n8893_1289#" "fourbitadder_0/m2_322_n6#" 619.056
+cap "fourbitadder_0/fulladder_1/m1_2194_n88#" "m1_n8893_1289#" 219.931
+cap "fourbitadder_0/fulladder_1/xor_0/gnd" "m1_n8893_1289#" 95.0076
+cap "m1_n8893_1289#" "fourbitadder_0/fulladder_1/xor_0/gnd" 105.77
+cap "m1_n6598_1314#" "fourbitadder_0/m2_2645_17#" 671.247
+cap "m1_n6598_1314#" "fourbitadder_0/fulladder_2/xor_0/a" 268.175
+cap "fourbitadder_0/fulladder_2/xor_0/gnd" "m1_n6598_1314#" 323.53
+cap "fourbitadder_0/fulladder_2/m1_2194_n88#" "m1_n6598_1314#" 256.738
+cap "fourbitadder_0/fulladder_3/xor_0/gnd" "fourbitadder_0/fulladder_3/a" 294.554
+cap "fourbitadder_0/fulladder_3/a" "fourbitadder_0/fulladder_3/m1_2194_n88#" 238.334
+cap "newor_0/b" "newor_0/or_0/gnd" 16.359
+cap "newor_0/c" "newor_0/or_0/out" 24.7
+subcap "sum4" -15.7605
+cap "m1_n3203_565#" "fourbitadder_0/s4" 34.365
+subcap "sum0" -794166
+subcap "sum0" -794170
+subcap "sum1" -2.15186e+06
+subcap "sum1" -2.1517e+06
+subcap "sum2" -1.54857e+06
+subcap "sum0" -793621
+cap "fourbitadder_0/fulladder_0/m1_2742_696#" "fourbitadder_0/s0" 38.277
+subcap "sum0" -793599
+cap "fourbitadder_0/fulladder_0/m1_2742_696#" "fourbitadder_0/s0" 65.385
+subcap "sum1" -2.15196e+06
+subcap "sum1" -2.15082e+06
+cap "fourbitadder_0/fulladder_1/m1_2742_696#" "fourbitadder_0/s1" 192.339
+subcap "sum2" -1.5475e+06
+cap "fourbitadder_0/s2" "fourbitadder_0/fulladder_2/m1_2742_696#" 192.339
+subcap "sum3" -242189
+cap "fourbitadder_0/s3" "fourbitadder_0/fulladder_3/m1_2742_696#" 153.108
+cap "comparator_0/a0" "m1_n3203_565#" 125.248
+cap "m1_n3203_565#" "comparator_0/m1_n32_n429#" 191.14
+subcap "m1_2112_3062#" -27392.6
+subcap "m1_2112_3062#" -26850.1
+cap "comparator_0/m1_248_n608#" "m1_2112_3062#" 204.517
+cap "m1_2112_3062#" "comparator_0/a2" 125.372
+cap "comparator_0/b2" "m1_2112_3062#" 133.099
+cap "m1_2112_3062#" "comparator_0/m1_206_n605#" 244.647
+cap "m1_2807_458#" "comparator_0/m1_206_n605#" 205.416
+cap "m1_1749_460#" "m1_2807_458#" 103.55
+cap "m1_1749_460#" "m1_2112_3062#" 125.372
+cap "m1_2112_3062#" "comparator_0/b3" 133.099
+cap "m1_2807_458#" "comparator_0/b3" 110.938
+cap "m1_2112_3062#" "comparator_0/m1_159_n609#" 365.037
+cap "comparator_0/m1_159_n609#" "m1_2807_458#" 317.714
+cap "m1_2112_3062#" "comparator_0/s1" 177.763
+cap "m1_2807_458#" "comparator_0/s1" 143.028
+subcap "m1_1113_3166#" -7464.82
+cap "comparator_0/m1_n139_188#" "m1_1494_461#" 85.4352
+cap "comparator_0/m1_n139_188#" "m1_1113_3166#" 74.4552
+cap "comparator_0/m1_n139_188#" "m1_1749_460#" 164.387
+subcap "m1_1113_3166#" -7079.69
+cap "m1_1494_461#" "comparator_0/b0" 93.7872
+cap "m1_1749_460#" "comparator_0/b0" 167.195
+cap "m1_1494_461#" "comparator_0/a0" 113.53
+cap "m1_1749_460#" "comparator_0/a0" 191.246
+cap "m1_1113_3166#" "comparator_0/b0" 81.8424
+cap "m1_1113_3166#" "comparator_0/a0" 96.1632
+cap "m1_1113_3166#" "comparator_0/gnd" 230.933
+cap "comparator_0/gnd" "m1_1494_461#" 241.855
+cap "m1_1749_460#" "comparator_0/gnd" 347.582
+cap "m1_1113_3166#" "comparator_0/gnd" 1014.01
+cap "comparator_0/gnd" "m1_1113_3166#" 824.76
+cap "m1_1749_460#" "m1_1113_3166#" 203.272
+cap "comparator_0/gnd" "m1_1113_3166#" 577.332
+cap "m1_1494_461#" "comparator_0/b1" -3.0888
+cap "m1_1494_461#" "m1_1113_3166#" 123.401
+cap "comparator_0/b1" "m1_1749_460#" 29.3058
+cap "m1_1494_461#" "comparator_0/b1" 43.1784
+cap "m1_1749_460#" "comparator_0/b1" 88.5006
+cap "comparator_0/m1_248_n608#" "m1_1494_461#" 103.658
+cap "comparator_0/m1_248_n608#" "m1_1749_460#" 204.517
+cap "m1_1749_460#" "m1_1494_461#" 132.646
+cap "comparator_0/b2" "m1_1749_460#" 140.486
+cap "m1_1749_460#" "comparator_0/m1_206_n605#" 257.724
+subcap "m1_4669_3180#" -140904
+cap "comparator_0/m1_159_n609#" "comparator_0/xnor_3/not_0/gnd" 286.166
+cap "m1_3071_457#" "comparator_0/m1_159_n609#" 280.066
+cap "m1_4669_3180#" "comparator_0/s1" 119.871
+cap "m1_3071_457#" "comparator_0/s1" 124.632
+cap "comparator_0/m1_n139_188#" "m1_983_458#" 46.7208
+cap "comparator_0/m1_n139_188#" "m1_785_552#" 53.6544
+cap "m1_785_552#" "m1_983_458#" 81.3888
+cap "m1_983_458#" "comparator_0/xnor_0/xor_0/gnd" 207.625
+subcap "m1_4669_3180#" -141430
+subcap "m1_4612_3388#" -164199
+subcap "m1_4612_3388#" -164172
+subcap "m1_4612_3388#" -164183
+subcap "m1_4612_3388#" -163754
+cap "comparator_0/m1_159_n609#" "comparator_0/xnor_3/vdd" 192.938
+cap "m1_4612_3388#" "comparator_0/s1" 154.606
+cap "newor_1/or_0/gnd" "k1" 307.756
+cap "newor_1/or_0/b" "k1" 12.096
+cap "sum1" "newor_1/or_0/gnd" 254.617
+cap "sum1" "newor_1/or_0/out" 5.472
+cap "comparator_0/m1_731_61#" "comparator_0/gnd" 320.76
+cap "newor_1/or_0/gnd" "newor_1/b" 21.81
+cap "newor_1/or_0/out" "newor_1/c" 68.631
+cap "comparator_0/tor_0/vdd" "comparator_0/s2" 103.55
+subcap "final1" -8.5935
+subcap "m1_1244_4165#" -4519.87
+cap "m1_1351_4498#" "comparator_0/vdd" 200.831
+cap "m1_1431_4509#" "comparator_0/m1_1820_951#" 414.158
+subcap "m1_1402_4513#" -55428
+cap "and_4/a" "and_4/nand_0/gnd" 167.384
+subcap "m1_1431_4509#" -26697.1
+cap "and_4/gnd" "and_4/b" 368.957
+subcap "equal" -57029
+cap "newor_2/or_0/gnd" "small" 878.312
+cap "newor_2/or_0/gnd" "sum2" 270.392
+cap "k2" "newor_2/or_0/b" 31.842
+cap "newor_2/or_0/out" "sum2" 28.918
+cap "newor_2/or_0/gnd" "k2" 326.64
+subcap "small" -18787.3
+subcap "final2" -32.5674
+cap "tor_1/b" "tor_1/a_n9_n23#" 185.571
+cap "tor_1/b" "tor_1/a" 209.331
+subcap "final3" -25.9335
+merge "enable_1/x2" "m1_n6598_1314#" -6195.17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7141 -436 -4477 -240 -11358 -1105 0 0 0 0 0 0
+merge "and_4/out" "newor_1/a" -26.052 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -26 0 0 0 0 0 0 0 0 0 0
+merge "newor_1/a" "equal"
+merge "bitand_0/and_3/vdd" "enable_2/and_7/vdd" -306.157 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -468 -158 0 0 0 0 0 0 0 0 0 0
+merge "enable_2/and_7/vdd" "m1_8570_1644#"
+merge "comparator_0/b1" "enable_0/y1" -5042.24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9969 -1839 0 0 -68 -69 0 0 0 0 0 0
+merge "enable_0/y1" "m1_2112_3062#"
+merge "and_2/a" "and_0/a" -641.063 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -195 -92 -195 -56 0 0 0 0 0 0 0 0
+merge "and_0/a" "not_0/out"
+merge "not_0/out" "m1_n69_8#"
+merge "newor_1/out1" "final1" -0.543 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30 -10 0 0 0 0 0 0 0 0 0 0
+merge "and_3/nand_0/vdd" "and_2/vdd" -162.946 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -224 -92 0 0 0 0 0 0 0 0 0 0
+merge "and_2/vdd" "m1_940_195#"
+merge "enable_1/e" "tor_0/out" -288.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -234 -95 -30 -22 0 0 0 0 0 0 0 0
+merge "tor_0/out" "m1_n3307_398#"
+merge "fourbitadder_0/b3" "m1_n3824_1719#" -1039.45 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1308 -625 0 0 0 0 0 0 0 0 0 0
+merge "m1_n3824_1719#" "fourbitadder_0/xor_3/a"
+merge "fourbitadder_0/xor_3/a" "enable_1/y3"
+merge "enable_1/y3" "m1_n3824_1574#"
+merge "enable_2/b0" "enable_0/b0" -415.097 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -352 -142 0 0 0 0 0 0 0 0 0 0
+merge "enable_0/b0" "enable_1/b0"
+merge "enable_1/b0" "bb0"
+merge "comparator_0/a0" "enable_0/x0" -781.187 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25 -20 -260 -109 -453 -305 0 0 0 0 0 0
+merge "enable_0/x0" "m1_983_458#"
+merge "and_0/nand_0/vdd" "not_0/vdd" -327.658 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -498 -170 0 0 0 0 0 0 0 0 0 0
+merge "not_0/vdd" "not_1/vdd"
+merge "not_1/vdd" "tor_0/vdd"
+merge "tor_0/vdd" "m1_n181_n60#"
+merge "m1_n181_n60#" "vdd"
+merge "tor_1/gnd" "newor_2/or_0/gnd" -1379.34 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1324 -496 0 0 0 0 0 0 0 0 0 0
+merge "newor_2/or_0/gnd" "newor_1/or_0/gnd"
+merge "newor_1/or_0/gnd" "comparator_0/xnor_3/not_0/gnd"
+merge "comparator_0/xnor_3/not_0/gnd" "newor_0/or_0/gnd"
+merge "newor_0/or_0/gnd" "bitand_0/and_0/gnd"
+merge "bitand_0/and_0/gnd" "m1_4669_3180#"
+merge "fourbitadder_0/b0" "m1_n10378_1689#" -458.822 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -470 -221 5 0 0 0 0 0 0 0 0 0
+merge "m1_n10378_1689#" "enable_1/y0"
+merge "enable_1/y0" "m1_n10377_988#"
+merge "enable_2/b1" "enable_1/and_5/b" -331.534 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -167 0 0 0 0 0 0 0 0 0 0
+merge "enable_1/and_5/b" "enable_0/b1"
+merge "enable_0/b1" "enable_1/b1"
+merge "enable_1/b1" "bb1"
+merge "enable_2/a0" "enable_0/a0" -270.681 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -115 -86 0 0 -91 -27 0 0 0 0 0 0
+merge "enable_0/a0" "enable_1/a0"
+merge "enable_1/a0" "aa0"
+merge "aa0" "m1_n5371_472#"
+merge "comparator_0/fand_3/vdd" "fourbitadder_0/fulladder_3/m1_2194_n88#" -2284.35 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1218 -330 -762 -266 -240 -101 0 0 0 0 0 0
+merge "fourbitadder_0/fulladder_3/m1_2194_n88#" "enable_0/and_0/nand_0/vdd"
+merge "enable_0/and_0/nand_0/vdd" "enable_1/and_7/vdd"
+merge "enable_1/and_7/vdd" "and_2/nand_0/vdd"
+merge "and_2/nand_0/vdd" "and_1/vdd"
+merge "and_1/vdd" "m1_n3203_565#"
+merge "fourbitadder_0/fulladder_1/xor_0/a" "enable_1/x1" -4790.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4232 -580 -637 -158 -15860 -1951 0 0 0 0 0 0
+merge "enable_1/x1" "m1_n8893_1289#"
+merge "fourbitadder_0/b1" "m1_n8055_1711#" -831.999 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1117 -408 4 0 0 0 0 0 0 0 0 0
+merge "m1_n8055_1711#" "fourbitadder_0/xor_1/a"
+merge "fourbitadder_0/xor_1/a" "enable_1/y1"
+merge "enable_1/y1" "m1_n8060_1174#"
+merge "fourbitadder_0/fulladder_0/a" "enable_1/x0" -8161.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3500 -284 -12170 -917 0 0 0 0 0 0 0 0
+merge "enable_1/x0" "m1_n10798_1876#"
+merge "and_2/nand_0/gnd" "and_1/nand_0/gnd" -750.206 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1212 -285 0 0 0 0 0 0 0 0 0 0
+merge "and_1/nand_0/gnd" "and_0/nand_0/gnd"
+merge "and_0/nand_0/gnd" "and_3/nand_0/gnd"
+merge "and_3/nand_0/gnd" "and_2/gnd"
+merge "and_2/gnd" "and_1/gnd"
+merge "and_1/gnd" "and_0/gnd"
+merge "and_0/gnd" "not_0/gnd"
+merge "not_0/gnd" "not_1/gnd"
+merge "not_1/gnd" "tor_0/gnd"
+merge "tor_0/gnd" "m1_n65_n26#"
+merge "m1_n65_n26#" "gnd"
+merge "gnd" "m1_571_91#"
+merge "m1_571_91#" "m1_945_91#"
+merge "and_4/a" "enable_0/e" -584.138 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -72 -44 -168 -71 0 0 0 0 0 0 0 0
+merge "enable_0/e" "m1_1402_4513#"
+merge "m1_1402_4513#" "and_2/out"
+merge "and_2/out" "d2"
+merge "enable_2/b2" "enable_0/b2" -471.816 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -408 -179 0 0 0 0 0 0 0 0 0 0
+merge "enable_0/b2" "enable_1/b2"
+merge "enable_1/b2" "bb2"
+merge "enable_2/a1" "enable_0/a1" -259.267 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -105 -74 0 0 -161 -37 0 0 0 0 0 0
+merge "enable_0/a1" "enable_1/a1"
+merge "enable_1/a1" "aa1"
+merge "aa1" "m1_1112_426#"
+merge "and_1/a" "and_3/a" -735.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -52 -100 -215 -72 0 0 0 0 0 0 0 0
+merge "and_3/a" "not_0/in"
+merge "not_0/in" "s0"
+merge "enable_2/b3" "enable_0/b3" -917.099 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -200 -120 -880 -84 -203 -36 0 0 0 0 0 0
+merge "enable_0/b3" "enable_1/b3"
+merge "enable_1/b3" "bb3"
+merge "enable_2/a2" "enable_1/and_2/b" -297.963 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -125 -104 0 0 -175 -40 0 0 0 0 0 0
+merge "enable_1/and_2/b" "enable_0/a2"
+merge "enable_0/a2" "enable_1/a2"
+merge "enable_1/a2" "aa2"
+merge "fourbitadder_0/b2" "m1_n5919_1725#" -908.224 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1334 -427 5 0 0 0 0 0 0 0 0 0
+merge "m1_n5919_1725#" "enable_1/y2"
+merge "enable_1/y2" "m1_n5936_1418#"
+merge "comparator_0/a2" "enable_0/x2" -9717.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30 -22 -3402 -1688 -1606 -748 0 0 0 0 0 0
+merge "enable_0/x2" "m1_1494_461#"
+merge "fourbitadder_0/s0" "newor_0/c" -726.156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -180 -68 0 0 0 0 0 0 0 0 0 0
+merge "newor_0/c" "sum0"
+merge "fourbitadder_0/fulladder_3/a" "enable_1/x3" -3144.39 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -608 -270 -963 -414 -2073 -535 0 0 0 0 0 0
+merge "enable_1/x3" "m1_n4476_507#"
+merge "and_0/out" "tor_0/a" -182 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 -34 0 0 -655 -86 0 0 0 0 0 0
+merge "tor_0/a" "m1_209_135#"
+merge "and_3/b" "and_2/b" -543.722 0 0 0 0 0 0 0 0 0 0 0 0 0 0 108 -24 -336 -81 0 0 0 0 0 0 0 0
+merge "and_2/b" "not_1/in"
+merge "not_1/in" "s1"
+merge "bitand_0/a2" "enable_2/x2" -395.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -155 -66 0 0 0 0 0 0 0 0 0 0
+merge "enable_2/x2" "m1_8182_1557#"
+merge "enable_2/a3" "enable_0/a3" -458.893 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -279 -125 0 0 0 0 0 0 0 0 0 0
+merge "enable_0/a3" "enable_1/a3"
+merge "enable_1/a3" "aa3"
+merge "newor_1/c" "fourbitadder_0/s1" -1266.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -62 -50 -288 -148 0 0 0 0 0 0 0 0
+merge "fourbitadder_0/s1" "sum1"
+merge "newor_0/a" "comparator_0/s1" -9730.15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -41 -29 -7800 -1626 0 0 0 0 0 0 0 0
+merge "comparator_0/s1" "big"
+merge "big" "m1_4730_1417#"
+merge "fourbitadder_0/m" "and_1/out" -498.162 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 -24 0 0 -3540 -314 0 0 0 0 0 0
+merge "and_1/out" "tor_0/b"
+merge "tor_0/b" "d1"
+merge "comparator_0/tor_0/out" "m1_4065_4026#" -10.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0
+merge "fourbitadder_0/xor_3/gnd" "enable_0/and_0/nand_0/gnd" -279.476 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36 -46 0 -30 0 0 0 0 0 0 0 0
+merge "enable_0/and_0/nand_0/gnd" "enable_1/and_7/gnd"
+merge "enable_1/and_7/gnd" "m1_n3198_459#"
+merge "bitand_0/and_3/not_0/gnd" "enable_2/and_7/not_0/gnd" -311.495 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -48 -102 -40 0 0 0 0 0 0 0 0
+merge "enable_2/and_7/not_0/gnd" "enable_2/and_7/gnd"
+merge "enable_2/and_7/gnd" "m1_8563_1538#"
+merge "newor_2/c" "fourbitadder_0/s2" -1344.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -64 -52 -460 -189 0 0 0 0 0 0 0 0
+merge "fourbitadder_0/s2" "sum2"
+merge "newor_0/out1" "final0" -10.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0
+merge "tor_1/not_0/vdd" "newor_2/or_0/vdd" -683.615 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -632 -483 0 0 0 0 0 0 0 0 0 0
+merge "newor_2/or_0/vdd" "newor_1/or_0/vdd"
+merge "newor_1/or_0/vdd" "comparator_0/xnor_3/vdd"
+merge "comparator_0/xnor_3/vdd" "newor_0/or_0/vdd"
+merge "newor_0/or_0/vdd" "bitand_0/and_0/nand_0/vdd"
+merge "bitand_0/and_0/nand_0/vdd" "m1_4612_3388#"
+merge "newor_2/a" "comparator_0/s2" -781.864 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -210 -58 -24 -22 -3036 -217 0 0 0 0 0 0
+merge "comparator_0/s2" "small"
+merge "enable_0/and_2/gnd" "and_3/not_0/gnd" -226.97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -322 -125 0 0 0 0 0 0 0 0 0 0
+merge "and_3/not_0/gnd" "m1_1343_92#"
+merge "tor_1/out" "final3" -2.1225 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 -10 0 0 0 0 0 0 0 0 0 0
+merge "tor_1/a" "fourbitadder_0/s3" -440.904 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -497 -173 0 0 0 0 0 0 0 0 0 0
+merge "fourbitadder_0/s3" "sum3"
+merge "bitand_0/b0" "enable_2/y0" -73.3791 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -28 0 0 0 0 0 0 0 0 0 0
+merge "enable_2/y0" "m1_7708_1559#"
+merge "bitand_0/b3" "enable_2/y3" -58.2441 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 -32 80 0 210 0 0 0 0 0 0 0
+merge "enable_2/y3" "m1_8488_1555#"
+merge "newor_2/out1" "final2" -10.02 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0 0 0 0 0 0 0 0 0
+merge "and_4/b" "comparator_0/out" -1422.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -96 -50 -1366 -188 0 0 0 0 0 0 0 0
+merge "comparator_0/out" "eq1"
+merge "eq1" "m1_1431_4509#"
+merge "fourbitadder_0/s4" "sum4" -5.2815 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 -10 0 0 0 0 0 0 0 0 0 0
+merge "comparator_0/b3" "enable_0/y3" -436.505 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -35 -24 0 0 -2272 -584 0 0 0 0 0 0
+merge "enable_0/y3" "m1_3071_457#"
+merge "comparator_0/or_0/gnd" "enable_0/and_7/not_0/gnd" -20.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 0 0 0 0 0 0 0 0 0 0
+merge "enable_0/and_7/not_0/gnd" "m1_2512_598#"
+merge "enable_2/and_0/a" "enable_2/e" -216.998 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -56 -38 0 0 0 0 0 0 0 0
+merge "enable_2/e" "and_3/out"
+merge "and_3/out" "d3"
+merge "newor_0/b" "bitand_0/s0" -337.505 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -108 -56 0 0 -504 -134 0 0 0 0 0 0
+merge "bitand_0/s0" "k0"
+merge "comparator_0/b2" "enable_0/y2" -2458.54 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4082 -1036 0 0 -544 -201 0 0 0 0 0 0
+merge "enable_0/y2" "m1_2807_458#"
+merge "comparator_0/a3" "enable_0/x3" -12104.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3367 -1209 -5264 -1650 -3902 -881 0 0 0 0 0 0
+merge "enable_0/x3" "m1_1749_460#"
+merge "newor_1/b" "bitand_0/s1" -1444.45 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -78 -48 -504 -151 0 0 0 0 0 0 0 0
+merge "bitand_0/s1" "k1"
+merge "bitand_0/a1" "enable_2/x1" -385.394 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -109 -66 0 0 0 0 0 0 0 0 0 0
+merge "enable_2/x1" "m1_7937_1556#"
+merge "newor_2/b" "bitand_0/s2" -1466.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -84 -50 -644 -191 0 0 0 0 0 0 0 0
+merge "bitand_0/s2" "k2"
+merge "tor_1/b" "bitand_0/s3" -414.164 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -502 -194 0 0 0 0 0 0 0 0 0 0
+merge "bitand_0/s3" "k3"
+merge "bitand_0/b1" "enable_2/y1" -298.119 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -122 -63 -84 -31 -84 -31 0 0 0 0 0 0
+merge "enable_2/y1" "m1_7991_1553#"
+merge "bitand_0/a0" "enable_2/x0" -460.741 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -107 -58 0 0 0 0 0 0 0 0 0 0
+merge "enable_2/x0" "m1_7657_1555#"
+merge "and_4/nand_0/vdd" "comparator_0/vdd" -145.907 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -132 -104 0 0 0 0 0 0 0 0 0 0
+merge "comparator_0/vdd" "m1_1244_4165#"
+merge "and_1/b" "and_0/b" -387.802 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -22 -66 -36 0 0 0 0 0 0 0 0
+merge "and_0/b" "not_1/out"
+merge "not_1/out" "m1_n68_n95#"
+merge "and_4/nand_0/gnd" "comparator_0/gnd" -843.772 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -384 -98 96 0 -1469 -381 0 0 0 0 0 0
+merge "comparator_0/gnd" "m1_1351_4498#"
+merge "bitand_0/b2" "enable_2/y2" -119.759 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -40 0 0 0 0 0 0 0 0 0 0
+merge "enable_2/y2" "m1_8228_1552#"
+merge "comparator_0/a1" "enable_0/x1" -2091.39 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2850 -968 -54 -30 -366 -140 0 0 0 0 0 0
+merge "enable_0/x1" "m1_1113_3166#"
+merge "bitand_0/a3" "enable_2/x3" -371.316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -165 -66 0 0 0 0 0 0 0 0 0 0
+merge "enable_2/x3" "m1_8435_1553#"
+merge "comparator_0/b0" "enable_0/y0" -704.726 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -292 -168 -62 -54 -902 -424 0 0 0 0 0 0
+merge "enable_0/y0" "m1_785_552#"
+merge "fourbitadder_0/a0" "m1_n10356_2291#" -18.036 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 0 0 0 0 0 0 0 0 0 0
+merge "and_1/nand_0/vdd" "and_0/vdd" 256.372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1078 -84 0 0 0 0 0 0 0 0 0 0
+merge "and_0/vdd" "m1_165_196#"

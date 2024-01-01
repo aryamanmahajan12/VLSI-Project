@@ -1,0 +1,30 @@
+Delay Analysis for COMPARATOR :
+
+	 >> Input = A0 , Output = Y0 	(A>B) 
+	 >> Input = A1 , Output = Y0 	(A>B) 
+	 >> Input = A2 , Output = Y0 	(A>B) 
+	 >> Input = A3 , Output = Y0 	(A>B) 
+
+	 >> Input = B0 , Output = Y0 	(A>B) 
+	 >> Input = B1 , Output = Y0 	(A>B) 
+	 >> Input = B2 , Output = Y0 	(A>B) 
+	 >> Input = B3 , Output = Y0 	(A>B) 
+	 >> Input = A0 , Output = Y1 	(A=B) 
+	 >> Input = A1 , Output = Y1 	(A=B) 
+	 >> Input = A2 , Output = Y1 	(A=B) 
+	 >> Input = A3 , Output = Y1 	(A=B) 
+
+	 >> Input = B0 , Output = Y1 	(A=B) 
+	 >> Input = B1 , Output = Y1 	(A=B) 
+	 >> Input = B2 , Output = Y1 	(A=B) 
+	 >> Input = B3 , Output = Y1 	(A=B) 
+	 >> Input = A0 , Output = Y2 	(A<B) 
+	 >> Input = A1 , Output = Y2 	(A<B) 
+	 >> Input = A2 , Output = Y2 	(A<B) 
+	 >> Input = A3 , Output = Y2 	(A<B) 
+
+	 >> Input = B0 , Output = Y2 	(A<B) 
+	 >> Input = B1 , Output = Y2 	(A<B) 
+	 >> Input = B2 , Output = Y2 	(A<B) 
+	 >> Input = B3 , Output = Y2 	(A<B) 
+

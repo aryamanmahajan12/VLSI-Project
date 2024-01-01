@@ -1,0 +1,107 @@
+magic
+tech scmos
+timestamp 1700021586
+<< metal1 >>
+rect -13 93 94 103
+rect 245 94 348 103
+rect 499 96 603 104
+rect 754 102 1066 103
+rect 754 95 1090 102
+rect 1241 95 1393 103
+rect 1544 97 1660 101
+rect 1811 97 1926 100
+rect 31 32 36 37
+rect 289 33 294 38
+rect 543 35 548 40
+rect 798 34 803 39
+rect 1285 32 1290 37
+rect 1588 35 1593 40
+rect 1855 32 1860 37
+rect 2121 31 2126 36
+rect -112 -1 -97 4
+rect 145 0 160 5
+rect 401 2 416 7
+rect 657 1 672 6
+rect 1144 -1 1159 4
+rect 1447 2 1462 7
+rect 1714 -1 1729 4
+rect 1980 -2 1995 3
+rect -8 -13 89 -8
+rect 250 -12 343 -7
+rect 504 -10 598 -5
+rect 759 -11 1085 -6
+rect 1246 -13 1388 -7
+rect 1549 -10 1655 -5
+rect 1816 -13 1921 -8
+<< m2contact >>
+rect -148 2 -135 9
+rect 110 3 123 12
+rect 364 5 377 14
+rect 619 3 632 13
+rect 1106 2 1119 11
+rect 1409 5 1422 13
+rect 1676 2 1689 11
+rect 1942 1 1955 9
+<< metal2 >>
+rect -148 -70 -135 2
+rect 110 -70 123 3
+rect 364 -70 377 5
+rect 619 -70 632 3
+rect 1106 -70 1119 2
+rect 1409 -70 1422 5
+rect 1676 -70 1689 2
+rect 1942 -70 1955 1
+rect -150 -75 1973 -70
+use and  and_7
+timestamp 1699601116
+transform 1 0 1927 0 1 -21
+box -14 7 194 122
+use and  and_6
+timestamp 1699601116
+transform 1 0 1661 0 1 -20
+box -14 7 194 122
+use and  and_5
+timestamp 1699601116
+transform 1 0 1394 0 1 -17
+box -14 7 194 122
+use and  and_4
+timestamp 1699601116
+transform 1 0 1091 0 1 -20
+box -14 7 194 122
+use and  and_3
+timestamp 1699601116
+transform 1 0 604 0 1 -18
+box -14 7 194 122
+use and  and_2
+timestamp 1699601116
+transform 1 0 349 0 1 -17
+box -14 7 194 122
+use and  and_1
+timestamp 1699601116
+transform 1 0 95 0 1 -19
+box -14 7 194 122
+use and  and_0
+timestamp 1699601116
+transform 1 0 -163 0 1 -20
+box -14 7 194 122
+<< labels >>
+rlabel metal1 39 97 42 98 1 vdd
+rlabel metal1 43 -12 46 -11 1 gnd
+rlabel metal2 -35 -74 -32 -73 1 e
+rlabel metal1 -107 0 -105 1 1 a0
+rlabel metal1 151 1 153 2 1 a1
+rlabel metal1 407 3 409 4 1 a2
+rlabel metal1 662 2 664 3 1 a3
+rlabel metal1 1149 0 1151 1 1 b0
+rlabel metal1 1452 4 1454 5 1 b1
+rlabel metal1 1719 1 1721 2 1 b2
+rlabel metal1 1986 0 1988 1 1 b3
+rlabel metal1 34 34 35 35 1 x0
+rlabel metal1 292 35 293 36 1 x1
+rlabel metal1 546 37 547 38 1 x2
+rlabel metal1 801 36 802 37 1 x3
+rlabel metal1 1288 34 1289 35 1 y0
+rlabel metal1 1591 37 1592 38 1 y1
+rlabel metal1 1858 34 1859 35 1 y2
+rlabel metal1 2124 33 2125 34 7 y3
+<< end >>

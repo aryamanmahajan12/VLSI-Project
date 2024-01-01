@@ -1,0 +1,226 @@
+* SPICE3 file created from fulladder.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 xor_1/a xor_0/nand_3/a vdd xor_0/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=7032 ps=1698
+M1001 xor_1/a xor_0/nand_3/b xor_0/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1002 vdd xor_0/nand_3/b xor_1/a xor_0/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1003 xor_0/nand_3/a_n8_22# xor_0/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=3334 ps=928
+M1004 xor_0/nand_2/b a vdd xor_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1005 xor_0/nand_2/b b xor_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1006 vdd b xor_0/nand_2/b xor_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1007 xor_0/nand_0/a_n8_22# a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1008 xor_0/nand_3/a xor_0/nand_2/b vdd xor_0/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1009 xor_0/nand_3/a b xor_0/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1010 vdd b xor_0/nand_3/a xor_0/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1011 xor_0/nand_1/a_n8_22# xor_0/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1012 xor_0/nand_3/b a vdd xor_0/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1013 xor_0/nand_3/b xor_0/nand_2/b xor_0/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1014 vdd xor_0/nand_2/b xor_0/nand_3/b xor_0/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1015 xor_0/nand_2/a_n8_22# a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1016 s xor_1/nand_3/a vdd xor_1/nand_3/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1017 s xor_1/nand_3/b xor_1/nand_3/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1018 vdd xor_1/nand_3/b s xor_1/nand_3/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1019 xor_1/nand_3/a_n8_22# xor_1/nand_3/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1020 xor_1/nand_2/b xor_1/a vdd xor_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1021 xor_1/nand_2/b c xor_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1022 vdd c xor_1/nand_2/b xor_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1023 xor_1/nand_0/a_n8_22# xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1024 xor_1/nand_3/a xor_1/nand_2/b vdd xor_1/nand_1/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1025 xor_1/nand_3/a c xor_1/nand_1/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1026 vdd c xor_1/nand_3/a xor_1/nand_1/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1027 xor_1/nand_1/a_n8_22# xor_1/nand_2/b gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1028 xor_1/nand_3/b xor_1/a vdd xor_1/nand_2/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1029 xor_1/nand_3/b xor_1/nand_2/b xor_1/nand_2/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1030 vdd xor_1/nand_2/b xor_1/nand_3/b xor_1/nand_2/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1031 xor_1/nand_2/a_n8_22# xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1032 carry tor_1/not_0/in vdd tor_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1033 carry tor_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1034 gnd tor_1/b tor_1/not_0/in Gnd nfet w=12 l=9
++  ad=0 pd=0 as=288 ps=72
+M1035 tor_1/not_0/in tor_1/a gnd Gnd nfet w=12 l=9
++  ad=0 pd=0 as=0 ps=0
+M1036 tor_1/a_n9_28# tor_1/a vdd tor_1/w_n46_20# pfet w=12 l=9
++  ad=288 pd=72 as=0 ps=0
+M1037 tor_1/not_0/in tor_1/b tor_1/a_n9_28# tor_1/w_n46_20# pfet w=12 l=9
++  ad=156 pd=50 as=0 ps=0
+M1038 tor_1/b and_0/not_0/in vdd and_0/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1039 tor_1/b and_0/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1040 and_0/not_0/in a vdd and_0/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1041 and_0/not_0/in b and_0/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1042 vdd b and_0/not_0/in and_0/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1043 and_0/nand_0/a_n8_22# a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+M1044 tor_1/a and_1/not_0/in vdd and_1/not_0/w_n15_38# pfet w=7 l=4
++  ad=70 pd=34 as=0 ps=0
+M1045 tor_1/a and_1/not_0/in gnd Gnd nfet w=6 l=4
++  ad=60 pd=32 as=0 ps=0
+M1046 and_1/not_0/in xor_1/a vdd and_1/nand_0/w_n44_54# pfet w=13 l=9
++  ad=390 pd=86 as=0 ps=0
+M1047 and_1/not_0/in c and_1/nand_0/a_n8_22# Gnd nfet w=11 l=3
++  ad=187 pd=56 as=330 ps=82
+M1048 vdd c and_1/not_0/in and_1/nand_0/w_n44_54# pfet w=13 l=3
++  ad=0 pd=0 as=0 ps=0
+M1049 and_1/nand_0/a_n8_22# xor_1/a gnd Gnd nfet w=11 l=9
++  ad=0 pd=0 as=0 ps=0
+C0 xor_1/nand_3/a xor_1/nand_3/b 0.01fF
+C1 c xor_1/nand_2/b 0.27fF
+C2 vdd carry 0.03fF
+C3 c xor_1/nand_1/w_n44_54# 0.14fF
+C4 b and_0/not_0/in 0.10fF
+C5 gnd tor_1/b 0.31fF
+C6 xor_0/nand_2/w_n44_54# vdd 0.13fF
+C7 b xor_0/nand_3/a 0.10fF
+C8 xor_0/nand_0/w_n44_54# b 0.14fF
+C9 tor_1/b and_0/not_0/w_n15_38# 0.04fF
+C10 xor_0/nand_3/w_n44_54# xor_0/nand_3/b 0.14fF
+C11 xor_1/nand_0/w_n44_54# xor_1/nand_2/b 0.06fF
+C12 xor_0/nand_3/a vdd 0.47fF
+C13 xor_0/nand_0/w_n44_54# vdd 0.13fF
+C14 b xor_0/nand_2/b 0.27fF
+C15 tor_1/w_n46_20# tor_1/a 0.20fF
+C16 b gnd 1.20fF
+C17 xor_1/a xor_1/nand_2/w_n44_54# 0.28fF
+C18 gnd vdd 0.08fF
+C19 vdd and_0/not_0/w_n15_38# 0.09fF
+C20 xor_1/nand_3/a xor_1/nand_1/w_n44_54# 0.06fF
+C21 xor_0/nand_2/b xor_0/nand_2/w_n44_54# 0.14fF
+C22 xor_0/nand_0/w_n44_54# xor_0/nand_2/b 0.06fF
+C23 and_1/not_0/w_n15_38# and_1/not_0/in 0.11fF
+C24 and_0/not_0/w_n15_38# and_0/not_0/in 0.11fF
+C25 gnd xor_0/nand_3/a 0.37fF
+C26 tor_1/not_0/in tor_1/a 0.08fF
+C27 xor_1/a c 0.79fF
+C28 xor_1/nand_3/w_n44_54# xor_1/nand_3/a 0.28fF
+C29 gnd xor_0/nand_2/b 1.71fF
+C30 xor_1/a xor_0/nand_3/w_n44_54# 0.06fF
+C31 gnd xor_1/nand_3/b 0.39fF
+C32 xor_1/nand_1/w_n44_54# vdd 0.13fF
+C33 tor_1/w_n46_20# tor_1/not_0/in 0.04fF
+C34 vdd and_1/not_0/w_n15_38# 0.09fF
+C35 xor_1/a xor_1/nand_0/w_n44_54# 0.28fF
+C36 b and_0/nand_0/w_n44_54# 0.14fF
+C37 xor_1/a and_1/nand_0/w_n44_54# 0.28fF
+C38 and_0/nand_0/w_n44_54# vdd 0.13fF
+C39 tor_1/b tor_1/a 0.38fF
+C40 s xor_1/nand_3/b 0.10fF
+C41 xor_1/nand_3/w_n44_54# vdd 0.13fF
+C42 xor_0/nand_2/w_n44_54# xor_0/nand_3/b 0.06fF
+C43 gnd xor_1/nand_2/b 1.71fF
+C44 xor_1/nand_0/w_n44_54# c 0.14fF
+C45 xor_0/nand_3/a xor_0/nand_3/b 0.01fF
+C46 xor_1/nand_2/b xor_1/nand_3/b 0.10fF
+C47 a b 0.38fF
+C48 xor_0/nand_2/b xor_0/nand_3/b 0.10fF
+C49 vdd tor_1/a 0.03fF
+C50 and_0/nand_0/w_n44_54# and_0/not_0/in 0.06fF
+C51 tor_1/b tor_1/w_n46_20# 0.20fF
+C52 and_1/nand_0/w_n44_54# c 0.14fF
+C53 xor_1/nand_3/a c 0.10fF
+C54 gnd xor_0/nand_3/b 0.39fF
+C55 vdd xor_1/nand_2/w_n44_54# 0.13fF
+C56 c and_1/not_0/in 0.10fF
+C57 vdd tor_1/w_n46_20# 0.06fF
+C58 a xor_0/nand_2/w_n44_54# 0.28fF
+C59 xor_1/nand_3/w_n44_54# xor_1/nand_3/b 0.14fF
+C60 xor_0/nand_0/w_n44_54# a 0.28fF
+C61 tor_1/b tor_1/not_0/in 0.65fF
+C62 xor_1/nand_1/w_n44_54# xor_1/nand_2/b 0.28fF
+C63 a xor_0/nand_2/b 0.21fF
+C64 tor_1/not_0/w_n15_38# tor_1/not_0/in 0.11fF
+C65 a gnd 0.86fF
+C66 and_1/nand_0/w_n44_54# and_1/not_0/in 0.06fF
+C67 xor_0/nand_3/w_n44_54# vdd 0.13fF
+C68 s xor_1/nand_3/w_n44_54# 0.06fF
+C69 xor_1/nand_2/w_n44_54# xor_1/nand_3/b 0.06fF
+C70 xor_1/a gnd 1.54fF
+C71 xor_1/nand_0/w_n44_54# vdd 0.13fF
+C72 b xor_0/nand_1/w_n44_54# 0.14fF
+C73 xor_0/nand_1/w_n44_54# vdd 0.13fF
+C74 and_1/nand_0/w_n44_54# vdd 0.13fF
+C75 xor_1/nand_3/a vdd 0.47fF
+C76 xor_0/nand_3/w_n44_54# xor_0/nand_3/a 0.28fF
+C77 gnd c 1.46fF
+C78 xor_1/nand_2/b xor_1/nand_2/w_n44_54# 0.14fF
+C79 and_1/not_0/w_n15_38# tor_1/a 0.04fF
+C80 vdd tor_1/b 0.55fF
+C81 xor_1/a xor_1/nand_2/b 0.21fF
+C82 xor_0/nand_1/w_n44_54# xor_0/nand_3/a 0.06fF
+C83 vdd tor_1/not_0/w_n15_38# 0.09fF
+C84 xor_0/nand_1/w_n44_54# xor_0/nand_2/b 0.28fF
+C85 xor_1/a xor_0/nand_3/b 0.10fF
+C86 a and_0/nand_0/w_n44_54# 0.28fF
+C87 tor_1/not_0/w_n15_38# carry 0.04fF
+C88 gnd xor_1/nand_3/a 0.37fF
+C89 and_1/not_0/in Gnd 0.82fF
+C90 and_1/nand_0/w_n44_54# Gnd 3.07fF
+C91 tor_1/a Gnd 0.60fF
+C92 and_1/not_0/w_n15_38# Gnd 1.29fF
+C93 and_0/not_0/in Gnd 0.82fF
+C94 and_0/nand_0/w_n44_54# Gnd 3.07fF
+C95 tor_1/b Gnd 1.06fF
+C96 and_0/not_0/w_n15_38# Gnd 1.29fF
+C97 tor_1/w_n46_20# Gnd 2.60fF
+C98 carry Gnd 0.24fF
+C99 tor_1/not_0/in Gnd 0.99fF
+C100 tor_1/not_0/w_n15_38# Gnd 1.29fF
+C101 xor_1/nand_3/b Gnd 1.23fF
+C102 xor_1/nand_2/w_n44_54# Gnd 3.07fF
+C103 xor_1/nand_3/a Gnd 2.00fF
+C104 xor_1/nand_2/b Gnd 2.20fF
+C105 xor_1/nand_1/w_n44_54# Gnd 3.07fF
+C106 c Gnd 1.23fF
+C107 xor_1/a Gnd 17.23fF
+C108 xor_1/nand_0/w_n44_54# Gnd 3.07fF
+C109 s Gnd 0.59fF
+C110 xor_1/nand_3/w_n44_54# Gnd 3.07fF
+C111 vdd Gnd 30.19fF
+C112 xor_0/nand_3/b Gnd 1.23fF
+C113 xor_0/nand_2/w_n44_54# Gnd 3.07fF
+C114 xor_0/nand_3/a Gnd 2.00fF
+C115 xor_0/nand_2/b Gnd 2.20fF
+C116 xor_0/nand_1/w_n44_54# Gnd 3.07fF
+C117 gnd Gnd 2.31fF
+C118 b Gnd 1.22fF
+C119 a Gnd 9.19fF
+C120 xor_0/nand_0/w_n44_54# Gnd 3.07fF
+C121 xor_0/nand_3/w_n44_54# Gnd 3.07fF
