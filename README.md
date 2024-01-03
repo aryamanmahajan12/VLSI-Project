@@ -22,11 +22,11 @@ reducing the hardware cost and improving the efficiency of the design
 considerably.**
 
 
--The fabrication level circuit was designed on the ‘MAGIC Layout’
-application. The design was done using 180 nm technology.
+- The fabrication level circuit was designed on the ‘MAGIC Layout’
+  application. The design was done using 180 nm technology.
 
--The circuit was tested on the pre-layout stage using NGSpice
-programming.
+- The circuit was tested on the pre-layout stage using NGSpice
+  programming.
 
--The final testing for the circuit for all input values was comprehensively
-achieved using - iVerilog
+- The final testing for the circuit for all input values was comprehensively
+  achieved using - iVerilog
