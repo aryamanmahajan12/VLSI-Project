@@ -1,11 +1,10 @@
 # VLSI-Project
 
-## The problem statement consisted of designing a 4-bit ALU capable of
-   performing the following operations:
-  1 Addition
-  2 Subtraction
-  3 Comparison
-  4 Logical AND
+## The problem statement consisted of designing a 4-bit ALU capable of performing the following operations:
+  1. Addition
+  2. Subtraction
+  3. Comparison
+  4. Logical AND
   
 The circuit consisted of a decoder, in line with three parallel enabler
 circuits, which were series connected to the respective circuits. The
